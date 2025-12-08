@@ -124,7 +124,7 @@ class Component:
 
     def __init__(self, path):
         self.path = path
-        self.name = re.sub('^[\d]*', '', basename(path))
+        self.name = re.sub(r'^[\d]*', '', basename(path))
         self.exitcode = None
 
     def execute(self):
