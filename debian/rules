@@ -1,19 +1,9 @@
 #! /usr/bin/make -f
 
-BOOTLOADER_DEPENDS := grub-pc
+export PYTHONDONTWRITEBYTECODE=1
 
 %:
 	dh $@
 
-override_dh_auto_build:
-	$(MAKE) -C d-i build
-
-override_dh_auto_install:
-	$(MAKE) -C d-i install
-	cat d-i/templates >> debian/di-live.templates
-
 override_dh_installinit:
 	dh_installinit -r --no-start -- start 99 S . start 89 0 6 .
-
-override_dh_gencontrol:
-	dh_gencontrol -- -V'bootloader-depends=$(BOOTLOADER_DEPENDS)'
