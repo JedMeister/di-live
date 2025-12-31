@@ -1,0 +1,39 @@
+# udebs to be downloadled and included in di-live
+
+# explictly needed udebs
+
+base-installer
+
+di-utils
+di-utils-mapdevfs
+
+grub-installer
+
+hw-detect
+
+live-installer
+
+partconf-find-partitions
+partconf-mkfstab
+
+partman-auto
+partman-auto-lvm
+partman-base
+partman-basicfilesystems
+partman-basicmethods
+partman-efi
+partman-ext3
+partman-lvm
+partman-partitioning
+partman-target
+partman-utils
+
+preseed-common
+
+# udebs that are required dependencies of those listed above
+# these should really be handled more cleanly, but this will do for now...
+
+rootskel
+pciutils-udeb
+dosfstools-udeb
+disk-detect
