@@ -1,7 +1,0 @@
-#!/bin/sh
-
-case "`archdetect`" in
-	*)
-		return 0;
-esac
-

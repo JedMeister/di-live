@@ -1,6 +1,0 @@
-#!/usr/bin/make -f
-
-CFLAGS=-Os -Wall -g
-
-%:
-	dh $@

@@ -1,5 +1,0 @@
-As we only support en_US, remove all other langs
-================================================
-
-find d-i/source/ -type d -name po -exec rm -rf {} +
-find d-i/source/ -type f -name *.templates -exec sed -i "s|^_*||g; \|#.*$|d" {} \;
