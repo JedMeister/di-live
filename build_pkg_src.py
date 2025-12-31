@@ -103,8 +103,29 @@ def read_template(path: str) -> list[Deb822]:
                 if (
                     (key.startswith("Description") and key != "Description")
                     or (key.startswith("Choices") and key != "Choices")
+                    or key == "Help"  # some udeb templates include 'Help' 
                 ):
                     del paragraph[key]
+
+                # Some udeb templates include a 'Help' field e.g.:
+                #
+                # Template: partman-target/choose_method
+                # Type: select
+                # Choices: ${DESCRIPTIONS}
+                # Description: How to use this partition:
+                # Help: partman-target/help
+                # 
+                # However they cause warnings when processed by debconf:
+                #
+                # debconf: Unknown template field 'help', in stanza #xxx of
+                #               /var/lib/dpkg/info/di-live.templates
+                #
+                # I was unable to find _any_ info about the 'Help' field. So
+                # this needs further investigation, but for now just remove
+
+                elif key == "Help":
+                    del paragraph[key]
+
             template_items.append(paragraph)
     return template_items
 
