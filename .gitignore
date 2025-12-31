@@ -1,4 +1,7 @@
 *.pyc
 *.pyo
+__pycache__/
+.mypy_cache/
 *.tar.bz2
 tags
+tmp
