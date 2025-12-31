@@ -106,7 +106,7 @@ def copy_rootfs_files(udebs: list[str]) -> None:
 
 def main() -> None:
     setup()
-    udebs = read_txt_file("udeb.txt")
+    udebs = read_txt_file("udebs.txt")
     download_and_unpack_udebs(udebs)
 
     template_files = get_template_paths("debian_dirs")
