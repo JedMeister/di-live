@@ -1,0 +1,27 @@
+Types: deb
+URIs: http://deb.debian.org/debian
+Suites: trixie
+Components: main/debian-installer  non-free-firmware/debian-installer
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+Types: deb
+URIs: http://deb.debian.org/debian
+Suites: trixie
+Components: contrib/debian-installer  non-free/debian-installer
+Enabled: no
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+Types: deb
+URIs: http://security.debian.org/debian-security
+Suites: trixie-security
+Components: main/debian-installer  non-free-firmware/debian-installer
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+Types: deb
+URIs: http://security.debian.org/debian-security
+Suites: trixie-security
+Components: contrib/debian-installer  non-free/debian-installer
+Enabled: no
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
