@@ -1,0 +1,10 @@
+# di-live logrotate config triggered when di-live runs. Ensures that each
+# di-live run logs to a separate file - useful for debugging.
+
+/var/log/di-live
+{
+    rotate 100
+    create
+    missingok
+    notifempty
+}
