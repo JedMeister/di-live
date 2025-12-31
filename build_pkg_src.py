@@ -100,15 +100,29 @@ def write_template_file(path: str, templates: list[Deb822]) -> None:
 def copy_rootfs_files(udebs: list[str]) -> None:
     for udeb in udebs:
         if "DEBIAN" in os.listdir(join(TMP, udeb)):
-            os.rmdir(join(TMP, udeb, "DEBIAN"))
+            shutil.rmtree(join(TMP, udeb, "DEBIAN"))
         shutil.move(join(TMP, udeb), ROOTFS)
+
+def check_empty(path: str) -> bool:
+    if isfile(path):
+        return False
+    for item in os.listdir(path):
+        this_item = join(path, item)
+        if isfile(item):
+            return False
+        if check_empty(join(path, item)):
+            os.rmdir(join(path, item))
+    return True
 
 
 def main() -> None:
+    print("# doing initial setup")
     setup()
     udebs = read_txt_file("udebs.txt")
+    print(f"# downloading and unpackaging udebs:{'\n# -'.join(udebs)}")
     download_and_unpack_udebs(udebs)
 
+    print("# generating consolidated templates file")
     template_files = get_template_paths("debian_dirs")
     all_template_items = read_template("di-live.templates")
     for template in template_files:
@@ -117,7 +131,11 @@ def main() -> None:
 
     copy_rootfs_files(udebs)
     for file in read_txt_file("blacklist.txt"):
+        print(f"# removing blacklisted file: {file}")
         os.remove(join(ROOTFS, file))
+
+    print("# removing empty directories")
+    check_empty(ROOTFS)
 
 
 if __name__ == "__main__":
