@@ -21,13 +21,23 @@ Specific steps:
 import os
 import shutil
 import subprocess
-from os.path import exists, join, splitext
+from os.path import exists, isfile, join, splitext
 
 from debian.deb822 import Deb822
 
 SOURCES_FILE = "debian-installer.sources"
 TMP = "tmp"
 ROOTFS = "rootfs"
+
+
+def heading(msg: str) -> None:
+    msg = f"### {msg} ###"
+    border = "#" * len(msg)
+    print(f"\n{border}\n{msg}\n{border}")
+
+
+def info(msg: str) -> None:
+    print(f"- {msg}")
 
 
 def setup() -> None:
@@ -79,18 +89,28 @@ def get_template_paths(path: str = TMP) -> list[str]:
 
 def read_template(path: str) -> list[Deb822]:
     """Read template file and remove translated descriptions."""
+    tpl_path = path
+    if tpl_path.startswith("tmp"):
+        tpl_path = ".".join(
+            [x for x in path.split("/") if x not in ["tmp", "DEBIAN"]]
+        )
+    info(f"reading template file: {tpl_path}")
     template_items = []
     with open(path) as fob:
         for paragraph in Deb822.iter_paragraphs(fob):
             for key in dict(paragraph).keys():
-                # alt language descriptions have a 'Description-...' key
-                if key.startswith("Description") and key != "Description":
+                # only keep English - alt languages have '-xxx' suffix
+                if (
+                    (key.startswith("Description") and key != "Description")
+                    or (key.startswith("Choices") and key != "Choices")
+                ):
                     del paragraph[key]
             template_items.append(paragraph)
     return template_items
 
 
 def write_template_file(path: str, templates: list[Deb822]) -> None:
+    info(f"writing consolidated template file: {path}")
     with open(path, "w") as fob:
         for item in templates:
             fob.write(str(item))
@@ -103,41 +123,52 @@ def copy_rootfs_files(udebs: list[str]) -> None:
             shutil.rmtree(join(TMP, udeb, "DEBIAN"))
         shutil.move(join(TMP, udeb), ROOTFS)
 
-def check_empty(path: str) -> bool:
+
+def clean_empty_dirs(path: str) -> None:
     if isfile(path):
-        return False
-    for item in os.listdir(path):
-        this_item = join(path, item)
-        if isfile(item):
-            return False
-        if check_empty(join(path, item)):
-            os.rmdir(join(path, item))
-    return True
+        return
+    dirs_with_dirs = []
+    for base, dirs, files in os.walk(path):
+        if files:
+            continue
+        if dirs:
+            dirs_with_dirs.append(base)
+        else:
+            info(f"removing: {base}")
+            os.rmdir(base)
+    for dir in reversed(dirs_with_dirs):
+        if not os.listdir(dir):
+            info(f"removing: {dir}")
+            os.rmdir(dir)
 
 
 def main() -> None:
-    print("# doing initial setup")
+    heading("initial setup")
     setup()
+
     udebs = read_txt_file("udebs.txt")
-    print(f"# downloading and unpackaging udebs:{'\n# -'.join(udebs)}")
+    heading("downloading and unpackaging udebs")
+    for udeb in udebs:
+        info(udeb)
     download_and_unpack_udebs(udebs)
 
-    print("# generating consolidated templates file")
-    template_files = get_template_paths("debian_dirs")
+    heading("consolidating template files")
+    template_files = get_template_paths(TMP)
     all_template_items = read_template("di-live.templates")
     for template in template_files:
         all_template_items.extend(read_template(template))
     write_template_file("debian/di-live.templates", all_template_items)
 
+    heading("copying rootfs files and removing blacklisted files")
     copy_rootfs_files(udebs)
     for file in read_txt_file("blacklist.txt"):
-        print(f"# removing blacklisted file: {file}")
+        info(f"removing: {file}")
         os.remove(join(ROOTFS, file))
 
-    print("# removing empty directories")
-    check_empty(ROOTFS)
+    heading(f"removing empty directories from {ROOTFS}")
+    clean_empty_dirs(ROOTFS)
+    heading("done")
 
 
 if __name__ == "__main__":
     main()
-
