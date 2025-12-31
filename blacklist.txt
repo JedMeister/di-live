@@ -11,6 +11,7 @@ rootskel/etc/fstab
 rootskel/etc/group
 rootskel/etc/inittab
 rootskel/etc/modules.conf
+rootskel/etc/mtab
 rootskel/etc/nsswitch.conf
 rootskel/etc/passwd
 rootskel/etc/profile
