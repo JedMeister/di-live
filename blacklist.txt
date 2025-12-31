@@ -1,15 +1,16 @@
 # files to be removed from rootfs
+#
+# format: package_name/path/to/remove
 
 # executables that are not required (di-live includes dummy replacements)
-bin/anna-install
-bin/apt-install
+di-utils/bin/anna-install
+di-utils/bin/apt-install
 
 # config files that we don't want to overwrite
-etc/fstab
-etc/group
-etc/inittab
-etc/modules.conf
-etc/mtab
-etc/nsswitch.conf
-etc/passwd
-etc/profile
+rootskel/etc/fstab
+rootskel/etc/group
+rootskel/etc/inittab
+rootskel/etc/modules.conf
+rootskel/etc/nsswitch.conf
+rootskel/etc/passwd
+rootskel/etc/profile
