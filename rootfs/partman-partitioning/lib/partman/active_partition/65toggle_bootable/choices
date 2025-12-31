@@ -1,0 +1,50 @@
+#!/bin/sh
+
+. /lib/partman/lib/base.sh
+
+dev=$1
+id=$2
+
+cd $dev
+
+open_dialog GET_LABEL_TYPE
+read_line label
+close_dialog
+
+# on GPT the boot flag has a special meaning (esp) so the bootable
+# setting is mapped to the legacy_boot flag instead
+if [ "$label" = gpt ]; then
+	boot_flag=legacy_boot
+else
+	boot_flag=boot
+fi
+valid_boot=no
+open_dialog VALID_FLAGS $id
+while { read_line flag; [ "$flag" ]; }; do
+	if [ "$flag" = "$boot_flag" ]; then
+		valid_boot=yes
+	fi
+done
+close_dialog
+
+[ $valid_boot = yes ] || exit 0
+
+bootable=no
+open_dialog GET_FLAGS $id
+while { read_line flag; [ "$flag" ]; }; do
+	if [ "$flag" = "$boot_flag" ]; then
+		bootable=yes
+	fi
+done
+close_dialog
+
+db_metaget partman-partitioning/text/bootable description
+description="$RET"
+
+if [ $bootable = yes ]; then
+	db_metaget partman-partitioning/text/on description
+	printf "unbootable\t%s\${!TAB}%s\n" "$description" "${RET}"
+else
+	db_metaget partman-partitioning/text/off description
+	printf "bootable\t%s\${!TAB}%s\n" "$description" "${RET}"
+fi
