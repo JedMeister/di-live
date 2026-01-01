@@ -21,6 +21,7 @@ import getopt
 import logging
 import os
 import re
+import subprocess
 import sys
 from collections.abc import Iterator
 from os.path import basename, exists, join
