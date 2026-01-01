@@ -75,7 +75,7 @@ def download_and_unpack_udebs(udebs: list[str]) -> None:
             )
             package_list_lines.append(f"{udeb_name}={version} # {arch}")
     with open("package_list.txt", "w") as fob:
-        for line in package_list_lines:
+        for line in sorted(package_list_lines):
             fob.write(f"{line}\n")
 
 
@@ -84,7 +84,7 @@ def get_template_paths(path: str = TMP) -> list[str]:
     for base_dir, _dirs, files in os.walk(path):
         if "templates" in files:
             templates.append(join(base_dir, "templates"))
-    return templates
+    return sorted(templates)
 
 
 def read_template(path: str) -> list[Deb822]:
