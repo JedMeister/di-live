@@ -15,6 +15,7 @@ Build-Depends:
  libdebconfclient0-dev (>= 0.68),
  libdebian-installer4-dev (>= 0.41),
  libparted-dev (>= 2.2),
+ libpci3,
  pkg-config,
  po-debconf (>= 1.0),
 Standards-Version: 4.0.0
