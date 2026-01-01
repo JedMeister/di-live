@@ -1,3 +1,4 @@
+archdetect=1.171 # amd64
 base-installer=1.226 # all
 di-utils-mapdevfs=1.155 # amd64
 di-utils=1.155 # amd64
