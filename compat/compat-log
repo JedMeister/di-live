@@ -1,0 +1,18 @@
+#! /bin/bash -e
+
+# Do nothing unless DEBUG/DILIVE_DEBUG
+
+shift
+args=("$@")
+
+if [[ -n "$DEBUG" ]] || [[ -n "$DILIVE_DEBUG" ]]; then
+    for msg in \
+        "'${args[0]}' di-live compat script called - full command:" \
+        " - ${args[*]}"
+    do
+        logger -t di-live "$msg"
+        echo "$msg" >> /var/log/di-live.log
+    done
+fi
+
+exit 0

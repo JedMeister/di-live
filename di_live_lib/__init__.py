@@ -63,6 +63,10 @@ class Chroot:
             "LC_ALL": "C",
             "PATH": PATH,
         }
+        if "DEBUG" in os.environ:
+            self.environ["DEBUG"] = os.environ["DEBUG"]
+        if "DILIVE_DEBUG" in os.environ or logger.getEffectiveLevel() < 11:
+            self.environ["DILIVE_DEBUG"] = os.environ["DILIVE_DEBUG"]
         self.environ.update(environ)
 
         self.targetmounts = TargetMounts(newroot)

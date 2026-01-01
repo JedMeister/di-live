@@ -1,3 +1,8 @@
-#! /bin/sh -e
-# Do nothing.
+#! /bin/bash -e
+
+# Call log script - will do nothing unless debug env var set
+/usr/lib/di-live/compat/compat-log "$0" "$@"
+
+# Then do nothing...
+
 exit 0

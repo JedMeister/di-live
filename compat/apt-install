@@ -1,10 +1,8 @@
-#! /bin/sh -e
-#
-# we need to setup apt before we can use this (cdrom / network)
-# see compat/apt-install in ubiquity, and install.py for blocking
-# currently just logging
+#! /bin/bash -e
 
-for package; do
-	echo "apt-install: $package" >> /var/log/di-live.log
-done
+# Call log script - will do nothing unless debug env var set
+/usr/lib/di-live/compat/compat-log "$0" "$@"
 
+# Then do nothing...
+
+exit 0

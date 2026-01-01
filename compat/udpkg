@@ -1,7 +1,12 @@
-#! /bin/sh
-# Some scripts use this to figure out the architecture.
-# Just call dpkg instead.
-if [ "$1" = --print-os ]; then
+#!/bin/bash
+
+# Some d-i scripts use 'udpkg' to figure out the architecture/OS but we've
+# got "proper" 'dpkg' so just use that instead
+
+# Call log script - will do nothing unless debug env var set
+/usr/lib/di-live/compat/compat-log "$0" "$@"
+
+if [[ "$1" = --print-os ]]; then
     echo linux
 else
     exec dpkg "$@"
