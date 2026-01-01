@@ -186,6 +186,13 @@ class Component:
         self.exitcode = 0
         return True
 
+    def __repr__(self) -> str:
+        return (
+            "Component("
+            f"path={self.path}, name={self.name}, exitcode={self.exitcode}"
+            ")"
+        )
+
 
 class Components(dict):
     """class for holding components"""
