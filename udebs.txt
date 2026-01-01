@@ -33,6 +33,7 @@ preseed-common
 # udebs that are required dependencies of those listed above
 # these should really be handled more cleanly, but this will do for now...
 
+archdetect
 rootskel
 pciutils-udeb
 dosfstools-udeb

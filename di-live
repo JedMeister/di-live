@@ -311,7 +311,7 @@ def main() -> None:
 
     if debug:
         os.environ["DEBCONF_DEBUG"] = "developer"
-        #os.environ["DEBIAN_FRONTEND"] = "readline"
+        os.environ["DEBIAN_FRONTEND"] = "readline"
         log_level = logging.DEBUG
     else:
         os.environ["DEBIAN_FRONTEND"] = "dialog"

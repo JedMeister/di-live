@@ -7,6 +7,7 @@ di-utils/bin/anna-install
 di-utils/bin/apt-install
 
 # config files that we don't want to overwrite
+rootskel/init
 rootskel/etc/fstab
 rootskel/etc/group
 rootskel/etc/inittab
