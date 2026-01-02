@@ -5,4 +5,4 @@ compat                                  /usr/lib/di-live
 rescue/rescue.service.d/override.conf   /etc/systemd/system/rescue.service.d
 rescue/rescue.target.d/override.conf    /etc/systemd/system/rescue.target.d
 share/rotate-log                        /usr/share/di-live
-rootfs/*                                /
+rootfs/*/*                              /
