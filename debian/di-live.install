@@ -1,8 +1,8 @@
+# shellcheck disable=all
 di-live.d                               /usr/lib
 di-live                                 /usr/bin
 di_live_lib                             /usr/lib/python3/dist-packages
-compat                                  /usr/lib/di-live
 rescue/rescue.service.d/override.conf   /etc/systemd/system/rescue.service.d
 rescue/rescue.target.d/override.conf    /etc/systemd/system/rescue.target.d
-share/rotate-log                        /usr/share/di-live
+share/*                                 /usr/share/di-live
 rootfs/*/*                              /
