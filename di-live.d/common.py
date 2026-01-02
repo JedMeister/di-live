@@ -195,6 +195,7 @@ def system(command, shell=False, stdout=None, write_log=True,
         log('Running command: {}'.format(command))
     run_command = subprocess.run(command, shell=shell, env=env,
                               stderr=PIPE, stdout=stdout)
+    log('Command completed: {}'.format(command))
     if run_command.returncode != 0:
         if write_log:
             log('Command {}: Exit code {}\nSTDERR: {}'.format(
