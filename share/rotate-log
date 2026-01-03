@@ -2,6 +2,7 @@
 # di-live run logs to a separate file - useful for debugging.
 
 /var/log/di-live.log
+/var/log/di-live_debian-installer.log
 /var/log/partman
 {
     rotate 100
