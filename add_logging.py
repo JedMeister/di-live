@@ -5,6 +5,8 @@ import string
 import sys
 from os.path import basename, dirname, join
 
+LOG_SCRIPT = "/usr/share/di-live/log_info.sh"
+LOG_LINE = f'{LOG_SCRIPT} "$0" "${{FUNCNAME[0]}}" "$*"'
 
 def warning(msg: str) -> None:
     print(f"WARNING: {msg}", file=sys.stderr)
@@ -87,7 +89,6 @@ def find_functions(file: str) -> list[str]:
 
 
 def insert_log_line_in_funcs(file: str) -> None:
-    log_line = '/usr/share/di-live/log_info "$0" "$@"'
     funcs = find_functions(file)
     new_lines = []
     with open(file) as fob:
@@ -95,12 +96,12 @@ def insert_log_line_in_funcs(file: str) -> None:
             line_start, *line_end_list = line.rstrip().split("#")
             comment = "#".join(line_end_list)
             if comment:
-                comment = f"#{comment}"
+                comment = f" #{comment}"
             if line in funcs:
                 if line_start.strip().endswith("{"):
-                    line = f"{line_start}{comment}\n       {log_line}\n"
+                    line = f"{line_start}{comment}\n       {LOG_LINE}\n"
                 elif line_start.endswith("}"):
-                    line = f"{line_start[:-1]} {log_line};}}#{comment}\n"
+                    line = f"{line_start[:-1]} {LOG_LINE};}}{comment}\n"
             new_lines.append(line)
     try:
         with open(file, "w") as fob:
