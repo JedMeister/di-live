@@ -103,7 +103,7 @@ def read_template(path: str) -> list[Deb822]:
                 if (
                     (key.startswith("Description") and key != "Description")
                     or (key.startswith("Choices") and key != "Choices")
-                    or key == "Help"  # some udeb templates include 'Help' 
+                    or key == "Help"  # some udeb templates include 'Help'
                 ):
                     del paragraph[key]
 
@@ -114,7 +114,7 @@ def read_template(path: str) -> list[Deb822]:
                 # Choices: ${DESCRIPTIONS}
                 # Description: How to use this partition:
                 # Help: partman-target/help
-                # 
+                #
                 # However they cause warnings when processed by debconf:
                 #
                 # debconf: Unknown template field 'help', in stanza #xxx of
@@ -189,6 +189,12 @@ def main() -> None:
     heading(f"removing empty directories from {ROOTFS}")
     clean_empty_dirs(ROOTFS)
     heading("done")
+    info(
+        "If debugging is required, run 'add_logging.py' now."
+        "\nThat will add logging lines to functions in files that are"
+        " sourced."
+        "\nIf that script is run, re-run this script before stable build."
+    )
 
 
 if __name__ == "__main__":
