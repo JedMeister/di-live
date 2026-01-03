@@ -3,10 +3,12 @@
 logfile=/var/lib/preseed/log
 
 log () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	logger -t preseed "$@"
 }
 
 error () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	error="$1"
 	location="$2"
 	checksum="$3"
@@ -22,6 +24,7 @@ error () {
 
 # Function to implement the behaviour documented in README.preseed_fetch
 make_absolute_url() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	url="$1"
 	last="$2"
 
@@ -45,6 +48,7 @@ make_absolute_url() {
 }
 
 preseed_location () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local location="$1"
 	local checksum="$2"
 	local sum torun torun_checksum
@@ -152,6 +156,7 @@ preseed_location () {
 }
 	
 preseed () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	template="$1"
 
 	db_get $template
@@ -171,6 +176,7 @@ preseed () {
 
 # Check for DHCP filename preseeding
 dhcp_preseed_url () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	for file in /var/lib/dhcp/dhclient.leases /var/lib/dhcp3/dhclient.leases /var/lib/udhcp/udhcpc.leases; do
 		if [ -r "$file" ]; then
 			FN="$(sed -n -e '/ filename "/ s/.*"\(.*\)"./\1/p' $file | tail -n1)"

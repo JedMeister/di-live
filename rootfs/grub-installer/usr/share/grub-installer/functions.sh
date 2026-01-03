@@ -1,5 +1,6 @@
 # Make sure mtab in the chroot reflects the currently mounted partitions.
 update_mtab_procfs() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	grep "$ROOT" /proc/mounts | (
 	while read devpath mountpoint fstype options n1 n2 ; do
 		devpath=`mapdevfs $devpath || echo $devpath`
@@ -14,6 +15,7 @@ update_mtab_procfs() {
 
 # No /proc/mounts available, build one (Hurd)
 update_mtab_scratch() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	echo "$rootfs / $rootfstype defaults 0 1" > $mtab
 	if [ "$bootfs" != "$rootfs" ]; then
 		echo "$bootfs /boot $bootfstype defaults 0 2" >> $mtab
@@ -21,6 +23,7 @@ update_mtab_scratch() {
 }
 
 update_mtab() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	[ "$ROOT" ] || return 0
 
 	[ ! -h "$ROOT/etc/mtab" ] || return 0
@@ -35,26 +38,32 @@ update_mtab() {
 }
 
 is_floppy () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	echo "$1" | grep -q '(fd' || echo "$1" | grep -q "/dev/fd" || echo "$1" | grep -q floppy
 }
 
 log () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	logger -t grub-installer "$*${DEBCONF_DEBUG:+		[${0##*/}]}"
 }
 
 error () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	log "error: $*"
 }
 
 info() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	log "info: $*"
 }
 
 debug () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	[ -z "${DEBCONF_DEBUG}" ] || log "debug: $*"
 }
 
 die () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local template="$1" ; shift
 	local fstype="$1" ; shift
 	local path="$1" ; shift
@@ -72,6 +81,7 @@ die () {
 # are later executed by perform_exit_stack() (via trap) in LIFO order.
 EXIT_STACK=""
 on_exit() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	if [ 1 != $# ]; then
 		error "$0: on_exit() expects exactly 1 argument, but was given $# ${*:+(args:$(printf " [%s]" "$@"))}"
 		exit 1
@@ -80,6 +90,7 @@ on_exit() {
 }
 
 perform_exit_stack () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	printf '%s\n' "$EXIT_STACK" | \
 		while read -r cmd; do
 			debug "perform_exit_stack(): Running \"$cmd\""
@@ -90,6 +101,7 @@ perform_exit_stack () {
 trap perform_exit_stack HUP INT QUIT KILL PIPE TERM EXIT
 
 mountvirtfs () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	fstype="$1"
 	path="$2"
 	failure_response="${3:-fatal}"

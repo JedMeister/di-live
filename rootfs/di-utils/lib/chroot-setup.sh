@@ -1,11 +1,13 @@
 # Setup for using apt to install packages in /target.
 
 mountpoints () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	cut -d" " -f2 /proc/mounts | sort | uniq
 }
 
 # Make sure mtab in the chroot reflects the currently mounted partitions.
 update_mtab() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	mtab=/target/etc/mtab
 
 	if [ -h "$mtab" ]; then
@@ -26,6 +28,7 @@ update_mtab() {
 }
 
 divert () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	# begin-remove-after: released:trixie
 	# As long as the installer supports installing bookworm, we need to
 	# take diversions of aliased files into account. They need to be
@@ -50,6 +53,7 @@ divert () {
 }
 
 undivert () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	rm -f "/target$1"
 	# begin-remove-after: released:trixie
 	case "$1" in
@@ -73,6 +77,7 @@ undivert () {
 }
 
 chroot_setup () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	# Bail out if directories we need are not there
 	if [ ! -d /target/sbin ] || [ ! -d /target/usr/sbin ] || \
 	   [ ! -d /target/proc ]; then
@@ -204,6 +209,7 @@ EOF
 }
 
 chroot_cleanup () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	rm -f /target/usr/sbin/policy-rc.d
 	undivert /usr/sbin/start-stop-daemon
 
@@ -224,6 +230,7 @@ chroot_cleanup () {
 
 # Variant of chroot_cleanup that only cleans up chroot_setup's mounts.
 chroot_cleanup_localmounts () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	rm -f /target/usr/sbin/policy-rc.d
 	undivert /usr/sbin/start-stop-daemon
 

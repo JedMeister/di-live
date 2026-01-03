@@ -13,6 +13,7 @@ export LVM_SUPPRESS_FD_WARNINGS=1
 # Convert common terms for disk sizes into something LVM understands.
 #  e.g. "200 gb" -> "47683"
 lvm_extents_from_human() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local vg size extent_size
 	vg="$1"
 	size="$2"
@@ -24,11 +25,13 @@ lvm_extents_from_human() {
 # Convert LVM disk sizes into something human readable.
 #  e.g. "812.15M" -> "812MB"
 lvm_size_to_human() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	echo "${1}B" | sed -e 's/\...//'
 }
 
 # Convenience wrapper for lvs/pvs/vgs
 lvm_get_info() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local type info device output
 	type=$1
 	info=$2
@@ -51,6 +54,7 @@ lvm_get_info() {
 
 # Converts a list of space (or newline) separated values to comma separated values
 ssv_to_csv() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local csv value
 
 	csv=""
@@ -66,11 +70,13 @@ ssv_to_csv() {
 
 # Converts a list of comma separated values to space separated values
 csv_to_ssv() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	echo "$1" | sed -e 's/ *, */ /g'
 }
 
 # Produces a human readable description of the current LVM config
 lvm_get_config() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local output pv pvs vg vgs lv lvs line
 
 	# Unallocated PVs
@@ -148,6 +154,7 @@ $RET
 # 5) maximum name length 128 characters
 # See lvm2 source and bug #254630 for details
 lvm_name_ok() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local name
 	name="$1"
 
@@ -181,6 +188,7 @@ lvm_name_ok() {
 
 # Would a PV be allowed on this partition?
 pv_allowed () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local dev=$1
 	local id=$2
 
@@ -247,10 +255,12 @@ pv_allowed () {
 }
 
 pv_list_allowed () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	partman_list_allowed pv_allowed
 }
 
 pv_list_allowed_free () {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local line
 
 	IFS="$NL"
@@ -286,6 +296,7 @@ pv_list_allowed_free () {
 # If called for a disk, this will also check all partitions;
 # if called for anything other, it can return false positives!
 pv_on_device() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local device
 	device="$1"
 
@@ -297,6 +308,7 @@ pv_on_device() {
 
 # Get info on a PV
 pv_get_info() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local info
 
 	info=$(lvm_get_info pvs pv_size,pv_pe_count,pv_free,pv_pe_alloc_count,vg_name "$1")
@@ -315,11 +327,13 @@ pv_get_info() {
 
 # Get VG for a PV
 pv_get_vg() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	lvm_get_info pvs vg_name "$1"
 }
 
 # Get all PVs
 pv_list() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	# Scan the partman devices and find partitions that have lvm as method.
 	# Do not rely on partition flags since it doesn't work for some partitions
 	# (e.g. dm-crypt, RAID)
@@ -342,6 +356,7 @@ pv_list() {
 
 # Get all unused PVs
 pv_list_free() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local pv vg
 
 	for pv in $(pv_list); do
@@ -355,6 +370,7 @@ pv_list_free() {
 # Prepare a partition for use as a PV. If this returns true, then it did
 # some work and a commit is necessary. Prints the new path.
 pv_prepare() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local dev="$1"
 	local id="$2"
 	local size parttype fs path
@@ -416,6 +432,7 @@ pv_prepare() {
 
 # Initialize a PV
 pv_create() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local pv
 	pv="$1"
 
@@ -429,6 +446,7 @@ pv_create() {
 
 # Remove the LVM signatures from a PV
 pv_delete() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local pv
 	pv="$1"
 
@@ -448,6 +466,7 @@ pv_delete() {
 
 # Get LV info
 lv_get_info() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local info vg lv line tmplv
 	vg=$1
 	lv=$2
@@ -473,11 +492,13 @@ lv_get_info() {
 
 # List all LVs and their VGs
 lv_list() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	lvm_get_info lvs lv_name,vg_name ""
 }
 
 # Create a LV
 lv_create() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local vg lv extents
 	vg="$1"
 	lv="$2"
@@ -490,6 +511,7 @@ lv_create() {
 
 # Delete a LV
 lv_delete() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local vg lv device
 	vg="$1"
 	lv="$2"
@@ -512,6 +534,7 @@ lv_delete() {
 # 2) must not start with "snapshot"
 # See lvm2 source and bug #254630 for details
 lv_name_ok() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local lvname
 	lvname="$1"
 
@@ -534,6 +557,7 @@ lv_name_ok() {
 
 # Get VG info
 vg_get_info() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local info
 
 	info=$(lvm_get_info vgs vg_size,vg_extent_count,vg_free,vg_free_count,lv_count,pv_count "$1")
@@ -552,11 +576,13 @@ vg_get_info() {
 
 # List all VGs
 vg_list() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	lvm_get_info vgs vg_name ""
 }
 
 # List all VGs with free space
 vg_list_free() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local vg
 
 	for vg in $(vg_list); do
@@ -569,6 +595,7 @@ vg_list_free() {
 
 # Get all PVs from a VG
 vg_list_pvs() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local line vg pv
 
 	# vgs doesn't work with pv_name
@@ -583,11 +610,13 @@ vg_list_pvs() {
 
 # Get all LVs from a VG
 vg_list_lvs() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	lvm_get_info lvs lv_name "$1"
 }
 
 # Lock device(s) holding a PV
 vg_lock_pvs() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local name pv
 	name="$1"
 	shift
@@ -601,6 +630,7 @@ vg_lock_pvs() {
 
 # Create a volume group
 vg_create() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local vg pv
 	vg="$1"
 	shift
@@ -615,6 +645,7 @@ vg_create() {
 
 # Delete a volume group
 vg_delete() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local vg
 	vg="$1"
 
@@ -632,6 +663,7 @@ vg_delete() {
 
 # Extend a volume group (add a PV)
 vg_extend() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local vg pv
 	vg="$1"
 	pv="$2"
@@ -643,6 +675,7 @@ vg_extend() {
 
 # Reduce a volume group (remove a PV)
 vg_reduce() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local vg pv
 	vg="$1"
 	pv="$2"
@@ -656,6 +689,7 @@ vg_reduce() {
 # 1) The common rules (see lvm_name_ok)
 # See lvm2 source and bug #254630 for details
 vg_name_ok() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local vgname
 	vgname="$1"
 

@@ -5,6 +5,7 @@
 . /lib/partman/lib/recipes.sh
 
 bail_out() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	db_input critical partman-auto-lvm/$1 || true
 	db_go || true
 	exit 1
@@ -13,6 +14,7 @@ bail_out() {
 # Add a partition to hold a Physical Volume to the given recipe
 # (Need $method in scope.)
 add_envelope() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local scheme="$1"
 	echo "$scheme${NL}100 1000 -1 ext3 method{ $method }"
 }
@@ -21,6 +23,7 @@ add_envelope() {
 # limits are calculated from lvmok partition limits
 # to be used on a single device to match the recipe more closely
 add_envelope_single() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local scheme="$1" method="$2" lvmscheme="$3"
 	local pvmin=0 pvprio=0 pvmax=0
 	local min prio max x
@@ -43,6 +46,7 @@ add_envelope_single() {
 # Create the partitions needed by a recipe to hold all PVs
 # (need $scheme and $pv_devices in scope)
 auto_lvm_create_partitions() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local dev free_size
 	dev=$1
 
@@ -67,6 +71,7 @@ DEFAULT_VG="@DEFAULT@"
 # As the name for the default VG will be asked in auto_lvm_perform(), the
 # temporary name is stored into $DEFAULT_VG.
 auto_lvm_create_vg_map() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local pv_device line recipe_device vg_name vg_file pv_device pv_found
 
 	rm -rf $VG_MAP_DIR
@@ -124,6 +129,7 @@ auto_lvm_create_vg_map() {
 }
 
 auto_lvm_prepare() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local devs main_device extra_devices method size free_size normalscheme
 	local pvscheme lvmscheme target dev devdir main_pv physdev
 	devs="$1"
@@ -298,6 +304,7 @@ auto_lvm_prepare() {
 }
 
 auto_lvm_perform() {
+       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	# Use hostname as default vg name (if available)
 	local defvgname pv vg_file vg_name
 	# $pv_devices will be overridden with content from $VG_MAP_DIR
