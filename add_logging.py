@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+import argparse
 import os
 import string
 import sys
@@ -10,6 +11,23 @@ LOG_LINE = f'{LOG_SCRIPT} "$0" "${{FUNCNAME[0]}}" "$*"'
 
 def warning(msg: str) -> None:
     print(f"WARNING: {msg}", file=sys.stderr)
+
+
+def replace_bin_sh_file(file: str) -> None:
+    """Replace any use of /bin/sh with /bin/bash in a file."""
+    updated_lines = []
+    with open(file) as fob:
+        for line in fob.readlines():
+            updated_lines.append(line.replace("/bin/sh", "/bin/bash"))
+    with open(file, "w") as fob:
+        fob.writelines(updated_lines)
+
+
+def replace_bin_sh(path: str) -> None:
+    """Replace use of /bin/sh with /bin/bash in all files found in path."""
+    for base, _dirs, files in os.walk(path):
+        for file in files:
+            replace_bin_sh_file(join(base, file))
 
 
 def find_file(search_root: str, filename: str) -> str | None:
@@ -110,10 +128,11 @@ def insert_log_line_in_funcs(file: str) -> None:
         warning(f"{e}")
 
 
-def main() -> None:
+def add_logging(path: str) -> None:
     updated: dict[str, list[str]] = {}
     skipped: dict[str, list[str]] = {}
-    for bin_file in find_bin_files("rootfs"):
+    for bin_file in find_bin_files(path):
+
         sourced_files = find_sourced_files(bin_file)
         if sourced_files is not None:
             for sourced_file in sourced_files:
@@ -145,6 +164,31 @@ def main() -> None:
             print(f"- '{skipped_file}' sourced by:")
         for bin_file in skipped[skipped_file]:
             print(f"    - {bin_file}")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "-b",
+        "--bash-update",
+        action="store_true",
+        help="Replace '/bin/sh' with '/bin/bash' in all files in 'rootfs'",
+    )
+    parser.add_argument(
+        "-a",
+        "--add-logging",
+        action="store_true",
+        help="Add logging to all functions in all sourced files in 'rootfs'",
+    )
+    args = parser.parse_args()
+    if not args.bash_update and not args.add_logging:
+        print("No args used; nothing to do...")
+    if args.bash_update:
+        print("replacing /bin/sh with /bin/bash")
+        replace_bin_sh("rootfs")
+    if args.add_logging:
+        print("adding logging")
+        add_logging("rootfs")
 
 
 if __name__ == "__main__":
