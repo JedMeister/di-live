@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ -d /var/lib/partman/backup ]; then
 	rm -rf /var/lib/partman/backup

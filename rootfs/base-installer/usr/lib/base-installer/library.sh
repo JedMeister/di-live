@@ -97,7 +97,7 @@ check_target () {
 	fi
 
 	# Warn about installation over an existing unix.
-	if [ -e /target/bin/sh -o -L /target/bin/sh ]; then
+	if [ -e /target/bin/bash -o -L /target/bin/bash ]; then
 		warning "attempting to install to unclean target"
 		db_capb ""
 		db_input high base-installer/use_unclean_target || true

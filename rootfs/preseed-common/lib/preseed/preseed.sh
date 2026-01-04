@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 logfile=/var/lib/preseed/log
 

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 . /lib/partman/lib/lvm-base.sh
 . /lib/partman/lib/commit.sh

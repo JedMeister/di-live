@@ -101,7 +101,7 @@ EOF
 	# from running init scripts. In case of maintainer scripts that don't
 	# use invoke-rc.d, add a dummy start-stop-daemon.
 	cat > /target/usr/sbin/policy-rc.d <<EOF
-#!/bin/sh
+#!/bin/bash
 exit 101
 EOF
 	chmod a+rx /target/usr/sbin/policy-rc.d
@@ -110,7 +110,7 @@ EOF
 		divert /usr/sbin/start-stop-daemon
 	fi
 	cat > /target/usr/sbin/start-stop-daemon <<EOF
-#!/bin/sh
+#!/bin/bash
 echo 1>&2
 echo 'Warning: Fake start-stop-daemon called, doing nothing.' 1>&2
 exit 0

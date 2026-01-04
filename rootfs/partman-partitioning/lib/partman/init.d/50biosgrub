@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 # Set method "biosgrub" for all partitions that have the bios_grub flag set.
 

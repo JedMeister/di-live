@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 # export DEBCONF_DEBUG=5
 set -e
@@ -1224,7 +1224,7 @@ if ! $chroot $ROOT which os-prober >/dev/null 2>&1; then
 
 	if [ -s $tmpfile ] ; then
 		cat > $ROOT/etc/grub.d/30_otheros << EOF
-#!/bin/sh
+#!/bin/bash
 exec tail -n +3 \$0
 EOF
 		cat $tmpfile >> $ROOT/etc/grub.d/30_otheros

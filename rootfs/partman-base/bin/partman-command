@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 # This script is intended for developer debugging purposes only. If you use
 # it for anything else, on your own head be it ...
 

@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 set -e
 
 OLD_STDIN="$DEBCONF_OLD_FD_BASE"

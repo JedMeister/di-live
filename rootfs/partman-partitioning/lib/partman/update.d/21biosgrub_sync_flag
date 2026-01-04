@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 # Remove the bios_grub flag for partitions whose method is not biosgrub, and
 # set it for partitions whose method is biosgrub.

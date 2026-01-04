@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if type update-dev >/dev/null 2>&1; then
 	log-output -t update-dev update-dev
