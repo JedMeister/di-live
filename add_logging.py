@@ -15,12 +15,16 @@ def warning(msg: str) -> None:
 
 def replace_bin_sh_file(file: str) -> None:
     """Replace any use of /bin/sh with /bin/bash in a file."""
-    updated_lines = []
-    with open(file) as fob:
-        for line in fob.readlines():
-            updated_lines.append(line.replace("/bin/sh", "/bin/bash"))
-    with open(file, "w") as fob:
-        fob.writelines(updated_lines)
+    try:
+        updated_lines = []
+        with open(file) as fob:
+            for line in fob.readlines():
+                updated_lines.append(line.replace("/bin/sh", "/bin/bash"))
+        with open(file, "w") as fob:
+            fob.writelines(updated_lines)
+    except UnicodeDecodeError:
+        # assume this means it's not a text file
+        pass
 
 
 def replace_bin_sh(path: str) -> None:
@@ -182,7 +186,8 @@ def main() -> None:
     )
     args = parser.parse_args()
     if not args.bash_update and not args.add_logging:
-        print("No args used; nothing to do...")
+        print("Error: at least one arg required\n", file=sys.stderr)
+        parser.print_usage()
     if args.bash_update:
         print("replacing /bin/sh with /bin/bash")
         replace_bin_sh("rootfs")
