@@ -28,6 +28,9 @@ from debian.deb822 import Deb822
 SOURCES_FILE = "debian-installer.sources"
 TMP = "tmp"
 ROOTFS = "rootfs"
+DEBUG_DIR = "_debug_share"
+DEBUG_DEBIAN = join(DEBUG_DIR, "DEBIAN")
+DEBUG_ROOTFS = join(DEBUG_DIR, ROOTFS)
 
 
 def heading(msg: str) -> None:
@@ -42,10 +45,12 @@ def info(msg: str) -> None:
 
 def setup() -> None:
     """Clear working directories and prepare apt."""
-    for dir in (TMP, ROOTFS):
+    for dir in (TMP, ROOTFS, DEBUG_DEBIAN, DEBUG_ROOTFS):
         if exists(dir):
             shutil.rmtree(dir)
-        os.makedirs(dir)
+        if not DEBUG_ROOTFS:
+            # the debug rootfs will be created later
+            os.makedirs(dir)
     etc_apt_sources = join("/etc/apt/sources.list.d", SOURCES_FILE)
     if not exists(etc_apt_sources):
         shutil.copy2(SOURCES_FILE, etc_apt_sources)
@@ -87,7 +92,7 @@ def get_template_paths(path: str = TMP) -> list[str]:
     return sorted(templates)
 
 
-def read_template(path: str) -> list[Deb822]:
+def read_templates(path: str) -> list[Deb822]:
     """Read template file and remove translated descriptions."""
     tpl_path = path
     if tpl_path.startswith("tmp"):
@@ -130,7 +135,7 @@ def read_template(path: str) -> list[Deb822]:
     return template_items
 
 
-def write_template_file(path: str, templates: list[Deb822]) -> None:
+def write_templates_file(path: str, templates: list[Deb822]) -> None:
     info(f"writing consolidated template file: {path}")
     with open(path, "w") as fob:
         for item in templates:
@@ -140,9 +145,14 @@ def write_template_file(path: str, templates: list[Deb822]) -> None:
 
 def copy_rootfs_files(udebs: list[str]) -> None:
     for udeb in udebs:
-        if "DEBIAN" in os.listdir(join(TMP, udeb)):
-            shutil.rmtree(join(TMP, udeb, "DEBIAN"))
-        shutil.move(join(TMP, udeb), ROOTFS)
+        udeb_tmp = join(TMP, udeb)
+        udeb_tmp_debian = join(udeb_tmp, "DEBIAN")
+        if exists(udeb_tmp_debian):
+            if os.listdir(udeb_tmp_debian):
+                shutil.move(udeb_tmp_debian, join(DEBUG_DEBIAN, udeb))
+            else:
+                shutil.rmtree(udeb_tmp_debian)
+        shutil.move(udeb_tmp, ROOTFS)
 
 
 def clean_empty_dirs(path: str) -> None:
@@ -175,10 +185,10 @@ def main() -> None:
 
     heading("consolidating template files")
     template_files = get_template_paths(TMP)
-    all_template_items = read_template("di-live.templates")
+    all_template_items = read_templates("di-live.templates")
     for template in template_files:
-        all_template_items.extend(read_template(template))
-    write_template_file("debian/di-live.templates", all_template_items)
+        all_template_items.extend(read_templates(template))
+    write_templates_file("debian/di-live.templates", all_template_items)
 
     heading("copying rootfs files and removing blacklisted files")
     copy_rootfs_files(udebs)
@@ -188,13 +198,10 @@ def main() -> None:
 
     heading(f"removing empty directories from {ROOTFS}")
     clean_empty_dirs(ROOTFS)
+    heading("Generating alternate copy of udeb scripts for debug package")
+    shutil.copy2(ROOTFS, DEBUG_ROOTFS)
+    subprocess.run(["./add_logging.py", DEBUG_ROOTFS])
     heading("done")
-    info(
-        "If debugging is required, run 'add_logging.py' now."
-        "\nThat will add logging lines to functions in files that are"
-        " sourced."
-        "\nIf that script is run, re-run this script before stable build."
-    )
 
 
 if __name__ == "__main__":
