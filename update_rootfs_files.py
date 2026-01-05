@@ -2,15 +2,28 @@
 
 import argparse
 import os
+import re
 import string
 import sys
 from os.path import basename, dirname, join
 
-LOG_SCRIPT = "/usr/share/di-live/log_info.sh"
+DEBUG_DIR = "_debug_share"
+DEBUG_ROOTFS = join(DEBUG_DIR, "rootfs")
+LOG_SCRIPT = "/usr/share/di-live/debug/log_info.sh"
 LOG_LINE = f'{LOG_SCRIPT} "$0" "${{FUNCNAME[0]}}" "$*"'
+
 
 def warning(msg: str) -> None:
     print(f"WARNING: {msg}", file=sys.stderr)
+
+
+def is_text_file(path: str) -> bool:
+    """Assume file is text if it can be opended in text mode."""
+    try:
+        open(path).close()
+        return True
+    except UnicodeDecodeError:
+        return False
 
 
 def replace_bin_sh_file(file: str) -> None:
@@ -27,11 +40,13 @@ def replace_bin_sh_file(file: str) -> None:
         pass
 
 
-def replace_bin_sh(path: str) -> None:
-    """Replace use of /bin/sh with /bin/bash in all files found in path."""
+def find_all_files(path: str) -> list[str]:
+    """Find all files within file tree and return list of relative paths"""
+    file_paths = []
     for base, _dirs, files in os.walk(path):
         for file in files:
-            replace_bin_sh_file(join(base, file))
+            file_paths.append(join(base, file))
+    return file_paths
 
 
 def find_file(search_root: str, filename: str) -> str | None:
@@ -43,93 +58,144 @@ def find_file(search_root: str, filename: str) -> str | None:
     """
     path_prefix = "" if "/" not in filename else dirname(filename).lstrip("/")
     filename = basename(filename)
-    for base_dir, _dirs, files in os.walk(search_root):
-        if base_dir.endswith(path_prefix) and filename in files:
-            return join(base_dir, filename)
+    for file in find_all_files(search_root):
+        if (
+            file.startswith(path_prefix)
+            and file == join(path_prefix, filename)
+        ):
+            return file
     return None
 
 
 def find_bin_files(base_dir: str) -> list[str]:
     bin_files = []
-    for base, dirs, files in os.walk(base_dir):
-        if basename(base).endswith("bin"):
-            if dirs:
-                warning(f"'{base}' contains dirs: {dirs}")
-            bin_files.extend([join(base, x) for x in files])
+    for file in find_all_files(base_dir):
+        if "/bin/" in file or "/sbin/" in file:
+            if not (
+                dirname(file).endswith("/bin")
+                or dirname(file).endswith("/sbin")
+            ):
+                warning(
+                    "path includes bin dir but file not directly in bin dir"
+                    f" ('{file}')"
+                )
+            bin_files.append(file)
     return bin_files
 
 
 def find_sourced_files(file: str) -> list[str] | None:
-    """Check text file for lines with source other files.
+    """Check text file for lines which source other files.
 
-    If file can not be opended in text mode, None will be returned.
+    Returns list of file names sourced within file. Returns empty list if
+    file does not source any files. Returns None if file is not a text file.
     """
-    sourced = []
-    try:
-        with open(file) as fob:
-            for line in map(str.strip, fob.readlines()):
-                line = line.split("#")[0]
-                if len(line.split()) != 2:
-                    continue
-                for source in (".", "source"):
-                    if (
-                        line.startswith(source)
-                        and line[len(source)] in string.whitespace
-                    ):
-                        sourced.append(line.split()[1])
-    except UnicodeDecodeError:
-        # assume this means it's not a text file
+    if not is_text_file(file):
         return None
+    sourced = []
+    with open(file) as fob:
+        for line in map(str.strip, fob.readlines()):
+            # ensure comments are ignored
+            line = line.split("#")[0]
+            if len(line.split()) != 2:
+                continue
+            for source in (".", "source"):
+                if (
+                    line.startswith(source)
+                    # relevant source command followed by whitespace char
+                    and line[len(source)] in string.whitespace
+                ):
+                    sourced.append(line.split()[1])
     return sourced
 
 
-def find_functions(file: str) -> list[str]:
-    """Search shell file for functions.
+def inject_in_funcs(file: str, inject_command: str) -> None:
+    """Inject command into all shell functions found within a file.
 
-    Assumes a function is a line that includes '{' and either:
-        - starts with a string followed by '()' (without or without a
-          whitespace separator); or
-        - starts with the string 'function'
+    Assuming a multi-line function, the command will be injected into a new
+    line at the start of the function - i.e. the line after '{'. Where possible
+    the injected will have the same indent as the following line (the first
+    function line prior to injection. in the case of single line functions, the
+    injected command will be inserted between the '{' and the rest of the
+    function; with the required trailing demi-colon appended.
 
-    Returns list of verbatim line including function
+    Assumptions:
+        - a function starts with one of:
+            - 'FUNCNAME()<whitespace>{'
+                - where <whitespace> may be a newline
+            - 'FUNCNAME<whitespace>()<whitespace>{'
+                - where 1st <whitespace> can NOT be newline but 2nd may be
+            - 'function<whitespace>FUNCNAME<whitespace>{'
+                - where 1st <whitespace> can NOT be newline but 2nd may be
+        - Comments (i.e. text with a '#' prefix) are not considered. So the
+          command will still be injected into a function that is commented out
+        - '{' and '}' are always assumed to be the start and end of a function,
+          so if either of those are within comments or strings, unexpected
+          results may occur.
     """
-    function_lines = []
-    with open(file) as fob:
-        for line in fob.readlines():
-            original_line = line
-            line = line.split("#")[0].strip()
-            if "{" in line:
-                likely_func = ["", ""]  # if really likely func, len == 1
-                possible_func = line.split("{")[0].strip()
-                if possible_func.endswith("()"):
-                    likely_func = [possible_func.split("(")[0].strip()]
-                elif possible_func.startswith("function"):
-                    likely_func = possible_func.split()[1:]
-                if len(likely_func) == 1:
-                    function_lines.append(original_line)
-    return function_lines
 
+    def inject_inline(line: str) -> str:
+        """Inject string into single line function."""
+        start, end = line.split("{", 1)
+        return f"{start}{{ {inject_command};{end}"
 
-def insert_log_line_in_funcs(file: str) -> None:
-    funcs = find_functions(file)
-    new_lines = []
+    funcname = r"[a-zA-Z_][a-zA-Z0-9_]*"
+    func_regex = (rf"{funcname}[ \t]*()", rf"function[ \t]+{funcname}")
     with open(file) as fob:
+        file_lines = []
+        func_declared = False
+        indent_previous = False
         for line in fob.readlines():
-            line_start, *line_end_list = line.rstrip().split("#")
-            comment = "#".join(line_end_list)
-            if comment:
-                comment = f" #{comment}"
-            if line in funcs:
-                if line_start.strip().endswith("{"):
-                    line = f"{line_start}{comment}\n       {LOG_LINE}\n"
-                elif line_start.endswith("}"):
-                    line = f"{line_start[:-1]} {LOG_LINE};}}{comment}\n"
-            new_lines.append(line)
-    try:
-        with open(file, "w") as fob:
-            fob.writelines(new_lines)
-    except PermissionError as e:
-        warning(f"{e}")
+            if not func_declared:
+                # search line for function definition
+                for regex in func_regex:
+                    if re.search(regex, line):
+                        if "{" not in line:
+                            # func declared but not opened so don't inject
+                            # string yet but set relevant flags
+                            func_declared = True
+                            indent_previous = False
+                        elif "{" in line and "}" in line:
+                            # single line func so inject into existing line
+                            line = inject_inline(line)
+                            # reset flags to find next function
+                            func_declared = False
+                            indent_previous = False
+                        else:
+                            # func declared and opened but not on single line
+                            # so append the current 'line' now replace with
+                            # the string to inject
+                            file_lines.append(line)
+                            line = f"{inject_command}\n"
+                            # set appropriate flags for next iteration
+                            func_declared = True
+                        # it shouldn't matter if this "function finding" loop
+                        # runs again, but also shouldn't be needed
+                        break
+            else:
+                # func_declared = True
+                if indent_previous:
+                    if "}" in line:
+                        # this seems an unlikely possibility - but handle it
+                        # anyway...
+                        indent = "    "
+                        # reset flag to search for next func
+                        func_declared = False
+                    else:
+                        # find the indent of this line and insert into previous
+                        # (injected) line
+                        found_indent = re.search(r"^[ \t]*", line)
+                        if found_indent is not None:  # it won't be ...
+                            indent = found_indent.group(0)
+                    if indent:
+                        file_lines[-1] = f"{indent}{file_lines[-1]}"
+                    # don't indent any other lines until next function
+                    indent_previous = False
+                elif "}" in line:
+                    # end of function so reset flag to search for next func
+                    func_declared = False
+            file_lines.append(line)
+    with open(file, "w") as fob:
+        fob.writelines(file_lines)
 
 
 def add_logging(path: str) -> None:
@@ -144,7 +210,7 @@ def add_logging(path: str) -> None:
                 if found_file and found_file in updated.keys():
                     updated[found_file].append(bin_file)
                 elif found_file:
-                    insert_log_line_in_funcs(found_file)
+                    inject_in_funcs(found_file, LOG_LINE)
                     updated[found_file] = [bin_file]
                 else:
                     if sourced_file in skipped.keys():
@@ -190,7 +256,7 @@ def main() -> None:
         parser.print_usage()
     if args.bash_update:
         print("replacing /bin/sh with /bin/bash")
-        replace_bin_sh("rootfs")
+        replace_bin_sh_file("rootfs")
     if args.add_logging:
         print("adding logging")
         add_logging("rootfs")
