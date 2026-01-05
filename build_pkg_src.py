@@ -46,10 +46,14 @@ def info(msg: str) -> None:
 def setup() -> None:
     """Clear working directories and prepare apt."""
     for dir in (TMP, ROOTFS, DEBUG_DEBIAN, DEBUG_ROOTFS):
+        # TODO move DEBUG stuff to update_rootfs_files.py & run at build time
+        info(f"checking {dir}")
         if exists(dir):
+            info(f"{dir} exists - removing")
             shutil.rmtree(dir)
-        if not DEBUG_ROOTFS:
-            # the debug rootfs will be created later
+        if dir != DEBUG_ROOTFS:
+            # debug rootfs will be created later
+            info(f"(re)creating {dir}")
             os.makedirs(dir)
     etc_apt_sources = join("/etc/apt/sources.list.d", SOURCES_FILE)
     if not exists(etc_apt_sources):
@@ -198,9 +202,10 @@ def main() -> None:
 
     heading(f"removing empty directories from {ROOTFS}")
     clean_empty_dirs(ROOTFS)
+    # TODO - moved this to update_rootfs_files.py and run at build time
     heading("Generating alternate copy of udeb scripts for debug package")
-    shutil.copy2(ROOTFS, DEBUG_ROOTFS)
-    subprocess.run(["./add_logging.py", DEBUG_ROOTFS])
+    shutil.copytree(ROOTFS, DEBUG_ROOTFS)
+    subprocess.run(["./update_rootfs_files.py", DEBUG_ROOTFS])
     heading("done")
 
 
