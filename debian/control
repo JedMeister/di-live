@@ -35,6 +35,10 @@ Depends:
  live-tools,
  ${misc:Depends},
  ${shlibs:Depends},
+Conflicts:
+ di-live-dbg,
+Breaks:
+ di-live-dbg,
 Recommends:
  eject,
  file,
@@ -42,3 +46,35 @@ Recommends:
  lvm2,
  whiptail,
 Description: Debian Installer for Live systems
+
+Package: di-live-dbg
+Architecture: any
+Depends:
+ debconf,
+ python3-debconf,
+ grub-pc | grub-efi-amd64,
+ libdebconfclient0,
+ os-prober,
+ python3 (>= 3.5),
+ turnkey-chroot,
+ live-boot-initramfs-tools,
+ live-boot,
+ live-tools,
+ ${misc:Depends},
+ ${shlibs:Depends},
+Conflicts:
+ di-live,
+Breaks:
+ di-live,
+Recommends:
+ eject,
+ file,
+ kbd,
+ lvm2,
+ whiptail,
+Description: Debian Installer for Live systems - debug package
+ This package should only be installed when debugging. It includes a number
+ of additional &/or modified files to ease development. Changes are primarily
+ to the files from upstream udeb contents such as using bash (instead of sh)
+ and addition of logging within common functions. The files from the unpacked
+ 'DEBIAN' directory (e.g. 'postinst' files) are also included.
