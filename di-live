@@ -37,19 +37,6 @@ class Error(Exception):
     pass
 
 
-def rotate_logfile() -> None:
-    """Ensure each run uses a clean log file.
-
-    Leverages (abuses?) logrotate to ensure that each di-live run uses a clean
-    log file. In production, di-live will only be run once, however during
-    development a separate log file is useful for debugging - particularly
-    because di-live debug logging is very verbose.
-    """
-    subprocess.run(
-        ["/usr/sbin/logrotate", "--force", "/usr/share/di-live/rotate-log"]
-    )
-
-
 class Debian_Priority:
     """class for controlling DEBIAN_PRIORITY"""
 
@@ -334,7 +321,17 @@ def main() -> None:
     menu_title = "Debian Installer Live"
 
     logger.info("di-live starting...")
-    Components_Menu(components_dir, menu_template, menu_title).run()
+    try:
+        Components_Menu(components_dir, menu_template, menu_title).run()
+    except KeyboardInterrupt:
+        msg = "Keyboard Interrupt received. Exiting."
+        print(f"\n{msg}")
+        logger.info(msg)
+        sys.exit(1)
+    finally:
+        if debug:
+            # prepare &/or clean /var/log ready for subsequent run
+            subprocess.run(["/usr/share/di-live/debug-post-run.py"])
 
 
 if __name__ == "__main__":
