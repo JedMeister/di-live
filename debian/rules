@@ -6,7 +6,8 @@ export PYTHONDONTWRITEBYTECODE=1
 	dh $@
 
 override_dh_build:
-	./
+	# patch files for debug pkg
+	./update_rootfs_files.py --force
 
 override_dh_installinit:
 	dh_installinit -r --no-start -- start 99 S . start 89 0 6 .

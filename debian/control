@@ -36,9 +36,9 @@ Depends:
  ${misc:Depends},
  ${shlibs:Depends},
 Conflicts:
- di-live-dbg,
+ di-live-di-debug,
 Breaks:
- di-live-dbg,
+ di-live-di-debug,
 Recommends:
  eject,
  file,
@@ -47,7 +47,7 @@ Recommends:
  whiptail,
 Description: Debian Installer for Live systems
 
-Package: di-live-dbg
+Package: di-live-di-debug
 Architecture: any
 Depends:
  debconf,

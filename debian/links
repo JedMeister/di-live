@@ -1,4 +1,4 @@
 dev/null                                etc/systemd/system/live-tools.service
 usr/share/di-live/di-live-compat.sh     usr/bin/anna-install
 usr/share/di-live/di-live-compat.sh     usr/bin/apt-install
-usr/share/di-live/di-live-compat.sh     udpkg
+usr/share/di-live/di-live-compat.sh     usr/bin/udpkg
