@@ -28,9 +28,8 @@ from debian.deb822 import Deb822
 SOURCES_FILE = "debian-installer.sources"
 TMP = "tmp"
 ROOTFS = "rootfs"
-DEBUG_DIR = "_debug_share"
+DEBUG_DIR = "debug_share"
 DEBUG_DEBIAN = join(DEBUG_DIR, "DEBIAN")
-DEBUG_ROOTFS = join(DEBUG_DIR, ROOTFS)
 
 
 def heading(msg: str) -> None:
@@ -45,16 +44,13 @@ def info(msg: str) -> None:
 
 def setup() -> None:
     """Clear working directories and prepare apt."""
-    for dir in (TMP, ROOTFS, DEBUG_DEBIAN, DEBUG_ROOTFS):
-        # TODO move DEBUG stuff to update_rootfs_files.py & run at build time
+    for dir in (TMP, ROOTFS, DEBUG_DIR):
         info(f"checking {dir}")
         if exists(dir):
             info(f"{dir} exists - removing")
             shutil.rmtree(dir)
-        if dir != DEBUG_ROOTFS:
-            # debug rootfs will be created later
-            info(f"(re)creating {dir}")
-            os.makedirs(dir)
+        info(f"(re)creating {dir}")
+        os.makedirs(dir)
     etc_apt_sources = join("/etc/apt/sources.list.d", SOURCES_FILE)
     if not exists(etc_apt_sources):
         shutil.copy2(SOURCES_FILE, etc_apt_sources)
@@ -202,11 +198,36 @@ def main() -> None:
 
     heading(f"removing empty directories from {ROOTFS}")
     clean_empty_dirs(ROOTFS)
-    # TODO - moved this to update_rootfs_files.py and run at build time
-    heading("Generating alternate copy of udeb scripts for debug package")
-    shutil.copytree(ROOTFS, DEBUG_ROOTFS)
-    subprocess.run(["./update_rootfs_files.py", DEBUG_ROOTFS])
+
     heading("done")
+    info(
+        "Now check rootfs/ for file changes & commit any updates made by this"
+        " script:"
+    )
+    print("\n    git add rootfs")
+    print("    git commit -m 'Commit updated rootfs files'\n")
+    info(
+        "If rootfs/ files _are_ updated, then after committing manually (as"
+        " above) confirm package build time debug patching with:"
+    )
+    print("\n    ./add_udeb_debugging.py --all-updates --update-source\n")
+    info(
+        "DO NOT commit any changes made by add_udeb_debugging.py, just review"
+        " them and then reset the files:"
+    )
+    print("\n    git diff rootfs/")
+    print("    git checkout rootfs/\n")
+    info(
+        "If add_udeb_debugging.py changes are problematic, after resetting"
+        " rootfs (as above) update add_udeb_debugging.py as required and rinse"
+    )
+    print(
+        "  & repeat until statisfied, finally reset rootfs & commit"
+        " add_udeb_debugging.py changes:"
+    )
+    print("\n    git checkout rootfs/")
+    print("    git add add_udeb_debugging.py")
+    print("    git commit -m 'Fix add_udeb_debugging.py post udeb updates'\n")
 
 
 if __name__ == "__main__":
