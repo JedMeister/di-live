@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 set -e
 
 # We need to do this after the base system has been installed so that

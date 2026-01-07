@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 dev=$2
 id=$3

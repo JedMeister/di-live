@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/sh -e
 # Set up filesystem as root and pivot into it.
 export PATH
 . /lib/debian-installer/init-debug

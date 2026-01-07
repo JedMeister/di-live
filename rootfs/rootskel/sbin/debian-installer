@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 # This is where the installer actually interacts with the user
 set -e
 

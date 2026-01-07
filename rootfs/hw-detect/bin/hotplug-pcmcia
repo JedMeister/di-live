@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # hotplug-pcmcia.sh - Handle hotplug events for PCMCIA devices during detection
 #

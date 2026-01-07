@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 QUEUE=/var/lib/register-module
 MODFILE=/target/etc/modules
 MODUTILSDIR=/target/etc/modprobe.d/

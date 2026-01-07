@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Check if boot partition gets mounted on /boot/grub, /boot or root,
 # is of type ext2 and is the first partition.
 

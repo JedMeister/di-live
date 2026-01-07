@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/sh -e
 
 # Debian (live-boot)
 PLACES="$PLACES /cdrom/live/filesystem.ext2 /cdrom/live/filesystem.ext3 /cdrom/live/filesystem.ext4"

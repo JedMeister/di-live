@@ -1,7 +1,6 @@
 # If you are curious why partman-auto is so slow, it is because
 # update-all is slow
 update_all () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local dev num id size type fs path name partitions
 	for dev in $DEVICES/*; do
 		[ -d "$dev" ] || continue
@@ -19,7 +18,6 @@ update_all () {
 }
 
 autopartitioning_failed () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	db_input critical partman-auto/autopartitioning_failed || true
 	db_go || true
 	update_all
@@ -27,7 +25,6 @@ autopartitioning_failed () {
 }
 
 find_method () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local num id size type fs path name method found minsize
 	minsize=$((${2:-0}*1000000))
 	found=
@@ -46,7 +43,6 @@ find_method () {
 }
 
 cap_ram () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
     local ram
     ram="$1"
     db_get partman-auto/cap-ram
@@ -62,7 +58,6 @@ cap_ram () {
 unnamed=0
 
 decode_recipe () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local ignore ram line word min factor max fs iflabel label map map_end -
 	local reusemethod method id
 	local reuse=$3
@@ -212,7 +207,6 @@ decode_recipe () {
 }
 
 foreach_partition () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local - doing IFS pcount last partition
 	doing=$1
 	pcount=$(echo "$scheme" | wc -l)
@@ -229,7 +223,6 @@ foreach_partition () {
 }
 
 min_size () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local size
 	size=0
 	foreach_partition '
@@ -238,7 +231,6 @@ min_size () {
 }
 
 factor_sum () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local factor
 	factor=0
 	foreach_partition '
@@ -247,7 +239,6 @@ factor_sum () {
 }
 
 partition_before () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local num id size type fs path name result found
 	result=''
 	found=no
@@ -265,7 +256,6 @@ partition_before () {
 }
 
 partition_after () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local num id size type fs path name result found
 	result=''
 	found=no
@@ -283,7 +273,6 @@ partition_after () {
 }
 
 pull_primary () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	primary=''
 	scheme_rest=''
 	foreach_partition '
@@ -296,7 +285,6 @@ pull_primary () {
 }
 
 setup_partition () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local id flags file line label
 	id=$1; shift
 	open_dialog GET_LABEL_TYPE
@@ -375,7 +363,6 @@ setup_partition () {
 }
 
 get_recipedir () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local archdetect arch sub recipedir
 
 	if type archdetect >/dev/null 2>&1; then
@@ -398,7 +385,6 @@ get_recipedir () {
 }
 
 filter_reused () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	scheme_reused=$(
 	    foreach_partition '
 		if echo "$*" | grep -q '\''\$reuse{'\''; then
@@ -414,7 +400,6 @@ filter_reused () {
 }
 
 choose_recipe () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local recipes recipedir free_size choices min_size type target
 
 	type=$1
@@ -497,7 +482,6 @@ choose_recipe () {
 }
 
 expand_scheme() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	# Filter out reused partitions first, as we don't want to take
 	# account of their size.
 	filter_reused
@@ -563,7 +547,6 @@ expand_scheme() {
 }
 
 clean_method() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	for device in $DEVICES/*; do
 		[ -d "$device" ] || continue
 		cd $device

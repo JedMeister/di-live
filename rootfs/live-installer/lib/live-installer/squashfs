@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/sh -e
 
 # Debian (live-boot)
 PLACES="$PLACES /cdrom/live/filesystem.squashfs"

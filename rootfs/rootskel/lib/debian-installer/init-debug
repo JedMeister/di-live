@@ -1,5 +1,4 @@
 debugshell () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	if [ -n "$BOOT_DEBUG" ] && [ "$BOOT_DEBUG" -gt 2 ]; then
 		echo "This is a debug shell ($1)."
 		sh || true

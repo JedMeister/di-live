@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/sh -e
 
 # Remove live-cd network data
 rm -f /target/etc/hostname /target/etc/hosts /target/etc/network/interfaces

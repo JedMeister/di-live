@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/sh -e
 
 # Unfortunately, we can't use in-target here as this doesn't allow to set the
 # debconf frontend to noninteractive.

@@ -1,5 +1,4 @@
 grub2_write_chain() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	uuid="$($chroot $ROOT grub-probe --target fs_uuid --device $partition)"
 	cat >> $tmpfile <<EOF
 
@@ -32,7 +31,6 @@ EOF
 } # grub2_write_chain end
 
 grub2_write_linux() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	cat >> $tmpfile <<EOF
 
 # This entry automatically added by the Debian installer for an existing
@@ -61,7 +59,6 @@ EOF
 } # grub2_write_linux end
 
 grub2_write_hurd() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	cat >> $tmpfile <<EOF
 
 # This entry automatically added by the Debian installer for an existing

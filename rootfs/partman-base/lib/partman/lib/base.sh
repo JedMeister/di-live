@@ -8,19 +8,16 @@ NL='
 ORIGINAL_IFS="${ORIGINAL_IFS:-$IFS}"; export ORIGINAL_IFS
 
 restore_ifs () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	IFS="$ORIGINAL_IFS"
 }
 
 dirname () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local x
 	x="${1%/}"
 	echo "${x%/*}"
 }
 
 basename () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local x
 	x="${1%$2}"
 	x="${x%/}"
@@ -28,7 +25,6 @@ basename () {
 }
 
 maybe_escape () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local code saveret
 	text="$1"
 	shift
@@ -47,7 +43,6 @@ maybe_escape () {
 
 # Deprecated debconf_select() for templates not switched to Choices-C yet.
 old_debconf_select () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local IFS priority template choices default_choice default x u newchoices code
 	priority="$1"
 	template="$2"
@@ -111,7 +106,6 @@ old_debconf_select () {
 }
 
 debconf_select () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local IFS priority template choices default keys descriptions code x
 	priority="$1"
 	template="$2"
@@ -165,12 +159,10 @@ debconf_select () {
 }
 
 menudir_default_choice () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	printf "%s__________%s\n" "$(basename $1/??$2)" "$3" > $1/default_choice
 }
 
 ask_user () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local IFS dir template priority default choices plugin name option
 	dir="$1"; shift
 	template=$(cat $dir/question)
@@ -211,7 +203,6 @@ ask_user () {
 }
 
 ask_active_partition () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local dev=$1
 	local id=$2
 	local num=$3
@@ -245,7 +236,6 @@ ask_active_partition () {
 }
 
 partition_tree_choices () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local IFS
 	for dev in $DEVICES/*; do
 		[ -d $dev ] || continue
@@ -273,7 +263,6 @@ partition_tree_choices () {
 }
 
 longint_le () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local x y
 	# remove the leading 0
 	x=$(expr "$1" : '0*\(.*\)')
@@ -291,13 +280,11 @@ longint_le () {
 	fi
 }
 
-expr01() {  # ignore the '1' return code
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
+expr01() { # ignore the '1' return code
 	expr "$@" || [ $? = 1 ]
 }
 
-exp1024() {  # compute $((1024**$1)) as dash does not support '**'
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
+exp1024() { # compute $((1024**$1)) as dash does not support '**'
 	case "$1" in
 	0) echo 1 ;;
 	1) echo 1024 ;;
@@ -307,7 +294,6 @@ exp1024() {  # compute $((1024**$1)) as dash does not support '**'
 }
 
 longmult() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local a="$1" # no size limit
 	local b="$2" # <= 2^30
 
@@ -334,7 +320,6 @@ longmult() {
 }
 
 longadd() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local a="$1" # no size limit
 	local b="$2" # <= 2^60
 
@@ -361,7 +346,6 @@ longadd() {
 }
 
 longint2human () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local longint suffix bytes int frac deci
 	# fallback value for $deci:
 	deci="${deci:-.}"
@@ -395,7 +379,6 @@ longint2human () {
 }
 
 human2longint_binary_unit() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local int="$1"
 	local frac="$2"
 	local powbase="$3" # 1 <= powbase <= 6
@@ -447,7 +430,6 @@ human2longint_binary_unit() {
 }
 
 human2longint () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local human orighuman gotb suffix int frac
 	local binary powbase dfrac
 	human="$(echo "$*" | tr -d ' ')" # without the spaces
@@ -510,7 +492,6 @@ human2longint () {
 }
 
 valid_human () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local IFS patterns
 	patterns='[0-9][0-9]* *$
 [0-9][0-9]* *[bB] *$
@@ -528,13 +509,11 @@ valid_human () {
 }
 
 convert_to_megabytes() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local size="$1"
 	expr 0000000"$size" : '0*\(..*\)......$'
 }
 
 stop_parted_server () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	open_infifo
 	write_line "QUIT"
 	close_infifo
@@ -542,7 +521,6 @@ stop_parted_server () {
 
 # Must call stop_parted_server before calling this.
 restart_partman () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	initcount=`ls /lib/partman/init.d/* | wc -l`
 	db_progress START 0 $initcount partman/progress/init/title
 	for s in /lib/partman/init.d/*; do
@@ -562,7 +540,6 @@ restart_partman () {
 }
 
 update_partition () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local u
 	cd $1
 	open_dialog PARTITION_INFO $2
@@ -584,44 +561,36 @@ DEVICES=/var/lib/partman/devices
 # 7=outfifo
 
 open_infifo() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	exec 6>/var/lib/partman/infifo
 }
 
 close_infifo() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	exec 6>&-
 }
 
 open_outfifo () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	exec 7</var/lib/partman/outfifo
 }
 
 close_outfifo () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	exec 7<&-
 }
 
 write_line () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	log IN: "$@"
 	echo "$@" >&6
 }
 
 read_line () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	read "$@" <&7
 }
 
 synchronise_with_server () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	exec 6>/var/lib/partman/stopfifo
 	exec 6>&-
 }
 
 read_paragraph () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
     local line
     while { read_line line; [ "$line" ]; }; do
 	log "paragraph: $line"
@@ -630,7 +599,6 @@ read_paragraph () {
 }
 
 read_list () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local item list
 	list=''
 	while { read_line item; [ "$item" ]; }; do
@@ -641,12 +609,10 @@ read_list () {
 }
 
 name_progress_bar () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	echo $1 >/var/lib/partman/progress_info
 }
 
 error_handler () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
     local exception_type info state frac type priority message options skipped
     while { read_line exception_type; [ "$exception_type" != OK ]; }; do
 	log error_handler: exception with type $exception_type
@@ -729,7 +695,6 @@ error_handler () {
 }
 
 open_dialog () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	command="$1"
 	shift
 	open_infifo
@@ -739,7 +704,6 @@ open_dialog () {
 }
 
 close_dialog () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	close_outfifo
 	close_infifo
 	exec 6>/var/lib/partman/stopfifo
@@ -756,7 +720,6 @@ close_dialog () {
 }
 
 log () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local program
 	echo $0: "$@" >>/var/log/partman
 }
@@ -767,7 +730,6 @@ log () {
 
 # Returns free memory in kB
 memfree () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local free buff
 	if [ -e /proc/meminfo ]; then
 		free=$(grep MemFree /proc/meminfo | head -n1 | \
@@ -782,7 +744,6 @@ memfree () {
 
 # return the device mapper table type
 dm_table () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local type=""
 	if [ -x /sbin/dmsetup ]; then
 		type=$(/sbin/dmsetup table "$1" 2>/dev/null | head -n 1 | cut -d " " -f3)
@@ -792,7 +753,6 @@ dm_table () {
 
 # Check if a d-m device is a multipath device
 is_multipath_dev () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local type
 
 	type=$(dm_table $1)
@@ -802,7 +762,6 @@ is_multipath_dev () {
 # Check if a d-m device is a partition on a multipath device by checking if
 # the corresponding multipath map exists
 is_multipath_part () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local type mp name
 
 	type multipath >/dev/null 2>&1 || return 1
@@ -820,7 +779,6 @@ is_multipath_part () {
 
 # TODO: this should not be global
 humandev () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
     local device disk drive host bus target part line controller lun
     local idenum scsinum targtype linux kfreebsd mapping vglv vg lv wwid
     local dev discipline frdisk type rtype desc n
@@ -1159,7 +1117,6 @@ humandev () {
 }
 
 humandev_dasd_disk () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	dev=${1##*/}
 	discipline=$(cat $1/discipline)
 	db_metaget partman/text/dasd_disk description
@@ -1167,7 +1124,6 @@ humandev_dasd_disk () {
 }
 
 humandev_dasd_partition () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	dev=${1##*/}
 	discipline=$(cat $1/discipline)
 	db_metaget partman/text/dasd_partition description
@@ -1175,13 +1131,11 @@ humandev_dasd_partition () {
 }
 
 device_name () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	cd $1
 	printf "%s - %s %s" "$(humandev $(cat device))" "$(longint2human $(cat size))" "$(cat model)"
 }
 
 enable_swap () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
     local swaps dev num id size type fs path name method
     local startdir="$(pwd)"
     # do swapon only when we will be able to swapoff afterwards
@@ -1210,7 +1164,6 @@ enable_swap () {
 }
 
 disable_swap () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
     local dev=$1
     local id=$2
 
@@ -1243,7 +1196,6 @@ disable_swap () {
 
 # Lock a device or partition against further modifications
 partman_lock_unit() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local device message cwd dev testdev
 	local num id size type fs path name
 	device="$1"
@@ -1281,7 +1233,6 @@ partman_lock_unit() {
 
 # Unlock a device or partition to allow further modifications
 partman_unlock_unit() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local device cwd dev testdev
 	local num id size type fs path name
 	device="$1"
@@ -1316,7 +1267,6 @@ partman_unlock_unit() {
 }
 
 partman_list_allowed() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local allowed_func=$1
 	local IFS
 	local partitions

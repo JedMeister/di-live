@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -e
 
 # This script sets method "efi" for all fat16/fat32 partitions that

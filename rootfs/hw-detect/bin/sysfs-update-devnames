@@ -1,4 +1,4 @@
-#! /bin/bash -e
+#! /bin/sh -e
 # Make sure that /etc/network/devnames is up to date, using sysfs. In
 # hotplug land, we may not get a chance to update it otherwise.
 

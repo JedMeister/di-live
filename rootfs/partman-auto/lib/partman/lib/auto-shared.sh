@@ -1,7 +1,6 @@
 ## Shared code for all guided partitioning components
 
 auto_init_disks() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local dev
 
 	# Create new disk label; don't prompt for label
@@ -14,7 +13,6 @@ auto_init_disks() {
 }
 
 get_last_free_partition_infos() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local dev
 	dev="$1"
 
@@ -34,7 +32,6 @@ get_last_free_partition_infos() {
 
 # Mark a partition as LVM and add it to vgpath
 mark_partition_as_lvm() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local id
 	id=$1
 	shift
@@ -51,7 +48,6 @@ mark_partition_as_lvm() {
 
 # Each disk must have at least one primary partition after autopartitioning.
 ensure_primary() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	if echo "$scheme" | grep -q '\$primary{'; then
 		# Recipe provides one primary partition
 		return
@@ -97,7 +93,6 @@ ensure_primary() {
 }
 
 reuse_partitions() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	cd $dev
 	local scheme
 
@@ -119,7 +114,6 @@ reuse_partitions() {
 }
 
 create_primary_partitions() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	cd $dev
 	while [ "$free_type" = pri/log ] && \
 	      echo $scheme | grep -q '\$primary{'; do
@@ -187,7 +181,6 @@ create_primary_partitions() {
 }
 
 create_partitions() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
     foreach_partition '
 	if [ -z "$free_space" ]; then
 		db_progress STOP
@@ -236,7 +229,6 @@ create_partitions() {
 }
 
 is_wholedisk_mdraid () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local device="`echo $1 | sed -e 's!/\([0-9]*\)$!\1!'`"
 	local mddisk=${device#/dev/}
 	local ret=0
@@ -259,7 +251,6 @@ is_wholedisk_mdraid () {
 }
 
 get_auto_disks() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local dev device dmtype
 
 	for dev in $DEVICES/*; do
@@ -290,7 +281,6 @@ get_auto_disks() {
 }
 
 select_auto_disk() {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local DEVS
 
 	DEVS=$(get_auto_disks)
@@ -302,7 +292,6 @@ select_auto_disk() {
 
 # Maps a devfs name to a partman directory
 dev_to_partman () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local dev_name="$1"
 
 	local mapped_dev_name="$(mapdevfs $dev_name)"

@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/sh -e
 
 for s in /lib/partman/undo.d/*; do
 	if [ -x $s ]; then

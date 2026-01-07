@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 set -e
 
 # Systems using U-Boot as firmware might provide old DTB to the kernel with

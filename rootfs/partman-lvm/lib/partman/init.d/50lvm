@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # This script sets method "lvm" for all partitions that have the lvm
 # flag set.  It also discovers the logical volumes and creates in them

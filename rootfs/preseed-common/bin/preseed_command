@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/sh -e
 # Run a preseeded command.
 ct=$1
 

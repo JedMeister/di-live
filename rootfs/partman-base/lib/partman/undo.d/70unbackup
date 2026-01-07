@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 [ -d /var/lib/partman/backup ] || exit 0
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ -f /var/lib/partman/supported ]; then
 	exit 0

@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/sh -e
 
 . /usr/share/debconf/confmodule
 
@@ -43,7 +43,7 @@ END
 			USERNAME="$RET"
 			if [ -n "$USERNAME" ]
 			then
-				/bin/in-target su -s /bin/bash -c "mkdir -p /home/$USERNAME/.config/compiz/compizconfig" "$USERNAME"
+				/bin/in-target su -s /bin/sh -c "mkdir -p /home/$USERNAME/.config/compiz/compizconfig" "$USERNAME"
 				cat > /target/home/$USERNAME/.config/compiz/compizconfig/Default.ini << END
 [ezoom]
 s0_scale_mouse = true

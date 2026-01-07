@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 QUEUE=/var/lib/register-module
 BLACKLIST=0
 ADD_TO_INITRD=0

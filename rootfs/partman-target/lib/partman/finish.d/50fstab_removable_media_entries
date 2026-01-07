@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 [ -f /target/etc/fstab ] || exit 0
 

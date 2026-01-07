@@ -3,7 +3,6 @@
 
 # List the changes that are about to be committed and let the user confirm first
 confirm_changes () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local dev part partitions num id size type fs path name filesystem
 	local x template partdesc partitems items formatted_previously
 	local device dmtype backupdev overwrite fulltemplate
@@ -157,7 +156,6 @@ $items"
 # Remove directories for partitions that no longer exist
 # Device directory must be current
 device_cleanup_partitions () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local partitions pdirs pdir
 
 	partitions=
@@ -177,7 +175,6 @@ device_cleanup_partitions () {
 }
 
 commit_changes () {
-       /usr/share/di-live/log_info.sh "$0" "${FUNCNAME[0]}" "$*"
 	local template
 	template=$1
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Check that the boot partition is the 1st (primary) partition, that
 # it is of type ext2 or ext3, and that it is marked as bootable.
 

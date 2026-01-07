@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # First find the enabled consoles from the kernel, noting if one is 'preferred'
 # Record these.

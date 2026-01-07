@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -e
 export DEBIAN_FRONTEND=none
 . /usr/share/debconf/confmodule

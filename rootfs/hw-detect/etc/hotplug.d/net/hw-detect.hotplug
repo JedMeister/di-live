@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # Hook into net events so that we can record hotpluggable interfaces for
 # netcfg.
