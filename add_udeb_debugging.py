@@ -209,7 +209,7 @@ def inject_in_funcs(file: str, inject_command: str) -> None:
         return f"{start}{{ {inject_command};{end}"
 
     funcname = r"[a-zA-Z_][a-zA-Z0-9_]*"
-    func_regex = (rf"{funcname}[ \t]*()", rf"function[ \t]+{funcname}")
+    func_regex = (rf"{funcname}[ \t]*\(\)", rf"function[ \t]+{funcname}")
     with open(file) as fob:
         file_lines = []
         func_declared = False
@@ -238,6 +238,7 @@ def inject_in_funcs(file: str, inject_command: str) -> None:
                             line = f"{inject_command}\n"
                             # set appropriate flags for next iteration
                             func_declared = True
+                            indent_previous = True
                         # it shouldn't matter if this "function finding" loop
                         # runs again, but also shouldn't be needed
                         break
@@ -260,9 +261,9 @@ def inject_in_funcs(file: str, inject_command: str) -> None:
                         file_lines[-1] = f"{indent}{file_lines[-1]}"
                         # don't indent any other lines until next function
                         indent_previous = False
-                    elif "}" in line:
-                        # end of function so reset flag to search for next func
-                        func_declared = False
+                elif "}" in line:
+                    # end of function so reset flag to search for next func
+                    func_declared = False
             file_lines.append(line)
 
     with open(file, "w") as fob:
@@ -335,17 +336,17 @@ def add_logging(root_path: str, log_line: str = LOG_LINE) -> None:
     updated, skipped = add_logging_to_files(root_path, log_line)
     heading_2(f"{len(updated)} files updated:")
     for updated_file in updated.keys():
-        info(f"'{updated_file}' sourced by:", indent=4)
+        info(f"'{updated_file}' sourced by:")
         for bin_file in updated[updated_file]:
-            info(f"{bin_file}", indent=8)
+            info(f"{bin_file}", indent=4)
     heading_2(f"{len(skipped)} sourced files not updated:")
     for skipped_file in skipped.keys():
         if basename(skipped_file).startswith("$"):
-            info(f"variable '{skipped_file}' sourced by:", indent=4)
+            info(f"variable '{skipped_file}' sourced by:")
         else:
-            info(f"'{skipped_file}' sourced by:", indent=4)
+            info(f"'{skipped_file}' sourced by:")
         for bin_file in skipped[skipped_file]:
-            info(f"{bin_file}", indent=8)
+            info(f"{bin_file}", indent=4)
 
 
 def main() -> None:
