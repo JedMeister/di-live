@@ -11,8 +11,8 @@ Specific steps:
     - Download udeb binary packages with 'apt-get download <udebs>'.
     - Unpack udebs with 'dpkg-deb -R <udeb> rootfs/<udeb_name>'.
     - Remove files listed in 'blacklist.txt'.
-    - Generate consolidated 'debian/di-live.templates' file from base.
-      'di-live.templates' and contents of individual udeb 'templates' files;
+    - Generate consolidated 'debian/templates' file from di-live specifc
+      debconf templates and the contents of individual udeb 'templates' files;
       translations are stripped to minimise the size.
     - Write list of udebs and their respective versions (and arch) to
       'package_list.txt' - for quick reference.
@@ -28,7 +28,7 @@ from debian.deb822 import Deb822
 SOURCES_FILE = "debian-installer.sources"
 TMP = "tmp"
 ROOTFS = "rootfs"
-DEBUG_DIR = "debug_share"
+DEBUG_DIR = "debug/share"
 DEBUG_DEBIAN = join(DEBUG_DIR, "DEBIAN")
 
 
@@ -44,7 +44,7 @@ def info(msg: str) -> None:
 
 def setup() -> None:
     """Clear working directories and prepare apt."""
-    for dir in (TMP, ROOTFS, DEBUG_DIR):
+    for dir in (TMP, ROOTFS, DEBUG_DEBIAN):
         info(f"checking {dir}")
         if exists(dir):
             info(f"{dir} exists - removing")
@@ -108,7 +108,7 @@ def read_templates(path: str) -> list[Deb822]:
                 if (
                     (key.startswith("Description") and key != "Description")
                     or (key.startswith("Choices") and key != "Choices")
-                    or key == "Help"  # some udeb templates include 'Help'
+                    or key == "Help"  # see comment immediately below
                 ):
                     del paragraph[key]
 
@@ -188,7 +188,7 @@ def main() -> None:
     all_template_items = read_templates("di-live.templates")
     for template in template_files:
         all_template_items.extend(read_templates(template))
-    write_templates_file("debian/di-live.templates", all_template_items)
+    write_templates_file("debian/templates", all_template_items)
 
     heading("copying rootfs files and removing blacklisted files")
     copy_rootfs_files(udebs)
