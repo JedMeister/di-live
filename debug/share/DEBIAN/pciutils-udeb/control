@@ -1,0 +1,14 @@
+Package: pciutils-udeb
+Source: pciutils
+Version: 1:3.13.0-2
+Architecture: amd64
+Maintainer: Guillem Jover <guillem@debian.org>
+Installed-Size: 439
+Depends: libc6-udeb (>= 2.40), libkmod2-udeb (>= 33~), libpci3-udeb (>= 1:3.5.2-1)
+Section: debian-installer
+Priority: optional
+Description: PCI Utilities (udeb)
+ This package contains various utilities for inspecting and setting of
+ devices connected to the PCI bus.
+ .
+ This is a minimal version for use in debian-installer.

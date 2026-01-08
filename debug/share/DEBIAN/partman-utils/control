@@ -1,0 +1,10 @@
+Package: partman-utils
+Source: partman-base
+Version: 237
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 33
+Depends: libc6-udeb (>= 2.41), libparted2-udeb (>= 3.6)
+Section: debian-installer
+Priority: optional
+Description: Utilities related to partitioning

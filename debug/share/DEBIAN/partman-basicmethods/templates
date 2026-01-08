@@ -1,0 +1,1104 @@
+Template: partman-basicmethods/method_only
+Type: boolean
+Description: Go back to the menu?
+ No file system is specified for partition #${PARTITION} of ${DEVICE}.
+ .
+ If you do not go back to the partitioning menu and assign a file system
+ to this partition, it won't be used at all.
+Description-am.UTF-8: ወደ ምናሌው ወደኋላ ልሂድ?
+ ${DEVICE} ክፋይ  #${PARTITION} ምንም የፋይል ስርዓት አልተመረጠለትም።
+ .
+ ወደ መክፈያ ምናሌው ተመልሰው የፋይል ስርዓት ካልሰጡት በጥቅም ላይ አይውልም።
+Description-ar.UTF-8: العودة إلى القائمة؟
+ لم يحدّد أي نظام ملفّات للجزء #${PARTITION} من ${DEVICE}.
+ .
+ إذا لم تعد إلى قائمة التجزئة و تقم بتعيين نظام ملفّات لهذا الجزء فلن يستعمل على الإطلاق.
+Description-ast.UTF-8: ¿Volver al menú?
+ Nun hai sistema de ficheros especificáu pa la partición #${PARTITION} de ${DEVICE}.
+ .
+ Si nun vuelves al menú de particionáu y asignes un sistema de ficheros a esta partición, nun podrá usase toa.
+Description-be.UTF-8: Ці вярнуцца ў меню?
+ Не вызначана файлавая сістэма для #${PARTITION} на ${DEVICE}.
+ .
+ Калі Вы не вернецеся ў меню перадзелу, каб прызначыць гэтаму падзелу файлавую сістэму, ён увогуле не будзе скарыстаны.
+Description-bg.UTF-8: Връщане в менюто?
+ Няма зададена файлова система за дял №${PARTITION} на ${DEVICE}.
+ .
+ Ако не се върнете в менюто за разделяне и не зададете файлова система за този дял, той въобще няма да бъде използван.
+Description-bn.UTF-8: মেনুতে ফিরে যাবেন?
+ ${DEVICE}এর #${PARTITION} নং পার্টিশনের জন্য কোনও ফাইল সিস্টেম উল্লেখ করা হয় নি।
+ .
+ আপনি যদি পার্টিশনকারী মেনুতে ফিরে না গিয়েই এই পার্টিশনটির জন্য একটি ফাইল সিস্টেম নির্ধারণ করেন, তবে তা কাজ করবে না।
+Description-bo.UTF-8: འདེམས་ཐོའི་ཐོག་ཏུ་ཕྱིར་ལོག་དགོས་སམ
+ སྒྲིག་ཆས་ ${DEVICE} གི་གསོག་སྡེར་ཁག་ ${PARTITION} ལ་ཡིག་ཆའི་མ་ལག་དམིགས་འཛུགས་བྱས་མེད་པ
+ .
+ གལ་སྲིད་གསོག་སྡེར་ཁག་གི་འདེམས་ཐོའི་ཐོག་ཕྱིར་མ་ལོག་ན་ཡིག་ཆའི་མ་ལག་ཞིག་གསོག་སྡེར་འདི་ལ་གཏན་འབེབས་བྱེད་དགོས་པ།
+Description-bs.UTF-8: Vrati se na meni?
+ Nije naveden datotečni sistem za particiju #${PARTITION} na ${DEVICE}.
+ .
+ Ako se na vratite na meni za particionisanje i ne dodijelite datotečni sistem ovoj particiji, ona se uopće neće koristiti.
+Description-ca.UTF-8: Voleu tornar al menú?
+ No s'ha especificat cap sistema de fitxers per a la partició no. ${PARTITION} de ${DEVICE}.
+ .
+ Si no aneu enrere al menú de partició i assigneu un sistema de fitxers a aquesta partició, no s'utilitzarà en absolut.
+Description-cs.UTF-8: Vrátit se zpět do menu?
+ Oblast č.${PARTITION} na ${DEVICE} nemá přiřazen souborový systém.
+ .
+ Pokud se nevrátíte zpět do rozdělovacího menu a nepřiřadíte jí souborový systém, tato oblast se vůbec nepoužije.
+Description-cy.UTF-8: Dychwelyd i'r ddewislen?
+ Does dim system ffeil wedi ei benodi ar gyfer rhaniad ${PARTITION} ar ${DEVICE}.
+ .
+ Os na ddychwelwch i'r ddewislen rhaniadu a phenodi system ffeiliau i'r rhaniad hwn, ni chaiff ei ddefnyddio o gwbl.
+Description-da.UTF-8: Gå tilbage til menuen?
+ Der er ikke angivet noget filsystem for partition ${PARTITION} på ${DEVICE}.
+ .
+ Hvis du ikke går tilbage til partitioneringsmenuen og angiver et filsystem til denne partition, vil den slet ikke blive benyttet.
+Description-de.UTF-8: Zurück zum Menü?
+ Es wurde kein Dateisystem für Partition ${PARTITION} auf ${DEVICE} angegeben.
+ .
+ Wenn Sie nicht zum Partitionierungsmenü zurückkehren und dieser Partition ein Dateisystem zuweisen, kann sie nicht genutzt werden.
+Description-dz.UTF-8: དཀར་ཆག་ལུ་ལོག་འགྱོ?
+ ${DEVICE}གི་བར་བཅད་#${PARTITION}གི་དོན་ལུ་ཡིག་སྣོད་རིམ་ལུགས་གསལ་བཀོད་མ་འབད་བས།
+ .
+ ཁྱོད་ཀྱིས་འབར་བཅད་འབད་མིའི་དཀར་ཆག་ལོག་མ་འགྱོཝ་དང་འ་ནི་བར་བཅད་ལུ་ཡིག་སྣོད་རིམ་ལུགས་འགན་སྤྲོད་འབད་བ་ཅིན་ འདི་ཙ་ལས་རང་ལག་ལེན་མི་འཐབ།
+Description-el.UTF-8: Θέλετε να επιστρέψετε στο μενού;
+ Δεν έχει οριστεί κάποιο σύστημα αρχείων για την κατάτμηση #${PARTITION} της συσκευής ${DEVICE}.
+ .
+ Αν δεν επιστρέψετε στο μενού διαμέρισης και δεν ορίσετε ένα σύστημα αρχείων για αυτή την κατάτμηση, αυτή δεν θα χρησιμοποιηθεί καθόλου.
+Description-eo.UTF-8: Ĉu retroiri al la menuo?
+ Neniu dosiersistemo estas indikita por la diskparto #${PARTITION} de ${DEVICE}.
+ .
+ Se vi ne retroiras al la diskpartiga menuo por atribui dosiersistemon al tiu ĉi diskparto, ĝi tute ne estos uzata.
+Description-es.UTF-8: ¿Volver al menú?
+ No se especificó un sistema de ficheros para la partición #${PARTITION} de ${DEVICE}.
+ .
+ Si no vuelve al menú de particionado y asigna un sistema de ficheros a la partición ésta no será utilizada.
+Description-et.UTF-8: Kas minna tagasi menüüsse?
+ Seadme ${DEVICE} partitsioonile #${PARTITION} ei ole määratud failisüsteemi.
+ .
+ Kui sa ei naase partitsioneerimismenüüsse ja ei määra sellele partitsioonile failisüsteemi, jäetakse see üldse kasutamata.
+Description-eu.UTF-8: Menura itzuli?
+ Ez da ${DEVICE} gailuko ${PARTITION}. partizioaren fitxategi-sistemarik zehaztu.
+ .
+ Partizioak egiteko menura itzultzen ez bazara eta partizio horri fitxategi-sistema bat esleitzen ez badiozu, partizioa ez da erabiliko.
+Description-fa.UTF-8: بازگشت عقب به ...؟
+ هیچ فایل‌سیستمی برای پارتیشن #${PARTITION} از ${DEVICE} مشخص نشده است.
+ .
+ اگر به فهرست افرازش بازنگشته و سامانه پرونده‌ای به این افراز تخصیص ندهید، به کلی استفاده نخواهد شد.
+Description-fi.UTF-8: Palataanko valikkoon?
+ Laitteen ${DEVICE} osiolle ${PARTITION} ei ole määritelty tiedostojärjestelmää.
+ .
+ Jos et palaa osiointivalikkoon ja määritä tälle osiolle tiedostojärjestelmää, osiota ei käytetä lainkaan.
+Description-fr.UTF-8: Faut-il revenir au menu ?
+ Aucun système de fichiers n'a été indiqué pour la partition n° ${PARTITION} de ${DEVICE}.
+ .
+ Si vous ne revenez pas au menu de partitionnement pour associer un système de fichiers à cette partition, elle ne sera pas du tout utilisée.
+Description-ga.UTF-8: Ar ais go dtí an roghchlár?
+ Níor sonraíodh córas comhad do dheighilt #${PARTITION} de ghléas ${DEVICE}.
+ .
+ Mura dtéann tú ar ais go dtí an roghchlár deighilte chun córas comhad a thabhairt don deighilt seo, ní úsáidfear é ar chor ar bith.
+Description-gl.UTF-8: Desexa volver ao menú?
+ Non se especificou ningún sistema de ficheiros para a partición núm. ${PARTITION} de ${DEVICE}.
+ .
+ Se non volta ao menú de particionamento e asigna un sistema de ficheiros a esta partición, non se ha empregar.
+Description-gu.UTF-8: મેનુમાં પાછા જશો?
+ ${DEVICE} નાં પાર્ટિશન #${PARTITION} પર કોઇ ફાઇલ સિસ્ટમ સ્પષ્ટ કરેલ નથી.
+ .
+ જો તમે પાર્ટિશન મેનુમાં પાછા જઇ અને આ પાર્ટિશનને ફાઇલ સિસ્ટમ આપશો નહી તો, તે કોઇપણ રીતે ઉપયોગમાં આવશે નહીં.
+Description-he.UTF-8: לחזור לתפריט?
+ לא הוגדרה מערכת קבצים עבור מחיצה מס׳ ${PARTITION} בהתקן ${DEVICE}.
+ .
+ אם לא נבחרה אף מערכת קבצים למחיצה זו בתפריט חלוקת המחיצות הקודם, אליו ניתן לחזור, לא ייעשה במחיצה זו שימוש.
+Description-hi.UTF-8: मेन्यू में वापस जाएँ ?
+ ${DEVICE} के #${PARTITION} के लिए कोई फ़ाइल सिस्टम नहीं चुना गया है।
+ .
+ यदि आप विभाजन मेन्यू में पीछे जाकर इस पार्टिशन को कोई फाइल सिस्टम नहीं प्रदान करते हैं तो यह पार्टिशन प्रयोग नहीं किया जाएगा.
+Description-hr.UTF-8: Vrati se natrag u izbornik?
+ Nije određen datotečni sustav za particiju #${PARTITION} na uređaju ${DEVICE}.
+ .
+ Ako se ne vratite u izbornik particioniranja i ne odredite datotečni sustav za tu particiju, ona neće uopće biti korištena.
+Description-hu.UTF-8: Visszalépsz a menübe?
+ ${DEVICE} eszköz ${PARTITION}. partíciójának fájlrendszere nem lett megadva.
+ .
+ Ha nem lépsz vissza a particionálási menübe és nem rendelsz fájlrendszert ehhez a partícióhoz, akkor az egyáltalán nem lesz használva.
+Description-id.UTF-8: Kembali ke menu?
+ Belum ditentukan sistem berkas untuk partisi #${PARTITION} dari ${DEVICE}.
+ .
+ Jika Anda tidak kembali ke menu partisi dan menentukan sebuah sistem berkas untuk partisi ini, maka partisi tidak akan digunakan sama sekali.
+Description-is.UTF-8: Fara aftur í valmynd?
+ Ekkert skráakerfi er skilgreint fyrir sneið #${PARTITION} á ${DEVICE}.
+ .
+ Ef þú ferð ekki aftur í disksneiðavalmyndina og úthlutar skráakerfi á þessa sneið, mun hún disksneið ekki verða notuð.
+Description-it.UTF-8: Tornare al menù?
+ Nessun file system specificato per la partizione n° ${PARTITION} di ${DEVICE}.
+ .
+ È necessario tornare al menù di partizionamento e assegnare un file system a questa partizione, altrimenti non verrà utilizzata.
+Description-ja.UTF-8: メニューに戻りますか?
+ ${DEVICE} にあるパーティション ${PARTITION} にファイルシステムが指定されていません。
+ .
+ パーティショニングメニューに戻ってこのパーティションにファイルシステムを割り当てないと、結局利用できません。
+Description-ka.UTF-8: დაბრუნდებით მენიუში?
+ არ არის მითითებული ფაილური სისტემა #${PARTITION}-დანაყოფზე, მოწყობილობა ${DEVICE}.
+ .
+ თუ უკან არ დაბრუნდებით დაყოფის მენუში და ამ დანაყოფისთვის არ მიუთითებთ ფაილურ სისტემას, მას ვერ გამოიყენებთ.
+Description-kab.UTF-8: Uɣal ɣer wumuɣ?
+ Ulac anagraw n yifuyla i uḥric #${PARTITION} n ${DEVICE}.
+ .
+ Ma yella ur tuɣaleḍ ara ɣer wumuɣ n beṭṭu rnu tefkiḍ anagraw n yifuyla i uḥric-a, ur yettuɣal ara akk ad yettuseqdac.
+Description-kk.UTF-8: Мәзірге оралуды қалайсыз ба?
+ ${DEVICE} құрылғысының #${PARTITION} бөлімінде ешбір файлдық жүйе көрсетілмеген.
+ .
+ Егер сіз бөлу мәзіріне оралып, файлдық жүйенің түрін көрсетпесеңіз, бөлім қолданылмайтын болады.
+Description-km.UTF-8: ត្រឡប់​ទៅ​ម៉ឺនុយ​វិញ ?
+ មិន​បាន​បញ្ជាក់​ប្រព័ន្ធ​ឯកសារ​សម្រាប់​ភាគថាស #${PARTITION} របស់ ${DEVICE} ឡើយ ។
+ .
+ បើ​អ្នកមិន​ត្រឡប់​ទៅ​ម៉ឺនុយ​ចែក​ភាគ​ថាស​វិញ ហើយ​ផ្ដល់​ប្រព័ន្ធឯកសារ​មួយ​ទៅ​ភាគ​ថាស​នេះ​ វា​នឹង​មិន​ត្រូវ​បាន​ប្រើ​ឡើយ ។
+Description-kn.UTF-8: ಮೆನುವಿಗೆ ಹಿಂತಿರುಗುವುದೇ?
+ ${DEVICE}ನ #${PARTITION} ವಿಭಜನೆಗೆ ಯಾವುದೇ ಕಡತ ವ್ಯವಸ್ಥೆಯನ್ನು ಹೆಸರಿಸಲಾಗಿಲ್ಲ.
+ .
+ ನೀವೀಗ ವಿಭಜನಾ ಆಯ್ಕೆಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಿ ಈ ವಿಭಜನೆಗೆ ಕಡತ ವ್ಯವಸ್ಥೆಯೊಂದನ್ನು ನೇಮಿಸದಿದ್ದರೆ, ಇದು ಹಾಗೆಯೇ ಬಳಸದೇ ಉಳಿದು ಬಿಡುತ್ತದೆ.
+Description-ko.UTF-8: 메뉴로 돌아가시겠습니까?
+ ${DEVICE} 장치의 #${PARTITION} 파티션에 파일 시스템을 지정하지 않았습니다.
+ .
+ 파티션 메뉴로 돌아가서 이 파티션의 파일 시스템을 지정하지 않으면, 이 파티션 전체를 사용할 수 없습니다.
+Description-ku.UTF-8: Bizivire menuyê?
+ Ji bo partîsiyona ·#${PARTITION}·a·${DEVICE} pergala pelan nehat diyar kirin.
+ .
+ Heke tu venegerî pêşekê û pergaleke pelan diyar neke wê ev beş neyê bikaranîn.
+Description-lo.UTF-8: ກັບຄືນໄປລາຍການຫຼັກຫຼືບໍ່?
+ ບໍ່ໄດ້ລະບຸລະບົບແຟ້ມສຳລັບພາທິຊັນ #${PARTITION} ຂອງ ${DEVICE}
+ .
+ ຖ້າເຈົ້າບໍ່ກັບໄປທີ່ລາຍການໆແບ່ງພາທິຊັນເພື່ອກຳນົດລະບົບແຟ້ມໃຫ້ກັບພາທິຊັນນີ້ກໍຈະບໍ່ໄຊ້ພາທິຊັນນີ້ເລີຍ.
+Description-lt.UTF-8: Ar grįžti atgal į meniu?
+ Nenurodyta failų sistema disko skaidiniui Nr. ${PARTITION} įrenginyje ${DEVICE}.
+ .
+ Jei negrįšite atgal į disko dalijimo meniu ir nenurodysite failų sistemos šiam skaidiniui, jis nebus naudojamas iš viso.
+Description-lv.UTF-8: Atgriezties pie izvēlnes?
+ ${DEVICE} nodalījumam #${PARTITION} nav norādīta datņu sistēma.
+ .
+ Ja jūs neatgriezīsities pie disku dalīšanas izvēlnes un nenorādīsiet šim nodalījumam datņu sistēmu, tas netiks izmantots vispār.
+Description-mk.UTF-8: Врати се во менито?
+ Не е одреден датотечен систем за партицијата бр. ${PARTITION} од ${DEVICE}.
+ .
+ Ако не се вратиш назад во менито за партиционирање и одредиш датотечен систем за оваа партиција, нема воопшто да се користи.
+Description-ml.UTF-8: മെനുവിലേയ്ക്കു് തിരിച്ചു് പോകണോ?
+ ${DEVICE} ലെ #${PARTITION} ന് ഫയല്‍ സിസ്റ്റമൊന്നും വ്യക്തമാക്കിയിട്ടില്ല.
+ .
+ നിങ്ങള്‍ മെനുവിലേയ്ക്കു് തിരിച്ചു് പോയി ഈ ഭാഗത്തിന് ഫയല്‍ സിസ്റ്റമൊന്നും കൊടുത്തില്ലെങ്കില്‍ അതു് ഉപയോഗിയ്ക്കുകയേ ഇല്ല.
+Description-mr.UTF-8: मेन्यूकडे परत जायचे?
+ ${DEVICE} उपकरणाच्या ${PARTITION} विभाजनाकरिता कोणतीही संचिका प्रणाली निर्धारित केलेली नाही.
+ .
+ जर आपण विभाजनीकरण मेन्यूकडे परत जाऊन या विभाजनाकरिता संचिका प्रणाली न ठरवल्यास, हे विभाजन अजिबात वापरले जाणार नाही.
+Description-nb.UTF-8: Vil du gå tilbake til menyen?
+ Intet filsystem er oppgitt for partisjon nr. ${PARTITION} på ${DEVICE}.
+ .
+ Hvis du ikke går tilbake til partisjoneringsmenyen for å lage et filsystem på denne partisjonen, vil den ikke bli brukt i det hele tatt.
+Description-ne.UTF-8: मेनुमा फर्कनुहुन्छ ?
+ ${DEVICE} को विभाजन #${PARTITION} का लागि कुनै फाइल निर्दिष्ट गरिएको छैन ।
+ .
+ यदि तपाईँ विभाजन मेनुमा फर्केर जानुहुन्न भने र यो विभाजनमा फाइल प्रणाली मानङ्कन गर्नुहोस्, यो सबैमा प्रयोग हुदैन ।
+Description-nl.UTF-8: Terug gaan naar het menu?
+ Er is geen bestandssysteem opgegeven voor partitie #${PARTITION} op ${DEVICE}.
+ .
+ Tenzij u teruggaat naar het schijfindelingsmenu, om een bestandssysteem aan deze partitie toe te wijzen, zal deze partitie niet gebruikt worden.
+Description-nn.UTF-8: Gå tilbake til menyen?
+ Ingen filsystem er oppgjeve for partisjon #${PARTITION} på ${DEVICE}.
+ .
+ Viss du ikkje går tilbake til partisjoneringsmenyen for å lage eit filsystem på denne partisjonen, vil han ikkje bli brukt i det heile.
+Description-no.UTF-8: Vil du gå tilbake til menyen?
+ Intet filsystem er oppgitt for partisjon nr. ${PARTITION} på ${DEVICE}.
+ .
+ Hvis du ikke går tilbake til partisjoneringsmenyen for å lage et filsystem på denne partisjonen, vil den ikke bli brukt i det hele tatt.
+Description-oc.UTF-8: Tornar al menú ?
+ Pas de sistèma de fichièrs indicat per la particion n° ${PARTITION} de ${DEVICE}.
+ .
+ Vos cal tornar al menú de particionament per associar un sistèma de fichièrs per aquesta particion si que non serà absolutament inutilizabla.
+Description-pa.UTF-8: ਮੇਨੂ ਉੱਤੇ ਪਿੱਛੇ ਜਾਣਾ?
+ ${DEVICE} ਦੇ #${PARTITION} ਪਾਰਟੀਸ਼ਨ ਲਈ ਕੋਈ ਫਾਇਲ ਸਿਸਟਮ ਨਹੀਂ ਦਿੱਤਾ।
+ .
+ ਜੇ ਤੁਸੀਂ ਪਿੱਛੇ ਪਾਰਟੀਸ਼ਨਿੰਗ ਮੇਨੂ ਉੱਤੇ ਨਾ ਗਏ ਅਤੇ ਇਸ ਪਾਰਟੀਸ਼ਨ ਨੂੰ ਫਾਇਲ ਸਿਸਟਮ ਨਹੀਂ ਦਿੱਤਾ, ਇਸ ਬਾਅਦ ਵਿੱਚ ਵਰਤਿਆ ਨਹੀਂ ਜਾਵੇਗਾ।
+Description-pl.UTF-8: Powrócić do menu?
+ Nie określono systemu plików dla partycji #${PARTITION} urządzenia ${DEVICE}.
+ .
+ Jeśli nie wrócisz do menu partycjonowania i nie przydzielisz systemu plików tej partycji, ona nie zostanie w ogóle użyta.
+Description-pt.UTF-8: Voltar ao menu?
+ Não foi especificado nenhum sistema de ficheiros para a partição #${PARTITION} de ${DEVICE}.
+ .
+ Se não voltar ao menu de particionamento para atribuir um sistema de ficheiros a esta partição, esta partição não será utilizada.
+Description-pt_BR.UTF-8: Voltar ao menu?
+ Nenhum sistema de arquivos foi especificado para a partição #${PARTITION} de ${DEVICE}.
+ .
+ Caso você não volte ao menu de particionamento e atribua um sistema de arquivos a esta partição, a mesma não será usada.
+Description-ro.UTF-8: Înapoi la meniu?
+ Pentru partiția nr.${PARTITION} a ${DEVICE} nu este specificat nici un sistem de fișiere.
+ .
+ Dacă nu vă întoarceți la meniul de partiționare și nu atribuiți un sistem de fișiere acestei partiții, aceasta nu va fi utilizată deloc.
+Description-ru.UTF-8: Вернуться назад в меню?
+ Не указано файловой системы для раздела #${PARTITION} на устройстве ${DEVICE}.
+ .
+ Если вы не вернётесь назад к меню разметки и не укажете тип файловой системы для этого раздела, он вообще не будет использоваться.
+Description-si.UTF-8: මෙනුවට ආපසු යන්නද?
+ ${DEVICE} හී #${PARTITION} කොටස සඳහා කිසිඳු ගොනු පද්ධතියක් නිවේශනය කර නොමැත.
+ .
+ ඔබ විසින් කොටස්කිරීමේ මෙනුවට ආපසු ගොස් මෙම කොටසට ගොනු පද්ධතියක් නොසැකසුව හොත් එය කිසිවිට භාවිත නොවනු ඇත.
+Description-sk.UTF-8: Vrátiť sa späť do menu?
+ Pre oblasť č.${PARTITION} na ${DEVICE} nie je určený súborový systém.
+ .
+ Ak sa nevrátite späť do menu rozdeľovania a nepriradíte tejto oblasti súborový systém, táto oblasť sa vôbec nepoužije.
+Description-sl.UTF-8: Želite nazaj v meni?
+ Za razdelek #${PARTITION} v ${DEVICE} ni določen noben datotečni sistem.
+ .
+ Če se ne boste vrnili na meni za razdeljevanje in dodelili datotečnega sistema temu razdelku, le ta ne bo uporabljen.
+Description-sq.UTF-8: Të kthehem mbrapa në menu?
+ Asnjë filesistem nuk është përcaktuar për ndarjen Nr. ${PARTITION} të ${DEVICE}.
+ .
+ Nëse nuk kthehesh mbrapa tek menuja e ndarjes për t'i caktuar një filesistem kësaj ndarjeje, kjo e fundit nuk do përdoret fare.
+Description-sr.UTF-8: Да се вратим назад у изборник?
+ Систем датотека није назначен за партицију бр. ${PARTITION} на ${DEVICE}.
+ .
+ Ако се не вратите назад на изборник за партиционисање и не доделите систем датотека овој партицији, неће уопште бити употребљена.
+Description-sv.UTF-8: Återgå till menyn?
+ Inget filsystem är specificerat för partition nr. ${PARTITION} på ${DEVICE}.
+ .
+ Om du inte går tillbaka till partitioneringsmenyn och tilldelar ett filsystem till den här partitionen så kommer den inte att användas alls.
+Description-ta.UTF-8: பட்டிக்கு பின் செல்லலாமா?
+ ${DEVICE} இன் பகிர்வு #${PARTITION} க்கு ஒரு கோப்பு அமைப்பும் குறிக்கப் பட இல்லை.
+ .
+ பகிர்வு பட்டிக்குப் பின்சென்று ஒரு கோப்பு அமைப்பும் இந்த பகிர்வுக்கு குறிக்கவில்லையானால் .இந்த பகிர்வு பயன் படுத்தப் படமாட்டாது.
+Description-te.UTF-8: వెనక్కి జాబితాకి వెళ్ళు ?
+ ${DEVICE} యెక్క #${PARTITION} విభజన కి ఫైల్ సిస్టమ్  ఇవ్వబడలేదు.
+ .
+ మీరు వెనక్కి  విభజన మెనూ కి వెళ్లి  ఫైల్ సిస్టమ్ ఇవ్వకపోతే, అది అసలు ఉపయోగించబడదు .
+Description-tg.UTF-8: Ба меню бармегардонед?
+ Ягон низоми файлӣ барои қисмбандии #${PARTITION} дар ${DEVICE} муайян нашудааст.
+ .
+ Агар шумо ба менюи қисмбандӣ барнагардед ва низоми файлӣ ба ин қисми диск таъин накунед, онро тамоман истифода бурда наметавонед.
+Description-th.UTF-8: กลับไปยังเมนูหลักหรือไม่?
+ ไม่ได้ระบุระบบแฟ้มสำหรับพาร์ทิชัน #${PARTITION} ของ ${DEVICE}
+ .
+ ถ้าคุณไม่กลับไปที่เมนูการแบ่งพาร์ทิชัน เพื่อกำหนดระบบแฟ้มให้กับพาร์ทิชันนี้ ก็จะไม่ใช้พาร์ทิชันนี้เลย
+Description-tl.UTF-8: Bumalik sa menu?
+ Walang file system na nakalaan para sa partisyon #${PARTITION} ng ${DEVICE}.
+ .
+ Kung hindi kayo bumalik sa menu ng pag-partisyon at magtakda ng file system sa partisyon na ito, hindi ito gagamitin.
+Description-tr.UTF-8: Menüye geri dönülsün mü?
+ ${DEVICE} aygıtının ${PARTITION} numaralı bölümü için herhangi bir dosya sistemi belirtilmedi.
+ .
+ Bölümleme menüsüne geri dönerek bir dosya sistemi belirlemezseniz bölüm kullanılmayacaktır.
+Description-ug.UTF-8: تىزىملىككە قايتامدۇ؟
+ سىز ${DEVICE} ئۈسكۈنىنىڭ#${PARTITION} رايونىغا ھۆججەت سىستېمىسى بەلگىلىمىدىڭىز.
+ .
+ ئەگەر رايونغا بۆلۈش تىزىملىكىگە قايتماي بۇ رايونغا ھۆججەت سىستېمىسى تەڭشىمىسىڭىز بۇ رايوننى ئىشلەتكىلى بولمايدۇ.
+Description-uk.UTF-8: Повернутися до меню?
+ Не вказано файлову систему для розділу #${PARTITION} пристрою ${DEVICE}.
+ .
+ Якщо ви не повернетесь до меню розбивки та не призначите файлову систему для цього розділу, то він не буде використовуватися взагалі.
+Description-vi.UTF-8: Quay trở về trình đơn chứ?
+ Chưa chỉ định hệ thống tập tin cho phân vùng #${PARTITION} của ${DEVICE}.
+ .
+ Nếu bạn không trở về trình đơn phân vùng và gán một hệ thống tập tin cho phân vùng này, nó sẽ không được dùng cả.
+Description-zh_CN.UTF-8: 返回菜单吗？
+ 您没有为 ${DEVICE} 设备的第 ${PARTITION} 分区指定文件系统。
+ .
+ 如果您不返回分区菜单并为此分区设置一个文件系统，将不使用此分区。
+Description-zh_TW.UTF-8: 是否返回選單？
+ 尚未替 ${DEVICE} 裝置的第 ${PARTITION} 分割區指定檔案系統。
+ .
+ 如果您不返回磁碟分割選單並為該分割區指派一個檔案系統，將不能使用此分割區。
+
+Template: partman-basicmethods/text/dont_use
+Type: text
+Description: do not use the partition
+Description-am.UTF-8: ክፋዩን አትጠቀም
+Description-ar.UTF-8: عدم استعمال الجزء
+Description-ast.UTF-8: Nun usar la partición
+Description-be.UTF-8: не ўжываць падзел
+Description-bg.UTF-8: без използване на дяла
+Description-bn.UTF-8: পার্টিশনটি ব্যবহার করো না
+Description-bo.UTF-8: ཁག་དེ་སྤྱོད་མི་དགོས་པ
+Description-bs.UTF-8: ne koristi particiju
+Description-ca.UTF-8: no utilitzes aquesta partició
+Description-cs.UTF-8: nepoužívat oblast
+Description-cy.UTF-8: peidiwch a defnyddio'r rhaniad
+Description-da.UTF-8: benyt ikke partitionen
+Description-de.UTF-8: Partition nicht benutzen
+Description-dz.UTF-8: བར་བཅད་ལག་ལེན་མ་འཐབ།
+Description-el.UTF-8: να μην χρησιμοποιηθεί αυτή η κατάτμηση
+Description-eo.UTF-8: ne uzi la diskparton
+Description-es.UTF-8: no usar la partición
+Description-et.UTF-8: ära kasuta seda partitsiooni
+Description-eu.UTF-8: ez erabili partizioa
+Description-fa.UTF-8: از پارتیشن استفاده نشود
+Description-fi.UTF-8: älä käytä osiota
+Description-fr.UTF-8: Ne pas utiliser la partition
+Description-ga.UTF-8: ná húsáid an deighilt
+Description-gl.UTF-8: non empregar a partición
+Description-gu.UTF-8: આ પાર્ટિશનનો ઉપયોગ ન કરો
+Description-he.UTF-8: לא להשתמש במחיצה
+Description-hi.UTF-8: पार्टीशन का इस्तेमाल नहीं करें
+Description-hr.UTF-8: ne koristi particiju
+Description-hu.UTF-8: partíció mellőzése
+Description-id.UTF-8: jangan gunakan partisi ini
+Description-is.UTF-8: ekki nota disksneiðina
+Description-it.UTF-8: non usare la partizione
+Description-ja.UTF-8: パーティションを使わない
+Description-ka.UTF-8: არ გამოიყენო ეს დანაყოფი
+Description-kab.UTF-8: ur seqdac ara aḥric
+Description-kk.UTF-8: бұл бөлімді қолданбау
+Description-km.UTF-8: កុំ​ប្រើ​ភាគ​ថាស​
+Description-kn.UTF-8: ವಿಭಜನೆಯನ್ನು ಬಳಸಬೇಡಿ
+Description-ko.UTF-8: 파티션을 사용하지 않습니다
+Description-ku.UTF-8: vê partîsiyon neyê bi kar anîn
+Description-lo.UTF-8: ບໍ່ໃຊ້ພາທີຊັ່ນນີ້
+Description-lt.UTF-8: nenaudoti disko skaidinio
+Description-lv.UTF-8: nelietot šo nodalījumu
+Description-mk.UTF-8: не ја користи оваа партиција
+Description-ml.UTF-8: ഭാഗം ഉപയോഗിക്കരുത്
+Description-mr.UTF-8: हे विभाजन वापरू नका
+Description-nb.UTF-8: Ikke bruk partisjonen
+Description-ne.UTF-8: विभाजनको प्रयोग नगर्नुहोस्
+Description-nl.UTF-8: deze partitie niet gebruiken
+Description-nn.UTF-8: ikkje bruk partisjonen
+Description-no.UTF-8: Ikke bruk partisjonen
+Description-oc.UTF-8: utilizar pas la particion
+Description-pa.UTF-8: ਪਾਰਟੀਸ਼ਨ ਨਾ ਵਰਤੋਂ
+Description-pl.UTF-8: nie używaj tej partycji
+Description-pt.UTF-8: Não utilizar a partição
+Description-pt_BR.UTF-8: não usar a partição
+Description-ro.UTF-8: nu utiliza partiția
+Description-ru.UTF-8: не использовать раздел
+Description-se.UTF-8: ale geavat partišuvnna
+Description-si.UTF-8: කොටස භාවිත නොකරන්න
+Description-sk.UTF-8: nepoužívať túto oblasť
+Description-sl.UTF-8: ne uporabi razdelka
+Description-sq.UTF-8: mos përdor ndarjen
+Description-sr.UTF-8: не користи партицију
+Description-sv.UTF-8: använd inte partitionen
+Description-ta.UTF-8: அந்த பகிர்வை பயன் படுத்தாதீர்கள்
+Description-te.UTF-8: విభజన ఉపయోగించవద్దు
+Description-tg.UTF-8: истифода набурдани ин қисми диск
+Description-th.UTF-8: ไม่ใช้พาร์ทิชันนี้
+Description-tl.UTF-8: huwag gamitin itong partisyon
+Description-tr.UTF-8: Bu bölümü kullanma
+Description-ug.UTF-8: بۇ رايوننى ئىشلەتمە
+Description-uk.UTF-8: не використовувати розділ
+Description-vi.UTF-8: không dùng phân vùng
+Description-zh_CN.UTF-8: 不使用此分区
+Description-zh_TW.UTF-8: 不使用此分割區
+
+Template: partman-basicmethods/text/format
+Type: text
+Description: Format the partition:
+Description-am.UTF-8: ክፋዩን አሟሽ፦
+Description-ar.UTF-8: تنسيق الجزء:
+Description-ast.UTF-8: Formatear la partición:
+Description-be.UTF-8: Фарматаваць падзел:
+Description-bg.UTF-8: Форматиране на дяла:
+Description-bn.UTF-8: পার্টিশনটি ফরম্যাট করো:
+Description-bo.UTF-8: ཁག་དེའི་རྣམ་བཞག་བརྗེ་བ：
+Description-bs.UTF-8: Formatiraj particiju:
+Description-ca.UTF-8: Formata la partició:
+Description-cs.UTF-8: Formátovat oblast:
+Description-cy.UTF-8: Fformatio'r rhaniad:
+Description-da.UTF-8: Formater partitionen:
+Description-de.UTF-8: Partition formatieren:
+Description-dz.UTF-8: བར་བཅད་རྩ་སྒྲིག་འབད:
+Description-el.UTF-8: Διαμόρφωση της κατάτμησης:
+Description-eo.UTF-8: Strukturigi la diskparton:
+Description-es.UTF-8: Formatear la partición:
+Description-et.UTF-8: Formaadi partitsioon:
+Description-eu.UTF-8: Formateatu partizioa:
+Description-fa.UTF-8: پارتیشن را قالب‌بندی کن:
+Description-fi.UTF-8: Alusta osio:
+Description-fr.UTF-8: Formater la partition :
+Description-ga.UTF-8: Formáidigh an deighilt:
+Description-gl.UTF-8: Formatar a partición:
+Description-gu.UTF-8: પાર્ટિશન ફોર્મેટ કરો:
+Description-he.UTF-8: אתחול המחיצה:
+Description-hi.UTF-8: पार्टीशन फॉर्मेट करें:
+Description-hr.UTF-8: Formatiraj particiju:
+Description-hu.UTF-8: Partíció formázása:
+Description-id.UTF-8: Format partisi ini:
+Description-is.UTF-8: Forsníða disksneiðina:
+Description-it.UTF-8: Formattare la partizione:
+Description-ja.UTF-8: パーティションの初期化:
+Description-ka.UTF-8: დანაყოფის დაფორმატება:
+Description-kab.UTF-8: Amasal n uḥric:
+Description-kk.UTF-8: Пішімделетін бөлім:
+Description-km.UTF-8: ធ្វើ​ទ្រង់ទ្រាយ​ភាគ​ថាស ៖
+Description-kn.UTF-8: ವಿಭಜನೆಯನ್ನು ಸಿದ್ಧಗೊಳಿಸುವುದೆ:
+Description-ko.UTF-8: 파티션 포맷:
+Description-ku.UTF-8: Partîsiyonê format bike:
+Description-lo.UTF-8: ຟໍຣແມດພາທີຊັ່ນ:
+Description-lt.UTF-8: Formatuoti disko skaidinį:
+Description-lv.UTF-8: Nodalījums, kuru formatēt:
+Description-mk.UTF-8: Форматирај партиција:
+Description-ml.UTF-8: ഈ ഭാഗം ഫോര്‍മാറ്റ് ചെയ്യുക:
+Description-mr.UTF-8: हे विभाजन संरुपित करा:
+Description-nb.UTF-8: Formater partisjonen:
+Description-ne.UTF-8: विभाजनलाई ढाँचाबद्ध गर्नुहोस्:
+Description-nl.UTF-8: Partitie formatteren:
+Description-nn.UTF-8: Formater partisjonen:
+Description-no.UTF-8: Formater partisjonen:
+Description-oc.UTF-8: Formatar la particion :
+Description-pa.UTF-8: ਪਾਰਟੀਸ਼ਨ ਨੂੰ ਫਾਰਮੈਟ ਕਰੋ:
+Description-pl.UTF-8: Formatuj partycję:
+Description-pt.UTF-8: Formatar a partição:
+Description-pt_BR.UTF-8: Formatar a partição:
+Description-ro.UTF-8: Formatează partiția:
+Description-ru.UTF-8: Форматировать раздел:
+Description-se.UTF-8: Formattere partišuvnna:
+Description-si.UTF-8: කොටස හැඩසවි ගන්වන්න:
+Description-sk.UTF-8: Formátovať oblasť:
+Description-sl.UTF-8: Formatiraj razdelek:
+Description-sq.UTF-8: Formato ndarjen:
+Description-sr.UTF-8: Форматирај партицију:
+Description-sv.UTF-8: Formatera partitionen:
+Description-ta.UTF-8: பகிர்வை ஒழுங்கு செய்க:
+Description-te.UTF-8: విభజనను ఫార్మాటు చెయ్యి:
+Description-tg.UTF-8: Шаклбандӣ кардани қисми диск:
+Description-th.UTF-8: ฟอร์แมตพาร์ทิชัน:
+Description-tl.UTF-8: Iformat ang partisyon:
+Description-tr.UTF-8: Bölümü biçimlendir:
+Description-ug.UTF-8: بۇ رايوننى فورماتلا:
+Description-uk.UTF-8: Форматувати розділ:
+Description-vi.UTF-8: Định dạng phân vùng:
+Description-zh_CN.UTF-8: 格式化此分区：
+Description-zh_TW.UTF-8: 格式化此分割區:
+
+Template: partman-basicmethods/text/yes_format
+Type: text
+Description: yes, format it
+Description-am.UTF-8: አዎ፣ አሟሽ
+Description-ar.UTF-8: نعم، نسّقه
+Description-ast.UTF-8: sí, formateala
+Description-be.UTF-8: так, фарматаваць
+Description-bg.UTF-8: да, форматиране
+Description-bn.UTF-8: হ্যাঁ, এটি ফরম্যাট করো
+Description-bo.UTF-8: རེད། རྣམ་བཞག་བརྗེ་དགོས
+Description-bs.UTF-8: da, formatiraj
+Description-ca.UTF-8: sí, formata-la
+Description-cs.UTF-8: ano, formátovat
+Description-cy.UTF-8: ie, ei fformatio
+Description-da.UTF-8: ja, formater den
+Description-de.UTF-8: ja, formatieren
+Description-dz.UTF-8: ཨིན་ འདི་རྩ་སྒྲིག་འབད།
+Description-el.UTF-8: ναι, διαμόρφωση
+Description-eo.UTF-8: jes, strukturigu ĝin
+Description-es.UTF-8: sí, formatearla
+Description-et.UTF-8: jah, formaadi
+Description-eu.UTF-8: bai, formateatu
+Description-fa.UTF-8: بله، آنرا قالب‌بندی کن
+Description-fi.UTF-8: kyllä, alusta osio
+Description-fr.UTF-8: oui, formater
+Description-ga.UTF-8: formáidigh é
+Description-gl.UTF-8: si, formatar
+Description-gu.UTF-8: હા, તેને ફોર્મેટ કરો
+Description-he.UTF-8: כן, לאתחל
+Description-hi.UTF-8: हाँ, इसे फॉर्मेट करें
+Description-hr.UTF-8: da, formatiraj
+Description-hu.UTF-8: igen, formáz
+Description-id.UTF-8: ya, format saja
+Description-is.UTF-8: já, forsníða hana
+Description-it.UTF-8: sì, formattare
+Description-ja.UTF-8: 初期化
+Description-ka.UTF-8: დიახ, დააფორმატე
+Description-kab.UTF-8: ih, msel-it
+Description-kk.UTF-8: иә, қайта пішімдеу
+Description-km.UTF-8: បាទ/ចាស ធ្វើ​ទ្រង់ទ្រាយ​វា
+Description-kn.UTF-8: ಹೌದು, ಸಿದ್ಧಗೊಳಿಸಿ
+Description-ko.UTF-8: 예, 포맷합니다
+Description-ku.UTF-8: erê, format bike
+Description-lo.UTF-8: ແມ່ນ ຟໍຣແມດເລີຍ
+Description-lt.UTF-8: taip, formatuoti
+Description-lv.UTF-8: jā, formatēt to
+Description-mk.UTF-8: да, форматирај ја
+Description-ml.UTF-8: ശരി, ഇതു് ഫോര്‍മാറ്റ് ചെയ്യുക
+Description-mr.UTF-8: हो, ते संरुपित करा
+Description-nb.UTF-8: ja, formater den
+Description-ne.UTF-8: हो, यसलाई ढाँचाबद्ध गर्नुहोस्
+Description-nl.UTF-8: ja, formatteer de partitie
+Description-nn.UTF-8: ja, formater han
+Description-no.UTF-8: ja, formater den
+Description-oc.UTF-8: òc, formatatz-la
+Description-pa.UTF-8: ਹਾਂ, ਫਾਰਮੈਟ ਕਰੋ
+Description-pl.UTF-8: tak, formatuj ją
+Description-pt.UTF-8: sim, formatar
+Description-pt_BR.UTF-8: sim, formatar
+Description-ro.UTF-8: da, formatează
+Description-ru.UTF-8: да, форматировать
+Description-se.UTF-8: Jua, formattere dan
+Description-si.UTF-8: ඔව්, එය හැඩසවි ගන්වන්න
+Description-sk.UTF-8: áno, formátovať
+Description-sl.UTF-8: da, formatiraj ga
+Description-sq.UTF-8: po, formatoje
+Description-sr.UTF-8: да, форматирај је
+Description-sv.UTF-8: ja, formatera den
+Description-ta.UTF-8: ஆம் ஒழுங்கு செய்யுங்கள்
+Description-te.UTF-8: అవును, ఫార్మాటు చెయ్యి
+Description-tg.UTF-8: ҳа, онро шаклбандӣ намоед
+Description-th.UTF-8: ใช่ ฟอร์แมตเลย
+Description-tl.UTF-8: oo, iformat ito
+Description-tr.UTF-8: evet, biçimlendir
+Description-ug.UTF-8: ھەئە، فورماتلا
+Description-uk.UTF-8: так, форматувати його
+Description-vi.UTF-8: có, định dạng đi
+Description-zh_CN.UTF-8: 是的，格式化
+Description-zh_TW.UTF-8: 是，將它格式化
+
+Template: partman-basicmethods/text/no_dont_format
+Type: text
+Description: no, keep existing data
+Description-am.UTF-8: አይ፣ ነባሩ ዴታ ይኑር
+Description-ar.UTF-8: لا، أبق البيانات الموجودة
+Description-ast.UTF-8: non, caltener datos esistentes
+Description-be.UTF-8: не, пакінуць існуючыя дадзеныя
+Description-bg.UTF-8: не, запазване на съществуващите данни
+Description-bn.UTF-8: না, বিদ্যমান তথ্য অপরিবর্তিত রাখো
+Description-bo.UTF-8: མིན། གནས་ཡོད་པའི་གྲངས་རྒྱུན་ཉར་བ
+Description-bs.UTF-8: ne, zadrži postojeće podatke
+Description-ca.UTF-8: no, conserva les dades existents
+Description-cs.UTF-8: ne, ponechat stávající data
+Description-cy.UTF-8: na, cadw'r data presennol
+Description-da.UTF-8: nej, bevar eksisterende data
+Description-de.UTF-8: nein, vorhandene Daten erhalten
+Description-dz.UTF-8: མེན་ ཡོད་བཞིན་པའི་གནད་སྡུད་བདག་འཛིན་འབད་བཞག་
+Description-el.UTF-8: όχι, να διατηρηθούν τα υπάρχοντα δεδομένα
+Description-eo.UTF-8: ne, tenu la ekzistantan datumaron
+Description-es.UTF-8: no, mantener los datos actuales
+Description-et.UTF-8: ei, säilita olemasolevad andmed
+Description-eu.UTF-8: ez, utzi lehendik dauden datuak
+Description-fa.UTF-8: خیر، اطلاعات کنونی را نگه دار
+Description-fi.UTF-8: ei, säilytä tiedot
+Description-fr.UTF-8: non, conserver les données
+Description-ga.UTF-8: ná formáidigh; coimeád na sonraí atá ann
+Description-gl.UTF-8: non, manter os datos existentes
+Description-gu.UTF-8: ના, હાલની માહિતી રાખો
+Description-he.UTF-8: לא, לשמור את המידע הקיים
+Description-hi.UTF-8: नहीं, मौज़ूदा डाटा रखें
+Description-hr.UTF-8: ne, zadrži postojeće podatke
+Description-hu.UTF-8: nem, meglévő adatok megőrzése
+Description-id.UTF-8: tidak, pertahankan data yang ada
+Description-is.UTF-8: nei, halda núverandi gögnum
+Description-it.UTF-8: no, mantenere i dati esistenti
+Description-ja.UTF-8: 既存のデータをそのまま使う
+Description-ka.UTF-8: არა, შეინახე არსებული მონაცემები
+Description-kab.UTF-8: ala, eǧǧ isefka i yellan
+Description-kk.UTF-8: жоқ, бар деректерді сақтау
+Description-km.UTF-8: ទេ រក្សា​ទិន្នន័យ​មាន​ស្រាប់​នៅ​ដដែល
+Description-kn.UTF-8: ಬೇಡ ಇರುವ ಮಾಹಿತಿಯನ್ನು ಹಾಗೆ ಉಳಿಸಿ
+Description-ko.UTF-8: 아니요, 현재 데이터 유지
+Description-ku.UTF-8: na, data yên heyî biparêze
+Description-lo.UTF-8: ບໍ່, ຕ້ອງຮັກສາຂໍ້ມູນເກົ່າໄວ້
+Description-lt.UTF-8: ne, išsaugoti esančius duomenis
+Description-lv.UTF-8: nē, saglabāt esošos datus
+Description-mk.UTF-8: не, зачувај ги постоечките податоци
+Description-ml.UTF-8: വേണ്ട, നിലവിലുള്ള ഡാറ്റ സൂക്ഷിക്കുക
+Description-mr.UTF-8: नाही, सद्य डेटा तसाच ठेवा
+Description-nb.UTF-8: nei, ta vare på de eksisterende dataene
+Description-ne.UTF-8: होइन, अवस्थित डेटा राख्नुहोस्
+Description-nl.UTF-8: nee, bewaar de bestaande data
+Description-nn.UTF-8: nei, ta vara på dei eksisterande dataa
+Description-no.UTF-8: nei, ta vare på de eksisterende dataene
+Description-oc.UTF-8: non, gardatz las donadas existentas
+Description-pa.UTF-8: ਨਹੀਂ, ਮੌਜੂਦਾ ਡਾਟੇ ਨੂੰ ਵਰਤੋਂ
+Description-pl.UTF-8: nie, zachowaj istniejące dane
+Description-pt.UTF-8: não, manter os dados existentes
+Description-pt_BR.UTF-8: não, manter os dados existentes
+Description-ro.UTF-8: nu, păstrează datele existente
+Description-ru.UTF-8: нет, сохранить существующие данные
+Description-si.UTF-8: නැහැ, පවතින දත්ත තබාගන්න
+Description-sk.UTF-8: nie, ponechať jestvujúce údaje
+Description-sl.UTF-8: ne, obdrži obstoječe podatke
+Description-sq.UTF-8: jo, ruaj të dhënat ekzistuese
+Description-sr.UTF-8: не, задржи постојеће податке
+Description-sv.UTF-8: nej, behåll befintlig data
+Description-ta.UTF-8: இல்லை, உள்ள தரவை பாதுகாப்பாக வைக்கவும்
+Description-te.UTF-8: లేదు, ప్రస్తుతం ఉన్న సమాచారాన్ని ఉంచు
+Description-tg.UTF-8: не, иттилооти мавҷудбударо нигоҳ доред
+Description-th.UTF-8: ไม่ต้อง รักษาข้อมูลเดิมไว้
+Description-tl.UTF-8: hindi, panatiliin ang mga datos
+Description-tr.UTF-8: hayır, mevcut verileri koru
+Description-ug.UTF-8: ياق، مەۋجۇت سانلىق مەلۇماتنى ساقلاپ قال
+Description-uk.UTF-8: ні, зберегти існуючі дані
+Description-vi.UTF-8: không, giữ dữ liệu có sẵn
+Description-zh_CN.UTF-8: 不，保持现有数据
+Description-zh_TW.UTF-8: 否，保留現有資料
+
+Template: partman/method_long/dont_use
+Type: text
+Description: do not use
+Description-am.UTF-8: አትጠቀም
+Description-ar.UTF-8: لا تستخدمه
+Description-ast.UTF-8: non usar
+Description-be.UTF-8: не ўжываць
+Description-bg.UTF-8: без използване
+Description-bn.UTF-8: ব্যবহার করো না
+Description-bo.UTF-8: སྤྱོད་མི་དགོས་པ
+Description-bs.UTF-8: ne koristi
+Description-ca.UTF-8: no utilitzes
+Description-cs.UTF-8: nepoužívat
+Description-cy.UTF-8: peidio a defnyddio
+Description-da.UTF-8: brug ikke
+Description-de.UTF-8: Nicht benutzen
+Description-dz.UTF-8: ལག་ལེན་མ་འཐབ།
+Description-el.UTF-8: να μην χρησιμοποιηθεί
+Description-eo.UTF-8: ne uzi
+Description-es.UTF-8: no utilizar
+Description-et.UTF-8: ära kasuta
+Description-eu.UTF-8: ez erabili
+Description-fa.UTF-8: استفاده نکن
+Description-fi.UTF-8: älä käytä
+Description-fr.UTF-8: ne pas utiliser
+Description-ga.UTF-8: ná húsáid
+Description-gl.UTF-8: non empregar
+Description-gu.UTF-8: ઉપયોગ ન કરો
+Description-he.UTF-8: לא להשתמש
+Description-hi.UTF-8: उपयोग नहीं करें
+Description-hr.UTF-8: ne koristi
+Description-hu.UTF-8: mellőzés
+Description-id.UTF-8: jangan digunakan
+Description-is.UTF-8: ekki nota
+Description-it.UTF-8: non usare
+Description-ja.UTF-8: 利用しない
+Description-ka.UTF-8: არ გამოიყენო
+Description-kab.UTF-8: ur sseqdac ara
+Description-kk.UTF-8: қолданбау
+Description-km.UTF-8: កុំ​ប្រើ
+Description-kn.UTF-8: ಉಪಯೋಗಿಸಬೇಡಿ
+Description-ko.UTF-8: 사용하지 않음
+Description-ku.UTF-8: neyê bi kar anîn
+Description-lo.UTF-8: ບໍ່ຕ້ອງໃຊ້
+Description-lt.UTF-8: nenaudoti
+Description-lv.UTF-8: neizmantot
+Description-mk.UTF-8: не ја користи
+Description-ml.UTF-8: ഉപയോഗിക്കേണ്ട
+Description-mr.UTF-8: वापरु नका
+Description-nb.UTF-8: ikke bruk
+Description-ne.UTF-8: प्रयोग नगर्नुहोस्
+Description-nl.UTF-8: niet gebruiken
+Description-nn.UTF-8: ikkje bruk
+Description-no.UTF-8: ikke bruk
+Description-oc.UTF-8: utilizar pas
+Description-pa.UTF-8: ਨਾ ਵਰਤੋਂ
+Description-pl.UTF-8: nie używaj
+Description-pt.UTF-8: não utilizar
+Description-pt_BR.UTF-8: não usar
+Description-ro.UTF-8: nu folosi
+Description-ru.UTF-8: не использовать
+Description-si.UTF-8: භාවිත නොකරන්න
+Description-sk.UTF-8: nepoužívať
+Description-sl.UTF-8: ne uporabi
+Description-sq.UTF-8: mos e përdor
+Description-sr.UTF-8: не користи
+Description-sv.UTF-8: använd inte
+Description-ta.UTF-8: பயன் படுத்தாதீர்கள்
+Description-te.UTF-8: ఉపయోగించవద్దు
+Description-tg.UTF-8: истифода набурдан
+Description-th.UTF-8: ไม่ต้องใช้
+Description-tl.UTF-8: huwag gamitin
+Description-tr.UTF-8: kullanma
+Description-ug.UTF-8: ئىشلەتمە
+Description-uk.UTF-8: не використовувати
+Description-vi.UTF-8: không dùng
+Description-zh_CN.UTF-8: 不使用
+Description-zh_TW.UTF-8: 不使用
+
+Template: partman/method_short/dont_use
+Type: text
+Description: unused
+Description-am.UTF-8: አትጠቀም
+Description-ar.UTF-8: غير مستخدم
+Description-ast.UTF-8: non usada
+Description-be.UTF-8: няўжыта
+Description-bg.UTF-8: неизползван
+Description-bn.UTF-8: অব্যবহৃত
+Description-bo.UTF-8: སྤྱོད་མེད་པ
+Description-bs.UTF-8: nekorišteno
+Description-ca.UTF-8: no utilitzat
+Description-cs.UTF-8: nepoužitá
+Description-cy.UTF-8: heb ei ddefnyddio
+Description-da.UTF-8: ubenyttet
+Description-de.UTF-8: Unbenutzt
+Description-dz.UTF-8: ལག་ལེན་མ་འཐབ་མི།
+Description-el.UTF-8: αχρησιμοποίητη
+Description-eo.UTF-8: neuzenda
+Description-es.UTF-8: no usada
+Description-et.UTF-8: kasutamata
+Description-eu.UTF-8: erabili gabe
+Description-fa.UTF-8: استفاده نشده
+Description-fi.UTF-8: käyttämätön
+Description-fr.UTF-8: inutilisé
+Description-ga.UTF-8: gan úsáid
+Description-gl.UTF-8: non usar
+Description-gu.UTF-8: ન વપરાયેલ
+Description-he.UTF-8: לא בשימוש
+Description-hi.UTF-8: उपयोग में नहीं
+Description-hr.UTF-8: nekorišteno
+Description-hu.UTF-8: mellőzve
+Description-id.UTF-8: tak terpakai
+Description-is.UTF-8: ónotuð
+Description-it.UTF-8: non usata
+Description-ja.UTF-8: 未利用
+Description-ka.UTF-8: გამოუყენებელი
+Description-kab.UTF-8: ur ituseqdac ara
+Description-kk.UTF-8: қолданылмайды
+Description-km.UTF-8: មិន​បាន​ប្រើ
+Description-kn.UTF-8: ಬಳಕೆಯಾಗದ
+Description-ko.UTF-8: 사용 않음
+Description-ku.UTF-8: nayê bi kar anîn
+Description-lo.UTF-8: ບໍ່ໃດ້ໃຊ້
+Description-lt.UTF-8: nenaudojamas
+Description-lv.UTF-8: neizmantota
+Description-mk.UTF-8: неискористено
+Description-ml.UTF-8: ഉപയോഗിക്കാതെ കിടക്കുന്നതു്
+Description-mr.UTF-8: न वापरलेले
+Description-nb.UTF-8: ubrukt
+Description-ne.UTF-8: अनुपयोगी
+Description-nl.UTF-8: ongebruikt
+Description-nn.UTF-8: ubrukt
+Description-no.UTF-8: ubrukt
+Description-oc.UTF-8: pas utilizat
+Description-pa.UTF-8: ਅਣ-ਵਰਤਿਆ
+Description-pl.UTF-8: nieużywana
+Description-pt.UTF-8: não utilizada
+Description-pt_BR.UTF-8: não usar
+Description-ro.UTF-8: nefolosită
+Description-ru.UTF-8: не используется
+Description-se.UTF-8: ii geavahusas
+Description-si.UTF-8: භාවිත නොකළ
+Description-sk.UTF-8: nepoužitá
+Description-sl.UTF-8: neuporabljen
+Description-sq.UTF-8: e papërdorur
+Description-sr.UTF-8: неискоришћено
+Description-sv.UTF-8: oanvänd
+Description-ta.UTF-8: பயன்படுத்தாத
+Description-te.UTF-8: వాడబడని
+Description-tg.UTF-8: истифоданашуда
+Description-th.UTF-8: ไม่ใช้
+Description-tl.UTF-8: hindi gamit
+Description-tr.UTF-8: kullanma
+Description-ug.UTF-8: ئىشلەتمىگەن
+Description-uk.UTF-8: unused
+Description-vi.UTF-8: không dùng
+Description-zh_CN.UTF-8: 不使用
+Description-zh_TW.UTF-8: 不使用
+
+Template: partman/method_long/format
+Type: text
+Description: format the partition
+Description-am.UTF-8: ክፋዩን አሟሽ
+Description-ar.UTF-8: نسّق الجزء
+Description-ast.UTF-8: formatear la partición
+Description-be.UTF-8: фарматаваць падзел
+Description-bg.UTF-8: форматиране на дяла
+Description-bn.UTF-8: পার্টিশনটি ফরম্যাট করো
+Description-bo.UTF-8: གསོག་སྡེར་དེའི་རྣམ་བཞག་བརྗེ་བ
+Description-bs.UTF-8: formatiraj particiju
+Description-ca.UTF-8: formata la partició
+Description-cs.UTF-8: formátovat oblast
+Description-cy.UTF-8: fformatio'r rhaniad
+Description-da.UTF-8: formater partitionen
+Description-de.UTF-8: Partition formatieren
+Description-dz.UTF-8: བར་བཅད་འདི་རྩ་སྒྲིག་འབད།
+Description-el.UTF-8: διαμόρφωση της κατάτμησης
+Description-eo.UTF-8: strukturigi la diskparton
+Description-es.UTF-8: formatear la partición
+Description-et.UTF-8: formaadi partitsioon
+Description-eu.UTF-8: formateatu partizioa
+Description-fa.UTF-8: پارتیشن را قالب‌بندی کن
+Description-fi.UTF-8: Alusta osio
+Description-fr.UTF-8: Formater la partition
+Description-ga.UTF-8: formáidigh an deighilt
+Description-gl.UTF-8: formatar a partición
+Description-gu.UTF-8: પાર્ટિશન ફોર્મેટ કરો
+Description-he.UTF-8: אתחול המחיצה
+Description-hi.UTF-8: पार्टीशन फॉर्मेट करें
+Description-hr.UTF-8: formatiraj particiju
+Description-hu.UTF-8: partíció formázása
+Description-id.UTF-8: format partisi ini
+Description-is.UTF-8: forsníða sneiðina
+Description-it.UTF-8: formattare la partizione
+Description-ja.UTF-8: パーティションの初期化
+Description-ka.UTF-8: დანაყოფის დაფორმატება
+Description-kab.UTF-8: msel aḥric
+Description-kk.UTF-8: бөлімді пішімдеу
+Description-km.UTF-8: ធ្វើ​ទ្រង់ទ្រាយ​ភាគថាស
+Description-kn.UTF-8: ವಿಭಜನೆಯನ್ನು ಸಿದ್ಧಪಡಿಸಿ
+Description-ko.UTF-8: 파티션 포맷
+Description-ku.UTF-8: partîsiyonê format bike
+Description-lo.UTF-8: ຟໍຣແມດພາທີຊັ່ນທ໌
+Description-lt.UTF-8: disko skaidinio formatavimas
+Description-lv.UTF-8: formatēt nodalījumu
+Description-mk.UTF-8: форматирај ја партицијата
+Description-ml.UTF-8: ഈ ഭാഗം ഫോര്‍മാറ്റ് ചെയ്യുക
+Description-mr.UTF-8: हे विभाजन संरुपित करा
+Description-nb.UTF-8: formater partisjonen
+Description-ne.UTF-8: विभाजनलाई ढाँचाबद्ध गर्नुहोस्
+Description-nl.UTF-8: de partitie formatteren
+Description-nn.UTF-8: formater partisjonen
+Description-no.UTF-8: formater partisjonen
+Description-oc.UTF-8: formatar la particion
+Description-pa.UTF-8: ਪਾਰਟੀਸ਼ਨ ਨੂੰ ਫਾਰਮੈਟ
+Description-pl.UTF-8: formatuj partycję
+Description-pt.UTF-8: formatar a partição
+Description-pt_BR.UTF-8: formatar a partição
+Description-ro.UTF-8: formatează partiția
+Description-ru.UTF-8: отформатировать раздел
+Description-se.UTF-8: formattere partišuvnna
+Description-si.UTF-8: මෙම කොටස හැඩසවි ගන්වන්න
+Description-sk.UTF-8: formátovať oblasť
+Description-sl.UTF-8: formatiraj razdelek
+Description-sq.UTF-8: formato ndarjen
+Description-sr.UTF-8: форматирај партицију
+Description-sv.UTF-8: formatera partitionen
+Description-ta.UTF-8: பகிர்வை ஒழுங்கு செய்க
+Description-te.UTF-8: విభజనను ఫార్మాటు చెయ్యి
+Description-tg.UTF-8: шаклбандӣ кардани қисми диск
+Description-th.UTF-8: ฟอร์แมตพาร์ทิชัน
+Description-tl.UTF-8: iformat ang partisyon
+Description-tr.UTF-8: bölümü biçimlendir
+Description-ug.UTF-8: رايوننى فورماتلايدۇ
+Description-uk.UTF-8: форматувати розділ
+Description-vi.UTF-8: định dạng phân vùng
+Description-zh_CN.UTF-8: 格式化此分区
+Description-zh_TW.UTF-8: 格式化此分割區
+
+Template: partman/method_short/format
+Type: text
+Description: format
+Description-am.UTF-8: አሟሽ
+Description-ar.UTF-8: تنسيق
+Description-ast.UTF-8: formatiar
+Description-be.UTF-8: фарматаваць
+Description-bg.UTF-8: форматиране
+Description-bn.UTF-8: ফরম্যাট করো
+Description-bo.UTF-8: བཟོ་བཀོད་སྒྱུར
+Description-bs.UTF-8: formatiraj
+Description-ca.UTF-8: formata
+Description-cs.UTF-8: formátovat
+Description-cy.UTF-8: fformatio
+Description-da.UTF-8: formatér
+Description-de.UTF-8: Formatieren
+Description-dz.UTF-8: རྩ་སྒྲིག་
+Description-el.UTF-8: διαμόρφωση
+Description-eo.UTF-8: strukturigu
+Description-es.UTF-8: formatear
+Description-et.UTF-8: formaadi
+Description-eu.UTF-8: formateatu
+Description-fa.UTF-8: قالب‌بندی
+Description-fi.UTF-8: alusta
+Description-fr.UTF-8: formater
+Description-ga.UTF-8: formáid
+Description-gl.UTF-8: formatar
+Description-gu.UTF-8: ફોર્મેટ
+Description-he.UTF-8: פרמוט
+Description-hi.UTF-8: फॉर्मेट
+Description-hr.UTF-8: formatiraj
+Description-hu.UTF-8: formázás
+Description-id.UTF-8: format
+Description-is.UTF-8: forsníða
+Description-it.UTF-8: formattare
+Description-ja.UTF-8: 初期化
+Description-ka.UTF-8: დაფორმატება
+Description-kab.UTF-8: amasal
+Description-kk.UTF-8: пішімдеу
+Description-km.UTF-8: ធ្វើ​ទ្រង់ទ្រាយ
+Description-kn.UTF-8: ಫಾರ್ಮ್ಯಾಟ್
+Description-ko.UTF-8: 포맷
+Description-ku.UTF-8: format bike
+Description-lo.UTF-8: ຟໍແມດ
+Description-lt.UTF-8: formatavimas
+Description-lv.UTF-8: formatēt
+Description-mk.UTF-8: форматирај
+Description-ml.UTF-8: ഫോര്‍മാറ്റ്
+Description-mr.UTF-8: संरुपित करा
+Description-nb.UTF-8: formater
+Description-ne.UTF-8: ढाँचा
+Description-nl.UTF-8: formatteer
+Description-nn.UTF-8: formater
+Description-no.UTF-8: formater
+Description-oc.UTF-8: formatar
+Description-pa.UTF-8: ਫਾਰਮੈਟ
+Description-pl.UTF-8: formatowanie
+Description-pt.UTF-8: formatar
+Description-pt_BR.UTF-8: formatar
+Description-ro.UTF-8: formatează
+Description-ru.UTF-8: форматировать
+Description-se.UTF-8: formatere
+Description-si.UTF-8: සංයුතිය
+Description-sk.UTF-8: formátovať
+Description-sl.UTF-8: formatiraj
+Description-sq.UTF-8: formato
+Description-sr.UTF-8: форматирај
+Description-sv.UTF-8: formatera
+Description-ta.UTF-8: ஒழுங்கு செய்தல்
+Description-te.UTF-8: ఫార్మాట్
+Description-tg.UTF-8: шаклбандӣ
+Description-th.UTF-8: ฟอร์แมต
+Description-tl.UTF-8: iformat
+Description-tr.UTF-8: biçimle
+Description-ug.UTF-8: فورماتلا
+Description-uk.UTF-8: format
+Description-vi.UTF-8: định dạng
+Description-zh_CN.UTF-8: 格式化
+Description-zh_TW.UTF-8: 格式化
+
+Template: partman/method_long/keep
+Type: text
+Description: keep and use the existing data
+Description-am.UTF-8: ያለውን መረጃ በመያዝ ተጠቀምበት፡፡
+Description-ar.UTF-8: أبق البيانات الموجودة واستخدمها
+Description-ast.UTF-8: caltener y usar los datos esistentes
+Description-be.UTF-8: захаваць і ўжываць існуючыя дадзеныя
+Description-bg.UTF-8: запазване и използване на съществуващите данни
+Description-bn.UTF-8: বিদ্যমান তথ্য সংরক্ষন করো এবং ব্যবহার করো
+Description-bo.UTF-8: གནས་ཡོད་པའི་གྲངས་རྒྱུན་ཉར་ནས་སྤྱོད་པ
+Description-bs.UTF-8: zadrži i koristi postojeće podatke
+Description-ca.UTF-8: conserva i utilitza les dades existents
+Description-cs.UTF-8: ponechat v oblasti stávající data
+Description-cy.UTF-8: cadw a defnyddio'r data sy'n bodoli eisioes
+Description-da.UTF-8: Bevar og benyt eksisterende data
+Description-de.UTF-8: Vorhandene Daten erhalten und benutzen
+Description-dz.UTF-8: ཡོད་ཞིན་པའི་གནད་སྡུད་ལག་ལེན་འཐབ་ནི་དང་བདག་འཛིན་འབད་བཞག་
+Description-el.UTF-8: να διατηρηθούν και να χρησιμοποιηθούν τα υπάρχοντα δεδομένα
+Description-eo.UTF-8: teni kaj uzi la ekzistantan datumaron
+Description-es.UTF-8: Mantener y usar los datos actuales
+Description-et.UTF-8: hoia ja kasuta olemasolevaid andmeid
+Description-eu.UTF-8: utzi eta erabili lehendik dauden datuak
+Description-fa.UTF-8: اطلاعات کنونی را نگه‌دار و استفاده کن
+Description-fi.UTF-8: säilytä olemassa olevat tiedot ja käytä niitä
+Description-fr.UTF-8: conserver et utiliser les données existantes
+Description-ga.UTF-8: coimeád agus úsáid na sonraí atá ann
+Description-gl.UTF-8: manter e empregar os datos existentes
+Description-gu.UTF-8: રાખો અને હાલની માહિતી ઉપયોગ કરો
+Description-he.UTF-8: לשמור ולהשתמש במידע הקיים
+Description-hi.UTF-8: मौज़ूदा डाटा रखें तथा इस्तेमाल करें
+Description-hr.UTF-8: zadrži i koristi postojeće podatke
+Description-hu.UTF-8: meglévő adatok megőrzése és használata
+Description-id.UTF-8: pertahankan dan gunakan data yang telah ada
+Description-is.UTF-8: geyma og nota núverandi gögn
+Description-it.UTF-8: mantenere e usare i dati esistenti
+Description-ja.UTF-8: 既存のデータをそのまま使う
+Description-ka.UTF-8: არსებული ინფორმაციის დატოვება და გამოყენება
+Description-kab.UTF-8: eǧǧ rnu seqdec isefka i yellan
+Description-kk.UTF-8: бар деректерді сақтау және қолдану
+Description-km.UTF-8: រក្សា និង​ប្រើ​ទិន្នន័យ​មាន​ស្រាប់
+Description-kn.UTF-8: ಇರುವ ಮಾಹಿತಿಯನ್ನು ಹಾಗೆ ಉಳಿಸಿ ಹಾಗು ಬಳಸಿ
+Description-ko.UTF-8: 현재 데이터를 계속 유지하고 사용합니다
+Description-ku.UTF-8: datayên heyî biparêze û bi kar bîne
+Description-lo.UTF-8: ຮັກສາແລະໃຊ້ຂໍ້ມູນເກົ່າ
+Description-lt.UTF-8: išsaugoti ir naudoti esančius duomenis
+Description-lv.UTF-8: paturēt un izmantot esošos datus
+Description-mk.UTF-8: задржи и користи ги постоечките податоци
+Description-ml.UTF-8: നിലവിലുള്ള ഡാറ്റ സൂക്ഷിച്ച് ഉപയോഗിയ്ക്കുക
+Description-mr.UTF-8: सद्य डेटा तसाच ठेवा व वापरा
+Description-nb.UTF-8: ta vare på og bruk de eksisterende dataene
+Description-ne.UTF-8: अवस्थित डेटालाई राख्नुहोस् र प्रयोग गर्नुहोस्
+Description-nl.UTF-8: bestaande data behouden en gebruiken
+Description-nn.UTF-8: ta vara på og bruk dei eksisterande dataa
+Description-no.UTF-8: ta vare på og bruk de eksisterende dataene
+Description-oc.UTF-8: conservar e utilizar las donadas existentas
+Description-pa.UTF-8: ਮੌਜੂਦਾ ਡਾਟੇ ਨੂੰ ਰੱਖੋ ਅਤੇ ਵਰਤੋਂ
+Description-pl.UTF-8: zachowaj i użyj istniejących danych
+Description-pt.UTF-8: manter e utilizar os dados existentes
+Description-pt_BR.UTF-8: manter e usar os dados existentes
+Description-ro.UTF-8: păstrează și utilizează datele existente
+Description-ru.UTF-8: сохранить и использовать существующие данные
+Description-si.UTF-8: පවතින දත්ත තබාගෙන භාවිත කරන්න
+Description-sk.UTF-8: ponechať a používať jestvujúce údaje
+Description-sl.UTF-8: obdrži in uporabi obstoječe podatke
+Description-sq.UTF-8: ruaj dhe përdor të dhënat ekzistuese
+Description-sr.UTF-8: задржи и користи постојеће податке
+Description-sv.UTF-8: behåll och använd den befintliga datan på partitionen
+Description-ta.UTF-8: உள்ள தரவை பாதுகாப்பாக வைத்து பயன் படுத்தவும்
+Description-te.UTF-8: ప్రస్తుతమున్న సమాచారం ఉంచి ఉపయోగించు
+Description-tg.UTF-8: нигоҳ доштан ва истифодаи маълумоти мавҷудбуда
+Description-th.UTF-8: รักษาและใช้ข้อมูลเดิม
+Description-tl.UTF-8: ipanatili at gamitin ang datos na umiiral
+Description-tr.UTF-8: bölüme dokunma ve mevcut verileri kullan
+Description-ug.UTF-8: مەۋجۇت سانلىق مەلۇماتنى ساقلاپ قېلىپ ئىشلەت
+Description-uk.UTF-8: зберегти та використовувати існуючі дані
+Description-vi.UTF-8: giữ và dùng các dữ liệu đã có
+Description-zh_CN.UTF-8: 保持并使用现有数据
+Description-zh_TW.UTF-8: 保持並沿用其現有的資料
+
+Template: partman/method_short/keep
+Type: text
+Description: keep
+Description-am.UTF-8: ቆጥብ
+Description-ar.UTF-8: إبقاء
+Description-ast.UTF-8: caltener
+Description-be.UTF-8: захаваць
+Description-bg.UTF-8: запазване
+Description-bn.UTF-8: সংরক্ষণ করো
+Description-bo.UTF-8: ཉར་བ
+Description-bs.UTF-8: zadrži
+Description-ca.UTF-8: conserva
+Description-cs.UTF-8: ponechat
+Description-cy.UTF-8: cadw
+Description-da.UTF-8: bevar
+Description-de.UTF-8: Beibehalten
+Description-dz.UTF-8: བདག་འཛིན་འབད་བཞག་
+Description-el.UTF-8: διατήρηση
+Description-eo.UTF-8: konservu
+Description-es.UTF-8: mantener
+Description-et.UTF-8: säilita
+Description-eu.UTF-8: utzi
+Description-fa.UTF-8: نگه داری
+Description-fi.UTF-8: säilytä
+Description-fr.UTF-8: conserver
+Description-ga.UTF-8: coimeád
+Description-gl.UTF-8: manter
+Description-gu.UTF-8: રાખો
+Description-he.UTF-8: שמירה
+Description-hi.UTF-8: रखें
+Description-hr.UTF-8: zadrži
+Description-hu.UTF-8: megőrzés
+Description-id.UTF-8: pertahankan
+Description-is.UTF-8: halda
+Description-it.UTF-8: mantenere
+Description-ja.UTF-8: 保持
+Description-ka.UTF-8: შენარჩუნება
+Description-kab.UTF-8: eǧǧ
+Description-kk.UTF-8: қалдыру
+Description-km.UTF-8: រក្សា
+Description-kn.UTF-8: ಇರಿಸಿಕೊ
+Description-ko.UTF-8: 유지
+Description-ku.UTF-8: biparêze
+Description-lo.UTF-8: ຮັກສາ
+Description-lt.UTF-8: išsaugoti
+Description-lv.UTF-8: saglabāt
+Description-mk.UTF-8: задржи го
+Description-ml.UTF-8: സൂക്ഷിക്കുക
+Description-mr.UTF-8: ठेवा
+Description-nb.UTF-8: ta vare på
+Description-ne.UTF-8: राख्नुहोस्
+Description-nl.UTF-8: behouden
+Description-nn.UTF-8: ta vare på
+Description-no.UTF-8: ta vare på
+Description-oc.UTF-8: conservar
+Description-pa.UTF-8: ਰੱਖੋ
+Description-pl.UTF-8: bez zmian
+Description-pt.UTF-8: manter
+Description-pt_BR.UTF-8: manter
+Description-ro.UTF-8: păstrează
+Description-ru.UTF-8: оставить
+Description-se.UTF-8: doalat
+Description-si.UTF-8: තබාගන්න
+Description-sk.UTF-8: ponechať
+Description-sl.UTF-8: obdrži
+Description-sq.UTF-8: mbaj
+Description-sr.UTF-8: задржи
+Description-sv.UTF-8: behåll
+Description-ta.UTF-8: வைக்க
+Description-te.UTF-8: వుంచు
+Description-tg.UTF-8: нигоҳ доштан
+Description-th.UTF-8: รักษา
+Description-tl.UTF-8: ipanatili
+Description-tr.UTF-8: dokunma
+Description-ug.UTF-8: ساقلاپ قال
+Description-uk.UTF-8: keep
+Description-vi.UTF-8: giữ lại
+Description-zh_CN.UTF-8: 保持
+Description-zh_TW.UTF-8: 保留

@@ -1,0 +1,9 @@
+Package: rootskel
+Version: 1.138
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 116
+Depends: di-utils, udev-udeb, cdebconf-udeb
+Section: debian-installer
+Priority: standard
+Description: Skeleton root filesystem used by debian-installer

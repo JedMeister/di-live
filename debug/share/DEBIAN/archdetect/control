@@ -1,0 +1,10 @@
+Package: archdetect
+Source: hw-detect
+Version: 1.171
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 18
+Depends: libc6-udeb (>= 2.41), libdebian-installer4-udeb (>= 0.125)
+Section: debian-installer
+Priority: standard
+Description: Hardware architecture detector

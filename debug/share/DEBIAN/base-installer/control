@@ -1,0 +1,9 @@
+Package: base-installer
+Version: 1.226
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 162
+Depends: cdebconf-udeb, di-utils-mapdevfs, di-utils, rootskel
+Section: debian-installer
+Priority: required
+Description: base system installation framework

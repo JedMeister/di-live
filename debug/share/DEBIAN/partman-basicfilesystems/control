@@ -1,0 +1,10 @@
+Package: partman-basicfilesystems
+Version: 174
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 717
+Depends: cdebconf-udeb, e2fsprogs-udeb, ext2-modules, fat-modules, dosfstools-udeb
+Provides: partman-filesystem
+Section: debian-installer
+Priority: standard
+Description: Add to partman support for ext2, linux-swap, fat16, fat32 and ntfs

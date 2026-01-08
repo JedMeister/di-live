@@ -1,0 +1,9 @@
+Package: partman-auto-lvm
+Version: 103
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 300
+Depends: cdebconf-udeb, partman-base, partman-auto, partman-lvm, di-utils
+Section: debian-installer
+Priority: optional
+Description: Automatically partition storage devices using LVM

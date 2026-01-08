@@ -1,0 +1,10 @@
+Package: partman-ext3
+Version: 119
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 267
+Depends: cdebconf-udeb, e2fsprogs-udeb, ext3-modules, ext4-modules, partman-basicfilesystems, partman-base
+Provides: partman-filesystem
+Section: debian-installer
+Priority: standard
+Description: Add to partman support for ext3 and ext4

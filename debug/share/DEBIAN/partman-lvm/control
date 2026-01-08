@@ -1,0 +1,9 @@
+Package: partman-lvm
+Version: 156
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 1028
+Depends: cdebconf-udeb (>= 0.133), partman-base (>= 134), di-utils (>= 1.14), md-modules, lvm2-udeb
+Section: debian-installer
+Priority: optional
+Description: Adds support for LVM to partman

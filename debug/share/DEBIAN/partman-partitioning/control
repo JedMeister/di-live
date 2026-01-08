@@ -1,0 +1,12 @@
+Package: partman-partitioning
+Version: 159
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 574
+Depends: e2fsprogs-udeb, ntfs-3g-udeb, cdebconf-udeb, di-utils
+Section: debian-installer
+Priority: optional
+Description: Partitioning operations for partman
+ This udeb provides partman with editing operations for creation
+ of new partitions, deletion of partitions and initialisation of the
+ partition table.

@@ -1,0 +1,11 @@
+Package: partman-base
+Version: 237
+Architecture: amd64
+Installer-Menu-Item: 4200
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 644
+Depends: libc6-udeb (>= 2.41), libparted-fs-resize0-udeb (>= 3.6), libparted2-udeb (>= 3.6), cdebconf-udeb, partman-utils, partman-partitioning, partman-target, archdetect, harddrive-detection, di-utils-mapdevfs, di-utils
+Provides: created-fstab, made-filesystems, mounted-partitions, partitioned-harddrives
+Section: debian-installer
+Priority: standard
+Description: Partition the storage devices (partman)

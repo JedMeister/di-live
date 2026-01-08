@@ -1,0 +1,12 @@
+Package: partconf-mkfstab
+Source: partconf
+Version: 1.52
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 40
+Depends: libc6-udeb (>= 2.28), libdebian-installer4-udeb (>= 0.116)
+Section: debian-installer
+Priority: optional
+Description: debian-installer utility for creating fstab file
+ Helper program for creating fstab files in the new installed Debian
+ system.

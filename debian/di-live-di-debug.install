@@ -10,4 +10,3 @@ share/*                                 /usr/share/di-live
 debug/rootfs/*/*                        /
 # additional content for debug package
 debug/share/*                           /usr/share/di-live
-debug/udeb_debian_dirs                  /usr/share/di-live

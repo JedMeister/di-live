@@ -1,0 +1,1699 @@
+Template: partman-ext3/text/ext3
+Type: text
+Description: ext3
+Description-am.UTF-8: ext3
+Description-ar.UTF-8: ext3
+Description-ast.UTF-8: ext3
+Description-be.UTF-8: ext3
+Description-bg.UTF-8: ext3
+Description-bn.UTF-8: ext3
+Description-bo.UTF-8: ext3
+Description-bs.UTF-8: ext3
+Description-ca.UTF-8: ext3
+Description-cs.UTF-8: ext3
+Description-cy.UTF-8: ext3
+Description-da.UTF-8: ext3
+Description-de.UTF-8: ext3
+Description-dz.UTF-8: ext3
+Description-el.UTF-8: ext3
+Description-eo.UTF-8: 'ext3'
+Description-es.UTF-8: ext3
+Description-et.UTF-8: ext3
+Description-eu.UTF-8: ext3
+Description-fa.UTF-8: ext3
+Description-fi.UTF-8: ext3
+Description-fr.UTF-8: ext3
+Description-ga.UTF-8: ext3
+Description-gl.UTF-8: ext3
+Description-gu.UTF-8: ext3
+Description-he.UTF-8: ext3
+Description-hi.UTF-8: ईएक्सटी3
+Description-hr.UTF-8: ext3
+Description-hu.UTF-8: ext3
+Description-id.UTF-8: ext3
+Description-is.UTF-8: ext3
+Description-it.UTF-8: ext3
+Description-ja.UTF-8: ext3
+Description-ka.UTF-8: ext3
+Description-kab.UTF-8: ext3
+Description-kk.UTF-8: ext3
+Description-km.UTF-8: ext3
+Description-kn.UTF-8: ext3
+Description-ko.UTF-8: ext3
+Description-ku.UTF-8: ext3
+Description-lo.UTF-8: ext3
+Description-lt.UTF-8: ext3
+Description-lv.UTF-8: ext3
+Description-mk.UTF-8: ext3
+Description-ml.UTF-8: ext3
+Description-mr.UTF-8: ईएक्सटी3
+Description-nb.UTF-8: ext3
+Description-ne.UTF-8: ext 3
+Description-nl.UTF-8: ext3
+Description-nn.UTF-8: ext3
+Description-no.UTF-8: ext3
+Description-oc.UTF-8: ext3
+Description-pa.UTF-8: ext3
+Description-pl.UTF-8: ext3
+Description-pt.UTF-8: ext3
+Description-pt_BR.UTF-8: ext3
+Description-ro.UTF-8: ext3
+Description-ru.UTF-8: ext3
+Description-se.UTF-8: ext3
+Description-si.UTF-8: ext3
+Description-sk.UTF-8: ext3
+Description-sl.UTF-8: ext3
+Description-sq.UTF-8: ext3
+Description-sr.UTF-8: ext3
+Description-sv.UTF-8: ext3
+Description-ta.UTF-8: ஈஎக்ஸ்டி3 (ext3)
+Description-te.UTF-8: swap
+Description-tg.UTF-8: ext3
+Description-th.UTF-8: ext3
+Description-tl.UTF-8: ext3
+Description-tr.UTF-8: ext3
+Description-ug.UTF-8: ext3
+Description-uk.UTF-8: ext3
+Description-vi.UTF-8: ext3
+Description-zh_CN.UTF-8: ext3
+Description-zh_TW.UTF-8: ext3
+
+Template: partman/filesystem_long/ext3
+Type: text
+Description: Ext3 journaling file system
+Description-am.UTF-8: Ext3 የፋይል ስርዓት
+Description-ar.UTF-8: نظام ملفّات ext3 سجلّي
+Description-ast.UTF-8: Sistema de ficheros tresaccional ext3
+Description-be.UTF-8: Файлавая сістэма ext3 з падтрымкай журнала
+Description-bg.UTF-8: Журнална файлова система ext3
+Description-bn.UTF-8: Ext3 জার্নালিং ফাইল সিস্টেম
+Description-bo.UTF-8: Ext3 ཟིན་ཐོའི་མ་ལག
+Description-bs.UTF-8: Ext3 journaling datotečni sistem
+Description-ca.UTF-8: Sistema de fitxers transaccional ext3
+Description-cs.UTF-8: žurnálovací souborový systém Ext3
+Description-cy.UTF-8: System ffeiliau dyddlyfru ext3
+Description-da.UTF-8: Ext3-journalfilsystem
+Description-de.UTF-8: Ext3-Journaling-Dateisystem
+Description-dz.UTF-8: Ext3 ཇོར་ན་ལིང་ཡིག་སྣོད་རིམ་ལུགས།
+Description-el.UTF-8: Ext3 journaling σύστημα αρχείων
+Description-eo.UTF-8: Protokoliga dosiersistemo Ext3
+Description-es.UTF-8: sistema de ficheros ext3 transaccional
+Description-et.UTF-8: Žurnaaliv failisüsteem ext3
+Description-eu.UTF-8: Ext3 egunkaridun fitxategi-sistema
+Description-fa.UTF-8: فایل‌سیستم ... Ext3
+Description-fi.UTF-8: Ext3 tapahtumakirjanpidon sisältävä tiedostojärjestelmä
+Description-fr.UTF-8: système de fichiers journalisé ext3
+Description-ga.UTF-8: Córas comhad iriseáin Ext3
+Description-gl.UTF-8: sistema de ficheiros transaccional Ext3
+Description-gu.UTF-8: Ext3 જર્નલિંગ ફાઈલ સિસ્ટમ
+Description-he.UTF-8: מערכת קבצים מבוססת יומן מסוג ext3
+Description-hi.UTF-8: ईएक्सटी3 जर्नलिंग फ़ाइल सिस्टम
+Description-hr.UTF-8: Ext3 dnevnički datotečni sustav
+Description-hu.UTF-8: Ext3 naplózó fájlrendszer
+Description-id.UTF-8: sistem berkas berjurnal Ext3
+Description-is.UTF-8: Ext3 dagbókarstutt skráakerfi
+Description-it.UTF-8: File system ext3 con journaling
+Description-ja.UTF-8: ext3 ジャーナリングファイルシステム
+Description-ka.UTF-8: Ext3 ჟურნალიანი ფაილური სისტემა
+Description-kab.UTF-8: Anagraw n yifuyla n uɣmis Ext3
+Description-kk.UTF-8: Журналданушы Ext3 файлдың жүйесі
+Description-km.UTF-8: ប្រព័ន្ធ​ឯកសារ​ទិន្នានុប្បវត្តិ ext3
+Description-kn.UTF-8: Ext3 ದಾಖಲಾತಿ ಕಡತವ್ಯವಸ್ಥೆ
+Description-ko.UTF-8: EXT3 저널링 파일 시스템
+Description-ku.UTF-8: Pergala pelan ya bijurnal Ext3
+Description-lo.UTF-8: ລະບົບແຟັມournaling ext3
+Description-lt.UTF-8: Ext3 žurnalinė failų sistema
+Description-lv.UTF-8: Ext3 datņu sistēma ar žurnālu
+Description-mk.UTF-8: Ext3 датотечен систем со journaling
+Description-ml.UTF-8: Ext3 ജേര്‍ണലിങ്ങ് ഫയല്‍ സിസ്റ്റം
+Description-mr.UTF-8: ईएक्सटी३ जर्नलिंग फाइल प्रणाली
+Description-nb.UTF-8: Ext3-journalførende filsystem
+Description-ne.UTF-8: Ext3 जर्नल गर्ने फाइल प्रणाली
+Description-nl.UTF-8: Ext3 loggend bestandssysteem
+Description-nn.UTF-8: Ext3-journalførande filsystem
+Description-no.UTF-8: Ext3-journalførende filsystem
+Description-oc.UTF-8: Sistèma de fichièrs jornalizat ext3
+Description-pa.UTF-8: Ext3 ਜਰਨਲਿੰਗ ਫਾਇਲ ਸਿਸਟਮ
+Description-pl.UTF-8: ext3 – system plików z księgowaniem
+Description-pt.UTF-8: Sistema de ficheiros Ext3 com journal
+Description-pt_BR.UTF-8: Sistema de arquivos com "journaling" ext3
+Description-ro.UTF-8: sistem de fișiere ext3 cu jurnalizare
+Description-ru.UTF-8: Журналируемая файловая система Ext3
+Description-si.UTF-8: Ext3 ජර්නල ගොනු පද්ධතිය
+Description-sk.UTF-8: žurnálovací súborový systém ext3
+Description-sl.UTF-8: Dnevniški datotečni sistem Ext3
+Description-sq.UTF-8: Filesistem Ext3 journaling
+Description-sr.UTF-8: Ext3 журналски систем датотека
+Description-sv.UTF-8: Journalförande filsystemet ext3
+Description-ta.UTF-8: ஈஎக்ஸ்டி3 (Ext3) ஆய்விதழ் எழுதும் கோப்பு அமைப்பு
+Description-te.UTF-8: Ext3 జర్నలింగ్ ఫైల్ సిస్టం
+Description-tg.UTF-8: Низоми файлии Ext3 journaling
+Description-th.UTF-8: ระบบแฟ้ม journaling ext3
+Description-tl.UTF-8: Ext3 journaling file system
+Description-tr.UTF-8: Ext3 günlüklü dosya sistemi
+Description-ug.UTF-8: Ext3 journaling ھۆججەت سىستېمىسى
+Description-uk.UTF-8: Журнальована файлова система Ext3
+Description-vi.UTF-8: Hệ thống tập tin ghi nhật ký ext3
+Description-zh_CN.UTF-8: Ext3 日志文件系统
+Description-zh_TW.UTF-8: Ext3 日誌式檔案系統
+
+Template: partman/filesystem_short/ext3
+Type: text
+Description: ext3
+Description-am.UTF-8: ext3
+Description-ar.UTF-8: ext3
+Description-ast.UTF-8: ext3
+Description-be.UTF-8: ext3
+Description-bg.UTF-8: ext3
+Description-bn.UTF-8: ext3
+Description-bo.UTF-8: ext3
+Description-bs.UTF-8: ext3
+Description-ca.UTF-8: ext3
+Description-cs.UTF-8: ext3
+Description-cy.UTF-8: ext3
+Description-da.UTF-8: ext3
+Description-de.UTF-8: ext3
+Description-dz.UTF-8: ext3
+Description-el.UTF-8: ext3
+Description-eo.UTF-8: 'ext3'
+Description-es.UTF-8: ext3
+Description-et.UTF-8: ext3
+Description-eu.UTF-8: ext3
+Description-fa.UTF-8: ext3
+Description-fi.UTF-8: ext3
+Description-fr.UTF-8: ext3
+Description-ga.UTF-8: ext3
+Description-gl.UTF-8: ext3
+Description-gu.UTF-8: ext3
+Description-he.UTF-8: ext3
+Description-hi.UTF-8: ईएक्सटी3
+Description-hr.UTF-8: ext3
+Description-hu.UTF-8: ext3
+Description-id.UTF-8: ext3
+Description-is.UTF-8: ext3
+Description-it.UTF-8: ext3
+Description-ja.UTF-8: ext3
+Description-ka.UTF-8: ext3
+Description-kab.UTF-8: ext3
+Description-kk.UTF-8: ext3
+Description-km.UTF-8: ext3
+Description-kn.UTF-8: ext3
+Description-ko.UTF-8: ext3
+Description-ku.UTF-8: ext3
+Description-lo.UTF-8: ext3
+Description-lt.UTF-8: ext3
+Description-lv.UTF-8: ext3
+Description-mk.UTF-8: ext3
+Description-ml.UTF-8: ext3
+Description-mr.UTF-8: ईएक्सटी3
+Description-nb.UTF-8: ext3
+Description-ne.UTF-8: ext 3
+Description-nl.UTF-8: ext3
+Description-nn.UTF-8: ext3
+Description-no.UTF-8: ext3
+Description-oc.UTF-8: ext3
+Description-pa.UTF-8: ext3
+Description-pl.UTF-8: ext3
+Description-pt.UTF-8: ext3
+Description-pt_BR.UTF-8: ext3
+Description-ro.UTF-8: ext3
+Description-ru.UTF-8: ext3
+Description-se.UTF-8: ext3
+Description-si.UTF-8: ext3
+Description-sk.UTF-8: ext3
+Description-sl.UTF-8: ext3
+Description-sq.UTF-8: ext3
+Description-sr.UTF-8: ext3
+Description-sv.UTF-8: ext3
+Description-ta.UTF-8: ஈஎக்ஸ்டி3 (ext3)
+Description-te.UTF-8: swap
+Description-tg.UTF-8: ext3
+Description-th.UTF-8: ext3
+Description-tl.UTF-8: ext3
+Description-tr.UTF-8: ext3
+Description-ug.UTF-8: ext3
+Description-uk.UTF-8: ext3
+Description-vi.UTF-8: ext3
+Description-zh_CN.UTF-8: ext3
+Description-zh_TW.UTF-8: ext3
+
+Template: partman-ext3/text/ext4
+Type: text
+Description: ext4
+Description-am.UTF-8: Ext4
+Description-ar.UTF-8: ext4
+Description-ast.UTF-8: ext4
+Description-be.UTF-8: ext4
+Description-bg.UTF-8: ext4
+Description-bn.UTF-8: ext4
+Description-bo.UTF-8: ext4
+Description-bs.UTF-8: ext4
+Description-ca.UTF-8: ext4
+Description-cs.UTF-8: ext4
+Description-cy.UTF-8: ext4
+Description-da.UTF-8: ext4
+Description-de.UTF-8: ext4
+Description-dz.UTF-8: ext4
+Description-el.UTF-8: ext4
+Description-eo.UTF-8: 'ext4'
+Description-es.UTF-8: ext4
+Description-et.UTF-8: ext4
+Description-eu.UTF-8: ext4
+Description-fa.UTF-8: ext4
+Description-fi.UTF-8: ext4
+Description-fr.UTF-8: ext4
+Description-ga.UTF-8: ext4
+Description-gl.UTF-8: ext4
+Description-gu.UTF-8: ext4
+Description-he.UTF-8: ext4
+Description-hi.UTF-8: ईएक्सटी4
+Description-hr.UTF-8: ext4
+Description-hu.UTF-8: ext4
+Description-id.UTF-8: ext4
+Description-is.UTF-8: ext4
+Description-it.UTF-8: ext4
+Description-ja.UTF-8: ext4
+Description-ka.UTF-8: ext4
+Description-kab.UTF-8: ext4
+Description-kk.UTF-8: ext4
+Description-km.UTF-8: ext4
+Description-kn.UTF-8: ext4
+Description-ko.UTF-8: ext4
+Description-ku.UTF-8: ext4
+Description-lo.UTF-8: ext4
+Description-lt.UTF-8: ext4
+Description-lv.UTF-8: ext4
+Description-mk.UTF-8: ext4
+Description-ml.UTF-8: ext4
+Description-mr.UTF-8: ईएक्सटी4
+Description-nb.UTF-8: ext4
+Description-ne.UTF-8: ext 4
+Description-nl.UTF-8: ext4
+Description-nn.UTF-8: ext4
+Description-no.UTF-8: ext4
+Description-oc.UTF-8: ext4
+Description-pa.UTF-8: ext4
+Description-pl.UTF-8: ext4
+Description-pt.UTF-8: ext4
+Description-pt_BR.UTF-8: ext4
+Description-ro.UTF-8: ext4
+Description-ru.UTF-8: ext4
+Description-se.UTF-8: ext4
+Description-si.UTF-8: ext4
+Description-sk.UTF-8: ext4
+Description-sl.UTF-8: ext4
+Description-sq.UTF-8: ext4
+Description-sr.UTF-8: ext4
+Description-sv.UTF-8: ext4
+Description-ta.UTF-8: ஈஎக்ஸ்டி4 (ext4)
+Description-te.UTF-8: ext4
+Description-tg.UTF-8: ext4
+Description-th.UTF-8: ext4
+Description-tl.UTF-8: ext4
+Description-tr.UTF-8: ext4
+Description-ug.UTF-8: ext4
+Description-uk.UTF-8: ext4
+Description-vi.UTF-8: ext4
+Description-zh_CN.UTF-8: ext4
+Description-zh_TW.UTF-8: ext4
+
+Template: partman/filesystem_long/ext4
+Type: text
+Description: Ext4 journaling file system
+Description-am.UTF-8: Ext4 የፋይል ስርዓት
+Description-ar.UTF-8: نظام ملفّات ext4 سجلّي
+Description-ast.UTF-8: Sistema de ficheros tresaccional ext4
+Description-be.UTF-8: Файлавая сістэма ext4 з падтрымкай журнала
+Description-bg.UTF-8: Журнална файлова система ext4
+Description-bn.UTF-8: Ext4 জার্নালিং ফাইল সিস্টেম
+Description-bo.UTF-8: Ext4 ཟིན་ཐོའི་མ་ལག
+Description-bs.UTF-8: Ext4 journaling datotečni sistem
+Description-ca.UTF-8: Sistema de fitxers transaccional ext4
+Description-cs.UTF-8: Žurnálovací souborový systém Ext4
+Description-cy.UTF-8: System ffeiliau dyddlyfru ext4
+Description-da.UTF-8: Ext4-journalfilsystem
+Description-de.UTF-8: Ext4-Journaling-Dateisystem
+Description-dz.UTF-8: Ext4 ཇོར་ན་ལིང་ཡིག་སྣོད་རིམ་ལུགས།
+Description-el.UTF-8: Ext4 journaling σύστημα αρχείων
+Description-eo.UTF-8: Protokoliga dosiersistemo Ext4
+Description-es.UTF-8: sistema de ficheros ext4 transaccional
+Description-et.UTF-8: Žurnaaliv failisüsteem ext4
+Description-eu.UTF-8: Ext4 egunkaridun fitxategi-sistema
+Description-fa.UTF-8: فایل‌سیستم ... Ext4
+Description-fi.UTF-8: Ext4 tapahtumakirjanpidon sisältävä tiedostojärjestelmä
+Description-fr.UTF-8: système de fichiers journalisé ext4
+Description-ga.UTF-8: Córas comhad iriseáin Ext4
+Description-gl.UTF-8: sistema de ficheiros transaccional Ext4
+Description-gu.UTF-8: Ext4 જર્નલિંગ ફાઈલ સિસ્ટમ
+Description-he.UTF-8: מערכת קבצים מבוססת יומן מסוג ext4
+Description-hi.UTF-8: ईएक्सटी4 जर्नलिंग फ़ाइल सिस्टम
+Description-hr.UTF-8: Ext4 dnevnički datotečni sustav
+Description-hu.UTF-8: Ext4 naplózó fájlrendszer
+Description-id.UTF-8: sistem berkas berjurnal Ext4
+Description-is.UTF-8: Ext4 dagbókarstutt skráakerfi
+Description-it.UTF-8: File system ext4 con journaling
+Description-ja.UTF-8: ext4 ジャーナリングファイルシステム
+Description-ka.UTF-8: Ext4 ჟურნალიანი ფაილური სისტემა
+Description-kab.UTF-8: Anagraw n yifuyla n uɣmis Ext4
+Description-kk.UTF-8: Журналданушы Ext4 файлдың жүйесі
+Description-km.UTF-8: ប្រព័ន្ធ​ឯកសារ Ext4 journaling
+Description-kn.UTF-8: Ext3 ದಾಖಲಾತಿ ಕಡತವ್ಯವಸ್ಥೆ
+Description-ko.UTF-8: EXT4 저널링 파일 시스템
+Description-ku.UTF-8: Pergala pelan ya bijurnal Ext4
+Description-lo.UTF-8: ລະບົບແຟັມ journaling ext4
+Description-lt.UTF-8: Ext4 žurnalinė failų sistema
+Description-lv.UTF-8: Ext4 datņu sistēma ar žurnālu
+Description-mk.UTF-8: Ext4 journaling датотечен систем
+Description-ml.UTF-8: Ext4 ജേര്‍ണലിങ്ങ് ഫയല്‍ സിസ്റ്റം
+Description-mr.UTF-8: ईएक्सटी४ जर्नलिंग फाइल प्रणाली
+Description-nb.UTF-8: Ext4-journalførende filsystem
+Description-ne.UTF-8: Ext4 जर्नल गर्ने फाइल प्रणाली
+Description-nl.UTF-8: Ext4 loggend bestandssysteem
+Description-nn.UTF-8: Ext4-journalførande filsystem
+Description-no.UTF-8: Ext4-journalførende filsystem
+Description-oc.UTF-8: sistèma de fichièrs jornalizacion ext4
+Description-pa.UTF-8: Ext4 ਜਰਨਲਿੰਗ ਫਾਇਲ ਸਿਸਟਮ
+Description-pl.UTF-8: ext4 – system plików z księgowaniem
+Description-pt.UTF-8: Sistema de ficheiros Ext4 com journal
+Description-pt_BR.UTF-8: Sistema de arquivos com "journaling" ext4
+Description-ro.UTF-8: sistem de fișiere ext4 cu jurnalizare
+Description-ru.UTF-8: Журналируемая файловая система Ext4
+Description-si.UTF-8: Ext4 ජර්නල ගොනු පද්ධතිය
+Description-sk.UTF-8: žurnálovací súborový systém ext4
+Description-sl.UTF-8: Dnevniški datotečni sistem ext4
+Description-sq.UTF-8: Filesistem Ext4 journaling
+Description-sr.UTF-8: Ext4 журналски систем датотека
+Description-sv.UTF-8: Journalförande filsystemet ext4
+Description-ta.UTF-8: ஈஎக்ஸ்டி4 (Ext4) ஆய்விதழ் எழுதும் கோப்பு அமைப்பு
+Description-te.UTF-8: Ext4 జర్నలింగ్ దస్త్ర క్రమ
+Description-tg.UTF-8: Низоми файлии Ext4 journaling
+Description-th.UTF-8: ระบบแฟ้ม journaling ext4
+Description-tl.UTF-8: Ext4 journaling file system
+Description-tr.UTF-8: Ext4 günlüklü dosya sistemi
+Description-ug.UTF-8: Ext4 journaling ھۆججەت سىستېمىسى
+Description-uk.UTF-8: Журнальована файлова система Ext4
+Description-vi.UTF-8: Hệ thống tập tin ghi nhật ký Ext4
+Description-zh_CN.UTF-8: Ext4 日志文件系统
+Description-zh_TW.UTF-8: Ext4 日誌式檔案系統
+
+Template: partman/filesystem_short/ext4
+Type: text
+Description: ext4
+Description-am.UTF-8: Ext4
+Description-ar.UTF-8: ext4
+Description-ast.UTF-8: ext4
+Description-be.UTF-8: ext4
+Description-bg.UTF-8: ext4
+Description-bn.UTF-8: ext4
+Description-bo.UTF-8: ext4
+Description-bs.UTF-8: ext4
+Description-ca.UTF-8: ext4
+Description-cs.UTF-8: ext4
+Description-cy.UTF-8: ext4
+Description-da.UTF-8: ext4
+Description-de.UTF-8: ext4
+Description-dz.UTF-8: ext4
+Description-el.UTF-8: ext4
+Description-eo.UTF-8: 'ext4'
+Description-es.UTF-8: ext4
+Description-et.UTF-8: ext4
+Description-eu.UTF-8: ext4
+Description-fa.UTF-8: ext4
+Description-fi.UTF-8: ext4
+Description-fr.UTF-8: ext4
+Description-ga.UTF-8: ext4
+Description-gl.UTF-8: ext4
+Description-gu.UTF-8: ext4
+Description-he.UTF-8: ext4
+Description-hi.UTF-8: ईएक्सटी4
+Description-hr.UTF-8: ext4
+Description-hu.UTF-8: ext4
+Description-id.UTF-8: ext4
+Description-is.UTF-8: ext4
+Description-it.UTF-8: ext4
+Description-ja.UTF-8: ext4
+Description-ka.UTF-8: ext4
+Description-kab.UTF-8: ext4
+Description-kk.UTF-8: ext4
+Description-km.UTF-8: ext4
+Description-kn.UTF-8: ext4
+Description-ko.UTF-8: ext4
+Description-ku.UTF-8: ext4
+Description-lo.UTF-8: ext4
+Description-lt.UTF-8: ext4
+Description-lv.UTF-8: ext4
+Description-mk.UTF-8: ext4
+Description-ml.UTF-8: ext4
+Description-mr.UTF-8: ईएक्सटी4
+Description-nb.UTF-8: ext4
+Description-ne.UTF-8: ext 4
+Description-nl.UTF-8: ext4
+Description-nn.UTF-8: ext4
+Description-no.UTF-8: ext4
+Description-oc.UTF-8: ext4
+Description-pa.UTF-8: ext4
+Description-pl.UTF-8: ext4
+Description-pt.UTF-8: ext4
+Description-pt_BR.UTF-8: ext4
+Description-ro.UTF-8: ext4
+Description-ru.UTF-8: ext4
+Description-se.UTF-8: ext4
+Description-si.UTF-8: ext4
+Description-sk.UTF-8: ext4
+Description-sl.UTF-8: ext4
+Description-sq.UTF-8: ext4
+Description-sr.UTF-8: ext4
+Description-sv.UTF-8: ext4
+Description-ta.UTF-8: ஈஎக்ஸ்டி4 (ext4)
+Description-te.UTF-8: ext4
+Description-tg.UTF-8: ext4
+Description-th.UTF-8: ext4
+Description-tl.UTF-8: ext4
+Description-tr.UTF-8: ext4
+Description-ug.UTF-8: ext4
+Description-uk.UTF-8: ext4
+Description-vi.UTF-8: ext4
+Description-zh_CN.UTF-8: ext4
+Description-zh_TW.UTF-8: ext4
+
+Template: partman-ext3/boot_not_ext2_or_ext3
+Type: boolean
+Description: Go back to the menu and correct this problem?
+ Your boot partition has not been configured with the ext2 or ext3
+ file system. This is needed by your machine in order to boot. Please go
+ back and use either the ext2 or ext3 file system.
+ .
+ If you do not go back to the partitioning menu and correct this error,
+ the partition will be used as is. This means that you may not be able
+ to boot from your hard disk.
+Description-am.UTF-8: ወደ ምናሌው ልመለስና ስህተቱ ይታረም?
+ ማስነሻ ክፋይ በext2 ወይም ext3 ፋይል ስርዓት አልተስተካከለም፡፡ አስሊ መኪናዎ ለመነሳት ይህንን የፋይል ስርዓት ይፈልጋል፡፡ እባክዎ ወደኋላ ይመለሱና ext2 ወይም ext3 ን ይጠቀሙ፡፡
+ .
+ ወደ መክፈያው ምናሌ ተመልሰው ስህተቱን ካላረሙ ክፋዩ እንዳለ በጥቅም ላይ ይውላል፡፡
+Description-ar.UTF-8: هل تريد العودة إلى القائمة و تصحيح هذه المشكلة؟
+ جزء الإقلاع لم يُهيّأ باستخدام نظام ملفّات ext2 أو ext3. يتطلّب جهازك هذا الأمر كي يتمكّن من الإقلاع. رجاءً عُد واستخدم نظام الملفّات ext2 أو ext3.
+ .
+ إذا لم تعد إلى قائمة التجزئة و تقم بتصحيح هذا الخطأ فسيستعمل الجزء كما هو. هذا يعني أنّك قد لا تتمكّن من الإقلاع من قرصك الصّلب.
+Description-ast.UTF-8: ¿Volver al menú y correxir esti problema?
+ La to partición d'arranque nun ta configurada col sistema de ficheros ext2 o ext3. Esto ye necesario pa poder arrancar l'equipu. Por favor, vuelve y usa un sistema de ficheros ext2 o ext2.
+ .
+ Si nun vuelves al menú de particionáu y corrixes esti error, la partición va usase como ta definida. Esto significa que puede nun ser arrancable nel to discu duru.
+Description-be.UTF-8: Вярнуцца ў меню, каб выправіць праблему?
+ Ваш падзел загрузкі не наладжаны, каб выкарыстоўваць файлавую сістэму старога ext2 або ext3. Такая наладка неабходная, каб Вашая машына магла загрузіцца. Калі ласка, вярніцеся, каб ужыць сістэму ext2 або ext3.
+ .
+ Калі Вы не вернецеся да меню перадзелу дыскаў, каб выправіць гэтую памылку, падзел будзе ўжыты як ёсць. Магчыма, у выніку Вы не зможаце загрузіць сістэму з жорсткага дыска.
+Description-bg.UTF-8: Връщане обратно в менюто и поправяне на проблема?
+ Вашият зареждащ дял не е настроен да използва файлова система ext2 или ext3. Това е нужно, за да може машината да зарежда. Моля, върнете се и укажете файлова система ext2 или ext3.
+ .
+ Ако не се върнете в менюто за разделяне и не поправите този проблем, дялът ще бъде използван както си е в момента.
+Description-bn.UTF-8: মেনুতে পেছনে গিয়ে এই সমস্যাটি দূর করবেন কি?
+ আপনার বুট পার্টিশনকে ext2 অথবা ext3 ফাইল সিস্টেম দ্বারা কনফিগার করা হয় নি। আপনার কম্পিউটারকে বুট করার জন্য এটি প্রয়োজন। অনুগ্রহপূর্বক পেছনে ফিরে গিয়ে ext2 অথবা ext3 ফাইল সিস্টেম এর কোন একটি বেছে নিন।
+ .
+ আপনি যদি পেছনে পার্টিশনকারী মেনুতে ফিরে গিয়ে এই ত্রুটিটি দূর না করেন, তবে পার্টিশনটি ত্রুটিপূর্ণ অবস্থাতেই ব্যবহৃত হবে। এর ফলে হয়তো আপনার হার্ড ডিস্ক থেকে বুট করাই সম্ভব হবে না।
+Description-bo.UTF-8: འདེམས་ཐོའི་ཐོག་ཏུ་ཕྱིར་ལོག་ནས་སྐྱོན་དག་བཅོས་བྱེད་དགོས་སམ
+ ཁྱོད་ཀྱི་སྒུལ་སློང་ཁག་དེ་ཡིག་ཆའི་མ་ལག་ ext2 དང་ཡང་ན ext3 སྒྲིག་འགོད་བྱས་མི་འདུག འདི་ནི་འཕྲུལ་ཆས་ལ་དགོས་ངེས་ཡིན་པས་འདེམས་ཐོའི་ཐོག་ཏུ་ཕྱིར་ལོག་བྱས་ནས་ཡིག་ཆའི་མ་ལག་ext2 ཡང་ན ext3 འདེམས་རོགས
+ .
+ ཁག་བཟོ་སའི་འདེམས་ཐོའི་ཐོག་ཏུ་ཕྱིར་ལོག་ནས་ནོར་འཁྲུལ་འདི་དག་དག་བཅོས་མ་བྱས་ན་ཁག་འདི་དེ་འདྲ་སྤྱོད་རྒྱུ་ཡིན། རྒྱུ་མཚན་ནི་ཁྱོད་ཀྱིས་སྲ་སྡེར་ཐོག་ནས་སྒུལ་སློང་བྱེད་མི་ཐུབ་པའི་ཉེན་ཁ་ཡོད
+Description-bs.UTF-8: Želite li se vratiti na meni i ispraviti ovaj problem?
+ Vaša boot particija nije formatirana sa ext2 ili ext3 datotečnim sistemom. Ovo je potrebno kako bi se Vaša mašina mogla pokrenuti. Molim vratite se nazad i koristite ili ext2 ili ext3 datotečni sistem.
+ .
+ Ako se ne vratite na meni za particionisanje i ispravite ovu grešku, particija će se koristiti onakva kakva jeste. Ovo znači da možda nećete moći podići sistem sa Vašeg hard diska.
+Description-ca.UTF-8: Voleu tornar al menú i corregir aquest problema?
+ La partició d'arrencada no s'ha configurat amb el sistema de fitxers ext2 o ext3. Això és necessari per a que l'ordinador puga arrencar. Aneu enrere i utilitzeu el sistema de fitxers ext2 o ext3.
+ .
+ Si no aneu enrere al menú de partició i corregiu aquest error, la partició s'utilitzarà com està. Això vol dir que potser no podreu arrencar des del disc dur.
+Description-cs.UTF-8: Vrátit se zpět do menu a opravit tento problém?
+ Zaváděcí oblast nemá nastaven souborový systém ext2 nebo ext3, což je na vašem počítači nutný předpoklad pro správné zavádění systému. Vraťte se prosím zpět a použijte buď souborový systém ext2 nebo ext3.
+ .
+ Pokud se nevrátíte zpět do rozdělovacího menu a neopravíte tyto chyby, oblast se použije tak, jak je. To znamená, že se možná nepovede zavést systém z pevného disku.
+Description-cy.UTF-8: Dychwelyd i'r ddewislen a chywiro gwallau?
+ Mae'r rhaniad ymgychwyn ddim wedi ei gyflunio gyda'r system ffeil ext2 neu ext3. Mae angen hwn ar y peiriant er mwyn iddo gychwyn. Dychwelwch a defnyddiwch naill ai y system ffeil ext2 neu ext3.
+ .
+ Os nad ydych chi'n dychwelyd i'r ddewislen rhaniadu a chywiro'r gwallau hyn, caiff y rhaniad ei ddefnyddio fel y mae.
+Description-da.UTF-8: Gå tilbage til menuen for at ordne dette problem?
+ Din opstartspartition er ikke blevet sat op med et ext2- eller et ext3-filsystem. Dette er nødvendigt for at din maskine skal kunne startes op. Gå tilbage og brug enten et ext2- eller et ext3-filsystem.
+ .
+ Hvis du ikke går tilbage til partitioneringsmenuen og ordner disse problemer, vil partitionen blive brugt som den er. Det vil betyde at du muligvis ikke vil kunne starte op fra din harddisk.
+Description-de.UTF-8: Möchten Sie zum Hauptmenü zurückkehren, um die Fehler zu beheben?
+ Ihre Boot-Partition wurde nicht mit dem Ext2- oder Ext3-Dateisystem konfiguriert. Dies ist allerdings nötig, damit der Computer starten kann. Bitte gehen Sie zurück und wählen Sie entweder ext2 oder ext3 als Dateisystem aus.
+ .
+ Wenn Sie nicht zum Partitionierungsmenü zurückkehren und diesen Fehler beheben, wird die Partition genutzt, wie sie jetzt ist. Das bedeutet, dass Sie eventuell nicht von Ihrer Festplatte starten können.
+Description-dz.UTF-8: དཀར་ཆག་ལུ་ལོག་འགྱོ་འདི་དཀའ་ངལ་འདི་ནོར་བཅོས་འབད?
+ ཁྱོད་ཀྱི་བུཊི་བར་བཅད་འདི་  ext2 ཡང་ན་ ext3 ཡིག་སྣོད་རིམ་ལུགས་དང་གཅིག་ཁར་ རིམ་སྒྲིག་མ་འབད་བས། དེ་ཡང་ བུཊི་འབད་ནི་གི་དོན་ལུ་ ཁྱོད་རའི་མ་འཕྲུལ་ལུ་དགོཔ་འདུག། དེ་འབདཝ་ལས་ ལོག་འགྱོ་སྟེ་  ext2 ཡང་ན་ ext3  ཡིག་སྣོད་རིམ་ལུགས་ཅིག་ ལག་ལེན་འཐབ། 
+ .
+ ཁྱོད་ཀྱིས་བར་བཅད་འབད་མིའི་དཀར་ཆག་ནང་ལུ་ལོག་མ་འགྱོཝ་དང་འཛོལ་བ་འདི་ནོར་བཅོས་མ་འབད་བ་ཅིན་ བར་བཅད་འདི་ག་ཨིནམ་སྦེ་ལག་ལེན་འཐབ་ནི་ འ་ནི་འདི་ཁྱོད་ཀྱི་སྲ་ཆས་ཌིཀསི་ནང་ལས་ཁྱོད་ཀྱིས་བུཊི་འབད་མི་ཚུགསཔ་འོང་ཟེར་བའི་དོན་ཨིན།
+Description-el.UTF-8: Θέλετε να επιστρέψετε στο μενού και να διορθώσετε τα σφάλματα;
+ Η κατάτμηση εκκίνησης δεν έχει ρυθμιστεί με το σύστημα αρχείων ext2 ή ext3. Αυτό είναι απαραίτητο για το μηχάνημά σας ώστε να μπορεί να εκκινήσει. Παρακαλώ, επιστρέψτε πίσω και χρησιμοποιήστε το ext2 ή ext3 σύστημα αρχείων.
+ .
+ Αν δεν επιστρέψετε στο μενού διαμέρισης για να διορθώσετε αυτό το σφάλμα, η κατάτμηση θα χρησιμοποιηθεί όπως έχει. Αυτό σημαίνει ότι πιθανά δεν θα μπορείτε να εκκινήσετε από τον σκληρό σας δίσκο.
+Description-eo.UTF-8: Ĉu retroiri al la menuo kaj korekti tiun ĉi problemon?
+ Via ekŝarga diskparto ne estis akomodita kun la dosiersistemo 'ext2' aŭ 'ext3'. Tio estas nepre necesa por ekŝargi vian sistemon. Bonvolu retroiri kaj indiki dosiersistemon 'ext2' aŭ 'ext3'.
+ .
+ Se vi ne retroiras al diskpartiga menuo kaj ne korektas tiun ĉi eraron, la diskparto estos uzata tiel, kiel ĝi estas. Verŝajne, vi ne povos ekŝargi el via fiksita disko.
+Description-es.UTF-8: ¿Desea volver al menú y corregir este error?
+ La partición de arranque no ha sido configurada con el sistema de ficheros ext2 o ext3. Esto es necesario para el arranque del sistema. Por favor, vuelva atrás y utilice el sistema de ficheros ext2 o ext3.
+ .
+ Si no vuelve al menú de particionado y corrige estos errores, la partición se utilizará como está definida. Esto significa que puede que no sea capaz de arrancar del disco duro.
+Description-et.UTF-8: Kas minna tagasi menüüsse ja viga parandada?
+ Su alglaaduripartitsiooni ei ole seadistatud ext2 või ext3 failisüsteemile. See on aga vajalik selleks, et su masin alglaaduks. Palun mine tagasi ja kasuta kas ext2 või ext3 failisüsteemi.
+ .
+ Kui sa ei naase partitsioneerimismenüüsse ega paranda seda viga, kasutatakse partitsiooni nii nagu ta on. Selle tulemusena võib juhtuda, et sa ei saa oma kõvakettalt alglaadimist sooritada.
+Description-eu.UTF-8: Menura itzuli eta arazo hau konpondu nahi duzu?
+ Abioko partizioa ez da ext2 edo ext3 motako fitxategi-sistema batekin konfiguratu. Makinak hori behar du abiarazi ahal izateko. Joan atzera eta erabili ext2 edo ext3 fitxategi-sistema.
+ .
+ Partizioak egiteko menura itzuli eta errore hau zuzentzen ez baduzu, partizioa dagoen bezala erabiliko da. Horrek esan nahi du agian ezingo duzula disko gogorretik abiarazi.
+Description-fa.UTF-8: بازگشت به منو و تصحیح این مشکل؟
+ پارتیشن بوت شما با سیستم‌فایل ext2 یا ext3 پیکربندی نشده است. اینکار برای بالا آمدن سیستم شما لازم است. لطفاً برگردید و یکی از این دو را انتخاب کنید.
+ .
+ اگر شما به منوی پارتیشن‌بندی بازنگشته و این خطا را اصلاح نکنید، پارتیشن همانگونه که هست استفاده خواهد شد. این بدین معنی است که ممکن است نتوانید از دیسک‌سخت بالا بیایید.
+Description-fi.UTF-8: Palataanko valikkoon korjaamaan tämä ongelma?
+ Käynnistysosion tiedostojärjestelmä ei ole ext2 tai ext3. Järjestelmää ei voida käynnistää, jos se ei ole toinen näistä. Palaa takaisin ja käytä ext2- tai ext3-tiedostojärjestelmää.
+ .
+ Mikäli et palaa osiointivalikkoon ja korjaa tätä virhettä, osiota käytetään sellaisena kuin se on. Tämä tarkoittaa ettei järjestelmää luultavasti voi käynnistää kiintolevyltä.
+Description-fr.UTF-8: Revenir au menu et corriger ce défaut ?
+ La partition de démarrage n'a pas été configurée avec un système de fichiers ext2 ou ext3. Ce système de fichiers est indispensable pour le démarrage de la machine. Veuillez recommencer et utiliser un système de fichiers ext2 ou ext3.
+ .
+ Si vous ne revenez pas au menu de partitionnement pour corriger ce défaut, la partition sera utilisée telle quelle. Cela signifie que vous ne pourrez probablement pas démarrer à partir du disque dur.
+Description-ga.UTF-8: Fill ar an roghchlár agus ceartaigh an fhadhb seo?
+ Níor cumraíodh do dheighilt tosaithe leis an gcóras comhad ext2 ná ext3.  Ní mór duit ceann de na córais seo a úsáid chun do ríomhaire a thosú.  Téigh ar ais agus roghnaigh an córas ext2 nó ext3.
+ .
+ Mura dtéann tú ar ais go dtí an roghchlár deighilte agus an earráid seo a cheartú, úsáidfear an deighilt mar atá.  Sa chás seo seans nach mbeidh tú in ann an ríomhaire a thosú ó do dhiosca crua.
+Description-gl.UTF-8: Desexa volver ao menú e corrixir este problema?
+ A partición de inicio non está configurada co sistema de ficheiros ext2 ou ext3. Isto é preciso para que a máquina arranque. Volte e empregue o sistema de ficheiros ext2 ou ext3.
+ .
+ Se non volta ao menú de particionamento e corrixe este erro, a partición hase empregar tal como está. Isto significa que podería non arrancar desde o disco duro.
+Description-gu.UTF-8: મેનુમાં પાછા જશો અને આ સમસ્યા દૂર કરશો?
+ તમારુ બુટ પાર્ટિશન જૂની  ext2 અથવા ext3 ફાઇલ સિસ્ટમ સાથે રૂપરેખાંકિત કરેલ નથી. આ તમારા મશીનને શરુ કરવા માટે જરુરી છે. મહેરબાની કરી પાછા જાવ અને ext2 અથવા ext3 ફાઇલ સિસ્ટમ વાપરો.
+ .
+ જો તમે પાર્ટિશન કરવાનાં મેનુમાં પાછા જઇ અને આ ક્ષતિને સુધારશો નહી તો, પાર્ટિશન જેમ છે એમ જ વપરાશે. એનો અર્થ એ થયો કે તમે તમારી હાર્ડ ડિસ્કમાંથી બૂટ કરી શકશો નહી.
+Description-he.UTF-8: לחזור חזרה לתפריט ולתקן את השגיאה?
+ מחיצת האתחול שלך לא הוגדרה עם מערכת קבצים מהסוגים ext2 או ext3. הגדרה זאת נדרשת על ידי המחשב שלך כדי שיוכל לאתחל. מוטב לחזור אחורה ולבחור ב־ext2 או ב־ext3 בתור מערכת קבצים.
+ .
+ בחירה שלא לחזור לתפריט החלוקה למחיצות ולתקן את השגיאה הזאת תוביל לשימוש במחיצה כמו שהיא. כלומר שלא תהיה לך אפשרות לאתחל מהכונן הקשיח שלך.
+Description-hi.UTF-8: मेन्यू में वापस जाएँ तथा त्रुटियों को सुधारें?
+ आपका बूट पार्टिशन ईएक्सटी२ या ईएक्सटी३ फाइलसिस्टम में नहीं बना है. आपके यंत्र को बूट करने के लिए यह आवश्यक है. कृपया वापस जा कर ईएक्सटी२ या ईएक्सटी३ फाइलसिस्टम चुनिए.
+ .
+ यदि आप पार्टिशनिंग सूची में वापस जाकर इन त्रुटियों को नहीं सुधारते हैं, तो पार्टिशन जैसे हैं वैसे ही प्रयोग में ले लिए जाएँगे. अर्थात् शायद अपने हार्ड डिस्क से बूट नहीं कर सकेंगे.
+Description-hr.UTF-8: Vratite se u izbornik i ispravite taj problem?
+ Vaša particija pokretanja sustava nije podešena za ext2 ili ext3 datotečni sustav. To je potrebno vašem računalu radi pokretanja sustava. Vratite se i upotrijebite ext2 ili ext3 datotečni sustav.
+ .
+ Ako se ne vratite u izbornik particioniranja i ne ispravite taj problem, ta particija će biti ostavljena kakva jest. To znači da možda nećete moći pokrenuti sustav s čvrstog diska.
+Description-hu.UTF-8: Visszalépsz a menübe és kijavítod ezt a hibát?
+ A rendszerindító partíciód nem ext2 vagy ext3 fájlrendszerrel lett konfigurálva. Ez szükséges a rendszerindításhoz. Lépj vissza és válaszd az ext2 vagy az ext3 fájlrendszert.
+ .
+ Ha nem lépsz vissza a particionálási menübe és nem javítod ki ezt a hibát, akkor a partíció úgy lesz használva, ahogy van. Lehet, hogy nem fogsz tudni rendszert indítani a merevlemezről.
+Description-id.UTF-8: Kembali ke menu sebelumnya dan perbaiki kesalahan tersebut?
+ Partisi boot Anda belum dikonfigurasi untuk menggunakan sistem berkas ext2 atau ext3. Hal ini diperlukan Anda agar dapat menjalankan komputer. Silakan kembali ke menu sebelumnya dan gunakan sistem berkas ext2 atau ext3.
+ .
+ Jika Anda tidak kembali ke menu partisi dan memperbaiki kesalahan-kesalahan ini, partisi ini akan digunakan menurut kondisi sebelumnya. Hal ini berarti Anda mungkin tidak dapat menyalakan komputer lewat hard disk.
+Description-is.UTF-8: Fara aftur í valmyndina og laga vandamálið?
+ Ræsidisksneiðin er ekki sett upp með ext2 eða ext3 skráakerfunum . Þetta þarf til að tölvan geti keyrt. Farðu til baka og veldu annað hvort ext2 eða ext3 skráakerfi.
+ .
+ Ef þú ferð ekki til baka í disksneiðingarvalmyndina til að leiðrétta þessa villu, þá verður disksneiðin notuð í þessu ástandi. Þetta þýðir að ekki er víst að þú getir ræst vélina upp af harða disknum.
+Description-it.UTF-8: Tornare al menù e correggere questo problema?
+ La partizione di avvio non è stata configurata con il file system ext2 o ext3. Questo è necessario affinché il computer si avvii. Tornare indietro e usare il file system ext2 o ext3.
+ .
+ Se non si torna al menù di partizionamento per correggere questo errore, la partizione verrà utilizzata così come è. Questo vuol dire che potrebbe essere impossibile avviare da questo disco fisso.
+Description-ja.UTF-8: メニューに戻ってこの問題を修正しますか?
+ あなたのブートパーティションは ext2 または ext3 ファイルシステムに設定されていません。これはあなたのマシンを起動できるようにするのに必要です。戻って ext2 または ext3 ファイルシステムを使用してください。
+ .
+ パーティショニングメニューに戻ってこのエラーの修正をしないと、パーティションは結局利用できません。これは、あなたのハードディスクから起動できない可能性があることを意味します。
+Description-ka.UTF-8: დაბრუნდებით მენუში და გაასწორებთ შეცდომებს?
+ თქვენ ჩატვირთვადი დანაყოფი ext2 ან ext3 სისტემით არის მორგებული. ეს აუცილებელია თქვენი სისტემის ჩატვირთვისათვის. გთხოვთ დაბრუნდეთ და გამოიყენოთ ext2 ან ext3 ფაილური სისტემა.
+ .
+ თუ არ დაბრუნდებით დაყოფის მენუში და არ გაასწორებთ ამ შეცდომებს, დანაყოფი იქნება გამოყენებული არსებული სახით. ეს კი ნიშნავს, რომ შესაძლოა, მყარი დისკიდან ჩატვირთვა ვერ მოხერხდეს.
+Description-kab.UTF-8: Uɣal ɣer wumuɣ syen seɣti tuccḍa-a?
+ Aḥric-inek·inem n usenker ur yettuswel ara s unagraw n yifuyla ext2 neɣ ext3. Ayagi yettusra sɣur uselkim-ik·im akken ad yekker. Ttxil-k·m uɣal ɣer deffir syen seqdec anagraw n yifuyla ufaylu ext2 neɣ ext3.
+ .
+ Ma yella ur tuɣaleḍ ara ɣer wumuɣ n beṭṭu i wakken ad tseɣtiḍ tuccḍa-a, aḥric ad yettuseqdec akka i yella. Anamek n waya ur tettizmireḍ ara ad tesnekred seg uḍebsi-inek·inem aqquran.
+Description-kk.UTF-8: Мәзірге оралып, қателерді түзетуді қалайсыз ба?
+ Сіздің жүктейтін бөліміңіз ext2 не ext3 файлдық жүйесімен пішімделмеді. Компьютер жүктелуі үшін бұл міндетті операция. Артқа оралып, ext2 не ext3 файлдық жүйесін пайдалануды таңдаңыз.
+ .
+ Егер сіз бөлу мәзіріне оралып, осы қатені түземесеңіз, бөлім бар күйінде пайдаланылады. Демек сіз қатты дискіңізден жүктеле алмайтын боласыз.
+Description-km.UTF-8: ត្រឡប់​ទៅ​ម៉ឺនុយ ហើយ​កែ​កំហុស​នេះ ?
+ ភាគ​ថាស​ចាប់ផ្ដើម​របស់​អ្នក​មិន​ត្រូវ​បានកំណត់​រចនាសម្ព័ន្ធ​​ជា​​ប្រព័ន្ធ​ឯកសារ ext2 ឬ ext3 ទេ ។ វា​ទាមទារ​ដោយ​ម៉ាស៊ីន​របស់​អ្នក ដើម្បី​ចាប់ផ្ដើម ។ សូម​ត្រឡប់​ក្រោយ​ ហើយ​ប្រើ​ប្រព័ន្ធ​ឯកសារ ext2 ឬ ext3 ។
+ .
+ ប្រសិន​បើ​អ្នក​មិន​ត្រឡប់​ក្រោយ​ទៅ​ម៉ឺនុយ​ការ​ចែកភាគ​ថាស​ និង​កែ​កំហុស​ទេ ការ​ចែក​ភាគ​ថាស​នឹង​ត្រូវ​បាន​ប្រើ ។ នេះ​មាន​ន័យ​ថា​អ្នក​មិនអាច​ចាប់ផ្ដើម​ពី​ថាសរឹង​របស់​អ្នក​បាន​​ទេ ។
+Description-kn.UTF-8: ಆಯ್ಕೆ ಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಿ ದೋಷವನ್ನು ಸರಿಪಡಿಸುವುದೆ?
+ ನಿಮ್ಮ ಬೂಟ್ ವಿಭಜನೆಯನ್ನು ext2 ಅಥವಾ ext3 ಕಡತ ವ್ಯವಸ್ಥೆಯೊಂದಿಗೆ ಸಂಯೋಜಿಸಲಾಗಿಲ್ಲ. ನಿಮ್ಮ ಯಂತ್ರವನ್ನು ಚಾಲನೆ ಮಾಡುವಲ್ಲಿ ಇದು ಅವಶ್ಯಕ. ದಯಮಾಡಿ ಮತ್ತೆ ಹಿಂದಕ್ಕೆ ಹೋಗಿ ext2 ಅಥವಾ ext3 ಕಡತ ವ್ಯವಸ್ಥೆಯನ್ನು ಬಳಸಿ.
+ .
+ ನೀವು ವಿಭಜನ ಆಯ್ಕೆಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಿ ದೋಷಗಳನ್ನು ಸರಿಪಡಿಸದಿದ್ದರೆ, ವಿಭಜನೆಯನ್ನು ಹಾಗೆ ಬಳಸಲಾಗುತ್ತದೆ. ಇದರಿಂದಾಗಿ ನೀವು ನಿಮ್ಮ ಹಾರ್ಡ ಡಿಸ್ಕಿನಿಂದ ಬೂಟ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗದಿರಬಹುದು.
+Description-ko.UTF-8: 메뉴로 돌아가서 이 문제를 바로잡으시겠습니까?
+ 부팅 파티션을 EXT2나 EXT3 파일 시스템으로 설정하지 않았습니다. 이 컴퓨터에서 부팅하려면 EXT2나 EXT3 파일 시스템을 사용해야 합니다. 돌아가서 EXT2나 EXT3 파일 시스템을 사용하십시오.
+ .
+ 파티션 메뉴로 돌아가서 이 오류를 바로잡지 않으면, 이 파티션을 지금 상태로 사용합니다. 이렇게 하면 하드 디스크에서 부팅할 수 없을 수도 있습니다.
+Description-ku.UTF-8: Bizivire pêşekê û şaştiyan serast bike?
+ Beşa te ya root bi pergala pelan a ext2 an ext3 nehat mîhenkirin. Makîneya te ji bo booteke têkûz vê dixwaze. Ji kerema xwe re paşde here û pergala pelan a ext2 an ext3 bi kar bîne.
+ .
+ Heke tu venegerî pêşeka dabeşkirinê û tu çewtiyan serast nekî dê beş bi vî rengî bête bikaranîn. Yanî, dibe ku ji dîska te nayê bootkirin.
+Description-lo.UTF-8:   ຍອ້ນກັບໄປທີ່ລາຍການເພື່ອແກ້ໄຂປັນຫານີ້ຫຼືບໍ່?
+ ພາທິຊັນບູດຂອງເຈົ້າບໍ່ໄດ້ກຳນົດໄວ້ໃຫ້ເປັນລະບົບແຟັມ ext2ຫຼື ext3ຊື່ງຈຳເປັນສຳລັບການບູດເຄື່ອງຂອງ  ກະລຸນາຍອ້ນກັບໄປກຳນົດພາທິຊັນບູດໃຫ້ເປັນລະບົບແຟັມ  ext2 ຫຼື ext3
+ .
+  ຖ້າເຈົ້າບໍ່ຍອ້ນກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນເພື່ອແກ້ໄຂຂໍ້ຜິດພາດນີ້ ລະບົບຈະໃຊ້ພາທິຊັນຕາມສະພາບທີ່ມັນເປັນ
+Description-lt.UTF-8: Ar grįžti į meniu ir pataisyti šią problemą?
+ Paleidimo skaidiniui nebuvo pasirinkta ext2 ar ext3 failų sistema. Tai būtina, kad Jūsų kompiuteris galėtų paleisti operacinę sistemą. Grįžkite atgal ir pasirinkite ext2 arba ext3 failų sistemą.
+ .
+ Jei negrįšite į disko dalijimo meniu ir neištaisysite šių klaidų, šis skaidinys bus naudojamas kaip yra. Tai reiškia, kad negalėsite paleisti operacinės sistemos iš kietojo disko.
+Description-lv.UTF-8: Atgriezties uz galveno izvēlni un izlabot kļūdas?
+ Jūsu palaišanas (boot) nodalījums nav nokonfigurēts ar ext2 vai ext3 datņu sistēmu. Taču šāda konfigurācija ir nepieciešama, lai jūsu dators varētu tikt palaists. Lūdzu, atgriezieties un izvēlieties ext2 vai ext3 datņu sistēmu.
+ .
+ Ja neatgriezīsieties uz nodalījumu veidošanas izvēlni un neizlabosiet radušās kļūdas, nodalījumi tiks izmantoti esošajā konfigurācijā. Tas nozīmē, ka, iespējams, jūs vēlāk nevarēsiet palaist savu datoru no cietā diska.
+Description-mk.UTF-8: Врати се во менито и поправи го проблемот?
+ Вашата партицијата за подигнување не е конфигурирана со ext2 или ext3 датотечен систем. Ова е потребно за да може да се подигнува машината. Ве молам вратете се назад и изберете го ext2 или ext3 датотечен систем.
+ .
+ Ако не се вратиш во мениот за партиционирање и ја поправиш оваа грешка, партицијата ќе се користи како што е. Ова значи дека можеби нема да можеш да подигнеш од твојот тврд диск.
+Description-ml.UTF-8: മെനുവിലേയ്ക്കു് തിരിച്ചു് പോയി ഈ പ്രശ്നം ശരിയാക്കണോ?
+ നിങ്ങളുടെ ബൂട്ട് ഭാഗം ext2 അല്ലെങ്കില്‍ ext3 ഫയല്‍ സിസ്റ്റം കൊണ്ടല്ല ക്രമീകരിച്ചിരിക്കുന്നതു്. നിങ്ങളുടെ മഷീന്‍ ബൂട്ട് ചെയ്യുന്നതിന് ഇതു് ആവശ്യമാണു്. ദയവായി തിരിച്ചു് പോയി ext2 അല്ലെങ്കില്‍ ext3 ഫയല്‍ സിസ്റ്റം ഉപയോഗിയ്ക്കുക.
+ .
+ നിങ്ങള്‍ വിഭജന മെനുവിലേയ്ക്കു് തിരിച്ചു് പോയി ഈ പ്രശ്നം ശരിയാക്കിയില്ലെങ്കില്‍ ഭാഗം അങ്ങനെ തന്നെ ഉപയോഗിക്കുന്നതായിരിയ്ക്കും. നിങ്ങള്‍ക്കു് ഹാര്‍ഡ് ഡിസ്കില്‍ നിന്നും ബൂട്ട് ചെയ്യാന്‍ കഴിഞ്ഞെന്ന് വരില്ല എന്നാണ് ഇതിനര്‍ത്ഥം.
+Description-mr.UTF-8: मागे मेन्यूकडे जाउन ही समस्या सुधारायची?
+ आपले आरंभ विभाजन ईएक्सटी२ वा ईएक्सटी३ फाइल प्रणालीने संरचित केलेले नाही. आपल्या संगणकाचा आरंभ होण्याकरिता हे आवश्यक आहे. कृपया मागे जा व ईएक्सटी२ किंवा ईएक्सटी३ फाइल प्रणाली वापरा.
+ .
+ जर तुम्ही मागील पायरीवर जाउन हा दोष काढून टाकला नाही तर, विभाजनांची सद्य स्थिती कायम धरली जाईल. याचा अर्थ असा की कदाचित तुम्ही तुमच्या हार्डडीस्क वरून संगणक सुरु करू शकणार नाही.
+Description-nb.UTF-8: Vil du gå tilbake til menyen og rette opp feilen?
+ Oppstartspartisjonen din er ikke satt opp med det ext2- eller ext3-filsystemet. Dette er nødvendig for din maskin for at den skal kunne starte opp. Gå tilbake og bruk enten ext2- eller ext3-filsystemet.
+ .
+ Hvis du ikke går tilbake til partisjoneringsmenyen og retter opp disse feilene, vil partisjonen bli brukt som den er. Dette betyr at du kanskje ikke vil kunne starte systemet fra harddisken.
+Description-ne.UTF-8: मेनुमा फर्केर यो समस्या सुधार्नुहुन्छ?
+ तपाईँको बुट विभाजन ext2 वा ext3 बाट कन्फिगर गरिएको छैन ।तपाईँको प्रणाली बुट हुनको लागि यो हुन जरूरी छ।कृपया पछाडि जानुहोस र ext2 वा ext3 फाइल प्रणाली प्रयोग गर्नुहोस् ।
+ .
+ यदि तपाईँ विभाजन मेनुमा फर्केर जानुहुन्न र यो त्रुटिलाई सुधार्नुहुन्छ भने, यो विभाजन जस्ताको तस्तै प्रयोग हुन्छ । यसको मतलव तपाईँ तपाईँको हार्ड डिस्कबाट बुट गर्न सक्षम हुनुहुने छैन ।
+Description-nl.UTF-8: Wilt u teruggaan naar het menu om dit probleem op te lossen?
+ Uw opstartpartitie is niet ingesteld met het ext2- of ext3-bestandssysteem. Dit is echter noodzakelijk om de computer correct te kunnen opstarten. U kunt best teruggaan en het ext2- dan wel het ext3-bestandssysteem gebruiken.
+ .
+ Als u niet teruggaat naar het schijfindelingsmenu om dit probleem op te lossen zal deze partitie zo gebruikt worden. Dit houdt in dat u de computer mogelijk niet vanaf de schijf kan opstarten.
+Description-nn.UTF-8: Gå tilbake til menyen og retta opp dette problemet?
+ Oppstartspartisjonen din er ikkje sett opp med eit ext2- eller ext3-filsystem. Dette er naudsynt for at maskina di skal kunne starte opp. Gå tilbake og bruk anten ext2- eller ext3-filsystemet.
+ .
+ Viss du ikkje går tilbake til partisjoneringsmenyen og rettar opp desse feila, vil partisjonen bli brukt som han er. Dette betyr at det kan vere du ikkje kan starte opp maskina frå harddisken.
+Description-no.UTF-8: Vil du gå tilbake til menyen og rette opp feilen?
+ Oppstartspartisjonen din er ikke satt opp med det ext2- eller ext3-filsystemet. Dette er nødvendig for din maskin for at den skal kunne starte opp. Gå tilbake og bruk enten ext2- eller ext3-filsystemet.
+ .
+ Hvis du ikke går tilbake til partisjoneringsmenyen og retter opp disse feilene, vil partisjonen bli brukt som den er. Dette betyr at du kanskje ikke vil kunne starte systemet fra harddisken.
+Description-oc.UTF-8: Tornar al menú e corregir aqueste defaut ?
+ La particion d'aviada es pas estada configurada amb un sistèma de fichièrs ext2 o ext3. Aqueste sistèma de fichièrs es indispensable per l'aviada de la maquina. Tornatz començar e utilizatz un sistèma de fichièrs ext2 o ext3.
+ .
+ Se tornatz pas al menú de particionament per corregir aquesta error, la particion serà utilizada talacoma es. Aquò significa que poiriatz èsser dins l'incapacitat d'amodar a partir del disc dur.
+Description-pa.UTF-8: ਮੇਨੂ ਉੱਤੇ ਪਿੱਛੇ ਜਾ ਕੇ ਇਸ ਸਮੱਸਿਆ ਨੂੰ ਠੀਕ ਕਰਨਾ ਹੈ?
+ ਤੁਹਾਡਾ ਬੂਟ ਪਾਰਟੀਸ਼ਨ ext2 ਜਾਂ ext3 ਫਾਇਲ ਸਿਸਟਮ ਨਾਲ ਸੰਰਚਿਤ ਨਹੀਂ ਕੀਤਾ ਹੈ। ਇਸ ਦੀ ਤੁਹਾਡੀ ਮਸ਼ਿਨ ਨੂੰ ਬੂਟ ਹੋਣ ਲਈ ਲੋੜ ਹੈ। ਪਿੱਛੇ ਜਾਓ ਜੀ ਅਤੇ ਪੁਰਾਣਾ ext2 ਜਾਂ ext3 ਫਾਇਲ ਸਿਸਟਮ ਵਰਤੋਂ।
+ .
+ ਜੇ ਤੁਸੀਂ ਪਿੱਛੇ ਪਾਰਟੀਸ਼ਨਿੰਗ ਸੂਚੀ ਤੇ ਨਾ ਗਏ ਅਤੇ ਇਹ ਗਲਤੀ ਠੀਕ ਨਾ ਕੀਤੀ, ਪਾਰਟੀਸ਼ਨ ਉਸੇ ਤਰਾਂ ਹੀ ਵਰਤਿਆ ਜਾਵੇਗਾ। ਇਸ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਤੁਸੀਂ ਆਪਣੀ ਹਾਰਡ ਡਿਸਕ ਤੋਂ ਬੂਟ ਨਹੀਂ ਕਰ ਸਕਦੇ।
+Description-pl.UTF-8: Powrócić do menu i poprawić ten błąd?
+ Twoja partycja rozruchowa nie została skonfigurowana do użycia systemu plików ext2 lub ext3. Jest to wymagane, aby system mógł się uruchomić. Proszę wrócić i użyć któregoś z wymienionych systemów.
+ .
+ Jeśli nie wrócisz do menu partycjonowania i nie naprawisz tego błędu, partycja zostanie użyta w obecnej postaci. Oznacza to, że możesz nie być w stanie uruchomić komputera z dysku twardego.
+Description-pt.UTF-8: Voltar atrás ao menu e corrigir este problema?
+ A sua partição de arranque não foi configurada com o sistema de ficheiros ext2 ou ext3. A sua máquina necessita disto para que possa arrancar.  Por favor volte atrás e utilize o sistema de ficheiros ext2 ou ext3.
+ .
+ Se não voltar atrás ao menu de particionamento e corrigir este erro, a partição será utilizada como está.  Isto significa que poderá não ser possível iniciar a partir do seu disco rígido.
+Description-pt_BR.UTF-8: Voltar ao menu e corrigir esse problema?
+ Sua partição de inicialização não foi configurada com o sistema de arquivos ext2 ou ext3. Isto é necessário para que seu computador possa ser inicializado. Por favor, volte e use o sistema de arquivos ext2 ou ext3.
+ .
+ Se você não quiser voltar ao menu de particionamento e corrigir esse erro, a partição será usada da maneira como se encontra. Isso significa que você pode não conseguir inicializar seu computador a partir do disco rígido.
+Description-ro.UTF-8: Înapoi la meniu pentru a corecta această problemă?
+ Partiția dumneavoastră de pornire nu a fost configurată cu sistemul de fișiere ext2 sau ext3. Acest lucru este necesar sistemului dumneavoastră pentru a putea porni. Vă rugăm folosiți unul din sistemele de fișiere ext2 sau ext3.
+ .
+ Dacă nu vă întoarceți la meniul de partiționare să corectați aceste erori, partiția va fi folosită așa cum este. În acest caz este posibil să nu puteți porni de pe discul dur.
+Description-ru.UTF-8: Вернуться в меню и исправить эту проблему?
+ В загрузочном разделе не используется файловая система ext2 или ext3. Чтобы машина могла загружаться требуется выбрать любую из них. Вернитесь и укажите файловую систему ext2 или ext3.
+ .
+ Если вы не вернётесь в меню разметки и не исправите эту ошибку, то раздел будет использован таким, каким вы его задали. Вероятно, вы не сможете загрузиться с жёсткого диска.
+Description-si.UTF-8: මෙනුවට ආපසු ගොස් මෙම දෝශය නිවැරදි කරන්නද?
+ ඔබේ ආරම්භක කොටස ext2 හෝ ext3 මගින් සකසා නොමැත. මෙය ඔබේ පරිගණකය ආරම්භ වීමට අත්‍යාවශ්‍ය වේ. කරුණාකර ආපසු ගොස් ext2 හෝ ext3 ගොනු පද්ධතියක් තෝන්න.
+ .
+ ඔබ කොටස්කරණ මෙනුවට ආපසු ගොස් මෙම දෝශය නිවැරදි නොකලේ නම්. මෙම කොටස එලෙසම භාවිත වනු ඇත. එනම් ඔබට දෘඩ තැටිය මගින් පරිගණකය ආරම්භ කල නොහැක.
+Description-sk.UTF-8: Vrátiť sa späť do menu a odstrániť tento problém?
+ Vaša štartovacia oblasť nepoužíva súborový systém ext2 ani ext3, čo je potrebné na spustenie vášho počítača. Prosím vráťte sa späť a použite buď súborový systém ext2 alebo ext3.
+ .
+ Ak sa nevrátite späť do menu rozdeľovania a neodstránite túto chybu, oblasť sa použije taká, aká je. To znamená, že váš systém nebudete môcť spustiť z pevného disku.
+Description-sl.UTF-8: Se želite vrniti v meni in popraviti to napako?
+ Vaš zagonski razdelek ni bil nastavljen z  datotečnim sistemom ext2 ali ext3. To je potrebno, da se lahko vaš računalnik zažene. Prosim vrnite se nazaj in uporabite datotečni sistem ext2 ali ext3.
+ .
+ Če se ne boste vrnili na meni za razdeljevanje in popravili teh napak, bo ta razdelek uporabljen takšen kot je. To pomeni, da morda ne boste mogli zagnati računalnika iz vašega trdega diska.
+Description-sq.UTF-8: Të kthehem mbrapa në menu dhe të korrigjoj gabimet?
+ Ndarja e nisjes nuk është konfiguruar me filesistemin ext2 apo ext3. Kjo është e nevojshme në mënyrë që kompjuteri të niset. Të lutem kthehu mbrapa dhe përdor filesistemin ext2 ose ate ext3.
+ .
+ Nëse nuk kthehesh mbrapa tek menuja e ndarjes të korrigjosh këto gabime, atëhere ndarja nuk do përdoret fare.  Ndoshta mund të mos jesh në gjendje të nisesh nga disku i ngurtë.
+Description-sr.UTF-8: Да се вратим назад у изборник и да исправим овај проблем?
+ Ваша подизна партиција није подешена са „ext2“ или „ext3“ системом датотека. Ово је потребно да би ваш рачунар могао да се покрене. Вратите се назад и користите „ext2“ или „ext3“ систем датотека.
+ .
+ Ако се не вратите назад на изборник за партиционисање и не исправите ове грешке, партиција ће бити употребљена таква каква је. То значи да можда нећете моћи да покренете систем са вашег диска.
+Description-sv.UTF-8: Gå tillbaka till menyn och korrigera det här felet?
+ Din startpartition har inte konfigurerats med filsystemet ext2 eller ext3. Det är nödvändigt för att din dator ska kunna starta upp. Gå tillbaka och använd antingen ext2 eller ext3 som filsystem.
+ .
+ Om du inte går tillbaka till partitioneringsmenyn och korrigerar det här felet så kommer den här partitionen att användas som den är. Det betyder att du kanske inte kommer att kunna starta datorn från hårddisken.
+Description-ta.UTF-8: மீண்டும் பட்டியலுக்கு சென்று தவறுகளை திருத்தவா?
+ தங்களது துவக்கி பகிர்வு ext2 அல்லது ext3 கோப்பு அமைப்பை கொண்டு உருவாக்கப்படவில்லை. தங்களது கணிணி துவங்குவதற்கு இது அவசியமாகும். பின்சென்று ext2 அல்லது ext3 கோப்பு·அமைப்பை-உபயோகிக்கவும்.
+ .
+ நீங்கள் பகிர்வு பட்டிக்குத் திரும்பி பிழைகளை திருத்தாவிடில் பகிர்வு உள்ளபடியே பயன்படுத்தப்படும். இதனால் நீங்கள் கணிணியை வட்டைக் கொண்டு துவக்க இயலாமல் போகக்கூடும்.
+Description-te.UTF-8: వెనక్కి వెళ్ళి జాబితాలో ఈ సమస్యని సరిచెయ్యాలా ?
+  మీ బూట్ విభజన  ext2 లేక  ext3 ఫైల్ సిస్టమ్ గా అమరిక చేయలేదు. మీ మెషీన్ బూట్ కావాలంటే ఇది కావాలి.  దయచేసి వెనక్కి వెళ్లి, ext2 లేక  ext3 ఫైల్ సిస్టమ్  వాడండి.
+ .
+ విభజన మెనూ కి వెనక్కి వెళ్లి, ఈ తప్పు సరి దిద్దనిచో, విభజన ఉన్నపళంగా వాడబడుతుంది. అంటే, మీరు హార్డ్ డిస్క్ నుండి బూట్ చేయలేక పోవచ్చు.
+Description-tg.UTF-8: Ба меню бармегардед ва ин мушкилиро ҳал мекунед?
+ Қисми диски роҳандозии шумо бо низоми файлии ext2 ё ext3 танзим нашудааст. Ин ба компютери шумо барои роҳандозӣ лозим аст. Лутфан, ба қафо гузаред ва низоми файлии ext2 ё ext3-ро истифода баред.
+ .
+ Агар шумо ба менюи қисмбандӣ бар нагардед ва ин хаторо ислоҳ накунед, ин қисми диск чӣ хеле ки ҳаст, истифода мешавад. Ин маънои онро дорад, ки эҳтимолан шумо аз диски сахти худ роҳандозӣ намекунед.
+Description-th.UTF-8: ย้อนกลับไปที่เมนูเพื่อแก้ไขปัญหานี้หรือไม่?
+ พาร์ทิชันบูตของคุณไม่ได้กำหนดไว้ให้เป็นระบบแฟ้ม ext2 หรือ ext3 ซึ่งจำเป็นสำหรับการบูตเครื่องของคุณ กรุณาย้อนกลับไปกำหนดพาร์ทิชันบูตให้เป็นระบบแฟ้ม ext2 หรือ ext3
+ .
+ ถ้าคุณไม่ย้อนกลับไปที่เมนูแบ่งพาร์ทิชันเพื่อแก้ไขข้อผิดพลาดนี้ ระบบจะใช้พาร์ทิชันตามสภาพที่มันเป็น ซึ่งอาจหมายถึงว่าคุณจะไม่สามารถบูตเครื่องจากฮาร์ดดิสก์ได้
+Description-tl.UTF-8: Bumalik sa menu at ayusin ang problemang ito?
+ Ang boot partisyon niyo ay hindi nakaayos na gumamit ng ext2 o ext3 na file system. Ito ay kailangan ng inyong makina upang ito ay makapag-boot. Bumalik at gamitin ang alinman sa ext2 o ext3 na file system.
+ .
+ Kung hindi kayo babalik sa menu ng pag-partisyon at ayusin itong error, gagamitin ang partisyon ng ganito.  Ibig sabihin nito ay maaaring hindi kayo makapag-boot mula sa hard disk.
+Description-tr.UTF-8: Menüye geri dönerek bu sorunu düzeltmek ister misiniz?
+ Açılış (boot) bölümünüz ext2 veya ext3 dosya sistemiyle yapılandırılmamış. Makinenizin açılması için bu şartın sağlanması gerekir. Lütfen geri dönün ve ext2 veya ext3 dosya sistemini kullanın.
+ .
+ Bölümleme menüsüne geri dönerek bu hatayı düzeltmezseniz bölüm bu şekliyle kullanılacaktır. Bu, sabit diskten açılış yapmanın mümkün olmayabileceği anlamına gelmektedir.
+Description-ug.UTF-8: تىزىملىككە قايتىپ بۇ مەسىلىنى ھەل قىلامسىز؟
+ سىز قوزغاتقان رايون ext2 ياكى ext3 ھۆججەت سىستېمىسى قىلىپ تەڭشەلمىدى. كومپيۇتېرىڭىزنى قوزغىتىش ئۈچۈن بۇنى تەڭشەش زۆرۈر. ئالدىنقى كۆزنەككە قايتىپ ext2 ياكى ext3 ھۆججەت سىستېمىسىنى تاللاڭ.
+ .
+ رايونغا ئايرىش تىزىملىكىگە قايتىپ بۇ خاتالىقنى تۈزەتمىسىڭىز، رايون شۇ پېتى قېلىۋېرىدۇ. بۇنىڭ بىلەن سىستېما قاتتىق دىسكىدىن قوزغىلالماسلىقى مۇمكىن.
+Description-uk.UTF-8: Повернутися до меню та виправити цю проблему?
+ Ваш завантажувальний розділ не був сконфігурований з файловою системою ext2 або ext3. Це є необхідною умовою для завантаження вашої машини. Будь ласка, поверніться та вкажіть файлову систему ext2 або ext3.
+ .
+ Якщо ви не повернетесь до меню розбивки та не виправите цю помилку, то розділ буде використаний „як є“. Це значить, що, можливо, ви не матимете можливість завантажитися із вашого жорсткого диска.
+Description-vi.UTF-8: Trở về trình đơn để sửa chữa lỗi này chứ?
+ Phân vùng khởi động của bạn chưa được cấu hình bằng hệ thống tập tin ext2 hay ext3. Trường hợp này cần thiết để khởi động máy này. Hãy quay lại và sử dụng hệ thống tập tin kiểu hoặc ext2 hoặc ext3.
+ .
+ Nếu bạn không trở về trình đơn phân vùng để sửa chữa lỗi này, phân vùng này sẽ được dùng như có. Có nghĩa là bạn có thể không khởi động được từ đĩa cứng.
+Description-zh_CN.UTF-8: 返回菜单并更正此问题吗？
+ 您的启动分区并未被设置成 ext2 或 ext3 文件系统。这是启动您的计算机所必需的。请返回并选择使用 ext2 或 ext3 文件系统。
+ .
+ 如果您不返回分区菜单并更正此错误，此分区将会以目前的状态被使用。这意味着您可能无法从您的硬盘启动。
+Description-zh_TW.UTF-8: 是否返回選單並更正此錯誤？
+ 您的啟動分割區並未設定為使用 ext2 或 ext3 檔案系統。但您必須如此設定，您的機器才能夠開機。請返回並使用 ext2 或 ext3 檔案系統。
+ .
+ 如果您不返回磁碟分割選單並修正此錯誤，將不能使用此磁碟分割區。這意味著您可能無法從您的硬碟進行開機。
+
+Template: partman/boot_not_first_partition
+Type: boolean
+Description: Go back to the menu and correct this problem?
+ Your boot partition is not located on the first primary partition of your
+ hard disk. This is needed by your machine in order to boot.  Please go
+ back and use your first primary partition as a boot partition.
+ .
+ If you do not go back to the partitioning menu and correct this error,
+ the partition will be used as is. This means that you may not be able
+ to boot from your hard disk.
+Description-am.UTF-8: ወደ ምናሌው ልመለስና ስህተቱ ይታረም?
+ የማስነሻ ክፋዩ በመጀመሪያ በዲስክዎ ዋና ክፋይ ላይ አይደለም። አስሊዎ እንዲነሳ ይህን ማድረግ ያስፈልጋል። እባክዎ ወደ ኋላ ይመለሱና የመጀመሪያ ዋና ክፋይን አንደ ማስነሻ ክፋይ ይሰይሙ
+ .
+ ወደ መክፈያው ምናሌ ተመልሰው ስህተቱን ካላረሙ ክፋዩ እንዳለ በጥቅም ላይ ይውላል፡፡
+Description-ar.UTF-8: هل تريد العودة إلى القائمة و تصحيح هذه المشكلة؟
+ جزء الإقلاع لا يقع في الجزء الأساسي الأوّل من قرصك الصّلب. هذا مطلوبٌ من قبل جهازك ليتمكّن من الإقلاع. الرجاء العودة واستخدام الجزء الأساسي الأوّل كجزء إقلاع.
+ .
+ إذا لم تعد إلى قائمة التجزئة و تقم بتصحيح هذا الخطأ فسيستعمل الجزء كما هو. هذا يعني أنّك قد لا تتمكّن من الإقلاع من قرصك الصّلب.
+Description-ast.UTF-8: ¿Volver al menú y correxir esti problema?
+ La to partición d'arranque nun ta llocalizada na primer partición primaria del to discu duru. Esto ye necesario pa que l'equipu pueda arrancar. Por favor, vuelve y usa la to primer partición primaria como partición d'arranque.
+ .
+ Si nun vuelves al menú de particionáu y corrixes esti error, la partición va usase como ta definida. Esto significa que puede nun ser arrancable nel to discu duru.
+Description-be.UTF-8: Вярнуцца ў меню, каб выправіць праблему?
+ На першым primary падзеле Вашага жорсткага дыска не знойдзена падзелу загрузкі.  Ён неабходны, каб машына магла загрузіцца.  Калі ласка, вярніцеся, каб ужыць першы primary падзел у якасці падзела загрузкі.
+ .
+ Калі Вы не вернецеся да меню перадзелу дыскаў, каб выправіць гэтую памылку, падзел будзе ўжыты як ёсць. Магчыма, у выніку Вы не зможаце загрузіць сістэму з жорсткага дыска.
+Description-bg.UTF-8: Връщане обратно в менюто и поправяне на проблема?
+ Вашият зареждащ дял не е разположен на първия главен (primary) дял на Вашия твърд диск. Това е необходимо, за да може машината да зарежда. Моля, върнете се и използвайте Вашия първи главен (primary) дял като зареждащ дял.
+ .
+ Ако не се върнете в менюто за разделяне и не поправите този проблем, дялът ще бъде използван както си е в момента.
+Description-bn.UTF-8: মেনুতে পেছনে গিয়ে এই সমস্যাটি দূর করবেন কি?
+ আপনার কম্পিউটারের বুট পার্টিশনটি হার্ড ডিস্কের প্রথম প্রাইমারি পার্টিশনে অবস্থিত নয়। আপনার কম্পিউটারকে বুট করার জন্য এটি প্রয়োজন। অনুগ্রহপূর্বক পেছনে ফিরে গিয়ে প্রথম প্রাইমারি পার্টিশনকে বুট পার্টিশন হিসেবে বেছে নিন।
+ .
+ আপনি যদি পেছনে পার্টিশনকারী মেনুতে ফিরে গিয়ে এই ত্রুটিটি দূর না করেন, তবে পার্টিশনটি ত্রুটিপূর্ণ অবস্থাতেই ব্যবহৃত হবে। এর ফলে হয়তো আপনার হার্ড ডিস্ক থেকে বুট করাই সম্ভব হবে না।
+Description-bo.UTF-8: འདེམས་ཐོའི་ཐོག་ཏུ་ཕྱིར་ལོག་ནས་སྐྱོན་དག་བཅོས་བྱེད་དགོས་སམ
+ ཁྱོད་ཀྱི་སྒུལ་སློང་ཁག་དེ་གསོག་སྡེར་གྱི་རྩ་བའི་ཁག་དང་པོའི་ཐོག་ཏུ་གནས་མེད་པ། འདི་ནི་འཕྲུལ་ཆས་ལ་དགོས་ངེས་ཡིན་པས་ཕྱིར་ལོག་ནས་རྩ་བའི་ཁག་དང་པོ་དེ་སྤྱོད་རོགས
+ .
+ ཁག་བཟོ་སའི་འདེམས་ཐོའི་ཐོག་ཏུ་ཕྱིར་ལོག་ནས་ནོར་འཁྲུལ་འདི་དག་དག་བཅོས་མ་བྱས་ན་ཁག་འདི་དེ་འདྲ་སྤྱོད་རྒྱུ་ཡིན། རྒྱུ་མཚན་ནི་ཁྱོད་ཀྱིས་སྲ་སྡེར་ཐོག་ནས་སྒུལ་སློང་བྱེད་མི་ཐུབ་པའི་ཉེན་ཁ་ཡོད
+Description-bs.UTF-8: Želite li se vratiti na meni i ispraviti ovaj problem?
+ Vaša boot particija se ne nalazi na prvoj primarnoj particiji Vašeg hard diska.  Ovo je potrebno kako bi se Vaša mašina mogla pokrenuti.  Molim vratite se i koristite Vašu prvu primarnu particiju kao boot particiju.
+ .
+ Ako se ne vratite na meni za particionisanje i ispravite ovu grešku, particija će se koristiti onakva kakva jeste. Ovo znači da možda nećete moći podići sistem sa Vašeg hard diska.
+Description-ca.UTF-8: Voleu tornar al menú i corregir aquest problema?
+ La partició d'arrencada no està ubicada a la primera partició primària del disc dur. Això és necessari per a que l'ordinador puga arrencar. Aneu enrere i utilitzeu la partició primària com a partició d'arrencada.
+ .
+ Si no aneu enrere al menú de partició i corregiu aquest error, la partició s'utilitzarà com està. Això vol dir que potser no podreu arrencar des del disc dur.
+Description-cs.UTF-8: Vrátit se zpět do menu a opravit tento problém?
+ Zaváděcí oblast není umístěna na první primární oblasti pevného disku, což je na vašem počítači nutný předpoklad pro správné zavádění systému. Vraťte se prosím zpět a použijte pro zavádění první primární oblast.
+ .
+ Pokud se nevrátíte zpět do rozdělovacího menu a neopravíte tyto chyby, oblast se použije tak, jak je. To znamená, že se možná nepovede zavést systém z pevného disku.
+Description-cy.UTF-8: Dychwelyd i'r ddewislen a chywiro gwallau?
+ Nid yw'ch rhaniad ymgychwyn wedi'i leoli ar y rhaniad cynradd cyntaf o'ch ddisg caled. Mae angen hwn ar eich peiriant er mwyn iddo gychwyn. Dychwelwch a defnyddiwch eich rhaniad cynradd cyntaf fel rhaniad ymgychwyn.
+ .
+ Os nad ydych chi'n dychwelyd i'r ddewislen rhaniadu a chywiro'r gwallau hyn, caiff y rhaniad ei ddefnyddio fel y mae.
+Description-da.UTF-8: Gå tilbage til menuen for at ordne dette problem?
+ Din opstartspartition ligger ikke på den første primære partition på din harddisk. Dette er nødvendigt for at din maskine skal kunne startes op. Gå tilbage og brug den første primære partition som opstartspartition.
+ .
+ Hvis du ikke går tilbage til partitioneringsmenuen og ordner disse problemer, vil partitionen blive brugt som den er. Det vil betyde at du muligvis ikke vil kunne starte op fra din harddisk.
+Description-de.UTF-8: Möchten Sie zum Hauptmenü zurückkehren, um die Fehler zu beheben?
+ Ihre Boot-Partition befindet sich nicht auf der ersten primären Partition Ihrer Festplatte. Dies ist aber nötig, damit der Computer starten kann. Bitte gehen Sie zurück und wählen Sie die erste primäre Partition als Boot-Partition aus.
+ .
+ Wenn Sie nicht zum Partitionierungsmenü zurückkehren und diesen Fehler beheben, wird die Partition genutzt, wie sie jetzt ist. Das bedeutet, dass Sie eventuell nicht von Ihrer Festplatte starten können.
+Description-dz.UTF-8: དཀར་ཆག་ལུ་ལོག་འགྱོ་འདི་དཀའ་ངལ་འདི་ནོར་བཅོས་འབད?
+ ཁྱོད་ཀྱི་སྲ་ཆས་ཌིཀསི་ཀྱི་བར་བཅད་གཞི་རིམ་དང་པ་ནང་ལུ་ཁྱོད་ཀྱི་བུཊི་བར་བཅད་འདི་མ་གནས་པས་ འ་ནི་འདི་བུཊི་གོ་རིམ་འབད་ནི་ལུ་ཁྱོད་ཀྱི་གློག་འཕྲུལ་གྱིས་འགོཔ་ཨིན་ ལོག་འགྱོ་འདི་བུཊི་བར་བཅད་བཟུམ་སྦེ་ཁྱོད་ཀྱི་བར་བཅད་གཞི་རིམ་དང་པ་འདི་ལག་ལེན་འཐབ་གནང་།
+ .
+ ཁྱོད་ཀྱིས་བར་བཅད་འབད་མིའི་དཀར་ཆག་ནང་ལུ་ལོག་མ་འགྱོཝ་དང་འཛོལ་བ་འདི་ནོར་བཅོས་མ་འབད་བ་ཅིན་ བར་བཅད་འདི་ག་ཨིནམ་སྦེ་ལག་ལེན་འཐབ་ནི་ འ་ནི་འདི་ཁྱོད་ཀྱི་སྲ་ཆས་ཌིཀསི་ནང་ལས་ཁྱོད་ཀྱིས་བུཊི་འབད་མི་ཚུགསཔ་འོང་ཟེར་བའི་དོན་ཨིན།
+Description-el.UTF-8: Θέλετε να επιστρέψετε στο μενού και να διορθώσετε τα σφάλματα;
+ Η κατάτμηση εκκίνησης δεν βρίσκεται στην πρώτη πρωτεύουσα κατάτμηση του δίσκου σας.  Αυτό είναι απαραίτητο για την εκκίνηση του συστήματός σας. Παρακαλώ, πηγαίνετε πίσω και χρησιμοποιήστε την πρώτη πρωτεύουσα κατάτμηση ως κατάτμηση εκκίνησης.
+ .
+ Αν δεν επιστρέψετε στο μενού διαμέρισης για να διορθώσετε αυτό το σφάλμα, η κατάτμηση θα χρησιμοποιηθεί όπως έχει. Αυτό σημαίνει ότι πιθανά δεν θα μπορείτε να εκκινήσετε από τον σκληρό σας δίσκο.
+Description-eo.UTF-8: Ĉu retroiri al la menuo kaj korekti tiun ĉi problemon?
+ Via ekŝarga diskparto ne lokiĝas en la unua ĉefa diskparto de via fiksita disko. Tio nepre necesas por ekŝargi vian maŝinon. Bonvolu retroiri kaj indiki vian unuan ĉefan diskparton kiel ekŝargan diskparton.
+ .
+ Se vi ne retroiras al diskpartiga menuo kaj ne korektas tiun ĉi eraron, la diskparto estos uzata tiel, kiel ĝi estas. Verŝajne, vi ne povos ekŝargi el via fiksita disko.
+Description-es.UTF-8: ¿Desea volver al menú y corregir este error?
+ La partición de arranque no está ubicada en la primera partición primaria del disco duro. Esto es necesario para que el sistema arranque. Por favor, vuelva atrás y utilice la primera partición primaria como partición de arranque.
+ .
+ Si no vuelve al menú de particionado y corrige estos errores, la partición se utilizará como está definida. Esto significa que puede que no sea capaz de arrancar del disco duro.
+Description-et.UTF-8: Kas minna tagasi menüüsse ja viga parandada?
+ Su alglaaduripartitsiooni ei asu kõvaketta esimesel primaarsel partitsioonil. See oleks aga vajalik, et su masin alglaaduks. Palun mine tagasi ja kasuta alglaaduripartitsioonina oma kõvaketta esimest primaarset partitsiooni.
+ .
+ Kui sa ei naase partitsioneerimismenüüsse ega paranda seda viga, kasutatakse partitsiooni nii nagu ta on. Selle tulemusena võib juhtuda, et sa ei saa oma kõvakettalt alglaadimist sooritada.
+Description-eu.UTF-8: Menura itzuli eta arazo hau konpondu nahi duzu?
+ Abioko partizioa ez dago disko gogorreko lehen mailako partizioan kokatuta. Makinak hori behar du abiarazi ahal izateko. Joan atzera eta erabili lehen mailako partizioa abioko partizio gisa.
+ .
+ Partizioak egiteko menura itzuli eta errore hau zuzentzen ez baduzu, partizioa dagoen bezala erabiliko da. Horrek esan nahi du agian ezingo duzula disko gogorretik abiarazi.
+Description-fa.UTF-8: بازگشت به منو و تصحیح این مشکل؟
+ پارتیشن بوت شما در اولین پارتیشن اصلی دیسک سخت قرار ندارد. اینکار برای بالا آمدن سیسام شما لازم است.  لطفاً برگردید و اولین پارتیشن اصلی خود را به عنوان پارتیشن بوت برگزینید.
+ .
+ اگر شما به منوی پارتیشن‌بندی بازنگشته و این خطا را اصلاح نکنید، پارتیشن همانگونه که هست استفاده خواهد شد. این بدین معنی است که ممکن است نتوانید از دیسک‌سخت بالا بیایید.
+Description-fi.UTF-8: Palataanko valikkoon korjaamaan tämä ongelma?
+ Käynnistysosio ei ole kiintolevyn ensimmäisellä ensisijaisella levyosiolla. Tämä tarvitaan koneellasi jotta käynnistys onnistuu. Palaa takaisin ja käytä ensimmäistä ensisijaista osiota käynnistysosiona.
+ .
+ Mikäli et palaa osiointivalikkoon ja korjaa tätä virhettä, osiota käytetään sellaisena kuin se on. Tämä tarkoittaa ettei järjestelmää luultavasti voi käynnistää kiintolevyltä.
+Description-fr.UTF-8: Revenir au menu et corriger ce défaut ?
+ La partition de démarrage n'est pas la première partition primaire du disque. Cela est indispensable pour le démarrage de la machine. Veuillez recommencer et utiliser la première partition primaire comme partition de démarrage.
+ .
+ Si vous ne revenez pas au menu de partitionnement pour corriger ce défaut, la partition sera utilisée telle quelle. Cela signifie que vous ne pourrez probablement pas démarrer à partir du disque dur.
+Description-ga.UTF-8: Fill ar an roghchlár agus ceartaigh an fhadhb seo?
+ Níl an deighilt /boot ar chéad phríomhdheighilt do dhiosca crua.  Ní mór di a bheith ar an chéad phríomhdheighilt chun an ríomhaire a thosú.  Téigh ar ais agus roghnaigh do chéad phríomhdheighilt mar dheighilt /boot.
+ .
+ Mura dtéann tú ar ais go dtí an roghchlár deighilte agus an earráid seo a cheartú, úsáidfear an deighilt mar atá.  Sa chás seo seans nach mbeidh tú in ann an ríomhaire a thosú ó do dhiosca crua.
+Description-gl.UTF-8: Desexa volver ao menú e corrixir este problema?
+ A partición de inicio non é a primeira partición primaria do disco duro. Isto necesítao a máquina para arrancar. Volte e empregue a primeira partición primaria como partición de inicio.
+ .
+ Se non volta ao menú de particionamento e corrixe este erro, a partición hase empregar tal como está. Isto significa que podería non arrancar desde o disco duro.
+Description-gu.UTF-8: મેનુમાં પાછા જશો અને આ સમસ્યા દૂર કરશો?
+ તમારુ બુટ પાર્ટિશન તમારી હાર્ડ ડિસ્કનાં પ્રાથમિક પાર્ટિશનમાં નથી.  આ તમારા મશીનને શરુ કરવા માટે જરુરી છે.  મહેરબાની કરી પાછા જાવ અને તમારા પ્રાથમિક પાર્ટિશનને બૂટ પાર્ટિશન તરીકે ઉપયોગ કરો.
+ .
+ જો તમે પાર્ટિશન કરવાનાં મેનુમાં પાછા જઇ અને આ ક્ષતિને સુધારશો નહી તો, પાર્ટિશન જેમ છે એમ જ વપરાશે. એનો અર્થ એ થયો કે તમે તમારી હાર્ડ ડિસ્કમાંથી બૂટ કરી શકશો નહી.
+Description-he.UTF-8: לחזור חזרה לתפריט ולתקן את השגיאה?
+ מחיצת האתחול שלך לא ממוקמת על המחיצה הראשית הראשונה של הכונן הקשיח שלך. דרישה זו נחוצה לטובת אתחול המחשב. מוטב לחזור אחורה ולבחור במחיצה הראשית הראשונה שלך כמחיצת אתחול.
+ .
+ בחירה שלא לחזור לתפריט החלוקה למחיצות ולתקן את השגיאה הזאת תוביל לשימוש במחיצה כמו שהיא. כלומר שלא תהיה לך אפשרות לאתחל מהכונן הקשיח שלך.
+Description-hi.UTF-8: मेन्यू में वापस जाएँ तथा त्रुटियों को सुधारें?
+ आपका बूट पार्टिशन आपके हार्ड डिस्क के प्राथमिक पार्टिशन पर स्थित नहीं है. यह आपके तंत्र को बूट करने के लिए आवश्यक है. कृपया वापस जा कर अपने प्राथमिक पार्टिशन को बूट पार्टिशन के रूप में उपयोग करें.
+ .
+ यदि आप पार्टिशनिंग सूची में वापस जाकर इन त्रुटियों को नहीं सुधारते हैं, तो पार्टिशन जैसे हैं वैसे ही प्रयोग में ले लिए जाएँगे. अर्थात् शायद अपने हार्ड डिस्क से बूट नहीं कर सकेंगे.
+Description-hr.UTF-8: Vratite se u izbornik i ispravite taj problem?
+ Vaša particija pokretanja nije prva primarna particija vašeg čvrstog diska. To je potrebno vašem računalu radi pokretanja sustava.  Vratite se i upotrijebite prvu primarnu particiju kao particiju pokretanja.
+ .
+ Ako se ne vratite u izbornik particioniranja i ne ispravite taj problem, ta particija će biti ostavljena kakva jest. To znači da možda nećete moći pokrenuti sustav s čvrstog diska.
+Description-hu.UTF-8: Visszalépsz a menübe és kijavítod ezt a hibát?
+ A rendszerindító partíciód nem a merevlemez legelső elsődleges partícióján található. Ez szükséges az indításhoz. Lépj vissza és a rendszerindító partíciónak válaszd a legelső elsődleges partíciót.
+ .
+ Ha nem lépsz vissza a particionálási menübe és nem javítod ki ezt a hibát, akkor a partíció úgy lesz használva, ahogy van. Lehet, hogy nem fogsz tudni rendszert indítani a merevlemezről.
+Description-id.UTF-8: Kembali ke menu sebelumnya dan perbaiki kesalahan tersebut?
+ Partisi boot Anda tidak terletak pada partisi utama (primer) pertama hard disk. Hal ini diperlukan agar dapat menyalakan komputer Anda. Silakan kembali ke menu sebelumnya dan gunakan partisi utama pertama hard disk sebagai partisi boot.
+ .
+ Jika Anda tidak kembali ke menu partisi dan memperbaiki kesalahan-kesalahan ini, partisi ini akan digunakan menurut kondisi sebelumnya. Hal ini berarti Anda mungkin tidak dapat menyalakan komputer lewat hard disk.
+Description-is.UTF-8: Fara aftur í valmyndina og laga vandamálið?
+ Ræsidisksneiðin (boot partition) er ekki staðsett á fyrstu aðaldisksneið (primary partition) harða disksins. Það er nauðsynlegt svo að tölvan geti ræst sig upp. Farðu til baka og láttu fyrstu aðaldisksneiðina vera ræsidisksneið.
+ .
+ Ef þú ferð ekki til baka í disksneiðingarvalmyndina til að leiðrétta þessa villu, þá verður disksneiðin notuð í þessu ástandi. Þetta þýðir að ekki er víst að þú getir ræst vélina upp af harða disknum.
+Description-it.UTF-8: Tornare al menù e correggere questo problema?
+ La partizione di avvio non è nella prima partizione primaria del disco fisso. Questo è necessario affinché il computer si avvii. Tornare indietro e usare la prima partizione primaria come partizione di avvio.
+ .
+ Se non si torna al menù di partizionamento per correggere questo errore, la partizione verrà utilizzata così come è. Questo vuol dire che potrebbe essere impossibile avviare da questo disco fisso.
+Description-ja.UTF-8: メニューに戻ってこの問題を修正しますか?
+ あなたのブートパーティションは、あなたのハードディスクの最初の基本パーティションとして配置されていません。これはあなたのマシンで起動するために必要です。戻ってあなたの最初の基本パーティションをブートパーティションとして使ってください。
+ .
+ パーティショニングメニューに戻ってこのエラーの修正をしないと、パーティションは結局利用できません。これは、あなたのハードディスクから起動できない可能性があることを意味します。
+Description-ka.UTF-8: დაბრუნდებით მენუში და გაასწორებთ შეცდომებს?
+ თქვენი boot დანაყოფი თქვენი მყარი დისკის პირველ primary დანაყოფზე არ არის.  ეს კი თქვენს სისტემას ჩასატვირთად ჭირდება.  გთხოვთ დაბრუნდეთ და ჩატვირთვად დანაყოფად თქვენი პირველი primary დანაყოფი ამოირჩიეთ.
+ .
+ თუ არ დაბრუნდებით დაყოფის მენუში და არ გაასწორებთ ამ შეცდომებს, დანაყოფი იქნება გამოყენებული არსებული სახით. ეს კი ნიშნავს, რომ შესაძლოა, მყარი დისკიდან ჩატვირთვა ვერ მოხერხდეს.
+Description-kab.UTF-8: Uɣal ɣer wumuɣ syen seɣti tuccḍa-a?
+ Aḥric-ik·im n usenker ulac-it ɣef uḥric agejdan amezwaru n uḍebsi-inek·inem aqquran. Ayagi yettusra sɣur aselkim-ik·im i wakken ad yekker. Ttxil-k·m uɣal ɣer deffir syen seqdec aḥric-ik·im agejdan amezwaru d uḥric n uskar.
+ .
+ Ma yella ur tuɣaleḍ ara ɣer wumuɣ n beṭṭu i wakken ad tseɣtiḍ tuccḍa-a, aḥric ad yettuseqdec akka i yella. Anamek n waya ur tettizmireḍ ara ad tesnekred seg uḍebsi-inek·inem aqquran.
+Description-kk.UTF-8: Мәзірге оралып, қателерді түзетуді қалайсыз ба?
+ Жүктейтін бөлім алғашқы біріншілік бөлімде орналаспаған. Компьютер жүктелуі үшін бұл міндетті операция. Артқа оралып, алғашқы біріншілік бөлімді жүктейтін бөлім ретінде таңдаңыз.
+ .
+ Егер сіз бөлу мәзіріне оралып, осы қатені түземесеңіз, бөлім бар күйінде пайдаланылады. Демек сіз қатты дискіңізден жүктеле алмайтын боласыз.
+Description-km.UTF-8: ត្រឡប់​ទៅ​ម៉ឺនុយ ហើយ​កែ​កំហុស​នេះ ?
+ ភាគថាស boot របស់​អ្នក​មិន​ស្ថិត​នៅ​លើ​ភាគថាស​ចម្បង​របស់​ថាសរឹង​អ្នក​ឡើយ ។ ម៉ាស៊ីន​របស់​អ្នក​ទាមទារ​ប្រព័ន្ធ​ឯកសារ​នេះ ដើម្បី​អាច​ចាប់ផ្ដើម​បាន ។ សូម​ត្រឡប់​ថយក្រោយ ហើយ​ប្រើ​ភាគថាស​ចម្បង​ទីមួយ​របស់​អ្នក ជា​ភាគថាស boot ។
+ .
+ ប្រសិន​បើ​អ្នក​មិន​ត្រឡប់​ក្រោយ​ទៅ​ម៉ឺនុយ​ការ​ចែកភាគ​ថាស​ និង​កែ​កំហុស​ទេ ការ​ចែក​ភាគ​ថាស​នឹង​ត្រូវ​បាន​ប្រើ ។ នេះ​មាន​ន័យ​ថា​អ្នក​មិនអាច​ចាប់ផ្ដើម​ពី​ថាសរឹង​របស់​អ្នក​បាន​​ទេ ។
+Description-kn.UTF-8: ಆಯ್ಕೆ ಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಿ ದೋಷವನ್ನು ಸರಿಪಡಿಸುವುದೆ?
+ ನಿಮ್ಮ ಬೂಟ್ ವಿಭಜನೆಯು ನಿಮ್ಮ ಹಾರ್ಡ್ ಡಿಸ್ಕಿನ ಮೊದಲನೆ ಪ್ರಾಥಮಿಕ ವಿಭಜನೆಯಲ್ಲಿ ಪತ್ತೆಯಾಗಿಲ್ಲ. ನಿಮ್ಮ ಗಣಕವನ್ನು ಬೂಟ್ ಮಾಡಲು ಇದು ಅವಶ್ಯಕ. ದಯಮಾಡಿ ಹಿಂದಕ್ಕೆ ಹೋಗಿ ನಿಮ್ಮ ಮೊದಲನೆ ಪ್ರಾಥಮಿಕ ವಿಭಜನೆಯನ್ನು ಬೂಟ್ ವಿಭಜನೆಯನ್ನಾಗಿ ಬಳಸಿ.
+ .
+ ನೀವು ವಿಭಜನ ಆಯ್ಕೆಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಿ ದೋಷಗಳನ್ನು ಸರಿಪಡಿಸದಿದ್ದರೆ, ವಿಭಜನೆಯನ್ನು ಹಾಗೆ ಬಳಸಲಾಗುತ್ತದೆ. ಇದರಿಂದಾಗಿ ನೀವು ನಿಮ್ಮ ಹಾರ್ಡ ಡಿಸ್ಕಿನಿಂದ ಬೂಟ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗದಿರಬಹುದು.
+Description-ko.UTF-8: 메뉴로 돌아가서 이 문제를 바로잡으시겠습니까?
+ 부팅 파티션이 하드 디스크의 첫 번째 주 파티션이 아닙니다. 이 컴퓨터에서 부팅하려면 이 파티션이 필요합니다. 돌아가서 첫 번째 주 파티션을 부팅 파티션으로 사용하십시오.
+ .
+ 파티션 메뉴로 돌아가서 이 오류를 바로잡지 않으면, 이 파티션을 지금 상태로 사용합니다. 이렇게 하면 하드 디스크에서 부팅할 수 없을 수도 있습니다.
+Description-ku.UTF-8: Bizivire pêşekê û şaştiyan serast bike?
+ Beşa te ya root di beşa yekemîn a bingehîn a hard dîska te de nehat bicihkirin.  Makîneya te ji bo booteke têkûz vê dixwaze. Ji kerema xwe re paşde here û beşa yekem bingehîn ji bo beşa xwe ya root hilbijêre.
+ .
+ Heke tu venegerî pêşeka dabeşkirinê û tu çewtiyan serast nekî dê beş bi vî rengî bête bikaranîn. Yanî, dibe ku ji dîska te nayê bootkirin.
+Description-lo.UTF-8:   ຍອ້ນກັບໄປທີ່ລາຍການເພື່ອແກ້ໄຂປັນຫານີ້ຫຼືບໍ່?
+ ພາທິຊັນມາລີອັນແລກໃຫ້ເປັນພາທິຊັນບູດ
+ .
+  ຖ້າເຈົ້າບໍ່ຍອ້ນກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນເພື່ອແກ້ໄຂຂໍ້ຜິດພາດນີ້ ລະບົບຈະໃຊ້ພາທິຊັນຕາມສະພາບທີ່ມັນເປັນ
+Description-lt.UTF-8: Ar grįžti į meniu ir pataisyti šią problemą?
+ Paleidimo skaidinys nėra pirmajame pirminiame Jūsų kietojo disko skaidinyje. Tai būtina, kad kompiuteris galėtų paleisti operacinę sistemą. Grįžkite atgal ir kaip paleidimo skaidinį pasirinkite pirmąjį pirminį skaidinį.
+ .
+ Jei negrįšite į disko dalijimo meniu ir neištaisysite šių klaidų, šis skaidinys bus naudojamas kaip yra. Tai reiškia, kad negalėsite paleisti operacinės sistemos iš kietojo disko.
+Description-lv.UTF-8: Atgriezties uz galveno izvēlni un izlabot kļūdas?
+ Jūsu palaišanas (boot) nodalījums neatrodas uz jūsu cietā diska pirmā primārā nodalījuma. Taču tas ir nepieciešams, lai jūsu dators varētu tikt palaists. Lūdzu, atgriezieties un palaišanas nodalījumam izvēlieties sava diska pirmo primāro nodalījumu.
+ .
+ Ja neatgriezīsieties uz nodalījumu veidošanas izvēlni un neizlabosiet radušās kļūdas, nodalījumi tiks izmantoti esošajā konfigurācijā. Tas nozīmē, ka, iespējams, jūs vēlāk nevarēsiet palaist savu datoru no cietā diska.
+Description-mk.UTF-8: Врати се во менито и поправи го проблемот?
+ Твојата бут партиција не е лоцирана на првата примарна партиција од тврдиот диск. Ова е потребно за да може да се бутира твојата машина. Те молам врати се и искористи ја твојата прва примарна партиција како бут партиција.
+ .
+ Ако не се вратиш во мениот за партиционирање и ја поправиш оваа грешка, партицијата ќе се користи како што е. Ова значи дека можеби нема да можеш да подигнеш од твојот тврд диск.
+Description-ml.UTF-8: മെനുവിലേയ്ക്കു് തിരിച്ചു് പോയി ഈ പ്രശ്നം ശരിയാക്കണോ?
+ നിങ്ങളുടെ ബൂട്ട് ഭാഗം നിങ്ങളുടെ ഹാര്‍ഡ് ഡിസ്കിന്റെ ആദ്യത്തെ പ്രാഥമിക ഭാഗത്തല്ല സ്ഥിതി ചെയ്യുന്നത്. നിങ്ങളുടെ മഷീന്‍ ബൂട്ട് ചെയ്യുന്നതിനു് ഇതു് ആവശ്യമാണു്. ദയവായി തിരിച്ചു് പോയി നിങ്ങളുടെ ആദ്യത്തെ പ്രാഥമിക ഭാഗം ബൂട്ട് ഭാഗമായി ഉപയോഗിയ്ക്കുക.
+ .
+ നിങ്ങള്‍ വിഭജന മെനുവിലേയ്ക്കു് തിരിച്ചു് പോയി ഈ പ്രശ്നം ശരിയാക്കിയില്ലെങ്കില്‍ ഭാഗം അങ്ങനെ തന്നെ ഉപയോഗിക്കുന്നതായിരിയ്ക്കും. നിങ്ങള്‍ക്കു് ഹാര്‍ഡ് ഡിസ്കില്‍ നിന്നും ബൂട്ട് ചെയ്യാന്‍ കഴിഞ്ഞെന്ന് വരില്ല എന്നാണ് ഇതിനര്‍ത്ഥം.
+Description-mr.UTF-8: मागे मेन्यूकडे जाउन ही समस्या सुधारायची?
+ तुमचे आरंभक विभाजन हार्डडिस्क वरील पहिल्या प्राथमिक विभाजनावर स्थित नाही.संगणक सुरु होण्यासाठी हा क्रम आवश्यक असतो. कृपया मागील पायरीवर जाउन पहिले प्राथमिक विभाजन आरंभक विभाजन म्हणून निवडा.
+ .
+ जर तुम्ही मागील पायरीवर जाउन हा दोष काढून टाकला नाही तर, विभाजनांची सद्य स्थिती कायम धरली जाईल. याचा अर्थ असा की कदाचित तुम्ही तुमच्या हार्डडीस्क वरून संगणक सुरु करू शकणार नाही.
+Description-nb.UTF-8: Vil du gå tilbake til menyen og rette opp feilen?
+ Oppstartspartisjonen din ligger ikke på den første primærpartisjonen på harddisken. Maskinen trenger dette for å kunne starte opp. Gå tilbake og bruk den første primærpartisjonen som oppstartspartisjon.
+ .
+ Hvis du ikke går tilbake til partisjoneringsmenyen og retter opp disse feilene, vil partisjonen bli brukt som den er. Dette betyr at du kanskje ikke vil kunne starte systemet fra harddisken.
+Description-ne.UTF-8: मेनुमा फर्केर यो समस्या सुधार्नुहुन्छ?
+ तपाईँको बुट विभाजन तपाईँको हार्ड डिस्कको पहिलो प्राथमिक विभाजनमा अवस्थित छैन । बुट गर्नका लागि तपाईँको मेशिनलाई यो चाहिन्छ । कृपया पछाडि जानुहोस् र बुट विभाजनको रुपमा तपाईँको पहिलो प्राथमिक विभाजनलाई प्रयोग गर्नुहोस् ।
+ .
+ यदि तपाईँ विभाजन मेनुमा फर्केर जानुहुन्न र यो त्रुटिलाई सुधार्नुहुन्छ भने, यो विभाजन जस्ताको तस्तै प्रयोग हुन्छ । यसको मतलव तपाईँ तपाईँको हार्ड डिस्कबाट बुट गर्न सक्षम हुनुहुने छैन ।
+Description-nl.UTF-8: Wilt u teruggaan naar het menu om dit probleem op te lossen?
+ Uw opstartpartitie bevindt zich niet op de eerste primaire partitie van uw harde schijf. Dit is echter noodzakelijk om de computer correct te kunnen opstarten. U kunt best teruggaan om uw eerste primaire partitie aan te wijzen als opstartpartitie.
+ .
+ Als u niet teruggaat naar het schijfindelingsmenu om dit probleem op te lossen zal deze partitie zo gebruikt worden. Dit houdt in dat u de computer mogelijk niet vanaf de schijf kan opstarten.
+Description-nn.UTF-8: Gå tilbake til menyen og retta opp dette problemet?
+ Oppstartspartisjonen er ikkje plassert på den første primære partisjonen på harddisken. Dette er naudsynt for at maskina di skal kunne starte opp. Gå tilbake og bruk den første primære partisjonen som oppstartspartisjon.
+ .
+ Viss du ikkje går tilbake til partisjoneringsmenyen og rettar opp desse feila, vil partisjonen bli brukt som han er. Dette betyr at det kan vere du ikkje kan starte opp maskina frå harddisken.
+Description-no.UTF-8: Vil du gå tilbake til menyen og rette opp feilen?
+ Oppstartspartisjonen din ligger ikke på den første primærpartisjonen på harddisken. Maskinen trenger dette for å kunne starte opp. Gå tilbake og bruk den første primærpartisjonen som oppstartspartisjon.
+ .
+ Hvis du ikke går tilbake til partisjoneringsmenyen og retter opp disse feilene, vil partisjonen bli brukt som den er. Dette betyr at du kanskje ikke vil kunne starte systemet fra harddisken.
+Description-oc.UTF-8: Tornar al menú e corregir aqueste defaut ?
+ La particion d'aviada es pas la primièra particion primària del disc. Aquò's indispensable per l'aviada de la maquina. Recomençatz e utilizatz la primièra particion primària coma particion d'aviada.
+ .
+ Se tornatz pas al menú de particionament per corregir aquesta error, la particion serà utilizada talacoma es. Aquò significa que poiriatz èsser dins l'incapacitat d'amodar a partir del disc dur.
+Description-pa.UTF-8: ਮੇਨੂ ਉੱਤੇ ਪਿੱਛੇ ਜਾ ਕੇ ਇਸ ਸਮੱਸਿਆ ਨੂੰ ਠੀਕ ਕਰਨਾ ਹੈ?
+ ਤੁਹਾਡਾ ਬੂਟ ਪਾਰਟੀਸ਼ਨ ਹਾਰਡ ਡਿਸਕ ਦੇ ਪਹਿਲੇ ਪ੍ਰਾਇਮਰੀ ਪਾਰਟੀਸ਼ਨ ਤੇ ਸਥਿਤ ਨਹੀਂ। ਇਸ ਦੀ ਤੁਹਾਡੀ ਮਸ਼ਿਨ ਨੂੰ ਬੂਟ ਹੋਣ ਲਈ ਲੋੜ ਹੈ। ਪਿੱਛੇ ਜਾਓ ਜੀ ਅਤੇ ਪਹਿਲਾ ਪ੍ਰਾਇਮਰੀ ਪਾਰਟੀਸ਼ਨ ਬੂਟ ਪਾਰਟੀਸ਼ਨ ਤੌਰ ਤੇ ਵਰਤੋਂ।
+ .
+ ਜੇ ਤੁਸੀਂ ਪਿੱਛੇ ਪਾਰਟੀਸ਼ਨਿੰਗ ਸੂਚੀ ਤੇ ਨਾ ਗਏ ਅਤੇ ਇਹ ਗਲਤੀ ਠੀਕ ਨਾ ਕੀਤੀ, ਪਾਰਟੀਸ਼ਨ ਉਸੇ ਤਰਾਂ ਹੀ ਵਰਤਿਆ ਜਾਵੇਗਾ। ਇਸ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਤੁਸੀਂ ਆਪਣੀ ਹਾਰਡ ਡਿਸਕ ਤੋਂ ਬੂਟ ਨਹੀਂ ਕਰ ਸਕਦੇ।
+Description-pl.UTF-8: Powrócić do menu i poprawić ten błąd?
+ Twoja partycja rozruchowa nie jest pierwszą, podstawową partycją na dysku twardym. To jest wymagane, aby uruchomić komputer. Proszę wrócić i użyć pierwszej, podstawowej partycji jako partycji rozruchowej.
+ .
+ Jeśli nie wrócisz do menu partycjonowania i nie naprawisz tego błędu, partycja zostanie użyta w obecnej postaci. Oznacza to, że możesz nie być w stanie uruchomić komputera z dysku twardego.
+Description-pt.UTF-8: Voltar atrás ao menu e corrigir este problema?
+ A sua partição de arranque não se encontra localizada na primeira partição primária do seu disco rígido.  Isto é necessário pela sua máquina de modo a arrancar.  Por favor volte atrás e utilize a sua primeira partição primária como partição de boot.
+ .
+ Se não voltar atrás ao menu de particionamento e corrigir este erro, a partição será utilizada como está.  Isto significa que poderá não ser possível iniciar a partir do seu disco rígido.
+Description-pt_BR.UTF-8: Voltar ao menu e corrigir esse problema?
+ Sua partição de inicialização não está localizada na primeira partição de seu disco rígido. Isso é necessário para que seu computador possa ser inicializado. Por favor, volte e use sua primeira partição primária como uma partição de inicialização.
+ .
+ Se você não quiser voltar ao menu de particionamento e corrigir esse erro, a partição será usada da maneira como se encontra. Isso significa que você pode não conseguir inicializar seu computador a partir do disco rígido.
+Description-ro.UTF-8: Înapoi la meniu pentru a corecta această problemă?
+ Partiția dumneavoastră de pornire nu se află pe prima partiție primară a discului fix. Acest lucru este necesar pentru ca sistemul dumneavoastră să pornească. Vă rugăm să vă întoarceți și să utilizați prima partiție primară ca partiție de pornire.
+ .
+ Dacă nu vă întoarceți la meniul de partiționare să corectați aceste erori, partiția va fi folosită așa cum este. În acest caz este posibil să nu puteți porni de pe discul dur.
+Description-ru.UTF-8: Вернуться в меню и исправить эту проблему?
+ Ваш загрузочный раздел располагается не на первом первичном разделе жёсткого диска. Это необходимо, чтобы машина могла загружаться. Вернитесь и установите первый первичный раздел в качестве загрузочного.
+ .
+ Если вы не вернётесь в меню разметки и не исправите эту ошибку, то раздел будет использован таким, каким вы его задали. Вероятно, вы не сможете загрузиться с жёсткого диска.
+Description-si.UTF-8: මෙනුවට ආපසු ගොස් මෙම දෝශය නිවැරදි කරන්නද?
+ ඔබේ ආරම්භක කොටස ඔබේ දෘඩ තැටියේ ප්‍රථම ප්‍රාථමික කොටස මත නොපවතී. මෙය ඔබේ පරිගණකය ආරම්භ වීමට අත්‍යාවශ්‍යයි. කරුණාකර ආපසු ගොස්, ආරම්භක කොටස ලෙස ඔබේ ප්‍රථම ප්‍රාථමික කොටස තෝරන්න.
+ .
+ ඔබ කොටස්කරණ මෙනුවට ආපසු ගොස් මෙම දෝශය නිවැරදි නොකලේ නම්. මෙම කොටස එලෙසම භාවිත වනු ඇත. එනම් ඔබට දෘඩ තැටිය මගින් පරිගණකය ආරම්භ කල නොහැක.
+Description-sk.UTF-8: Vrátiť sa späť do menu a odstrániť tento problém?
+ Vaša štartovacia oblasť sa nenachádza na prvej primárnej oblasti vášho pevného disku, čo je potrebné pre spustenie vášho počítača. Prosím vráťte sa späť a ako štartovaciu oblasť použite vašu prvú primárnu oblasť.
+ .
+ Ak sa nevrátite späť do menu rozdeľovania a neodstránite túto chybu, oblasť sa použije taká, aká je. To znamená, že váš systém nebudete môcť spustiť z pevného disku.
+Description-sl.UTF-8: Se želite vrniti v meni in popraviti to napako?
+ Vaš zagonski razdelek se ne nahaja na prvem primarnem razdelku vašega trdega diska. To je potrebno, da se lahko vaš računalnik zažene. Prosim vrnite se nazaj in uporabite vaš prvi primarni razdelek kot zagonski razdelek.
+ .
+ Če se ne boste vrnili na meni za razdeljevanje in popravili teh napak, bo ta razdelek uporabljen takšen kot je. To pomeni, da morda ne boste mogli zagnati računalnika iz vašega trdega diska.
+Description-sq.UTF-8: Të kthehem mbrapa në menu dhe të korrigjoj gabimet?
+ Ndarja e nisjes nuk gjendet në ndarjen e parë primare të diskut të ngurtë.  Kjo është e nevojshme në mënyrë që kompjuteri të niset.  Të lutem kthehu mbrapa dhe përdor ndarjen e parë primare si ndarje nisjeje.
+ .
+ Nëse nuk kthehesh mbrapa tek menuja e ndarjes të korrigjosh këto gabime, atëhere ndarja nuk do përdoret fare.  Ndoshta mund të mos jesh në gjendje të nisesh nga disku i ngurtë.
+Description-sr.UTF-8: Да се вратим назад у изборник и да исправим овај проблем?
+ Ваша подизна партиција се не налази на првој примарној партицији вашег чврстог диска.  Ово је потребно да би ваш рачунар могао да се покрене.  Вратите се назад и користите прву примарну партицију као подизну партицију.
+ .
+ Ако се не вратите назад на изборник за партиционисање и не исправите ове грешке, партиција ће бити употребљена таква каква је. То значи да можда нећете моћи да покренете систем са вашег диска.
+Description-sv.UTF-8: Gå tillbaka till menyn och korrigera det här felet?
+ Din startpartition ligger inte på den första primära partitionen på hårddisken. Det är nödvändigt att den gör det för att din dator ska kunna starta. Gå tillbaka och välj den första primära partitionen som startpartition.
+ .
+ Om du inte går tillbaka till partitioneringsmenyn och korrigerar det här felet så kommer den här partitionen att användas som den är. Det betyder att du kanske inte kommer att kunna starta datorn från hårddisken.
+Description-ta.UTF-8: மீண்டும் பட்டியலுக்கு சென்று தவறுகளை திருத்தவா?
+ தங்களது துவக்கி பகிர்வு வன்வட்டின் பகிர்வில் இல்லை. தங்கள் கணிணி துவங்குவதற்கு இது அவசியமாகும். பின்சென்று தங்களது முதல்·முதன்மை·பகிர்வை துவக்கி பகிர்வாக உபயோகிக்கவும்.
+ .
+ நீங்கள் பகிர்வு பட்டிக்குத் திரும்பி பிழைகளை திருத்தாவிடில் பகிர்வு உள்ளபடியே பயன்படுத்தப்படும். இதனால் நீங்கள் கணிணியை வட்டைக் கொண்டு துவக்க இயலாமல் போகக்கூடும்.
+Description-te.UTF-8: వెనక్కి వెళ్ళి జాబితాలో ఈ సమస్యని సరిచెయ్యాలా ?
+  మీ హార్డ్ డిస్క్ యొక్క మొదటి ప్రధాన విభజన లో బూట్ విభజన  లేదు.  మీ మెషీన్ బూట్ కావాలంటే ఇది కావాలి.  దయచేసి వెనక్కి వెళ్లి, మొదటి ప్రధాన విభజన ని బూట్ విభజన  గా వాడండి.
+ .
+ విభజన మెనూ కి వెనక్కి వెళ్లి, ఈ తప్పు సరి దిద్దనిచో, విభజన ఉన్నపళంగా వాడబడుతుంది. అంటే, మీరు హార్డ్ డిస్క్ నుండి బూట్ చేయలేక పోవచ్చు.
+Description-tg.UTF-8: Ба меню бармегардед ва ин мушкилиро ҳал мекунед?
+ Қисми диски роҳандозии шумо дар қисмбандии аввалини асосии диски сахти шумо ҷойгир намебошад. Ин ба компютери шумо барои роҳандозӣ лозим аст.  Лутфан, ба қафо гузаред ва қисми диски аввалини асосии худро ҳамчун қисми диски роҳандозӣ истифода баред.
+ .
+ Агар шумо ба менюи қисмбандӣ бар нагардед ва ин хаторо ислоҳ накунед, ин қисми диск чӣ хеле ки ҳаст, истифода мешавад. Ин маънои онро дорад, ки эҳтимолан шумо аз диски сахти худ роҳандозӣ намекунед.
+Description-th.UTF-8: ย้อนกลับไปที่เมนูเพื่อแก้ไขปัญหานี้หรือไม่?
+ พาร์ทิชันบูตของคุณไม่ใช่พาร์ทิชันที่เป็นไพรมารีอันแรกของฮาร์ดดิสก์ ซึ่งจำเป็นสำหรับการบูตเครื่องของคุณ กรุณาย้อนกลับไปกำหนดพาร์ทิชันที่เป็นไพรมารีอันแรกให้เป็นพาร์ทิชันบูต
+ .
+ ถ้าคุณไม่ย้อนกลับไปที่เมนูแบ่งพาร์ทิชันเพื่อแก้ไขข้อผิดพลาดนี้ ระบบจะใช้พาร์ทิชันตามสภาพที่มันเป็น ซึ่งอาจหมายถึงว่าคุณจะไม่สามารถบูตเครื่องจากฮาร์ดดิสก์ได้
+Description-tl.UTF-8: Bumalik sa menu at ayusin ang problemang ito?
+ Ang boot partisyon niyo ay wala sa unang primary partisyon ng inyong hard disk.  Ito ay kailangan ng inyong makina upang makapag-boot. Mangyari na bumalik at gamitin ang unang primary partisyon bilang boot partisyon.
+ .
+ Kung hindi kayo babalik sa menu ng pag-partisyon at ayusin itong error, gagamitin ang partisyon ng ganito.  Ibig sabihin nito ay maaaring hindi kayo makapag-boot mula sa hard disk.
+Description-tr.UTF-8: Menüye geri dönerek bu sorunu düzeltmek ister misiniz?
+ Açılış (boot) bölümü sabit diskinizin ilk birincil bölümü olarak ayarlanmamış. Makinenin açılması için bu şartın sağlanması gerekiyor. Lütfen geri dönün ve açılış bölümü olarak için birincil bölümlerden ilkini kullanın.
+ .
+ Bölümleme menüsüne geri dönerek bu hatayı düzeltmezseniz bölüm bu şekliyle kullanılacaktır. Bu, sabit diskten açılış yapmanın mümkün olmayabileceği anlamına gelmektedir.
+Description-ug.UTF-8: تىزىملىككە قايتىپ بۇ مەسىلىنى ھەل قىلامسىز؟
+ قوزغىتىش رايونى دىسكىدىكى بىرىنچى ئاساسىي رايوندا ئەمەس ئىكەن. مەزكۇر كومپيۇتېر ئۈچۈن شۇنداق بولۇشى زۆرۈر. ئارقىغا قايتىپ بىرىنچى ئاساسىي رايوننى قوزغىتىش رايونى قىلىپ سەپلەڭ.
+ .
+ رايونغا ئايرىش تىزىملىكىگە قايتىپ بۇ خاتالىقنى تۈزەتمىسىڭىز، رايون شۇ پېتى قېلىۋېرىدۇ. بۇنىڭ بىلەن سىستېما قاتتىق دىسكىدىن قوزغىلالماسلىقى مۇمكىن.
+Description-uk.UTF-8: Повернутися до меню та виправити цю проблему?
+ Ваш завантажувальний розділ не знаходиться на першому первинному розділі вашого жорсткого диска. Це необхідно, щоб ваша система мала можливість завантажуватися. Поверніться назад і використайте перший первинний розділ як завантажувальний.
+ .
+ Якщо ви не повернетесь до меню розбивки та не виправите цю помилку, то розділ буде використаний „як є“. Це значить, що, можливо, ви не матимете можливість завантажитися із вашого жорсткого диска.
+Description-vi.UTF-8: Trở về trình đơn để sửa chữa lỗi này chứ?
+ Phân vùng khởi động của bạn không nằm trên phân vùng chính thứ nhất của đĩa cứng. Trường hợp này cần thiết để khởi động máy này. Hãy trở về và sử dụng phân vùng chính thứ nhất như là phân vùng khởi động.
+ .
+ Nếu bạn không trở về trình đơn phân vùng để sửa chữa lỗi này, phân vùng này sẽ được dùng như có. Có nghĩa là bạn có thể không khởi động được từ đĩa cứng.
+Description-zh_CN.UTF-8: 返回菜单并更正此问题吗？
+ 您的启动分区并非位于硬盘的第一个主分区上。这是启动您的计算机所必需的。请返回并使用第一个主分区作为启动分区。
+ .
+ 如果您不返回分区菜单并更正此错误，此分区将会以目前的状态被使用。这意味着您可能无法从您的硬盘启动。
+Description-zh_TW.UTF-8: 是否返回選單並更正此錯誤？
+ 您的啟動分割區並未位於硬碟的第一個主要分割區。但您必須如此設定，您的電腦才能夠開機。請返回並將您的第一個主要分割區設定為開機分割區。
+ .
+ 如果您不返回磁碟分割選單並修正此錯誤，將不能使用此磁碟分割區。這意味著您可能無法從您的硬碟進行開機。
+
+Template: partman-ext3/boot_not_bootable
+Type: boolean
+Description: Return to the menu to set the bootable flag?
+ The boot partition has not been marked as a bootable partition, even
+ though this is required by your machine in order to boot. You should go
+ back and set the bootable flag for the boot partition.
+ .
+ If you don't correct this, the partition will be used as is and it is
+ likely that the machine cannot boot from its hard disk.
+Description-am.UTF-8: የተነሺ ባንዲራን ለመትከል ወደምናሌ ልመለስ
+ ተነሺ ክፋዩ የተነሺ ክፋይ መሆኑ አልተወሰነለትም፡፡  ይህንን ለማድረግ እባክዎ ይመለሱና የማስነሻ ባንዲራውን ይትከሉ፡፡
+ .
+ ወደ መክፈያው ምናሌ ተመልሰው ስህተቱን ካላረሙ ክፋዩ እንዳለ በጥቅም ላይ ይውላል፡፡ አስሊውም ከዲስኩ ላይ ላይነሳሳ ይችላል
+Description-ar.UTF-8: تريد الرجوع إلى القائمة لتضع علامة الإقلاع؟
+ لم يتم تحديد الجزء boot على أنه قابل للإقلاع، مع أن هذا مطلوب كي يتمكن جهازك من الإقلاع. يجب أن تعود وتضع علامة الإقلاع على جزء boot.
+ .
+ إن لم تصحح هذا الخطأ، فسيتم استخدام الجزء كما هو. وقد لا يتمكن جهازك من الإقلاع من القرص الصلب.
+Description-ast.UTF-8: ¿Volver al menú p'afitar la etiqueta d'arrancable?
+ La to partición d'arranque nun se marcó como partición d'arranque, esto ye necesario pa que la to máquina pueda arrancar. Deberíes de volver y afitar la etiqueta arrancable pa la partición d'arranque.
+ .
+ Si nun igües esto, la partición va usase usada como ta y posiblemente l'equipu nun pueda arrancar dende'l discu duru.
+Description-be.UTF-8: Вярнуцца ў меню, каб усталяваць загрузачны флаг?
+ Загрузачны падзел не быў пазначаны як загрузачны, але гэта неабходна, каб машына магла загрузіцца. Калі ласка, вярніцеся і пазначце загрузачным флагам загрузачны падзел.
+ .
+ Калі Вы гэта не выправіце, падзел будзе ўжыты як ёсць. Магчыма, у выніку Вы не зможаце загрузіць сістэму з жорсткага дыска.
+Description-bg.UTF-8: Връщане към менюто за маркиране на дяла за начално зареждане?
+ Дялът за начално зареждане не е маркиран като подходящ за начално зареждане, въпреки че това е необходимо, за да може машината да зарежда. Върнете се и отбележете дяла за начално зареждане като такъв.
+ .
+ Ако не поправите този проблем, дялът ще бъде използван както си е в момента и най-вероятно машината няма да може да зареди операционната система от твърдия диск.
+Description-bn.UTF-8: বুটযোগ্য ফ্ল্যাগ নির্ধারণ করার জন্য মেনুতে রিটার্ন করা হবে কি?
+ বুট পার্টিশনটি বুটযোগ্য পার্টিশন হিসেবে চিহ্নিত করা হয়নি, এমনকি যদিও এটি আপনার মেশিন বুট করার জন্য প্রয়োজন। আপনার পিছনে যেতে হবে এবং বুট পার্টিশনের জন্য বুটযোগ্য ফ্ল্যাগ নির্ধারণ করতে হবে।
+ .
+ আপনি যদি পেছনে পার্টিশনকারী মেনুতে ফিরে গিয়ে এই সমস্যাটি দূর না করেন, তবে পার্টিশনটি ত্রুটিপূর্ণ অবস্থাতেই ব্যবহৃত হবে। এর ফলে হয়তো আপনার হার্ড ডিস্ক থেকে বুট করা সম্ভব হবে না।
+Description-bo.UTF-8: འདེམས་ཐོའི་ཐོག་ཏུ་ཚུར་ལོག་ནས་སྒུལ་སློང་བརྡ་རྟགས་སྒྲིག་འཛུགས་བྱེད་དགོས་སམ
+ ཁྱོད་ཀྱི་འཕྲུལ་ཆས་སྒུལ་སློང་བྱེད་དགོས་པའི་ཆེད་དུ་སྒུལ་སློང་གི་གསོག་སྡེར་ཁག་ལ་སྒུལ་སློང་རུང་བའི་རྟགས་བཀོད་དགོས། ཕྱིར་ལོག་ནས་སྒུལ་སློང་ཁག་ལ་སྒུལ་སློང་རྟགས་ཞིག་སྒྲིག་འཛུགས་བྱེད་དགོས
+ .
+ ཁྱོད་ཀྱིས་དག་བཅོས་མ་བཟོས་ན་འཕྲུལ་ཆས་འདི་སྲ་སྡེར་ནས་སྒུལ་སློང་བྱེད་མི་ཐུབ་པའི་ཉེན་ཁ་ཡོད
+Description-bs.UTF-8: Vratiti se na meni i postaviti bootabilnu zastavicu?
+ Boot particija nije označena kao bootabilnom particijom iako je ovo potrebno vVašoj mašini za bootanje. Trebali biste se vratiti i postaviti bootabilnu zastavicu za boot particiju.
+ .
+ Ako ne ispravite ovo, particijae će biti iskorištena kakva jeste i vrlo vjerovatno je da se mašina neće moći pokrenuti sa hard diska.
+Description-ca.UTF-8: Voleu tornar al menú per a establir el senyalador d'arrencable?
+ No s'ha marcat la partició d'arrencada com a partició arrencable, tot i que això és requerit per a que l'ordinador arrenque. Hauríeu d'anar enrere i establir el senyalador d'arrencable per a la partició d'arrencada.
+ .
+ Si no corregiu aquest error, la partició s'utilitzarà com està, i és probable que no pugueu arrencar des del disc dur.
+Description-cs.UTF-8: Vrátit se zpět a nastavit zaváděcí příznak?
+ Zaváděcí oblast není označena zaváděcím příznakem, což je na vašem počítači nutný předpoklad pro správné zavádění systému. Měli byste se vrátit zpět a nastavit na zaváděcí oblasti příznak pro zavádění.
+ .
+ Pokud to neopravíte, oblast se použije tak, jak je. To znamená, že se možná nepovede zavést systém z pevného disku.
+Description-cy.UTF-8: Dychwelyd i'r fwydlen i osod y faner cychwynadwy?
+ Nid yw'ch rhaniad ymgychwyn wedi ei nodi fel rhaniad cychwynadwy, er fod angen gwneud hyn er mwyn i'ch peiriant gychwyn. Fe ddylech fynd nôl a gosod y faner cychwynadwy ar eich rhaniad ymgychwyn.
+ .
+ Os nad ydych chi'n cywiro hwn, mi fydd y rhaniad yn cael ei ddefnyddio fel y mae a mae'n anhebygol y bydd y peiriant yn gallu cychwyn o'r ddisg galed.
+Description-da.UTF-8: Gå tilbage til menuen for at sætte »bootable«-flaget?
+ Din opstartspartition er ikke markeret som »bootable«. Dette er nødvendigt for at din maskine skal kunne starte. Gå tilbage og marker opstartspartitionen som »bootable«.
+ .
+ Hvis du ikke retter fejlen, vil partitionen blive brugt som den er. Det vil betyde at du muligvis ikke vil kunne starte op fra din harddisk.
+Description-de.UTF-8: Zum Menü zurückkehren, um die boot-fähig-Markierung zu setzen?
+ Die boot-Partition wurde nicht als boot-fähig markiert; dies ist jedoch nötig, damit Ihr Computer starten kann. Sie sollten zurückgehen und die boot-fähig-Markierung für die boot-Partition setzen.
+ .
+ Wenn Sie dies nicht korrigieren, wird die Partition so verwendet, wie sie jetzt ist und es ist wahrscheinlich, dass Sie Ihren Computer dann nicht von der Festplatte starten können.
+Description-dz.UTF-8: བུ་ཊེབཱལ་ཟུར་རྟགས་གཞི་སྒྲིག་འབད་ནིའི་དོན་ལུ་ དཀར་ཆག་ནང་སླར་ལོག།
+ བུཊི་འབད་ནིའི་དོན་ལུ་ཁྱོད་ཀྱི་གློག་འཕྲུལ་ལུ་འདི་དགོཔ་ཨིན་རུང་ད བུཊི་བར་བཅད་འདི་བུཊེབཱལ་་བར་བཅད་སྦེ་རྟགས་མ་བཀལ་བས། བུཊི་བར་ཅད་ཀྱི་དོན་ལུ་བུ་ཊེབཱལ་ཟུར་རྟགས་གཞི་སྒྲིག་འབད་ནིའི་དོན་ལུ་ཁྱོད་ལོག་འགྱོ་དགོ།
+ .
+ ཁྱོད་ཀྱིས་་འདི་ནོར་བཅོས་མ་འབད་བ་ཅིན་ བར་བཅད་འདི་ག་ཨིནམ་སྦེ་ལག་ལེན་འཐབ་ནི་དང་  གློག་འཕྲུལ་འདི་ཁོ་རའི་ཧརཌི་ཌིཀིསི་ནང་ལས་བུཊི་འབད་མི་ཚུགས།
+Description-el.UTF-8: Θέλετε να επιστρέψετε στο μενού για να ορίσετε τη σήμανση εκκίνησης;
+ Η κατάτμηση εκκίνησης δεν έχει χαρακτηριστεί ως εκκινήσιμη αν και αυτό απαιτείται για την εκκίνηση του συστήματός σας. Θα πρέπει να επιστρέψετε και να ορίσετε την σήμανση εκκίνησης για την κατάτμηση εκκίνησης.
+ .
+ Αν δεν το διορθώσετε αυτό, η κατάτμηση θα χρησιμοποιηθεί ως έχει και είναι πιθανόν το σύστημά σας να μην μπορεί να εκκινήσει από τον σκληρό σας δίσκο.
+Description-eo.UTF-8: Ĉu retroiri al la menuo por marki la ekŝargan indikilon?
+ La ekŝarga diskparto ne estas markita kiel ŝargebla diskparto, eĉ se tio estas postulata de via maŝino por ekŝargo. Bonvolu retroiri kaj marki la ekŝargan indikilon por la koncerna ekŝarga diskparto.
+ .
+ Se vi ne korektos tion ĉi, la diskparto estos uzata tiel, kiel ĝi estas. Kaj verŝajne, la maŝino ne povos ekŝargi el via fiksita disko.
+Description-es.UTF-8: ¿Desea volver al menú para fijar la marca de arranque?
+ La partición de arranque no se ha marcado como una partición arrancable, aunque esto es necesario para que el sistema arranque. Debería volver atrás y fijar la partición como arrancable.
+ .
+ La partición se utilizará como está definida si no corrige este error y es probable que el sistema no pueda arrancar del disco duro.
+Description-et.UTF-8: Kas naaseda menüüsse, et määrata alglaaditavuse lipp?
+ Alglaadimis-partitsioon ei ole märgitud alglaaditavaks, kuigi see on vajalik, et masin alglaaduks. Palun mine tagasi ja määra alglaadimispartitsioonile alglaadimise lipp.
+ .
+ Kui sa seda ei paranda, kasutatakse partitsiooni nii, nagu see on, ning tõenäoliselt ei suuda masin kõvakettalt alglaadimist sooritada.
+Description-eu.UTF-8: Menura itzuli abioko bandera ezartzeko?
+ Erroko partizioa ez dago partizio abiarazgarri bezala markatuta. Makinak hori behar du abiarazi ahal izateko. Joan atzera eta ezarri abioaren bandera abioko partizioari.
+ .
+ Hau zuzentzen ez baduzu, partizioa dagoen bezala erabiliko da. Horrek esan nahi du agian ezingo duzula disko gogorretik abiarazi.
+Description-fa.UTF-8: بازگشت به منو و تنظیم برچم قابل‌بوت‌شدن؟
+ پارتیشن بوت به عنوان پارتیشن قابل بوت علامت زده نشده است، اگرچه که این برای ماشین شما برای بالا آمدن لازم است. می‌بایست برگردید . پرچم قابل‌بوت‌شدن را برای این پارتیشن تنظیم کنید.
+ .
+ اگر این را تصحیح نکنید، پارتیشن همانگونه که هست استفاده خواهد شد و احتمال آن هست دستگاه نمی‌تواند از دیسک‌سخت خود بالا بیاید.
+Description-fi.UTF-8: Palataanko valikkoon käynnistyskelpoisuuden ilmaisimen asettamiseksi?
+ Käynnistysosiota ei ole merkitty käynnistyskelpoiseksi osioksi, vaikka järjestelmän käynnistäminen vaatii tämän asetuksen. Palaa takaisin ja aseta käynnistysosiolle käynnistyskelpoisuuden ilmaisin.
+ .
+ Mikäli et korjaa tätä virhettä, osiota käytetään sellaisena kuin se on. Tämä tarkoittaa ettei järjestelmää luultavasti voi käynnistää kiintolevyltä.
+Description-fr.UTF-8: Revenir au menu pour placer l'indicateur d'amorçage ?
+ La partition de démarrage n'est pas marquée comme étant amorçable. Cela est indispensable pour le démarrage de la machine. Veuillez revenir au menu et placer l'indicateur d'amorçage à cette partition.
+ .
+ Si vous ne corrigez pas cela, la partition sera utilisée telle quelle et la machine ne pourra probablement pas démarrer à partir du disque dur.
+Description-ga.UTF-8: Fill ar an roghchlár chun an bhratach 'intosaithe' a shocrú?
+ Ní raibh an deighilt tosaithe marcáilte leis an mbratach "intosaithe", cé go bhfuil sé seo riachtanach chun do ríomhaire a thosú. Ba chóir duit dul ar ais agus an bhratach "intosaithe" a roghnú ar an deighilt tosaithe.
+ .
+ Mura dtéann tú ar ais go dtí an roghchlár deighilte agus an earráid seo a cheartú, úsáidfear an deighilt mar atá.  Sa chás seo seans nach mbeidh tú in ann an ríomhaire a thosú ó do dhiosca crua.
+Description-gl.UTF-8: Desexa volver ao menú para poñer o indicador de inicio?
+ A partición de inicio non ten o indicador de inicio. Isto necesítao a máquina para poder arrancar. Volte poña o indicador de inicio na partición de inicio.
+ .
+ Se non corrixe este erro, a partición hase empregar tal como está. Isto significa que seguramente non poderá arrancar desde o disco duro.
+Description-gu.UTF-8: બૂટેબલ નિશાની ગોઠવવા મેનુ પર પાછા ફરશો?
+ તમારા મશીનને બૂટ કરવા માટે જરુરી હોવા છતાં, બૂટ પાર્ટિશન એ બૂટેબલ પાર્ટિશન તરીકે નિશાની કરેલ નથી. તમારે પાછા જઈ અને બૂટ પાર્ટિશન માટે બૂટ નિશાની કરવી જોઈએ.
+ .
+ જો તમે આને સુધારશો નહી તો, પાર્ટિશન જેમ છે એમ જ વપરાશે અને કદાચ મશીન હાર્ડ ડિસ્કમાંથી બૂટ કરી શકાશે નહી.
+Description-he.UTF-8: לחזור לתפריט כדי להגדיר את דגל האתחול?
+ מחיצת האתחול שלך לא סומנה כמחיצת אתחול, למרות שהדבר נדרש לאתחול מחשבך. נא לחזור אחורה ולהגדיר את דגל האתחול על מחיצת האתחול.
+ .
+ בחירה שלא לתקן את השגיאות האלו יגרום לכך שייעשה שימוש במחיצה כמו שהיא כלומר שקרוב לוודאי, המחשב לא יוכל לאתחל מהכונן הקשיח שלו.
+Description-hi.UTF-8: मेनू में वापस जा कर बूटेबल फ्लैग प्रदान करें?
+ आपके बूट पार्टिशन को बूटेबल नहीं बनाया गया है, आपकी मशीन को बूट करने के लिएऐसा होनाआवश्यक है. कृपया पीछे जाएँ और अपने बूट पार्टिशन के लिए बूटेबल फ्लैगप्रदान करें.
+ .
+ यदि आप इन त्रुटियों को नहीं सुधारते हैं, तो पार्टिशन जैसे हैंवैसे ही प्रयोग में ले लिए जाएँगे. अर्थात् शायद अपने हार्ड डिस्क से बूट नहीं कर सकेंगे.
+Description-hr.UTF-8: Vrati se u izbornik i postavi 'bootable' oznaku pokretanja?
+ Vaša particija pokretanja nije označena kao 'bootable' particija. To je potrebno vašem računalu radi pokretanja sustava. Vratite se i postavite oznaku 'bootable' za particiju pokretanja.
+ .
+ Ako ne ispravite taj problem, ta particija će biti ostavljena kakva jest i vjerojatno nećete moći pokrenuti sustav s čvrstog diska.
+Description-hu.UTF-8: Visszalépsz a menübe a rendszerindító zászló beállításához?
+ A rendszerindító partíció nincs ilyennek megjelölve, pedig a gépeden ez szükséges a rendszerindításhoz. Lépj vissza és állítsd be a rendszerindító zászlót a rendszerindító partícióhoz.
+ .
+ Ha ezt nem javítod ki, akkor a partíciót úgy fogod használni, ahogy van, és valószínű, hogy a géped a merevlemezről nem tud majd rendszert indítani.
+Description-id.UTF-8: Kembali ke menu untuk menetapkan tanda bisa-boot?
+ Partisi boot Anda belum ditandai sebagai partisi bisa-boot. Hal ini diperlukan agar komputer Anda dapat menyala. Silakan kembali ke menu sebelumnya dan beri tanda bisa-boot pada partisi boot.
+ .
+ Jika Anda tidak memperbaikinya, partisi ini akan digunakan apa adanya. Hal ini berarti Anda mungkin tidak dapat menyalakan komputer lewat hard disk.
+Description-is.UTF-8: Fara aftur í valmyndina til að setja ræsiflaggið?
+ Ræsidisksneiðin (boot partition) hefur ekki verið merkt sem ræsanleg disksneið, þótt það sé nauðsynlegt svo að tölvan geti ræst sig upp. Farðu til baka og settu ræsiflagg á ræsidisksneiðina.
+ .
+ Ef þú ferð ekki aftur í disksneiðavalmyndina og leiðréttir þessar villur, mun disksneiðin verða notuð í núverandi ástandi.
+Description-it.UTF-8: Ritornare al menù per impostare il flag avviabile?
+ La partizione boot non è stata impostata come partizione avviabile, anche se questo è necessario affinché il computer si avvii. Tornare indietro e impostare il flag avviabile alla partizione.
+ .
+ Se non viene corretto questo errore la partizione verrà utilizzata così com'è ed è probabile che il computer non possa essere avviato dal disco fisso.
+Description-ja.UTF-8: メニューに戻ってブート可能フラグを設定しますか?
+ マシンがブートするためには boot パーティションにブート可能フラグが付けられている必要がありますが、そのようになっていません。戻って boot パーティションにブート可能フラグを設定してください。
+ .
+ これを直さないと、パーティションはそのまま使われますが、マシンがそのハードディスクから起動できなくなる可能性があります。
+Description-ka.UTF-8: გსურთ მენიუში დაბრუნება ჩატვირთვის ალმის დასაყენებლად?
+ თქვენი ჩატვირთვის დანაყოფი ჩატვირთვადად არ არის მონიშნული, ეს კი თქვენს სისტემას ჩასატვირთად ჭირდება. გთხოვთ დაბრუნდეთ და ჩატვირთვის დანაყოფზე დააყენოთ boot ალამი.
+ .
+ თუ თქვენ ამ შეცდომებს არ გაასწორებთ, დანაყოფი არსებული სახით იქნება გამოყენებული. ეს კი ნიშნავს, რომ შესაძლოა მყარი დისკიდან ჩატვირთვა ვერ მოხერხდეს.
+Description-kab.UTF-8: Uɣal ɣer wumuɣ i usbadu n wanay n aziraz?
+ Aḥric n usenker ur yettucreḍ ara fell-as d aḥric aziraz, ɣas ulamma aya yettusra sɣur tmacint-ik·im i wakken ad tekker. Ilaq ad tuɣaleḍ ɣer deffir syen sbadu annay aziraz i uḥric n usenker.
+ .
+ Ma yella ur tseɣtaḍ ara aya, aḥric ad yettuseqdec akken i yella syen yezmer tamacint ur tettenker ara seg uḍebsi aqquran.
+Description-kk.UTF-8: Жүктелетін жалаушасын орнату үшін мәзірге оралу керек пе?
+ Компьютеріңіз дұрыс жүктелу үшін осыны талап етсе де, жүктелу бөлімі жүктелетін бөлім деп белгіленбеген. Сіз қазір артқа қайтып, ол бөлім үшін жүктелетін жалаушасын қоюыңыз керек.
+ .
+ Егер сіз осы қатені түземесеңіз, бөлім бар күйінде пайдаланылады, демек, сіз қатты дискіңізден жүктеле алмайтын боласыз.
+Description-km.UTF-8: ត្រឡប់​ទៅ​ម៉ឺនុយ ដើម្បី​កំណត់​ទង់​ដែល​អាច​ចាប់ផ្ដើម​បាន ?
+ ភាគ​ថាស​ចាស់ផ្ដើម​មិន​ត្រូវបាន​សម្គាល់​ថា​ជា​ភាគ​ថាស​ដែល​អាច​ចាប់ផ្ដើម​បាន​ទេ ទោះបី​ជា​វា​ត្រូវបាន​ទាមទារ​ដោយ​ម៉ាស៊ីន​របស់​អ្នក​ដើម្បី​ចាប់ផ្ដើម​ក៏​ដោយ ។ អ្នកគួរ​តែ​ត្រឡប់​ក្រោយ ហើយ​កំណត់​ទង់​ដែល​អាច​ចាប់ផ្ដើម​បាន សម្រាប់​ភាគថាស​ចាប់ផ្ដើម ។
+ .
+ ប្រសិនបើ​អ្នក​មិនកែ​វា​ទេ ភាគថាស​នឹង​ត្រូវ​បាន​ប្រើ​ ហើយ​វា​​ប្រហែល​ជា​មិន​អាច​ចាប់ផ្ដើម​ពី​ថាស​រឹង​របស់​វា​បាន​ទេ ។
+Description-kn.UTF-8: ಬೂಟ್ ಧ್ವಜವನ್ನು ಸಿದ್ಧಪಡಿಸಲು ಆಯ್ಕೆ ಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗುವುದೆ?
+ ಬೂಟ್ ವಿಭಜನೆಯನ್ನು ಬೂಟೆಬಲ್ ವಿಭಜನೆಯಾಗಿ ಗುರುತು ಮಾಡಿಲ್ಲ, ನಿಮ್ಮ ಗಣಕವನ್ನು ಚಾಲನೆ ಮಾಡಲು ಇದು ಅವಶ್ಯಕ. ನೀವು ಹಿಂದಿರುಗಿ ಹೋಗಿ ಬೂಟ್ ವಿಭಜನೆಯ ಬೂಟ್ ಧ್ವಜವನ್ನು ಸಿದ್ಧಪಡಿಸಿ.
+ .
+ ನೀವಿದನ್ನು ಸರಿಪಡಿಸದಿದ್ದರೆ ಈ ವಿಭಜನೆಯನ್ನು ಹಾಗೆಯೇ ಬಳಸಲಾಗುತ್ತದೆ ಮತ್ತು ಗಣಕವನ್ನು ಈ ಹಾರ್ಡ್ ಡ್ರೈವಿನಿಂದ ಬೂಟ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗದಿರಬಹುದು.
+Description-ko.UTF-8: 메뉴로 돌아가서 부팅 가능 플래그를 설정하시겠습니까?
+ 부팅 파티션을 부팅 가능 파티션으로 표시하지 않았습니다. 이 컴퓨터에서 부팅하려면 부팅 가능 파티션을 설정해야 합니다. 돌아가서 부팅 파티션에 부팅 가능 플래그를 설정하십시오.
+ .
+ 이 오류를 바로잡지 않으면 이 파티션을 지금 상태로 사용합니다. 이렇게 하면 이 컴퓨터는 하드 디스크에서 부팅할 수 없을 것입니다.
+Description-lo.UTF-8: ຈະຍອ້ນກັບໄປທີ່ລາຍການເພື່ອກຳນົດແຟັກບູດຫຼືບໍ່ ?
+ ພາທິຊັນບູດຂອງເຈົ້າຍັງບໍ່ໄດ້ເຮັດເຄືອງໝາຍວ່າເປັນພາທີຊັນທີ່ບູດໄດ້ ຊື່ງຈຳເປັນສຳລັບການບູດເຄື່ອງຂອງເຈົ້າ ເຈົ້າຄວນຍອ້ນກັບໄປກຳນົດແຟັກບູດສຳລັບພາທິຊັນບູດ
+ .
+ ຖ້າເຈົ້າບໍ່ແກ້ໄຂ ລະບົບກໍຈະໃຊ້ພາທິຊັນຕາມສະພາບທີ່ມັນເປັນ ຊື່ງມີແນວໂນ້ມວ່າເຄື່ອງຂອງເຈົ້າຈະບໍ່ສາມາດບູດຈາກຮາດດິດໄດ້
+Description-lt.UTF-8: Ar grįžti į meniu, įkelties vėliavėlės nustatymui?
+ Paleidimo skaidiniui nesuteikta atitinkama žymė. Tai būtina, kad kompiuteris galėtų paleisti operacinę sistemą. Grįžkite atgal ir suteikite skaidiniui paleidimo skaidinio žymę.
+ .
+ Jei neištaisysite šios klaidos, šis skaidinys bus naudojamas kaip yra ir tikėtina, kad negalėsite įkelti operacinės sistemos iš savo kieto disko.
+Description-lv.UTF-8: Atgriezties uz izvēlni, lai iestatīt nodalījuma ielādējamību?
+ Jūsu saknes (root) nodalījums nav atzīmēts kā ielādējams nodalījums. Taču tas ir nepieciešams, lai datoru varētu ielādēt. Lūdzu, atgriezieties un norādiet savu saknes (root) nodalījumu kā ielādējamu.
+ .
+ Ja neatgriezīsieties uz nodalījumu veidošanas izvēlni un neizlabosiet radušās kļūdas, nodalījums tiks izmantots esošajā konfigurācijā. Visticamāk, jūs nevarēsiet ielādēt sistēmu jūsu datorā.
+Description-mk.UTF-8: Да се вратам во менито за поставување на знаменце за подигнување?
+ Партицијата за подигнување не е обележана како таква иако тоа е потребно за подигнување на машината. Треба да се вратите назад и да ја штиклирате потребната опција за обележување на партицијата за подигнување.
+ .
+ Ако не го исправите ова, партицијата ќе биде користена каква што е и веројатно машината нема да може да се подигне од тврдиот диск.
+Description-ml.UTF-8: മെനുവില്‍ തിരിച്ചു് പോയി ബൂട്ടു് ചെയ്യാവുന്ന (bootable) എന്നടയാളപ്പെടുത്തണോ?
+ നിങ്ങളുടെ മഷീന്‍ ബൂട്ട് ചെയ്യണമെങ്കില്‍ ബൂട്ട് ചെയ്യാവുന്ന (bootable) ഭാഗമായി അടയാളപ്പെടുത്തണമെങ്കിലും നിങ്ങളതു് ചെയ്തിട്ടില്ല. ദയവായി തിരിച്ചു് പോയി ബൂട്ട് ഭാഗത്തെ ബൂട്ട് ചെയ്യാവുന്നതായി അടയാളപ്പെടുത്തുക.
+ .
+ നിങ്ങള്‍ ഈ പ്രശ്നം ശരിയാക്കിയില്ലെങ്കില്‍ ഭാഗം അങ്ങനെ തന്നെ ഉപയോഗിയ്ക്കുകയും അതു് മഷീന്‍ ഹാര്‍ഡ് ഡിസ്കില്‍ നിന്നും ബൂട്ട് ചെയ്യാന്‍ കഴിയാത്തതാക്കുകയും ചെയ്തേയ്ക്കാം.
+Description-mr.UTF-8: आरंभयोग्य झेंडा निर्धारित करण्यासाठी मेन्यूकडे परत जायचे?
+ आरंभ विभाजन हे आरंभयोग्य म्हणून चिन्हांकित नाही, जे असणे तुमचा संगणक आरंभ होण्यासाठी आवश्यक आहे. तुम्ही मागे जाउन आरंभ विभाजनासाठी आरंभयोग्य झेंडा निर्धारित करणे गरजेचे आहे.
+ .
+ जर तुम्ही ही सुधारणा केली नाही, तर विभाजन तसेच वापरले जाईल आणि तुमच्या हार्डडीस्क वरून संगणक सुरु न होण्याची शक्यता आहे.
+Description-nb.UTF-8: Gå tilbake til menyen for å sette oppstartsflagget?
+ Oppstartspartisjonen din er ikke en merket som oppstartbar selvom dette er nødvendig for at maskinen skal kunne starte opp. Gå tilbake og sett oppstartbarflagget for oppstartspartisjonen.
+ .
+ Hvis du ikke retter opp dette, vil partisjonen bli brukt som den er og det er sannsynlig at maskinen ikke kan starte fra harddisken.
+Description-ne.UTF-8: बुटेबल झण्डा सेट गर्नको लागि मेनुमा फर्कनुहुन्छ ?
+ तपाईँको मूल विभाजन तपाईँको हार्ड डिस्कको प्राथमिक विभाजन होइन । बुट गर्नका लागि तपाईँको मेशिनलाई यो चाहिन्छ । तपाईँले पछाडि जानैपर्ने हुन्छ र मूल विभाजनका लागि प्राथमिक विभाजन प्रयोग गर्नुहोस् । 
+ .
+ यदि तपाईँ विभाजन मेनुमा फर्केर जानुहुन्न र यो त्रुटिलाई सुधार्नुहुन्छ भने, यो विभाजन जस्ताको तस्तै प्रयोग हुन्छ । यसको मतलव तपाईँ तपाईँको हार्ड डिस्कबाट बुट गर्न सक्षम हुनुहुने छैन ।
+Description-nl.UTF-8: Terugkeren naar het menu om de 'bootable'-vlag te zetten?
+ Uw opstartpartitie is niet gemarkeerd als opstartbare partitie, terwijl dat wel vereist is om uw machine te kunnen opstarten. U wordt aangeraden terug te keren en de 'bootable'-vlag te zetten voor uw opstartpartitie.
+ .
+ Als dit niet wordt gecorrigeerd, is het waarschijnlijk dat het systeem niet vanaf de harde schijf zal kunnen opstarten.
+Description-nn.UTF-8: Vil du gå til menyen for å gjera partisjonen oppstartbar?
+ Oppstartspartisjonen er ikkje merkt som oppstartbar, sjølv om dette er nødvendig for at maskina di skal kunna starta opp. Gå tilbake og vel den rette innstillinga, slik at han kan starta opp.
+ .
+ Viss du ikkje rettar opp dette, vil partisjonen verta brukt som han er, og du vil kanskje ikkje kunna starta opp maskina frå harddisken.
+Description-no.UTF-8: Gå tilbake til menyen for å sette oppstartsflagget?
+ Oppstartspartisjonen din er ikke en merket som oppstartbar selvom dette er nødvendig for at maskinen skal kunne starte opp. Gå tilbake og sett oppstartbarflagget for oppstartspartisjonen.
+ .
+ Hvis du ikke retter opp dette, vil partisjonen bli brukt som den er og det er sannsynlig at maskinen ikke kan starte fra harddisken.
+Description-oc.UTF-8: Tornar al menú per plaçar l'indicador d'amorçatge ?
+ La particion d'aviada es pas marcada coma amorçabla. Aquò's indispensable per l'amodament de la maquina. Tornatz al menú e plaçatz l'indicador d'amorçatge a aquesta particion.
+ .
+ Se corregissètz pas aquò, la particion serà utilizada tala coma es e la maquina poirà probablament pas s'amodar a partir del disc dur.
+Description-pa.UTF-8: ਕੀ ਮੇਨੂ ਉੱਤੇ ਜਾ ਕੇ ਬੂਟ-ਹੋਣਯੋਗ ਫਲੈਗ ਸੈੱਟ ਕਰਨਾ ਹੈ?
+ ਤੁਹਾਡਾ boot ਪਾਰਟੀਸ਼ਨ ਹਾਰਡ ਡਿਸਕ ਦੇ ਪ੍ਰਾਇਮਰੀ ਪਾਰਟੀਸ਼ਨ ਤੇ ਸਥਿਤ ਨਹੀਂ। ਇਸ ਦੀ ਤੁਹਾਡੀ ਮਸ਼ੀਨ ਨੂੰ ਬੂਟ ਹੋਣ ਲਈ ਜਰੂਰਤ ਹੈ। ਪਿੱਛੇ ਜਾਓ ਅਤੇ ਪ੍ਰਾਇਮਰੀ ਪਾਰਟੀਸ਼ਨ ਨੂੰ ਆਪਣੇ boot ਪਾਰਟੀਸ਼ਨ ਲਈ ਬੂਟ-ਹੋਣਯੋਗ ਫਲੈਗ ਸੈੱਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।
+ .
+ ਜੇ ਤੁਸੀਂ ਇਹ ਠੀਕ ਨਾ ਕੀਤਾ ਤਾਂ ਪਾਰਟੀਸ਼ਨ ਨੂੰ ਇੰਝ ਹੀ ਵਰਤਿਆ ਜਾਵੇਗਾ ਤੇ ਜਾਪਦਾ ਹੈ ਕਿ ਮਸ਼ੀਨ ਇਸ ਹਾਰਡ ਡਿਸਕ ਤੋਂ ਬੂਟ ਨਹੀਂ ਕਰ ਸਕਦੀ।
+Description-pl.UTF-8: Powrócić do menu, aby ustawić flagę rozruchową?
+ Główna partycja nie została oznaczona jako rozruchowa, a jest to wymagane, aby uruchomić komputer. Proszę wrócić i oznaczyć partycję jako rozruchową.
+ .
+ Jeśli tego nie zrobisz, komputer prawdopodobnie nie uruchomi się z dysku twardego.
+Description-pt.UTF-8: Voltar ao menu para definir a flag de arranque?
+ A sua partição de arranque não está marcada como tal, isto é necessário para que a sua máquina arranque. Deve voltar atrás e activar a flag de arranque na partição de arranque.
+ .
+ Se não corrigir isto, a partição será utilizada como está e provavelmente a máquina não poderá arrancar a partir do seu disco rígido.
+Description-pt_BR.UTF-8: Retornar ao menu e configurar a opção inicializável?
+ Sua partição de inicialização ("boot") não foi marcada como uma partição inicializável, ainda que isto seja necessário para que sua máquina possa ser inicializada. Você deveria voltar e definir a "flag" inicializável para a partição de inicialização.
+ .
+ Se você não corrigir isto, a partição será usada como está e é provável que a máquina não consiga inicializar a partir do disco rígido.
+Description-ro.UTF-8: Reveniți la meniu pentru a defini fanionul de pornire?
+ Partiția de pornire nu a fost marcată ca o partiție aptă de a fi pornită, deși acest lucru este necesar pentru ca sistemul să poată porni. Ar trebui să reveniți și să activați fanionul de pornire pentru partiția de pornire.
+ .
+ Dacă nu corectați acest lucru, partiția va fi utilizată așa cum este și este posibil ca mașina să nu poată porni de pe discul dur.
+Description-ru.UTF-8: Вернуться в меню для установки загрузочного флага?
+ Загрузочный раздел не помечен как загружаемый, но это необходимо, чтобы машина могла загружаться. Вернитесь и установите флаг загрузки на загрузочный раздел.
+ .
+ Если вы не исправите это, то раздел будет использован таким, каким вы его задали. Вероятно, что машина не сможет загрузиться с этого жёсткого диска.
+Description-si.UTF-8: ඔබට කොටස් මෙනුවට ආපසු ගොස් ආරම්භක ධජය සකසන්නද?
+ ආරම්භක කොටස ආරම්භ කල හැකි කොටසක් ලෙස ලකුණු කර නොමැත. එය ඔබේ පරිගණකය ආරම්භ වීමට අත්‍යාවශ්‍ය කරුණක් නිසා, ආපසු ගොස් ආරම්භක කොටස සඳහා ආරම්භක ධජයක් සකසන්න.
+ .
+ ඔබ මෙය නිවැරදි නොකලේ නම්. කොටස එලෙසම තැබෙන අතර එම නිසා පරිගණකයට එහි දෘඩ තැටියෙන් ආරම්භ වීම කල නොහැකි වේ.
+Description-sk.UTF-8: Vrátiť sa do menu kvôli nastaveniu príznaku zavádzania?
+ Vaša koreňová oblasť nie je zavádzacia oblasť na vašom pevnom disku, čo je potrebné pre spustenie vášho počítača. Mali by ste sa vrátiť sa späť a nastaviť príznak zavádzania zavádzacej oblasti.
+ .
+ Ak to nenapravíte, oblasť sa použije taká, aká je a je pravdepodobné, že váš systém nebudete môcť zaviesť z pevného disku.
+Description-sl.UTF-8: Se želite vrniti v meni, da nastavite zagonsko oznako?
+ Zagonski razdelek ni označen kot zagonski razdelek trdega diska, kar je potrebno za zagon računalnika. Prosim vrnite se nazaj in nastavite zagonsko oznako na zagonski razdelek.
+ .
+ V primeru, da sne popravite teh napak, bo ta razdelek uporabljen takšen kot je in verjetno ne bo mogoče zagnati računalnika iz trdega diska.
+Description-sq.UTF-8: Të rikthehem tek menuja për të caktuar shenjën e nisjes?
+ Ndarja e nisjes nuk është shënuar si një ndarje nisjeje, edhe pse kjo është e domosdoshme në mënyrë që kompjuteri të niset. Duhet të kthehesh pas dhe të caktosh shenjën e nisjes për këtë ndarje.
+ .
+ Nëse nuk korrigjon këtë, atëhere ndarja do të përdoret si është dhe me shumë gjasa kompjuteri nuk do të niset nga disku i ngurtë.
+Description-sr.UTF-8: Да се вратим на изборник за поставку подизне заставице?
+ Партиција за подизање система није означена као подизна партиција, иако је то потребно да би ваш рачунар могао да се покрене. Вратите се назад и поставите заставицу подизања система за подизну партицију.
+ .
+ Ако не поправите ово, партиција ће се користити као таква и вероватно да рачунар неће моћи да се подигне са свог хард диска.
+Description-sv.UTF-8: Återgå till menyn för att ställa in startbar-flaggan?
+ Din uppstartspartition har inte markerats som en startbar partition, vilket krävs för att din dator ska kunna starta upp. Du bör gå tillbaka och ställa in startbar-flaggan för uppstartspartitionen.
+ .
+ Om du inte rättar till detta så kommer partitionen att användas som den är och det är inte troligt att datorn kommer att kunna starta upp från dess hårddisk.
+Description-ta.UTF-8: மெனுவுக்கு மீண்டும் சென்று துவக்க குறியை அமைக்கவா?
+ கணிணி துவங்க அவசியமானாலும் தங்களது கணினி துவக்க பகிர்வு ஒரு முதன்மை பகிர்வாக குறிக்கப்படவில்லை. பின்சென்று கணினி துவக்க பகிர்வுக்கு துவக்கப் பகிர்வு அடையாளத்தை அமைக்கவும்.
+ .
+ நீங்கள் பிழைகளை திருத்தாவிடில் பகிர்வு உள்ளபடியே பயன்படுத்தப்படும். இதனால் நீங்கள் வன்வட்டிலிருந்து கணினியை துவக்க இயலாமல் போகக்கூடும்.
+Description-te.UTF-8: మెనూకి తిరిగి వెళ్లి, బూట్ చేయగల ఫ్లాగ్ సెట్ చేయాలా?
+  మీ బూట్ విభజన  బూట్ చేయగల విభజన గా  గుర్తించ లేదు,  మీ మెషీన్ బూట్ కావాలంటే ఇది కావాలి.  దయచేసి వెనక్కి వెళ్లి, బూట్ విభజన కి బూట్ చేయగల ఫ్లాగ్ సెట్ చేయండి
+ .
+ ఈ తప్పు సరి దిద్దనిచో, విభజన ఉన్నపళంగా వాడబడుతుంది. అంటే,  బహుశా మీరు హార్డ్ డిస్క్ నుండి బూట్ చేయలేక పోవచ్చు.
+Description-tg.UTF-8: Барои танзими байрақчаи боршаванда ба меню бармегардед?
+ Қисми диски роҳандозӣ ҳамчун қисми диски роҳандозишаванда қайд нашудааст, гарчанде ки ин барои роҳандозии компютери шумо лозим аст. Шумо бояд ба қафо гузашта, байрақчаи роҳандозишавандаро барои қисми диски роҳандозӣ таъин намоед.
+ .
+ Агар шумо инро ислоҳ накунед, қисми диск чӣ хеле ки ҳаст, истифода мешавад ва эҳтимол аст, ки компютер аз диски сахти худ роҳандозӣ шуда наметавонад.
+Description-th.UTF-8: จะย้อนกลับไปยังเมนูเพื่อกำหนดแฟล็กบูตหรือไม่?
+ พาร์ทิชันบูตของคุณยังไม่ได้ทำเครื่องหมายว่าเป็นพาร์ทิชันที่บูตได้ ซึ่งจำเป็นสำหรับการบูตเครื่องของคุณ คุณควรย้อนกลับไปกำหนดแฟล็กบูตสำหรับพาร์ทิชันบูต
+ .
+ ถ้าคุณไม่แก้ไข ระบบก็จะใช้พาร์ทิชันตามสภาพที่มันเป็น ซึ่งมีแนวโน้มว่าเครื่องของคุณจะไม่สามารถบูตจากฮาร์ดดิสก์ได้
+Description-tr.UTF-8: Önyüklenebilir bayrağını ayarlamak için menüye geri dönülsün mü?
+ Önyükleme bölümü önyüklenebilir olarak işaretlenmemiş, oysa bilgisayarınızın açılması için bu gereklidir. Geri dönüp önyükleme bölümü için önyüklenebilir bayrağını ayarlamalısınız.
+ .
+ Bölümleme menüsüne geri dönerek bu hatayı düzeltmezseniz bölüm bu şekliyle kullanılacaktır. Bu, sabit diskten açılış yapmanın mümkün olmayabileceği anlamına gelir.
+Description-ug.UTF-8: تىزىملىككە قايتىپ قوزغىلىشچان بەلگىسى تەڭشەمدۇ؟
+ بۇ ماشىنىڭىزنى قوزغىتىشتا زۆرۈر بولغان مەشغۇلات بولسىمۇ قوزغىتىش رايونىغا قوزغىلىشچان رايون بەلگىسى قويۇلمىغان. سىز كەينىگە قايتىپ، قوزغىتىش رايونىنى قوزغىلىشچان رايون قىلىپ تەڭشەڭ.
+ .
+ ئەگەر بۇ تاللانمىنى تۈزەتمىسىڭىز، رايون شۇ پېتى قېلىۋېرىدۇ. بۇنىڭ بىلەن سىستېما قاتتىق دىسكىدىن قوزغىلالماسلىقى مۇمكىن.
+Description-uk.UTF-8: Повернутися до меню для встановлення завантажувального флагу?
+ Розділ boot не був позначено як завантажувальний, хоча це необхідно для завантаження вашої машини. Ви повинні повернутися назад та встановити завантажувальний прапорець для розділу boot.
+ .
+ Якщо не виправите це, розділ буде використовуватись так як є і, цілком імовірно, що машина не зможе завантажитись з жорсткого диска.
+Description-vi.UTF-8: Trở về trình đơn để đặt cờ có thể khởi động ?
+ Phân vùng khởi động chưa được đánh dấu là một phân vùng có khả năng khởi động: không làm thì máy tính không khởi động được. Có nên lùi lại để đặt cờ có thể khởi động vào phân vùng khởi động.
+ .
+ Nếu bạn không sửa chữa lỗi này, phân vùng sẽ được dùng như có. Vì thế máy tính rất có thể không khởi động được từ đĩa cứng.
+Description-zh_CN.UTF-8: 返回菜单并设置可启动标志吗？
+ boot 分区未标记为可启动分区。这是启动您的计算机所必需的。您应当返回并为 boot 分区设置可启动标志。
+ .
+ 如果您不修正此问题，此分区将会以目前的状态被使用，并且您的计算机可能不能从硬盘启动。
+Description-zh_TW.UTF-8: 是否返回選單以進行 "可開機" 設定？
+ 啟動分割區並未被標示為可開機的分割區，但您的機器必須要如此設定才能順利開機。您應當返回，並把啟動分割區標示為可開機。
+ .
+ 如果您不加以修正，該分割區將會以現行的設定運作，且很可能會使得這台機器無法由自己的硬碟開機。
+
+Template: partman-ext3/bad_alignment
+Type: boolean
+Description: Do you want to return to the partitioning menu?
+ The partition ${PARTITION} assigned to ${MOUNTPOINT} starts at an offset of
+ ${OFFSET} bytes from the minimum alignment for this disk, which may lead to
+ very poor performance.
+ .
+ Since you are formatting this partition, you should correct this problem
+ now by realigning the partition, as it will be difficult to change later.
+ To do this, go back to the main partitioning menu, delete the partition,
+ and recreate it in the same position with the same settings. This will
+ cause the partition to start at a point best suited for this disk.
+Description-ar.UTF-8: هل تريد العودة إلى قائمة التجزئة؟
+ الجزء ${PARTITION} المرتبط مع ${MOUNTPOINT} يبدأ بفارق${OFFSET} بايتات من أدنى قيمة محاذاة لهذا القرص، والذي قدينتج عنه أداء سيء جداً.
+ .
+ حيث أنك تُنسّق هذا الجزء، يجب أن تصحح هذه المشكلة الآن بإعادة مُحاذاة الجزء، حيث سيصعب القيام بذلك لاحقا. ولتقوم بهذا، عُد إلى قائمة التجزئة الرئيسية، واحذف الجزء، ثم أنشئه من جديد في نفس الموضع وبنفس الإعدادات. وبهذا العمل سيتم إنشاء الجزء ليبدء من أفضل نقطة مناسبة لهذا القرص.
+Description-ast.UTF-8: ¿Quies regresar al menu de particionáu?
+ La partición ${PARTITION} asignada a ${MOUNTPOINT} entama nun posicionamientu de ${OFFSET} bytes dende'l alliniamientu mínimu pa esti discu, esto puede dar unos resultaos probes enforma.
+ .
+ Yá que tas formateando esta partición, deberíes poner igua a esti problema agora realliniando la partición, ye dificil cambialu más alantre. Pa facer esto, torna otra vuelta al menú de particionáu, desanicia la partición, y xenérala otra vuelta na mesma posición y coles mesmes opciones. Esto fairá que la partición entame nel puntu más afayadizu pal discu.
+Description-be.UTF-8: Ці хочаце Вы вярнуцца ў меню перадзелу?
+ Падзел ${PARTITION}, назначаны на ${MOUNTPOINT}, пачынаецца са зрухам ${OFFSET} байтаў ад мінімальнага раўнавання гэтага дыску, што можа прывесці да вельмі нізкай прадукцыйнасці.
+ .
+ Паколькі вы фарматуеце гэты падзел, вам варта зараз выправіць гэтую памылку: перараўнаць гэты падзел, таму што пазней гэта змяніць будзе цяжка. Для гэтага вярніцеся ў галоўнае меню падзелаў, выдаліце гэты падзел і стварыце яго наноў у тым самым месцы з тымі ж параметрамі. Так ён пачнецца з месца, што больш прыдатнае для гэтага дыску.
+Description-bg.UTF-8: Искате ли да се върнете в менюто за манипулиране на дялове?
+ Дялът ${PARTITION}, използван за ${MOUNTPOINT} започва на отместване ${OFFSET} байта от минималното подравняване на диска, което може да доведе до много лоша производителност.
+ .
+ Така и така ще форматирате дяла, най-добре е да коригирате проблема сега като подравните дяла, тъй като това е много трудно да се поправи по-късно. Върнете се до менюто за разделяне на дялове, изтрийте дяла и го създайте отново на същата позиция със същите настройки. Това ще създаде дяла от подходящо място за този диск.
+Description-bn.UTF-8: আপনি কি পার্টিশনকারী মেনুতে ফিরে আসতে চান?
+ এই ডিস্কের জন্য সর্বনিম্ন প্রান্তিকীকরণ থেকে ${OFFSET} বাইটের অফসেট বিভাজন ${PARTITION} আরোপিত ${MOUNTPOINT} তে শুরু করুন, যা ক্ষুদ্র কার্যকারিতা পরিচালনা করতে পারে।
+ .
+ যেহেতু আপনি এই বিভাজন ফরম্যাট করেছেন, আপনার বিভাজন পুনঃসংস্থাপিত করার মাধ্যমে এই সমস্যা সমাধান করা উচিত, যেহেতু পরে পরিবর্তন করা কঠিন হবে। এটি করতে, প্রধান বিভাজনকারী মেনুতে যান, বিভাজন মুছে ফেলুন, এবং একই সেটিংয়ের মাধ্যমে একই অবস্থানে এটি পুনরায় তৈরি করুন। এই ডিস্কের জন্য এই বিভাজন একটি বিন্দুতে সবচাইতে উপযুক্ত সময়ে শুরু হতে হবে।
+Description-bo.UTF-8: ཁག་བཟོ་སའི་འདེམས་ཐོའི་ཐོག་ཏུ་ཕྱིར་ལོག་དགོས་སམ
+ བཀར་སའི་གནས་${MOUNTPOINT} ལ་སྒྲིག་ཡོད་པའི་ཁག་${PARTITION} ཡི་འགོ་བརྒྱད་འབྲུ་ ${OFFSET} from the minimum alignment for this disk, འདིས་འགྲོས་ཚད་དལ་དུ་གཏོང་བའི་ཉེན་ཁ་ཡོད
+ .
+ ཁྱོད་ཀྱིས་ཁག་འདིའི་བཟོ་བཀོད་བསྒྱུར་བཞིན་པའི་སྐབས་དང་བསྟུན་ནས་ཁག་གི་གྲལ་སྒྲིག་སྟངས་བརྗེས་ནས་སྐྱོན་འདི་དག་བཅོས་བཟོ་དགོས། འདི་བཟོ་བར་ཁག་བཟོ་སའི་འདེམས་ཐོའི་ཐོག་ཕྱིར་ལོག་ནས་ཁག་དེ་བསུབ་དེ་ནས་སྒྲིག་སྟངས་གཅིག་པར་ཡིན་པའི་ཁག་ཞིག་གསར་འཛུགས་བྱེད་དགོས། འདིས་གསོག་སྡེར་འདི་ལ་འོས་འཚམས་ཀྱི་ཁག་ཞིག་བཟོ་ཐུབ
+Description-bs.UTF-8: Da li se želite vratiti na meni za particionisanje?
+ Particija ${PARTITION} dodijeljena ${MOUNTPOINT} počinje na udaljenosti ${OFFSET} bajtova od minimalnog poravnanja za ovaj disk, što može rezultovati vrlo lošim performansama.
+ .
+ Pošto formatirate ovu particiju, trebali biste popraviti ovaj problem sada poravnavanjem particije, jer će to biti teško promijeniti kasnije. Da uradite ovo vratite se na glavni meni particionisanja, obrišite particiju i rekreirajte je u istoj poziciji sa istim postavkama. Rezultat je da će particija počinjati na najboljoj poziciji za ovaj disk.
+Description-ca.UTF-8: Voleu tornar al menú de partició?
+ La partició ${PARTITION} assignada a ${MOUNTPOINT} comença en un òfset de ${OFFSET} octets des de la alineació mínima per a aquest disc, cosa què pot provocar un rendiment molt pobre.
+ .
+ Com esteu formatant aquesta partició, hauríeu de corregir ara aquest problema tornant a alinear la partició, ja que això serà difícil de canviar més endavant. Per fer això, torneu al menú principal de la partició, suprimiu la partició i torneu-la a crear en la mateixa posició, amb els mateixos paràmetres. Això farà que la partició comence al lloc més recomanable per a aquest disc.
+Description-cs.UTF-8: Chcete se vrátit do rozdělovacího menu?
+ Začátek oblasti ${PARTITION} přiřazené k ${MOUNTPOINT} je posunutý o ${OFFSET} bajtů od minimálního zarovnání tohoto disku, což může vést k nízkému výkonu.
+ .
+ Protože nyní oblast stejně formátujete, měli byste ji nechat znovu zarovnat, protože později to bude obtížné. Nové zarovnání oblasti provedete tak, že se vrátíte do rozdělovacího menu, oblast smažete a vytvoříte ji na stejném místě se stejnými parametry jako nyní. Tím se oblast automaticky zarovná na nejvhodnější pozici pro tento disk.
+Description-cy.UTF-8: A hoffech ddychwelyd i'r ddewislen rhaniadu?
+ Mae'r rhaniad ${PARTITION} wedi ei benodi i ${MOUNTPOINT} yn dechrau ar atred o ${OFFSET} beit o'r aliniad isaf ar gyfer y disg hwn, a allai arwain at berfformiad gwael iawn.
+ .
+ Gan eich bod yn fformatio'r rhaniad hwn, fe ddylech chi gywiro'r problem hwn drwy ail-aseinio'r rhaniad, gan y bydd hwn yn anodd i newid yn ddiweddarach. I newid hyn, ewch yn ôl i'r brif fwydlen rhaniadu, dileu y rhaniad, a'i ail-greu yn yr un lle gyda'r un gosodiadau. Mi fydd yn golygu fod y rhaniad yn dechrau ar y pwynt gorau ar gyfer y disg hwn.
+Description-da.UTF-8: Vil du tilbage til partitioneringsmenuen?
+ Partitionen ${PARTITION} tildelt til ${MOUNTPOINT} starter med en forskydning på ${OFFSET} byte fra den minimale justering for denne disk, hvilket kan medføre meget dårlig ydelse.
+ .
+ Da du formaterer denne partition, bør du rette dette problem nu ved at rette partitionen, da det vil være svært at gøre senere. For at gøre dette så gå tilbage til hovedmenuen for partitionering, slet partitionen og gendan den på den samme placering med de samme indstillinger. Dette vil medføre at partitionen starter på et sted, som er bedst egnet for denne disk.
+Description-de.UTF-8: Möchten Sie zum Partitionierungsmenü zurückkehren?
+ Die Partition ${PARTITION}, die ${MOUNTPOINT} zugewiesen ist, beginnt bei einem Offset von ${OFFSET} Bytes ab der Minimum-Grenze für diese Platte, was zu einer sehr schlechten Performance führen könnte.
+ .
+ Da Sie diese Partition formatieren möchten, sollten Sie dieses Problem jetzt korrigieren, indem Sie die Partition neu ausrichten, da es schwierig sein wird, dies später zu ändern. Gehen Sie dazu zum Haupt-Partitionierungsmenü zurück, löschen Sie die Partition und erzeugen Sie sie an der gleichen Position mit den gleichen Einstellungen neu. Dies führt dazu, dass die Partition an dem für diese Platte optimalen Punkt beginnt.
+Description-dz.UTF-8: ཁྱོད་ བར་བཅད་འབད་མིའི་དཀར་ཆག་ནང་ལུ་སླར་ལོག་འབད་ནི་ཨིན་ན?
+ ${MOUNTPOINT} ལུ་འགན་སྤྲོད་འབད་ཡོད་པའི་ བར་བཅད་ ${PARTITION} འདི་ ${OFFSET} བཱའིཊི་ གི་པར་ལེན་ལས་ ཌིཀསི་འདི་གི་ཕྲང་སྒྲིག་ཉུང་མཐའ་ལས་འགོ་བཙུགས་ཨིན་ཏེ་ ལཱ་ཤུགས་མེད་པའི་རྐྱེན་འབྱུང་སྲིད།
+ .
+ ཁྱོད་ཀྱིས་ བར་བཅད་འདི་རྩ་སྒྲིག་འབད་ནི་ཨིནམ་ལས་ ལོག་ཤུལ་ལས་སྔོན་སྒྲིག་སྦེ་སོར་བཏུབ་ལས་ སྟབས་མ་བདེཝ་འདི་ད་ལྟོ་ལས་ བར་བཅད་ལོག་ཕྲང་སྒྲིག་འབད་དེ་ ནོར་བཅོས་འབད། འདི་འབད་ནིའི་དོན་ལུ་ བར་བཅད་གཙོ་བོ་དཀར་ཆག་ལུ་འགྱོ་ བར་བཅད་བཏོན་གཏང་ དེ་ལས་ སྒྲིག་སྟངས་གཅིག་པའི་ཐོག་ གནས་ཁོངས་འདི་ན་རང་ ལོག་གསར་བསྐྲུན་འབད། འདི་གིས་ ཌིཀསི་འདི་ལུ་ལྡན་པའི་ས་ཚིག་དྲག་ཤོས་ནང་ལུ་ བར་བཅད་འགོ་བཙུགས་འོང་།
+Description-el.UTF-8: Θέλετε να επιστρέψετε στο μενού διαμέρισης;
+ Η κατάτμηση ${PARTITION} που έχει αποδοθεί στο σημείο προσάρτησης ${MOUNTPOINT} ξεκινά από μια μετατόπιση (offset)${OFFSET} byte από την ελάχιστη ευθυγράμμιση του δίσκου, γεγονός που μπορεί να οδηγήσει σε πολύ μειωμένη απόδοση.
+ .
+ Αφού μορφοποιείτε αυτή την κατάτμηση, θα πρέπει να διορθώσετε το πρόβλημα τώρα με επανευθυγράμμιση της κατάτμησης, καθώς θα είναι δύσκολο να κάνετε αυτή την αλλαγή αργότερα. Για να το κάνετε αυτό, επιστρέψτε στο μενού διαμέρισης, διαγράψτε την κατάτμηση και ξαναδημιουργήστε την στο ίδιο σημείο και με τις ίδιες ρυθμίσεις. Αυτό θα προκαλέσει την εκκίνηση της κατάτμησης από το καταλληλότερο σημείο για αυτόν τον δίσκο.
+Description-eo.UTF-8: Ĉu vi volas retroiri al la diskpartiga menuo?
+ La diskparto ${PARTITION} atribuata al ${MOUNTPOINT} komencas je deŝovo de ${OFFSET} bajtoj ekde la minimuma poziciigo por ĉi tiu disko, kio povus konduki al tre malbona rendimento.
+ .
+ Ĉar vi estas formatante ĉi tiun diskparton, vi nun korektu ĉi tiun problemon per repoziciigo de la diskparto, ĉar poste estos malfacile ŝanĝi. Por fari ĉi tion, reiru al la ĉefa diskpartiga menuo, forigu la diskparton, kaj rekreu ĝin je la sama pozicio kun la samaj agordoj. Ĉi tio kaŭzos ke la diskparto komencos je punkto plej taŭga por ĉi tiu disko.
+Description-es.UTF-8: ¿Desea volver al menú de particionado?
+ La partición ${PARTITION} asignada a ${MOUNTPOINT} empieza en un «offset» de ${OFFSET} bytes desde el alineamiento mínimo para este disco, esto puede dar lugar a un rendimiento muy bajo.
+ .
+ Debería corregir ahora este problema realineando la partición ahora que está formateando la partición, porque será más difícil cambiar ésto más adelante. Para hacerlo, vuelva al menú de particionado, borre la partición, y vuélvala a crear en la misma posición con los mismos parámetros. Esto hará que la partición comience en un punto más apropiado para este disco.
+Description-et.UTF-8: Kas soovid minna tagasi partitsioneerimise menüü juurde?
+ Partitsioon ${PARTITION} haakepuntkis ${MOUNTPOINT} algab ${OFFSET} baiti pärast selle ketta lubatud algust, see võib vähendada jõudlust.
+ .
+ Kuna sa vormindad selle partitsiooni, peaksid selle vea kohe parandama partitsiooni nihutades, kuna selle hilisem muutmine on tülikas. Selle tegemiseks mine tagasi partitsioneerimise peamenüüsse, kustuta partitsioon ning loo see uuesti samasse asukohta samade sätetega. Sellega algab partitsioon selle ketta jaoks kõige sobivamast kohast.
+Description-eu.UTF-8: Partizioak egiteko menura itzuli nahi duzu?
+ ${MOUNTPOINT}-n ezarritako ${PARTITION} partizioa ${OFFSET} byteko marjinarekin hasten da disko honen gutxieneko lerrokatzerako, honek errendimendu baxua sor dezake.
+ .
+ Partizioa sortzen ari zarenez, arazo hau orain konpondu beharko zenuke partizioa berriz lerrokatuz, beranduago aldatzeko zaila izango baita. Hau egiteko, partiziogile menura atzera itzuli, partizio hau ezabatu eta posizio berdinean ezarpen berdinekin berriz sor ezazu. Honek partizioa diskoaren errendimendurako leku egokienean hasiko du.
+Description-fa.UTF-8: آیا می‌خواهید به منوی پارتیشن‌بندی بازگردید؟
+ پارتیشن ${PARTITION} که به ${MOUNTPOINT} نسبت داده شده است، در ${OFFSET} bytes با کمترین تنظیم برای این دیسک شروع شده است، که منجر به کمترین بازدهی می شود.
+ .
+ از آنجایی که شما این پارتیشن را فرمت کرده‌اید، باید این مشکل را با میزان کردن این پارتیشن، که تغییر در آن بعد‌ها مشکل خواهد بود، برطرف کنید. به همین منظور به عقب، منوی پاتیشن بندی، برگردید و پارتیشن را پاک کنید، سپس آن را در همان محل و با همان تنظیمات ایجاد کنید. این کار باعث می‌شود تا پارتیشن در نقطه‌ای شروع شود که برای دیسک مناسب تر است.
+Description-fi.UTF-8: Haluatko palata osiointivalikkoon?
+ Kohteeseen ${MOUNTPOINT} liitetty osio ${PARTITION} alkaa aloituskohdasta, joka on etäisyydellä ${OFFSET} tavua levyn pienimmästä kohdistuksesta. Tästä saattaa seurata tavallista huonompaa suorituskykyä.
+ .
+ Koska olet alustamassa tätä osiota, tämä ongelma tulisi korjata nyt kohdistamalla osio uudelleen, sillä ongelma on vaikea korjata jälkikäteen. Tehdäkseksi kohdistuksen mene takaisin pääosiointivalikkoon, poista osio ja luo se uudelleen samaan sijaintiin ja samoilla asetuksilla. Tällöin osio asetetaan alkamaan levylle parhaiten sopivasta kohdasta.
+Description-fr.UTF-8: Souhaitez-vous revenir au menu de partitionnement ?
+ La partition ${PARTITION} affectée à ${MOUNTPOINT} commence avec un décalage de ${OFFSET} octets de l'alignement minimal pour ce disque, ce qui peut avoir des conséquences importantes sur les performances.
+ .
+ Comme vous êtes en train de formater cette partition, vous devriez corriger ce problème maintenant en réalignant la partition car cela sera difficile à modifier plus tard. Pour cela, il est nécessaire de revenir au menu de partitionnement, supprimer la partition et la recréer au même endroit avec les mêmes réglages. Cela permettra qu'elle commence à un endroit adapté pour ce disque.
+Description-ga.UTF-8: Ar mhaith leat dul ar ais go dtí an roghchlár deighilte?
+ Tosaíonn deighilt ${PARTITION} i gcomhair ${MOUNTPOINT} ag fritháireamh ${OFFSET} beart ón íosailíniú don diosca seo; uaireanta is cúis le drochfheidhmíocht é seo.
+ .
+ Toisc go bhfuil tú ag formáidiú na deighilte seo, ba chóir duit an fhadhb seo a réiteach anois, trí athailíniú a dhéanamh ar an deighilt, mar go mbeidh sé deacair an t-ailíniú a athrú ar ball. Chun é seo a dhéanamh, téigh ar ais go dtí an príomhroghchlár, scrios an deighilt, agus cruthaigh arís é, san ionad céanna leis na socruithe céanna. Tar éis seo, tosóidh an deighilt in áit atá oiriúnach don diosca seo.
+Description-gl.UTF-8: Desexa volver ao menú de particionamento?
+ A partición ${PARTITION} asignada a ${MOUNTPOINT} comeza con un desprazamento de ${OFFSET} bytes desde o aliñamento mínimo para este disco, o que pode provocar un rendemento moi baixo.
+ .
+ Aproveitando que vai formatar esta partición, debería corrixir este problema agora realiñando a partición, xa que isto será complicado de cambiar máis tarde. Para iso, volva ao menú principal de particionamento, borre a partición e volva a creala na mesma posición e cas mesmas opcións. Isto fará que a partición comece nun punto máis axeitado para o disco.
+Description-gu.UTF-8: શું તમે પાર્ટિશન મેનુમાં પાછા જવા માંગો છો?
+ ${MOUNTPOINT} ને આપેલ પાર્ટિશન ${PARTITION} એ ${OFFSET} ઓફસેટ બાઈટ્સ પર ડિસ્કની ન્યૂનતમ ગોઠવણી પર શરુ થાય છે, જે કદાચ ખૂબ ખરાબ કાર્યક્ષમતા તરફ દોરી જશે.
+ .
+ તમે આ પાર્ટિશનનું ફોરમેટિંગ કરી રહ્યા હોવાથી, તમારે આ મુશ્કેલી અત્યારે પાર્ટિશન ફરી ગોઠવીને સુધારી લેવી જોઈએ, કારણ કે તે પાછળથી બદલવું મુશ્કેલ હશે. આ કરવા માટે, મુખ્ય પાર્ટિશન મેનુ પર પાછા જાવ, પાર્ટિશન દૂર કરો, અને તેને એજ પાર્ટિશનમાં એજ ગોઠવણીઓ સાથે ફરી બનાવો. આ પાર્ટિશનને ડિસ્કના યોગ્ય બિંદુથી શરુ થવાનું શક્ય બનાવશે.
+Description-he.UTF-8: לחזור לתפריט החלוקה למחיצות?
+ המחיצה ${PARTITION} שמשויכת אל ${MOUNTPOINT} מתחילה בהפרש של ${OFFSET} בתים מהיישור המזערי עבור כונן זה, מה שיכול לפגום בביצועים באופן מהותי.
+ .
+ כיוון שבחרת לפרמט את המחיצה הזו, עליך לתקן את התקלה הזו כעת על ידי יישור המחיצה מחדש מאחר שביצוע פעולה זו לאחר מכן כרוכה בהליך מסובך. כדי לעשות זאת עליך לחזור לתפריט החלוקה למחיצות, למחוק את המחיצה וליצור אותה מחדש באותו המיקום ועם אותן ההגדרות. פעולה זו תגרום לכך שהמחיצה תתחיל בנקודה המתאימה ביותר לכונן.
+Description-hi.UTF-8: क्या आप पार्टीशनिंग मेन्यू में वापस लौटना चाहेंगे?
+ पार्टीशन ${PARTITION}, जोकि ${MOUNTPOINT} से जुडा है, वह इस यन्त्र के न्यूनतम संरेखन से ${OFFSET} बाईट हटा हुआ है, जिससे निष्पादन बुरा हो सकता है.
+ .
+ आप यन्त्र को फॉर्मेट कर रहे हैं. इसलिए, इस समस्या को पार्टीशन को फिर से संगठित करके अभी सुधारना उचित है, क्योंकि बाद में इसे सुधारना काफी कठिन है. इसे करने के लिए वापस पार्टिशनिंग मेनूमें जाइए, पार्टीशन को हटाइये और उसे वापस उसे स्थान पर उन्ही प्राचलों के साथ बनाइये. ऐसे करने सेपार्टीशन ऐसे स्थान पर शुरू होगा जोकि इस यन्त्र के लिए उचित है.
+Description-hr.UTF-8: Želite li se vratiti u izbornik particioniranja?
+ Particija ${PARTITION} dodijeljena točki montiranja ${MOUNTPOINT} počinje uz pomak od ${OFFSET} bajtova u odnosu na minimalno poravnanje za ovaj disk, što može uzrokovati vrlo loše performanse.
+ .
+ S obzirom da formatirate ovu particiju, ovaj problem biste trebali riješiti ponovnim poravnanjem particije, jer će ispravljanje ovog problema kasnije biti vrlo teško. Kako biste to učinili, vratite se na glavni izbornik particioniranja, obrišite particiju i stvorite je na istom položaju sa istim postavkama. Ovaj postupak će particiju postaviti na najbolji položaj za ovaj disk.
+Description-hu.UTF-8: Visszalépsz a particionálási menübe?
+ A ${MOUNTPOINT} ponthoz társított ${PARTITION} partíció a lemez minimum igazításától ${OFFSET} távú bájtnál kezdődik, ami nagyon rossz teljesítményt eredményezhet.
+ .
+ Mivel ezt a partíciót formázod, ajánlatos a problémát most kijavítani a partíció igazításával, mert később nehéz lesz változtatni rajta. Ehez lépj vissza a particionálási menübe, töröld a partíciót és hozd létre újra ebben a pozícióban, ugyanilyen beállításokkal. Így a partíció kezdete a legjobb helyre kerül a lemezen.
+Description-id.UTF-8: Apakah Anda ingin kembali ke menu partisi?
+ Partisi ${PARTITION} yang ditugaskan ke ${MOUNTPOINT} dimulai dari ofset ${OFFSET} byte dari penyelarasan (alignment) minimum dari diska ini, yang mungkin dapat menyebabkan kinerja yang sangat buruk.
+ .
+ Karena Anda memformat partisi ini, Anda harus memperbaiki masalah ini sekarangdengan menselaraskan kembali partisi, karena akan sulit untuk berubah nanti.Untuk melakukannya, kembali ke menu partisi utama, hapus partisi, dan buat ulangdalam posisi yang sama dengan pengaturan yang sama. Hal ini akan menyebabkan partisimemulai pada titik yang paling cocok untuk disk ini.
+Description-is.UTF-8: Viltu fara aftur á disksneiðavalmyndina?
+ Disksneiðin ${PARTITION} sem er úthlutaður tengipunkturinn ${MOUNTPOINT} byrjar með hliðrun um${OFFSET} bæti frá lágmarksjöfnuninni á þessum diski, þetta gæti leitt til mjög lélegra afkasta.
+ .
+ Fyrst þú ert að forsníða þessa disksneið, þá ættirðu að leiðrétta þetta vandamál strax með því að endurstaðsetja disksneiðina, því slíkt er miklu erfiðara síðar. Til að gera þetta ferðu aftur í aðal-disksneiðingarvalmyndina, eyðir disksneiðinni, eg endurgerir hana á sama stað með sömu stillingum. Það mun hafa í för með sér að disksneiðin hefst á þeim stað sem heppilegastur er fyrir þennan disk.
+Description-it.UTF-8: Tornare al menù di partizionamento?
+ La partizione ${PARTITION} assegnata a ${MOUNTPOINT}, ha inizio a un offset di ${OFFSET} byte dall'allineamento minimo per questo disco: potrebbe portare a prestazioni non ottimali.
+ .
+ Poiché è in corso la formattazione di questa partizione, è utile correggere ora questo problema, in quanto potrebbe essere difficile farlo in seguito. Per risolvere il problema, tornare al menù principale di partizionamento, eliminare la partizione e ricrearla nella stessa posizione e con le stesse impostazioni. In questo modo, il punto d'inizio della partizione sarà il miglior punto possibile per il disco.
+Description-ja.UTF-8: パーティショニングメニューに戻りますか?
+ ${MOUNTPOINT} に割り当てられているパーティション ${PARTITION} は、このディスクの最小アライメントから ${OFFSET} バイトのオフセットから始まっており、極めて低い性能になってしまいます。
+ .
+ このパーティションをフォーマットしようとしていますが、パーティションを再編成することでこの問題を今すぐ修正すべきです (後から変更するのは困難です)。これを行うには、メインパーティショニングメニューに戻り、パーティションを削除して、同じ設定の同じ位置から再作成してください。これで、パーティションがこのディスクに最適な場所から始まるようになります。
+Description-ka.UTF-8: დაბრუნდებით დაყოფის მენიუში?
+ დანაყოფი ${PARTITION}, მიმაგრებული ${MOUNTPOINT}-ზე იწყება ${OFFSET} ბაიტიანი წანაცვლებით მინიმალური სწორებიდან ამ დისკისთვის, რამაც, შეიძლება, წარმადობის ვარდნა გამოიწვიოს.
+ .
+ რადგანაც ამ დანაყოფს აფორმატებთ, სჯობს, ეს პრობლემა დანაყოფის თავიდან გასწორებით მოაგვაროთ, რადგან მოგვიანებით ამისი გაკეთება რთული იქნება. იმისათვის, რომ ეს გააკეთოთ, დაბრუნდით დაყოფის მთავარ მენიუში, წაშალეთ დანაყოფი და თავიდან შექმენით ის იგივე პარამეტრებით. ეს გამოიწვევს იმას, რომ დანაყოფი ამ დისკისთვის ოპტიმალურ ზომაზე გასწორდება.
+Description-kab.UTF-8: Tebɣiḍ ad tuɣaleḍ ɣer wumuɣ n beṭṭu?
+ Aḥric ${PARTITION} i yettunefken i ${MOUNTPOINT} ad yebdu seg tiggit n ${OFFSET} yibiten seg ureyyec adday n uḍebsi-a, ayen ara yawin ɣer yir tamellit.
+ .
+ Imi i tmesleḍ aḥric-a, ilaq ad tseɣtiḍ tura ugur-a s wallus n ureyyec n uḥric, acku ad yiwɛir ubeddel-ines mbeɛd. I wakken ad tgeḍ aya, uɣal ɣer wumuɣ n beṭṭu agejdan, kkes aḥric-nni syen ales timerna-ines deg yideg-nni kan s yiɣewwaren-nni kan. Aya ad yerr asenker n uḥric ad d-yebdu seg wadeg i iwatan xiṛ i uḍebsi-a.
+Description-kk.UTF-8: Сіз бөлшектеу мәзіріндегі бөлімдерге оралуды қалайсыз ба?
+ ${MOUNTPOINT} тіркелу нүктесіне байланысқан ${PARTITION} бөлімі бұл диск үшін минималды туралаудан ${OFFSET} байт шегіністен басталады, бұл өнімділіктін төмендеуіне әкеп соғуы мүмкін.
+ .
+ Бұл бөлімді пішімдеуді таңдаған соң, бөлімдерді қайта туралау арқылы бұл мәселені қазір шешуіңіз керек, кейін бұл өте қиын болады. Осыны орындау үшін, басты бөлімдеу мәзіріне қайта оралып, бөлімді өшіріңіз де, оны қайта дәл сол орында мен дәл сол баптаулармен жасаңыз. Осы әрекет нәтижесінде бұл бөлім осы диск үшін жарайтын жерден басталатын болады.
+Description-km.UTF-8: តើ​អ្នកចង់​ត្រឡប់​ទៅ​ម៉ឺនុយ​ចែក​ភាគថាស​វិញ​ឬ​ទេ ?
+ ភាគ​ថាស ${PARTITION} បានផ្ដល់​ទៅ ${MOUNTPOINT} ចាប់​ផ្ដើម​នៅ​អុហ្វសិត${OFFSET} បៃ ពី​ការ​តម្រឹម​អប្បបរមា​សម្រាប់​ថាស​នេះ ដែល​អាច​នាំទៅរក​កា​របង្ហាញ​មិន​ល្អ ។
+ .
+ ព្រោះ​ថា​អ្នកកំពុង​ធ្វើ​ទ្រង់ទ្រាយ​ភាគ​ថាស​នេះ អ្នក​គួរ​តែ​កែ​បញ្ហា​នេះ​ឥឡូវ ដោយ​តម្រឹម​ភាគ​ថាស​ឡើង​វិញ ដោយ​សារ​តែ​វា​នឹង​មាន​ផល​លំបាក​ក្នុង​ការ​ផ្លាស់ប្ដូរ​ពេល​ក្រោយ ។ ដើម្បី​ធ្វើ​ដូច​នេះ​បាន ត្រឡប់​ទៅ​ម៉ឺនុយ​ធ្វើ​ទ្រង់ទ្រាយ​ភាគ​ថាស​ចម្បង លុប​ភាគ​ថាស និង​បង្កើត​វា​ឡើង​វិញ​នៅ​​ទីតាំង​ដដែល​ព្រម​ទាំង​មាន​ការ​កំណត់​ដដែល ។ វា​នឹង​ធ្វើ​ឲ្យ​ភាគ​ថាស​ចាប់ផ្ដើម​នៅ​ចំណុច​ល្អ​បំផុត​សម្រាប់​ថាស​នេះ ។
+Description-kn.UTF-8: ವಿಭಜನಾ ಆಯ್ಕೆಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಲು ನೀವು ಬಯಸುವಿರಾ?
+ ${MOUNTPOINT}ಗೆ ನೇಮಿಸಿದ ${PARTITION} ವಿಭಜನೆಯು ಡಿಸ್ಕಿಗೆ ಬೇಕಾದ ಕನಿಷ್ಟತಮ ಜೋಡಣೆಯಿಂದ ${OFFSET} ಬೈಟುಗಳಷ್ಟು ದೂರದಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಇದರಿಂದಾಗಿ ಕಾರ್ಯಕ್ಷಮತೆ ಕಡಿಮೆಯಾಗಬಹುದು.
+ .
+ ನೀವೀಗ ಈ ವಿಭಜನೆಯನ್ನು ಸಿದ್ಧಪಡಿಸುತ್ತಿರುವುದರಿಂದ ಈ ದೋಷವನ್ನು ವಿಭಜನೆಯನ್ನು ಮರುಜೋಡಿಸುವುದರೊಂದಿಗೆ ಸರಿಪಡಿಸಬೇಕು, ಇಲ್ಲವಾದಲ್ಲಿ ನಂತರದಲ್ಲಿ ಅದನ್ನು ಬದಲಾಯಿಸುವುದು ಕ್ಲಿಷ್ಟವಾಗುತ್ತದೆ. ಇದನ್ನು ಮಾಡಲು ಮತ್ತೆ ವಿಭಜನಾ ಆಯ್ಕೆಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಿ ಈ ವಿಭಜನೆಯನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತದೇ ಜಾಗದಲ್ಲಿ ಅದೇ ಸಂಯೋಜನೆಗಳೊಂದಿಗೆ ವಿಭಜನೆಯನ್ನು ಮರುನಿರ್ಮಾಣ ಮಾಡಿ. ಇದರಿಂದಾಗಿ ವಿಭಜನೆಯು ಈ ಡಿಸ್ಕಿಗೆ ಅತ್ಯಂತ ಸೂಕ್ತವಾದ ಸ್ಥಳದಿಂದ ಆರಂಭವಾಗುತ್ತದೆ.
+Description-ko.UTF-8: 파티션 메뉴로 돌아가시겠습니까?
+ ${MOUNTPOINT} 위치에서 사용할 ${PARTITION} 파티션이 이 디스크의 최소 정렬 단위의${OFFSET} 바이트 오프셋에서 시작합니다. 이렇게 하면 성능이 매우 떨어질 수 있습니다.
+ .
+ 파티션을 포맷하는 중이므로, 파티션 정렬을 지금 바로잡을 수 있습니다. 나중에는 바꾸기 어렵습니다. 바로잡으려면 주 파티션 메뉴로 돌아가서, 파티션을 지운 다음, 같은 위치에 같은 설정으로 파티션을 다시 만드십시오. 그렇게 하면 파티션이 알맞는 위치에서 시작하게 됩니다.
+Description-lo.UTF-8:  ເຈົ້າຕອ້ງການກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນຫຼືບໍ່?
+ ການຈັດເເບ່ງ ${PARTITION} ມອບໝາຍໃຫ້  ${MOUNTPOINT} ເລີ້ມເເຕ່  ${OFFSET} ໄບ້ທ໌ ຈາກ ການເເບ່ງໃຫ້ຕໍາຂອງດິຊ໌ຕົວນີ້, ທີ່ມັນອາດຈະເປັນການທໍາງານຊ້າກະໃດ້.
+ .
+ ເນື່ອງວ່າເຈົ້າຈະຟອມເເມດ໌ສ່ວນເເບ່ງ (Partion) ນີ່, ເຈົ້າຄວນເເກ້ໄຂປັນຫາໂດຍປັບປຸງ ສ່ວນເເບ່ງ (Partion), ເພາະຍ້ານຈະເເກ້ໄຂຍາກພາຍລັງ. ວິທີການ, ກັບຄືນໄປເມນູຫຼັກຂອງສ່ວນເເບ່ງ (Partion), ລົບສ່ວນເເບ່ງ (Partion) ອອກ, ເເລະ ກໍ່ສ້າງ ສ່ວນເເບ່ງ (Partion) ເກົ່າຄືນ ໂດຍນໍາໃຊ້ຄ່າເກົ່າ. ເເບບນີ້ມັນຈະເລິ້ມ ສ່ວນເເບ່ງ (Partion) ທີ່ຈຸດໝໍ້ສົມສໍາລັບດິດຊ໌ນີ້.
+Description-lt.UTF-8: Ar norite grįžti į disko dalijimo meniu?
+ Skaidinys ${PARTITION}, prijungiamas prie ${MOUNTPOINT}, prasideda su ${OFFSET} B poslinkiu nuo minimalaus lygiavimo diske. Tai gali labai žymiai pakenkti našumui.
+ .
+ Kadangi ketinate formatuoti šį skaidinį, primygtinai patartina šią problemą ištaisyti, skaidinį tinkamai sulygiuojant – vėliau tai atlikti bus žymiai sunkiau. Jeigu norite skaidinį sulygiuoti, grįžkite į disko skaidymo meniu, skaidinį panaikinkite, o tada sukurkite iš naujo, nurodydami tą pačią poziciją ir kitus parametrus. Kuriant skaidinį, jo pradžia bus pakoreguota, kad geriausiai tiktų šiam diskui.
+Description-lv.UTF-8: Vai vēlaties atgriezties disku dalīšanas izvēlnē?
+ Nodalījums ${PARTITION}, kas piesaistīts ${MOUNTPOINT}, sākums ir ar ${OFFSET} baitu nobīdi no minimālā diska izvietojuma. Tas var stipri mazināt diska veiktspēju.
+ .
+ Tā kā jūs vēlaties sagatavot šo diska nodalījumu turpmākam darbam, jums obligāti būtu šī kļūda jāizlabo jau tagad, pievienojot šī diska nodalījumu no jauna. Vēlāk šo problēmu būs daudz grūtāk izlabot. Lai to veiktu: dodieties atpakaļ uz galveno diska nodalījumu veidošanas izvēlni, izdzēsiet šo problemātisko diska nodalījumu, izveidojiet jaunu tādu pašu diska nodalījumu tai pašā vietā un ar tādiem pašiem iestatījumiem kā iepriekš. Šīs darbību rezultātā nodalījuma sākums tiks novietots šim diskam atbilstošā vietā.
+Description-mk.UTF-8: Дали сакаш да се вратиш во менито за партиционирање?
+ Партицијата ${PARTITION} доделена на ${MOUNTPOINT} започнува со офсет од ${OFFSET} бајти од минималното порамнување за овој диск. Ова може да придонесе за спори перформанси.
+ .
+ Бидејќи ја форматираш оваа партиција, треба да го поправиш овој проблем сега преку усогласување на партицијата, бидејќи ќе биде многу потешко да го направиш тоа подоцна. Врати се назад во главното мени за партиционирање, избриши ја партицијата и рекреирај ја на истата позиција со истите поставувања. Ова ќе резултира со поставување на партицијата на место каде што најдобро одговара.
+Description-ml.UTF-8: വിഭജന മെനുവിലേയ്ക്കു് തിരിച്ചു് പോകണോ?
+ ${MOUNTPOINT} ല്‍ അസൈന്‍ ചെയ്തിരിക്കുന്ന  ${PARTITION} എന്ന പാര്‍ട്ടീഷന്‍  ഡിസ്കിന്റെ തുടക്കത്തില്‍ നിന്ന് ${OFFSET}  ബൈറ്റുകളില്‍ നിന്ന് ആരംഭിക്കുന്നു. ഇത് പ്രവര്‍ത്തനക്ഷമത കുറക്കാന്‍ കാരണമാക്കും
+ .
+ .താങ്കള്‍ ഈ പാര്‍ട്ടീഷന്‍ ഫോര്‍മാറ്റ് ചെയ്യുകയായതിനാല്‍ പാര്‍ട്ടീഷന്‍ റീ അലൈന്‍ ചെയ്ത് ഈ പ്രശ്നം തിരുത്തേണ്ടതാണ്. കാരണം  ഇത് പിന്നീട് മാറ്റാന്‍ ബുദ്ധിമുട്ടാണ്. ഇതിനായി പുറകിലെ പ്രധാന പാര്‍ട്ടീഷനിങ് മെനുവില്‍ പോയി പാര്‍ട്ടീഷന്‍ ഡിലീറ്റ് ചെയ്തതിനു ശേഷം  ഇതേ സജ്ജീകരണത്തോടെ വീണ്ടും  സൃഷ്ടിക്കുക. ഇതു മൂലം  ഈ‌ ഡീസ്കില്‍ യോജിച്ച സ്ഥലത്തുനിന്ന്  പാര്‍ട്ടീഷന്‍ ആരംഭിക്കുന്നതാണ്
+Description-mr.UTF-8: आपल्याला विभाजनाच्या मेन्यूकडे परत जायचे आहे?
+ ${MOUNTPOINT} ला नेमून दिलेले विभाजन ${PARTITION} हे या डिस्कसाठीच्या किमान जुळणीपासून ${OFFSET} बाइट्सवर सुरू होते, ज्यामुळे कामगिरी अतीशय सुमार होण्याची शक्यता आहे.
+ .
+ तुम्ही या विभाजनाचे संरूपण करणार असल्याने, तुम्ही आता या विभाजनाची पुनर्जुळणी करून ही समस्या सुधारली पाहिजे, कारण नंतर बदल करणे कठीण होईल. हे करण्यासाठी, मुख्य विभाजनाच्या मेन्यूकडे परत जा, ते विभाजन काढून टाका, व त्याच स्थितीला व त्याच सेटिंग्जसह ते पुन्हा निर्माण करा. असे केल्याने हे विभाजन या डिस्कसाठी सर्वोत्तम असलेल्या बिंदूवर सुरू होईल.
+Description-nb.UTF-8: Vil du gå tilbake til partisjoneringsmenyen?
+ Partisjonen ${PARTITION} tilordnet til ${MOUNTPOINT} begynner med en forskyvning på ${OFFSET} byte fra minimum justeringen for denne disken som kan føre til svært dårlig ytelse.
+ .
+ Siden du skal formatere denne partisjonen, bør du rette dette problemet nå ved å rejustere partisjonen fordi det vil være vanskelig å endre senere. Hvis du vil gjøre dette, kan du gå tilbake til hovedmenyen for partisjonering, slette partisjonen og opprette den på nytt i samme posisjon med de samme innstillingene. Dette vil føre til at partisjonen starter ved et punkt best egnet for denne disken.
+Description-nl.UTF-8: Wilt u terugkeren naar het schijfindelingsmenu?
+ De partitie ${PARTITION} toegewezen aan ${MOUNTPOINT} begint op een afwijking van ${OFFSET} bytes van de minimale uitlijning voor deze schijf, wat voor slechte prestaties kan veroorzaken.
+ .
+ Aangezien u deze partitie nu toch formatteert kunt u dit het beste nu corrigeren door de partitie opnieuw uit te lijnen, omdat het moeilijk is om dit achteraf te veranderen. U doet dit door terug te gaan naar het algemene schijfindelingsmenu, de partitie te verwijderen en vervolgens opnieuw aan te maken op dezelfde plek en met dezelfde instellingen. Dit zal ervoor zorgen dat de partitie begint op een plek die het meest geschikt is voor deze schijf.
+Description-nn.UTF-8: Vil du gå tilbake til partisjoneringsmenyen?
+ Partisjonen ${PARTITION} tillordna ${MOUNTPOINT} startar ved ei forskyving på ${OFFSET} bytar frå minimal justering for denne disken. Det kan føre til svært dårleg yteevne.
+ .
+ Sidan du formaterer denne partisjonen, burde du rette dette problemet no ved å justere partisjonen fordi det vil vere vanskeleg å endre seinare. For å gjere dette kan du gå tilbake til hovudmenyen for partisjonering, slette partisjonen og opprette han på nytt på same plass med same innstillingar. Dette fører til at partisjonen startar på ein plass som er best eigna for denne disken.
+Description-no.UTF-8: Vil du gå tilbake til partisjoneringsmenyen?
+ Partisjonen ${PARTITION} tilordnet til ${MOUNTPOINT} begynner med en forskyvning på ${OFFSET} byte fra minimum justeringen for denne disken som kan føre til svært dårlig ytelse.
+ .
+ Siden du skal formatere denne partisjonen, bør du rette dette problemet nå ved å rejustere partisjonen fordi det vil være vanskelig å endre senere. Hvis du vil gjøre dette, kan du gå tilbake til hovedmenyen for partisjonering, slette partisjonen og opprette den på nytt i samme posisjon med de samme innstillingene. Dette vil føre til at partisjonen starter ved et punkt best egnet for denne disken.
+Description-oc.UTF-8: Volètz tornar al menú de particionament ?
+ Lo començament de la particion ${PARTITION} assignada a ${MOUNTPOINT} es decalat de ${OFFSET} per rapòrt a l'alinhament minimal per aqueste disc ; aquò pòt generar de performàncias fòrça feblas.
+ .
+ Coma sètz a configurar la particion, vos caldriá corregir aqueste problèma ara en la realinhant perque vos serà malaisit de far aquel cambiament pus tard. Per aquò far, tornatz dins lo menú principal, suprimissètz la particion e tornatz-la crear al meteis endreit amb los meteisses paramètres. Atal, començarà a l'endreit convenent sul disc.
+Description-pa.UTF-8: ਕੀ ਤੁਸੀਂ ਪਾਰਟੀਸ਼ਨਿੰਗ ਮੇਨੂ ਉੱਤੇ ਵਾਪਸ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?
+ ਪਾਰਟੀਸ਼ਨ ${PARTITION} ${MOUNTPOINT} ਨੂੰ ਦਿੱਤਾ ਗਿਆ ਹੈ, ਜੋ ਕਿ ਇਸ ਡਿਸਕ ਲਈ ਘੱਟੋ-ਘੱਟ ਇਕਸਾਰਤਾ ਤੋਂ ${OFFSET} ਬਾਈਟ ਦੇ ਆਫਸੈੱਟ ਉੱਤੇ ਹੈ, ਜੋ ਕਿ ਬਹੁਤ ਹੀ ਘਟੀਆਂ ਕਾਰਗੁਜ਼ਾਰੀ ਦਾ ਕਾਰਨ ਬਣ ਸਕਦਾ ਹੈ।
+ .
+ ਕਿਉਂਕਿ ਤੁਸੀਂ ਇਹ ਪਾਰਟੀਸ਼ਨ ਨੂੰ ਫਾਰਮੈਟ ਕਰ ਰਹੇ ਹੋ, ਇਸਕਰਕੇ ਇਹ ਸਮੱਸਿਆ ਹੁਣੇ ਪਾਰਟੀਸ਼ਨ ਵੇਖ ਕੇ ਠੀਕ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ, ਕਿਉਂਕਿ ਇਹ ਬਾਅਦ ਵਿੱਚ ਠੀਕ ਕਰਨਾ ਔਖਾ ਹੋ ਸਕਦਾ ਹੈ। ਇਹ ਕਰਨ ਲਈ, ਮੁੱਖ ਪਾਰਟੀਸ਼ਨਿੰਗ ਮੇਨ ਉੱਤੇ ਵਾਪਸ ਜਾਉ, ਪਾਰਟੀਸ਼ਨ ਹਟਾਓ ਅਤੇ ਇਸ ਨੂੰ ਇਸ ਸਥਿਤੀ ਉੱਤੇ ਇਸੇ ਸੈਟਿੰਗ ਨਾਲ ਮੁੜ-ਬਣਾਉ। ਇਸ ਨਾਲ ਪਾਰਟੀਸ਼ਨ ਇਸ ਡਿਸਕ ਸਭ ਤੋਂ ਢੁੱਕਵੇਂ ਬਿੰਦੂ ਤੋਂ ਸ਼ੁਰੂ ਹੋਵੇਗਾ।
+Description-pl.UTF-8: Chcesz wrócić do menu partycjonowania?
+ Partycja ${PARTITION} przydzielona do ${MOUNTPOINT} rozpoczyna się ${OFFSET} bajt(y/ów) od minimalnego wyrównania dla tego dysku, co może prowadzić do bardzo słabej wydajności.
+ .
+ Ponieważ formatujesz tę partycję, należy teraz naprawić ten problem przez dostosowanie wyrównania partycji, ponieważ będzie trudno poprawić to później. Aby tego dokonać, wróć do menu partycjonowania, usuń partycję, a następnie utwórz ją ponownie w tym samym miejscu, z tymi samymi ustawieniami. Spowoduje to, że partycja zacznie się w miejscu najbardziej odpowiadającym temu dyskowi.
+Description-pt.UTF-8: Deseja voltar ao menu de particionamento?
+ A partição ${PARTITION} atribuida a ${MOUNTPOINT} começa num offset de ${OFFSET} bytes a partir do alinhamento mínimo para este disco, o que pode levar a um desempenho muito fraco.
+ .
+ Já que está a formatar esta partição, deve corrigir agora este problema realinhando a partição, já que posteriormente será difícil de alterar. Para fazer isto, volte atrás ao menu de particionamento, apague a partição, e crie-a novamente na mesma posição e com as mesmas definições. Isto fará com que a partição comece no ponto mais adequado para este disco.
+Description-pt_BR.UTF-8: Você deseja voltar ao menu de particionamento?
+ A partição ${PARTITION} atribuída a ${MOUNTPOINT} inicia com um deslocamento de ${OFFSET} bytes do alinhamento mínimo para este disco, o que pode resultar em um péssimo desempenho.
+ .
+ Como você está formatando esta partição, você deveria corrigir este problema agora realinhando a partição, pois será difícil fazer a mudança depois. Para isso, volte ao menu principal de particionamento, exclua a partição e recrie-a na mesma posição com as mesmas configurações. Isto fará com que a partição inicie em um ponto melhor para este disco.
+Description-ro.UTF-8: Doriți să vă întoarceți la meniul de partiționare?
+ Partiția ${PARTITION} alocată punctului de montare ${MOUNTPOINT} începe cu un decalaj de ${OFFSET} octeți de la alinierea minimă pentru acest disc. Acest lucru ar putea duce la performanță scăzută.
+ .
+ Deoarece urmează să formatați această partiție ar trebui să corectați această problemă acum, prin re-alinierea partiției, deoarece va fi dificil de corectat ulterior. Pentru aceasta trebuie să mergeți înapoi la meniul de partiționare, să ștergeți partiția și să o recreați în aceiași poziție cu aceiași parametri. În acest fel partiția va începe în punctul cel mai potrivit pentru acest disc.
+Description-ru.UTF-8: Хотите вернуться в меню разметки?
+ Раздел ${PARTITION}, монтируемый к ${MOUNTPOINT}, начинается со смещения ${OFFSET} байт от минимального выравнивания для этого диска, что может привести к очень плохой производительности.
+ .
+ Так как вы форматируете этот раздел, задайте другое выравнивание для решения данной проблемы. Лучше сделать это сейчас, так как позже это выполнить гораздо сложнее. Для этого вернитесь в главное меню разметки, удалите раздел, и пересоздайте его в том же месте и с теми же параметрами. При этом раздел теперь будет размещён в более подходящем месте на диске.
+Description-si.UTF-8: ඔබට කොටස් මෙනුවට ආපසු යාමට අවශ්‍යද?
+ ${MOUNTPOINT} හි ස්ථානගත කර ඇති ${PARTITION} කොටස මෙම තැටිය සඳහා වන අවම ස්ථානගතකිරීම වන බයිට ${OFFSET}  ක ඔෆ්සෙට් එකක් අරඹයි. මෙය ඉතා දුර්වල ක්‍රියාකාරීත්වයකට හේතුවිය හැක.
+ .
+ ඔබ මෙම කොටස හැඩසවි ගන්වන බැවින්, පසුව වෙනස්කම් සිදුකිරීම අපහසු බැවින් ඔබට දැන්ම කොටස නැවත සැකසීම මගින් මෙම ගැටළුව නිරාකරණය කිරීමට සිදුවේ. මෙය සිදු කිරීමට ප්‍රධාන කොටස්කිරීමේ මෙනුවට ආපසු ගොස්, කොටස මකාදමා පෙර සැකසුම් හා ඉඩ අනුවම නැවත සකසන්න. මෙමගින් එම කොටස තැටියේ වඩාත් සුදුසු ස්ථානයක පිහිටුවීම සිදුවේ.
+Description-sk.UTF-8: Chcete sa vrátiť do menu rozdeľovania?
+ Disková oblasť ${PARTITION} priradená k ${MOUNTPOINT} začína na ofsete ${OFFSET} bajtov od minimálneho zarovnania pre tento disk, čo môže mať z následok veľmi nízky výkon.
+ .
+ Pretože teraz túto oblasť formátujete, mali by ste tento problém napraviť teraz správnym zarovnaním oblasti, pretože by bolo ťažké to zmeniť neskôr. Ak tak chcete urobiť, vráťte sa do menu rozdeľovania, zmažte oblasť a znova ju vytvorte na rovnakej pozícii s rovnakými nastaveniami. To spôsobí, že oblasť bude začínať na najvhodnejšom mieste pre tento disk.
+Description-sl.UTF-8: Se želite vrniti na meni za razdeljevanje?
+ Razdelek ${PARTITION} dodeljen ${MOUNTPOINT} se začne z odmikom ${OFFSET} bytov od najmanjše poravnave za ta disk. To lahko povzroči zelo nizko hitrost delovanja.
+ .
+ Glede na to, da ta razdelek formatirate bi bilo dobro, da odpravite to težavo sedaj s tem, da ponovno poravnate razdelke. Kasneje bo to težje spremeniti.  Vrnite se na glavni meni za razdeljevanje, izbrišite razdelek in ga ponovno ustvarite na istem mestu z istimi nastavitvami. Razdelek bo tako začel na najboljši točki za ta disk.
+Description-sq.UTF-8: Dëshiron të kthehesh tek menuja e ndarjes?
+ Particioni ${PARTITION} i lidhur te ${MOUNTPOINT} fillon si një offset i ${OFFSET} bajteve nga lidhja minimale me këtë disk, gjë që mund të shkatojë një performancë shumë të dobët
+ .
+ Meqë po e formaton këtë particion, duhet ta korrigjosh këtë problem tani duke e rilidhur particionin sepse do të jetë e vështirë ta bësh këtë më vonë Për ta bërë këtë gjë, shkoni prapa te menuja kryesore e particioneve, fshijeni këtë particion dhe rikrijojeni atë në të njëjtin pozicion dhe me të njëjtat konfigurime. Kjo do ta bëjë particionin të filloj në pikën më të përshtatshme për diskun
+Description-sr.UTF-8: Да ли желите да се вратите на изборник партиционисања?
+ Партиција „${PARTITION}“ додељења „${MOUNTPOINT}“ почиње на померају од ${OFFSET} бајта од најмањег поравнања за овај диск што може довести до веома лоше учинковитости.
+ .
+ Пошто форматирате ову партицију, требало би да исправити овај проблем сада поравнавањем партиције, јер ће то касније бити тешко променити. Да урадите ово, идите назад на главни изборник за партиционисање, обришите партицију и поново је направите на истој позицији са истим поставкама. Ово ће довести до тога да ће партиција почињати на месту најбољем за овај диск.
+Description-sv.UTF-8: Vill du återvända till partitioneringsmenyn?
+ Partitionen ${PARTITION} för ${MOUNTPOINT} börjar vid ${OFFSET} byte från minsta tillåtna justering, detta kan leda till dålig prestanda.
+ .
+ I och med att du nu formaterar partitionen bör du korrigera detta problem genom att justera partitionen. Det blir besvärligt att lösa detta senare. För att göra detta gå tillbaka till partitionsmenyn, ta bort partitionen och skapa den på samma position med samma inställningar. Detta medför att partitionen börjar på en plats som bättre passar disken.
+Description-ta.UTF-8: பகிர்வு பட்டிக்குத் திரும்ப விரும்புகிறீர்களா?
+ ${MOUNTPOINT} க்கு குறித்தளித்த ${PARTITION} பகிர்வு இந்த வட்டுக்கு குறைந்த பட்ச வரிசைக்கிரமத்துக்கு ${OFFSET} பைட்டுகள் விலக்கத்தில் துவங்குகிறது. இது மிக மோசமான செயல்பாட்டை கொடுக்கலாம்.
+ .
+ நீங்கள் இப்போது இந்த பகிர்வை ஒழுங்கு படுத்துவதால், இந்த பிரச்சினையை இப்போதே தீர்க்க வேன்டும். இதற்கு பகிர்வை மறு வரிசை கிரமம் ஆக்க வேண்டும். ஏனெனில் பின்னால் இது மாற்ற சிரமமாகும். இதை செய்ய முதன்மை பகிர்வு மெனுவுக்கு போய் பகிர்வை நீக்கவும். அதே இடத்தில் மீண்டும் அதே அமைப்புடன் மறு உருவாக்கம் செய்யவும். இதனால் இந்த வட்டுக்கு பொருத்தமான புள்ளியில் பகிர்வு துவக்கப்படும்.
+Description-te.UTF-8: మీరు విభజన మెనూ కి తిరిగి  వెళ్లాలనుకుంటున్నారా?
+ విభజన${PARTITION}  ${MOUNTPOINT}కి జతచేసినది  ప్రారంభ సాపేక్షస్థానం ${OFFSET} ఈ డిస్క్ కి కనీస అనుగుణం(alignment) నుండి బైట్లు, దీనివలన పని సామర్థ్యం తగ్గవచ్చు.
+ .
+ ఈ విభజనని తయారుచేయుచున్నావు కాబట్టి, ఈ సమస్యని ఇప్పుడు పరిష్కరించాలి విభజనని సరిచేయటం ద్వారా, తరువాత మార్పు కష్టం. అలాచేయటానికి విభజన మెనూ (వెనక్కి) వెళ్లి, విభజనని తొలగించి మరల అదే వివరాలతో మరల సృష్టించండి. దీనివలన ఈ డిస్క్ కి సరియైన ప్రారంభం దగ్గర విభజన మొదలవుతుంది
+Description-tg.UTF-8: Шумо мехоҳед, ки ба менюи қисмбандӣ баргардонед?
+ Қисми диски ${PARTITION}, ки ба ${MOUNTPOINT} таъин шудааст, дар омезиши ${OFFSET} байт аз москунии хурдтарин барои ин диск оғоз меёбад, ки метавонад сабаби самаранокии хеле паст гардад.
+ .
+ Азбаски шумо ин қисми дискро шаклбандӣ карда истодаед, шумо бояд ин мушкилиро бо москунии дубораи қисмбандӣ ҳал намоед, чунки тағйирдиҳии баъдина душвортар мебошад. Барои иҷрои ин амал, ба менюи асосии қисмбандӣ баргардед, қисми дискро нест намоед ва онро дар ҳамон ҷойгиршавӣ бо танзимоти якхела аз нав эҷод намоед. Ин сабаби он мегардад, ки қисми диск дар нуқтаи беҳтарин барои ин диск оғоз меёбад.
+Description-th.UTF-8: คุณต้องการกลับไปยังเมนูแบ่งพาร์ทิชันหรือไม่?
+ พาร์ทิชัน ${PARTITION} ที่กำหนดเป็น ${MOUNTPOINT} เริ่มต้นที่ออฟเซ็ต ${OFFSET} ไบต์นับจากจุดจัดเรียงต่ำสุดของดิสก์ ซึ่งอาจทำให้ได้ประสิทธิภาพต่ำ
+ .
+ เนื่องจากคุณกำลังจะฟอร์แมตพาร์ทิชันนี้ คุณควรถือโอกาสแก้ปัญหานี้ตอนนี้โดยจัดเรียงพาร์ทิชันใหม่ เพราะจะแก้ภายหลังได้ยาก วิธีการคือ ให้กลับไปที่เมนูหลักของการแบ่งพาร์ทิชัน แล้วลบพาร์ทิชันนี้ และสร้างพาร์ทิชันอีกครั้งที่ตำแหน่งเดิมด้วยค่าตั้งเดิม จะทำให้พาร์ทิชันตั้งต้นที่ตำแหน่งที่เหมาะสมที่สุดสำหรับดิสก์นี้
+Description-tr.UTF-8: Bölümleme menüsüne dönmek ister misiniz?
+ ${MOUNTPOINT} konumuna bağlı olan ${PARTITION} bölümü, bulunduğu diskin en küçük hizalama konumundan ${OFFSET} byte kadar ileride başlıyor. Bu yüzden disk performansı ciddi şekilde düşebilir.
+ .
+ Zaten bu bölümü formatlamakta olduğunuz için bu bölümü hizalayarak bu sorunu çözmeniz önerilir. Daha sonra hizalama yapmak mümkün değildir. Hizalama yapmak için, bölümleme ana menüsüne geri dönün, bölümü silin ve aynı yerde aynı ayarları kullanarak bölümü tekrar oluşturun. Böyle yaptığınızda bölüm, disk için en uygun olan konumdan başlayacaktır.
+Description-ug.UTF-8: رايونغا ئايرىش تىزىملىكىگە قايتامسىز؟
+ ${MOUNTPOINT} غا تەقسىملەنگەن partition ${PARTITION} نىڭ باشلىنىش ئورنى ${OFFSET} ئىكەن. بۇنداق بولسا سىستېمىڭىزنىڭ ئۈنۈمى(سۈرئىتى) تۆۋەنلەپ كېتىدۇ.
+ .
+ دىسكىنى فورماتلايدىغان بولغاندىن كېيىن، رايوننى قايتىدىن ئورۇنلاشتۇرۇپ بۇ مەسىلىنى تۈزىتىڭ، بولمىسا كېيىن تۈزەتمەك تەس بولىدۇ. بۇنى قىلىش ئۈچۈن، باش رايونغا ئايرىش تىزىملىكىگە قايتىپ، رايوننى ئاۋۋال ئۆچۈرۈپ، ئاندىن ھازىرقى بىلەن ئوخشاش قىلىپ قايتا قۇرۇڭ. بۇنىڭ بىلەن رايون دىسكىدىكى ئەڭ مۇۋاپىق ئورۇندىن باشلىنىدىغان بولىدۇ.
+Description-uk.UTF-8: Чи бажаєте ви повернутися до меню розбивки?
+ Розділ ${PARTITION}, який монтується до ${MOUNTPOINT}, розпочинається зі зміщення у ${OFFSET} байт від мінімального вирівнювання для цього диска, що може призвести до дуже поганої продуктивності.
+ .
+ Так як ви форматуєте цій розділ, задайте інше вирівнювання для вирішення цієї проблеми, тому що це складно буде змінити пізніше. Для цього поверніться до головного меню розмітки, видаліть розділ та створіть його знов у тієї ж позиції з тими ж самими налаштуваннями. При цьому розділ буде розміщено у придатнішому місці на диску.
+Description-vi.UTF-8: Bạn có muốn trở về trình đơn phân vùng chứ ?
+ Phân vùng ${PARTITION} gán cho ${MOUNTPOINT} bắt đầu tại offset ${OFFSET} byte từ alignment tối thiểu trên đĩa này, có thể dẫn đến hiệu năng rất kém.
+ .
+ Do bạn đang tiến hành định dạng phân vùng này, bạn nên giải quyết vấn đề này bằng cách căn lề lại các phân vùng, vì nếu sau này đổi lại rất khó. Để làm điều này, quay lại trình đơn phân vùng chính, xóa phân vùng đi, và tạo lại trên cùng vị trí với cùng tham số. Điều này sẽ đặt phân vùng vào vị trí bắt đầu phù hợp nhất trên đĩa này.
+Description-zh_CN.UTF-8: 您是否想返回分区菜单？
+ 分配到 ${MOUNTPOINT} 的分区 ${PARTITION} 相对于此磁盘的最小对齐要求偏移了 ${OFFSET} 字节，这可能会严重影响性能。
+ .
+ 既然您想要重新格式化此分区，您应当现在就通过重新对齐分区来修正此问题，因为以后更改会非常麻烦。要这么做，请返回分区主菜单，删除此分区，并在相同的位置使用相同的设置重新创建该分区。这将使此分区从最适合此磁盘的位置开始。
+Description-zh_TW.UTF-8: 您是否想返回磁碟分割選單？
+ 指定在 ${MOUNTPOINT} 的分割區 ${PARTITION} 從最小對齊點偏移了 ${OFFSET} 位元，可能會導致極差的效能。
+ .
+ 既然您要格式化此分割區，您應該重新對齊分割區以立即修正這個問題，因為此後將難以修改。若要修正，請回到主要分割區選單，刪除該分割區，並以相同設定與相同位置重新建立此分割區，如此一來該分割區將會位於您硬碟的最佳位置。
+

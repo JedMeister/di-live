@@ -1,0 +1,9 @@
+Package: partman-efi
+Version: 110
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 117
+Depends: partman-base, efi-modules, dosfstools-udeb, cdebconf-udeb
+Section: debian-installer
+Priority: standard
+Description: Add to partman support for EFI System Partitions
