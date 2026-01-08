@@ -7,7 +7,7 @@ export PYTHONDONTWRITEBYTECODE=1
 
 execute_before_dh_install:
 	echo "patch files for debug pkg"
-	./update_rootfs_files.py --force
+	./add_udeb_debugging.py --all-updates --force
 
 override_dh_installinit:
 	dh_installinit -r --no-start -- start 99 S . start 89 0 6 .
