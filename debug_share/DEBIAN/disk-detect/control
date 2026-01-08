@@ -1,0 +1,13 @@
+Package: disk-detect
+Source: hw-detect
+Version: 1.171
+Architecture: amd64
+Installer-Menu-Item: 3500
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 67
+Depends: cdebconf-udeb, hw-detect, di-utils, pciutils-udeb
+Enhances: hw-detect
+Provides: harddrive-detection
+Section: debian-installer
+Priority: optional
+Description: Detect disk drives

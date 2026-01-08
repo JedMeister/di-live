@@ -1,0 +1,773 @@
+Template: partman-efi/text/efi
+Type: text
+Description: EFI System Partition
+Description-ar.UTF-8: جزء نظام EFI
+Description-be.UTF-8: Сістэмны раздзел EFI
+Description-bg.UTF-8: Системен дял на EFI
+Description-bn.UTF-8: EFI সিস্টেম পার্টিশন
+Description-ca.UTF-8: Partició del sistema EFI
+Description-cs.UTF-8: systémová oblast EFI
+Description-da.UTF-8: EFI-systempatition
+Description-de.UTF-8: EFI-System-Partition
+Description-el.UTF-8: EFI Κατάτμηση συστήματος
+Description-eo.UTF-8: Sistem-diskpartigo EFI
+Description-es.UTF-8: Partición del sistema «EFI»
+Description-et.UTF-8: EFI süsteemipartitsioon
+Description-eu.UTF-8: EFI abioko partizioa (EAP)
+Description-fa.UTF-8: افراز سامانهٔ EFI
+Description-fi.UTF-8: EFI-järjestelmän osio
+Description-fr.UTF-8: Partition système EFI
+Description-ga.UTF-8: Deighilt Chórais EFI
+Description-gl.UTF-8: Partición do sistema EFI
+Description-gu.UTF-8: EFI સિસ્ટમ પાર્ટિશન
+Description-he.UTF-8: מחיצת מערכת מסוג EFI
+Description-hi.UTF-8: EFI सिस्टम विभाजन
+Description-hr.UTF-8: EFI sistemska particija
+Description-hu.UTF-8: EFI rendszerpartíció
+Description-id.UTF-8: Partisi Sistem EFI
+Description-is.UTF-8: EFI-kerfissneið
+Description-it.UTF-8: Partizione di sistema EFI
+Description-ja.UTF-8: EFI システムパーティション
+Description-ka.UTF-8: EFI-ის სისტემური დანაყოფი
+Description-kab.UTF-8: Aḥric n unagraw EFI
+Description-kk.UTF-8: EFI жүйелік бөлімі
+Description-kn.UTF-8: EFI ಬೂಟ್ ವಿಭಜನೆ
+Description-ko.UTF-8: EFI 시스템 파티션
+Description-lt.UTF-8: EFI sistemos skaidinys
+Description-lv.UTF-8: EFI sistēmas nodalījums
+Description-mr.UTF-8: ईएफआय प्रणाली विभाजन
+Description-nb.UTF-8: EFI-systempartisjon
+Description-nl.UTF-8: EFI-systeempartitie
+Description-nn.UTF-8: EFI-systempartisjon
+Description-no.UTF-8: EFI-systempartisjon
+Description-oc.UTF-8: Particion d'aviada EFI
+Description-pa.UTF-8: EFI ਸਿਸਟਮ ਪਾਰਟੀਸ਼ਨ
+Description-pl.UTF-8: EFI – partycja systemowa (ESP)
+Description-pt.UTF-8: Partição de Sistema EFI
+Description-pt_BR.UTF-8: Partição de Sistema EFI
+Description-ro.UTF-8: Partiție sistem EFI
+Description-ru.UTF-8: системный раздел EFI
+Description-si.UTF-8: EFI පද්ධති පංගුව
+Description-sk.UTF-8: Systémová oblasť EFI
+Description-sl.UTF-8: Sistemski razdelek EFI
+Description-sq.UTF-8: Ndarje Sistemi EFI
+Description-sr.UTF-8: EFI системска партиција
+Description-sv.UTF-8: EFI-systempartition
+Description-ta.UTF-8: ஈஎப்ஐ கணினி பகிர்வு
+Description-th.UTF-8: พาร์ทิชันระบบของ EFI
+Description-tr.UTF-8: EFI Sistem Bölümü
+Description-ug.UTF-8: EFI سىستېما رايونى
+Description-uk.UTF-8: Системний розділ EFI
+Description-vi.UTF-8: Phân vùng hệ thống EFI
+Description-zh_CN.UTF-8: EFI 系统分区
+Description-zh_TW.UTF-8: EFI 系統分割區
+
+Template: partman-efi/no_efi
+Type: boolean
+Description: Go back to the menu and resume partitioning?
+ No EFI partition was found.
+Description-am.UTF-8: ወደ ምናሌው ልመለስና ማካፈሉ ይቀጥል?
+ ምንም የኤፊ ክፋይ አልተገኘም።
+Description-ar.UTF-8: العودة إلى القائمة وإكمال التجزئة؟
+ لم يعثر على جزء EFI.
+Description-ast.UTF-8: ¿Volver al menú y resumir el particionáu?
+ Nun s'atopó partición EFI.
+Description-be.UTF-8: Вярнуцца ў меню і зноў распачаць перадзел дыскаў?
+ Не знойдзена падзела EFI.
+Description-bg.UTF-8: Връщане в менюто и преразделяне?
+ Не беше открит дял на EFI.
+Description-bn.UTF-8: মেনুতে পেছনে ফিরে গিয়ে পার্টিশন করা আরম্ভ করবো কি?
+ কোনো EFI পার্টিশন খুঁজে পাওয়া যায় নি।
+Description-bs.UTF-8: Vratiti se nazad na meni i nastaviti particionisanje?
+ EFI particija nije pronađena.
+Description-ca.UTF-8: Voleu tornar al menú i continuar amb la partició?
+ No s'ha trobat cap partició EFI.
+Description-cs.UTF-8: Vrátit se zpět do menu a pokračovat v rozdělování?
+ Nebyla nalezena žádná EFI oblast.
+Description-cy.UTF-8: Mynd yn ôl i'r ddewislen a mynd ymlaen gyda rhaniadu?
+ Ni chanfuwyd rhaniad EFI.
+Description-da.UTF-8: Gå tilbage til menuen og fortsæt partitioneringen?
+ Fandt ingen EFI-partition.
+Description-de.UTF-8: Zurück zum Hauptmenü und Partitionierung fortsetzen?
+ Es wurde keine EFI-Partition gefunden.
+Description-dz.UTF-8: དཀར་ཆག་ནང་ལུ་ལོག་འགྱོ་འདི་བར་བཅད་འབད་ནི་ལུ་བསྐྱར་ལོག་འབད?
+ EFI བར་བཅད་འཚོལ་མ་ཐོབ།
+Description-el.UTF-8: Θέλετε να επιστρέψετε στο μενού για να συνεχίσετε την διαμέριση;
+ Δε βρέθηκε κατάτμηση EFI.
+Description-eo.UTF-8: Ĉu retroiri al la menuo kaj repreni diskpartigon?
+ Neniu diskparto EFI estis trovata.
+Description-es.UTF-8: ¿Desea volver al menú y reiniciar el particionado?
+ No se encontró ninguna partición «EFI».
+Description-et.UTF-8: Kas naasta menüüsse ja jätkata partitsioneerimist?
+ Süsteemist ei leitud ühtki EFI partitsiooni.
+Description-eu.UTF-8: Menura itzuli eta partizioak egiten jarraitu nahi duzu?
+ Ez da EFI partiziorik aurkitu.
+Description-fa.UTF-8: آیا میخواهید به منوی اصلی بازگشته و به پارتیشن بندی ادامه دهید ؟
+ هیچ افراز EFIای پیدا نشد.
+Description-fi.UTF-8: Palataanko valikkoon jatkamaan osioiden tekoa?
+ Yhtään EFI-osiota ei löytynyt.
+Description-fr.UTF-8: Revenir au menu et reprendre le partitionnement ?
+ Aucune partition EFI n'a été trouvée.
+Description-ga.UTF-8: An bhfuil fonn ort dul ar ais go dtí an roghchlár agus na deighiltí a shocrú arís?
+ Níor aimsíodh deighilt tosaithe EFI.
+Description-gl.UTF-8: Desexa volver ao menú e continuar o particionamento?
+ Non se atopou ningunha partición EFI.
+Description-gu.UTF-8: મેનુમાં પાછા જશો અને પાર્ટિશન કરેલ પાછું ફેરવશો?
+ કોઇ EFI પાર્ટિશન મળ્યું નહી.
+Description-he.UTF-8: חזור חזרה לתפריט והמשך את החלוקה למחיצות?
+ לא נמצאה מחיצת EFI.
+Description-hi.UTF-8: मेन्यू में वापस जाकर पार्टिशनिंग जारी रखें?
+ कोई ईएफआई पार्टिशन नहीं मिले.
+Description-hr.UTF-8: Vrati se u izbornik i nastavi particioniranje?
+ Nije pronađena EFI particija.
+Description-hu.UTF-8: Visszalépsz a menübe és folytatod a particionálást?
+ Nem található EFI partíció.
+Description-id.UTF-8: Kembali ke menu dan melanjutkan proses partisi?
+ Partisi EFI tidak ditemukan.
+Description-is.UTF-8: Fara aftur í valmynd og halda áfram með sneiðingu?
+ Engin EFI disksneið fannst.
+Description-it.UTF-8: Tornare al menù e riprendere il partizionamento?
+ Non è stata trovata alcuna partizione EFI.
+Description-ja.UTF-8: メニューに戻ってパーティショニングを再開しますか?
+ EFIパーティションが見つかりませんでした。
+Description-ka.UTF-8: დაბრუნდებით მენიუში და გააგრძელებთ დაყოფას?
+ EFI დანაყოფი ვერ მოიძებნა.
+Description-kab.UTF-8: Uɣal ɣer wumuɣ syen kemmel beṭṭu?
+ Ulac aḥric EFI i yettwafen.
+Description-kk.UTF-8: Алдыңғы мәзірге оралып, бөлімдеуді жалғастыру керек пе?
+ EFI бөлімдері табылмады.
+Description-km.UTF-8: ត្រឡប់​ទៅ​ម៉ឺនុយ ហើយ​បន្ត​ចែក​ភាគថាស ?​
+ រក​មិន​ឃើញ​ភាគថាស EFI ។
+Description-kn.UTF-8: ವಿಭಜನೆ ಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಿ ವಿಭಜನೆಯನ್ನು ಪುನಃ ಆರಂಭಿಸಿ
+ ಯಾವುದೇ  EFI ಬೂಟ್ ವಿಭಜನೆ ಪತ್ತೆಯಾಗಲಿಲ್ಲ
+Description-ko.UTF-8: 메뉴로 돌아가서 파티션 나누기를 다시 시작하시겠습니까?
+ EFI 파티션이 없습니다.
+Description-ku.UTF-8: Bila vegere pêşekê û karê dabeşkirinê bidome?
+ Partîsiyona EFI nehat dîtin.
+Description-lo.UTF-8: ຈະກັບໄປຍັງລາຍການເພື່ອແບ່ງພາທິຊັ້ນໃໝ່ ຫຼື ບໍ?
+ ບໍ່ເຫັນພາທີເຊິນ EFI
+Description-lt.UTF-8: Ar grįžti į meniu ir tęsti disko dalijimą?
+ EFI disko skirsnis nerastas.
+Description-lv.UTF-8: Atgriezties izvēlnē un turpināt disku dalīšanu?
+ EFI nodalījums netika atrasts.
+Description-mk.UTF-8: Врати се назад во менито и продолжи со партиционирање?
+ Нема најдено EFI партиција.
+Description-ml.UTF-8: മെനുവിലേയ്ക്കു് തിരിച്ചു പോയി വിഭജനം തുടരണമോ?
+ EFI ഭാഗമൊന്നും കണ്ടില്ല.
+Description-mr.UTF-8: मेन्यूकडे परतून विभाजन करणे चालू ठेवायचे का?
+ कोणतेही ईएफआय विभाजन सापडले नाही.
+Description-nb.UTF-8: Vil du å tilbake til menyen og fortsette partisjoneringa?
+ Fant ingen EFI-partisjon.
+Description-ne.UTF-8: मेनुमा फर्केर जानुहुन्छ र विभाजनलाई पुन: निरन्तरता दिनुहुन्छ?
+ कुनै EFI विभाजन फेला परेन ।
+Description-nl.UTF-8: Terug naar het menu om met de schijfindeling verder te gaan?
+ Er is geen EFI-partitie gevonden.
+Description-nn.UTF-8: Vil du gå tilbake til menyen og fortsette partisjoneringa?
+ Fann ingen EFI-partisjon.
+Description-no.UTF-8: Vil du å tilbake til menyen og fortsette partisjoneringa?
+ Fant ingen EFI-partisjon.
+Description-oc.UTF-8: Tornar al menú e contunhar lo particionament ?
+ Cap de particion EFI pas trobada.
+Description-pa.UTF-8: ਕੀ ਮੇਨੂ ਉੱਤੇ ਵਾਪਸ ਜਾ ਕੇ ਪਾਰਟੀਸ਼ਿਨਿੰਗ ਮੁੜ-ਸ਼ੁਰੂ ਕਰਨੀ ਹੈ?
+ ਕੋਈ EFI ਪਾਰਟੀਸ਼ਨ ਨਹੀਂ ਲੱਭਿਆ।
+Description-pl.UTF-8: Wrócić do menu i kontynuować partycjonowanie?
+ Nie znaleziono partycji EFI.
+Description-pt.UTF-8: Voltar atrás para o menu e continuar o particionamento?
+ Não foi encontrada nenhuma partição EFI.
+Description-pt_BR.UTF-8: Voltar ao menu e continuar o particionamento?
+ Nenhuma partição EFI foi encontrada.
+Description-ro.UTF-8: Vă întoarceți la meniu și reluați partiționarea?
+ Nu s-a găsit nici o partiție EFI.
+Description-ru.UTF-8: Вернуться в меню и продолжить разметку?
+ Не найдено разделов EFI.
+Description-si.UTF-8: මෙනුවට ආපසු ගොස් කොටස්කිරීම සිදුකරගෙන යන්නද?
+ කිසිඳු EFI කොටක් හමුනොවිනි.
+Description-sk.UTF-8: Vrátiť sa späť do menu a pokračovať v rozdeľovaní?
+ Nebola nájdená žiadna EFI oblasť.
+Description-sl.UTF-8: Se želite vrniti na meni in nadaljevati razdeljevanje?
+ Ni mogoče najti razdelka EFI.
+Description-sq.UTF-8: Të kthehem mbrapa në menu dhe të rifilloj ndarjen?
+ Nuk u gjet asnjë ndarje EFI.
+Description-sr.UTF-8: Да се вратим назад у изборник и да наставим партиционисање?
+ Ниједна EFI партиција није нађена.
+Description-sv.UTF-8: Gå tillbaka till menyn och återuppta partitioneringen?
+ Hittade ingen EFI-partition.
+Description-ta.UTF-8: பட்டிக்கு பின் சென்று மீண்டும் பகிர்வை தொடரவா?
+ ஈஎப்ஐ பகிர்வு ஏதும் காணவில்லை.
+Description-te.UTF-8: మెనూకి  తిరిగి వెళ్లి పార్టిషనుచేయుట కొనసాగించాలా?
+ EFI బూట్ విభజన కనబడలేదు
+Description-tg.UTF-8: Ба меню баргашта раванди қисмбандиро идома медиҳед?
+ Ягон қисми диски EFI ёфт нашуд.
+Description-th.UTF-8: จะกลับไปยังเมนูเพื่อแบ่งพาร์ทิชันใหม่หรือไม่?
+ ไม่พบพาร์ทิชัน EFI
+Description-tl.UTF-8: Bumalik sa menu at ipagpatuloy ang pag-partisyon?
+ Walang EFI partisyon na nahanap.
+Description-tr.UTF-8: Menüye geri dönerek bölümleme işlemine devam edilsin mi?
+ Herhangi bir EFI bölümü bulunamadı.
+Description-ug.UTF-8: تىزىملىككە قايتىپ رايونغا ئايرىشنى ئەسلىگە كەلتۈرەمسىز؟
+ EFI رايونى تېپىلمىدى.
+Description-uk.UTF-8: Повернутися до меню та продовжити розбивку?
+ Не знайдений розділ EFI.
+Description-vi.UTF-8: Trở về trình đơn và tiếp tục lại việc phân vùng không?
+ Không tìm thấy phân vùng EFI.
+Description-zh_CN.UTF-8: 返回菜单并继续分区吗？
+ 未找到 EFI 分区。
+Description-zh_TW.UTF-8: 是否返回選單並重新分割磁區？
+ 找不到 EFI 分割區。
+
+Template: partman/method_long/efi
+Type: text
+Description: EFI System Partition
+Description-ar.UTF-8: جزء نظام EFI
+Description-be.UTF-8: Сістэмны раздзел EFI
+Description-bg.UTF-8: Системен дял на EFI
+Description-bn.UTF-8: EFI সিস্টেম পার্টিশন
+Description-ca.UTF-8: Partició del sistema EFI
+Description-cs.UTF-8: systémová oblast EFI
+Description-da.UTF-8: EFI-systempatition
+Description-de.UTF-8: EFI-System-Partition
+Description-el.UTF-8: EFI Κατάτμηση συστήματος
+Description-eo.UTF-8: Sistem-diskpartigo EFI
+Description-es.UTF-8: Partición del sistema «EFI»
+Description-et.UTF-8: EFI süsteemipartitsioon
+Description-eu.UTF-8: EFI abioko partizioa (EAP)
+Description-fa.UTF-8: افراز سامانهٔ EFI
+Description-fi.UTF-8: EFI-järjestelmän osio
+Description-fr.UTF-8: Partition système EFI
+Description-ga.UTF-8: Deighilt Chórais EFI
+Description-gl.UTF-8: Partición do sistema EFI
+Description-gu.UTF-8: EFI સિસ્ટમ પાર્ટિશન
+Description-he.UTF-8: מחיצת מערכת מסוג EFI
+Description-hi.UTF-8: EFI सिस्टम विभाजन
+Description-hr.UTF-8: EFI sistemska particija
+Description-hu.UTF-8: EFI rendszerpartíció
+Description-id.UTF-8: Partisi Sistem EFI
+Description-is.UTF-8: EFI-kerfissneið
+Description-it.UTF-8: Partizione di sistema EFI
+Description-ja.UTF-8: EFI システムパーティション
+Description-ka.UTF-8: EFI-ის სისტემური დანაყოფი
+Description-kab.UTF-8: Aḥric n unagraw EFI
+Description-kk.UTF-8: EFI жүйелік бөлімі
+Description-kn.UTF-8: EFI ಬೂಟ್ ವಿಭಜನೆ
+Description-ko.UTF-8: EFI 시스템 파티션
+Description-lt.UTF-8: EFI sistemos skaidinys
+Description-lv.UTF-8: EFI sistēmas nodalījums
+Description-mr.UTF-8: ईएफआय प्रणाली विभाजन
+Description-nb.UTF-8: EFI-systempartisjon
+Description-nl.UTF-8: EFI-systeempartitie
+Description-nn.UTF-8: EFI-systempartisjon
+Description-no.UTF-8: EFI-systempartisjon
+Description-oc.UTF-8: Particion d'aviada EFI
+Description-pa.UTF-8: EFI ਸਿਸਟਮ ਪਾਰਟੀਸ਼ਨ
+Description-pl.UTF-8: EFI – partycja systemowa (ESP)
+Description-pt.UTF-8: Partição de Sistema EFI
+Description-pt_BR.UTF-8: Partição de Sistema EFI
+Description-ro.UTF-8: Partiție sistem EFI
+Description-ru.UTF-8: системный раздел EFI
+Description-si.UTF-8: EFI පද්ධති පංගුව
+Description-sk.UTF-8: Systémová oblasť EFI
+Description-sl.UTF-8: Sistemski razdelek EFI
+Description-sq.UTF-8: Ndarje Sistemi EFI
+Description-sr.UTF-8: EFI системска партиција
+Description-sv.UTF-8: EFI-systempartition
+Description-ta.UTF-8: ஈஎப்ஐ கணினி பகிர்வு
+Description-th.UTF-8: พาร์ทิชันระบบของ EFI
+Description-tr.UTF-8: EFI Sistem Bölümü
+Description-ug.UTF-8: EFI سىستېما رايونى
+Description-uk.UTF-8: Системний розділ EFI
+Description-vi.UTF-8: Phân vùng hệ thống EFI
+Description-zh_CN.UTF-8: EFI 系统分区
+Description-zh_TW.UTF-8: EFI 系統分割區
+
+Template: partman/method_short/efi
+Type: text
+Description: ESP
+Description-ar.UTF-8: جزء ESP
+Description-be.UTF-8: ESP
+Description-bg.UTF-8: С. Д. EFI
+Description-bn.UTF-8: ESP
+Description-ca.UTF-8: ESP
+Description-cs.UTF-8: ESP
+Description-da.UTF-8: ESP
+Description-de.UTF-8: ESP
+Description-el.UTF-8: ESP
+Description-eo.UTF-8: SDP-EFI
+Description-es.UTF-8: ESP
+Description-et.UTF-8: ESP
+Description-eu.UTF-8: EAP
+Description-fa.UTF-8: ESP
+Description-fi.UTF-8: ESP
+Description-fr.UTF-8: ESP
+Description-ga.UTF-8: ESP
+Description-gl.UTF-8: ESP
+Description-gu.UTF-8: ESP
+Description-he.UTF-8: ESP
+Description-hi.UTF-8: ईएसपी
+Description-hr.UTF-8: ESP
+Description-hu.UTF-8: ESP
+Description-id.UTF-8: ESP
+Description-is.UTF-8: ESP
+Description-it.UTF-8: ESP
+Description-ja.UTF-8: ESP
+Description-ka.UTF-8: ESP
+Description-kab.UTF-8: ESP
+Description-kk.UTF-8: ESP
+Description-kn.UTF-8: ESP
+Description-ko.UTF-8: ESP
+Description-lt.UTF-8: ESP
+Description-lv.UTF-8: ESN
+Description-mk.UTF-8: ESP
+Description-mr.UTF-8: ईएसपी
+Description-nb.UTF-8: ESP
+Description-nl.UTF-8: ESP
+Description-nn.UTF-8: ESP
+Description-no.UTF-8: ESP
+Description-oc.UTF-8: ESP
+Description-pa.UTF-8: ESP
+Description-pl.UTF-8: ESP
+Description-pt.UTF-8: PSE
+Description-pt_BR.UTF-8: ESP
+Description-ro.UTF-8: ESP
+Description-ru.UTF-8: ESP
+Description-si.UTF-8: ESP
+Description-sk.UTF-8: ESP
+Description-sl.UTF-8: ESP
+Description-sq.UTF-8: ESP
+Description-sr.UTF-8: ESP
+Description-sv.UTF-8: ESP
+Description-ta.UTF-8: ஈஎஸ்பி
+Description-th.UTF-8: ESP
+Description-tr.UTF-8: ESB
+Description-ug.UTF-8: ESP
+Description-uk.UTF-8: ESP
+Description-vi.UTF-8: ESP
+Description-zh_CN.UTF-8: 系统分区
+Description-zh_TW.UTF-8: ESP
+
+
+Template: partman/filesystem_short/efi
+Type: text
+Description: EFI-fat16
+Description-am.UTF-8: ኤፊ-FAT16
+Description-ar.UTF-8: EFI-fat16
+Description-ast.UTF-8: EFI-fat16
+Description-be.UTF-8: EFI-fat16
+Description-bg.UTF-8: EFI-fat16
+Description-bn.UTF-8: EFI-fat16
+Description-bs.UTF-8: EFI-fat16
+Description-ca.UTF-8: EFI-fat16
+Description-cs.UTF-8: EFI-fat16
+Description-cy.UTF-8: EFI-fat16
+Description-da.UTF-8: EFI-fat16
+Description-de.UTF-8: EFI-fat16
+Description-dz.UTF-8: EFI-fat16
+Description-el.UTF-8: EFI-fat16
+Description-eo.UTF-8: EFI-fat16
+Description-es.UTF-8: EFI-fat16
+Description-et.UTF-8: EFI-fat16
+Description-eu.UTF-8: EFI-fat16
+Description-fa.UTF-8: EFI-fat16
+Description-fi.UTF-8: EFI-fat16
+Description-fr.UTF-8: EFI-fat16
+Description-ga.UTF-8: EFI-fat16
+Description-gl.UTF-8: EFI-fat16
+Description-gu.UTF-8: EFI-ફેટ૧૬
+Description-he.UTF-8: EFI-fat16
+Description-hi.UTF-8: ईएफआई-एफएटी16
+Description-hr.UTF-8: EFI-fat16
+Description-hu.UTF-8: EFI-fat16
+Description-id.UTF-8: EFI-fat16
+Description-is.UTF-8: EFI-fat16
+Description-it.UTF-8: EFI-fat16
+Description-ja.UTF-8: EFI-fat16
+Description-ka.UTF-8: EFI-fat16
+Description-kab.UTF-8: EFI-fat16
+Description-kk.UTF-8: EFI-fat16
+Description-km.UTF-8: EFI-fat16
+Description-kn.UTF-8: EFI-fat16
+Description-ko.UTF-8: EFI-fat16
+Description-ku.UTF-8: EFI-fat16
+Description-lo.UTF-8: EFI-fat16
+Description-lt.UTF-8: EFI-fat16
+Description-lv.UTF-8: EFI-fat16
+Description-mk.UTF-8: EFI-fat16
+Description-ml.UTF-8: EFI-fat16
+Description-mr.UTF-8: ईएफआय-फॅट१६
+Description-nb.UTF-8: EFI-fat16
+Description-ne.UTF-8: EFI-fat16
+Description-nl.UTF-8: EFI-fat16
+Description-nn.UTF-8: EFI-fat16
+Description-no.UTF-8: EFI-fat16
+Description-oc.UTF-8: EFI-fat16
+Description-pa.UTF-8: EFI-fat16
+Description-pl.UTF-8: EFI-fat16
+Description-pt.UTF-8: EFI-fat16
+Description-pt_BR.UTF-8: EFI-fat16
+Description-ro.UTF-8: EFI-fat16
+Description-ru.UTF-8: EFI-fat16
+Description-si.UTF-8: EFI-fat16
+Description-sk.UTF-8: EFI-fat16
+Description-sl.UTF-8: EFI-fat16
+Description-sq.UTF-8: EFI-fat16
+Description-sr.UTF-8: EFI-fat16
+Description-sv.UTF-8: EFI-fat16
+Description-ta.UTF-8: ஈஎப்ஐ-(பேட்16) FAT16
+Description-te.UTF-8: EFI-fat16
+Description-tg.UTF-8: EFI-fat16
+Description-th.UTF-8: EFI-fat16
+Description-tl.UTF-8: EFI-fat16
+Description-tr.UTF-8: EFI-fat16
+Description-ug.UTF-8: EFI-fat16
+Description-uk.UTF-8: EFI-fat16
+Description-vi.UTF-8: EFI-fat16
+Description-zh_CN.UTF-8: EFI-fat16
+Description-zh_TW.UTF-8: EFI-fat16
+
+Template: partman-efi/too_small_efi
+Type: error
+Description: EFI partition too small
+ EFI System Partitions on this architecture cannot be created with a size
+ less than 35 MB. Please make the EFI System Partition larger.
+Description-ar.UTF-8: جزء EFI صغير جدا
+ أجزاء نظام EFI على هذه المنصة لا يمكن إنشاؤها بحجم أقل من ٣٥ ميجابايت. رجاءً تأكد من أن جزء نظام EFI أكبر من ذلك.
+Description-be.UTF-8: Раздзел EFI занадта малы
+ Сістэмныя раздзелы EFI на гэтай архітэктуры нельга стварыць памерам менш за 35 MB. Калі ласка, павялічце сістэмны раздзел EFI.
+Description-bg.UTF-8: Дялът на EFI е твърде малък
+ Системните дялове на UEFI на тази архитектура не могат да са по-малки от 35MB. Използвайте по-голям дял за EFI.
+Description-ca.UTF-8: La partició EFI és massa petita
+ Les particions del sistema EFI en aquesta arquitectura no poden tindre una mida inferior als 35MB. Feu la partició del sistema EFI més gran.
+Description-cs.UTF-8: EFI oblast je příliš malá
+ Systémová oblast EFI musí být na této architektuře větší než 35 MB. Vytvořte prosím větší systémovou oblast EFI.
+Description-da.UTF-8: EFI-partition er for lille
+ EFI-systempartitionerne på denne arkitektur kan ikke oprettes med en størrelse på mindre end 35 MB. Gør venligst EFI-systempartitionen større.
+Description-de.UTF-8: EFI-Partition zu klein
+ EFI-System-Partitionen auf dieser Architektur können nicht in einer Größe unter 35 MB erstellt werden. Bitte vergrößern Sie die EFI-System-Partition.
+Description-el.UTF-8: Η κατάτμηση EFI είναι πολύ μικρή
+ Κατάτμησης Συστήματος EFI σε αυτήν την αρχιτεκτονική δεν μπορούν να δημιουργηθούν με μέγεθος μικρότερο από 35 MB. Παρακαλώ κάντε την Κατάτμηση Συστήματος EFI μεγαλύτερο.
+Description-eo.UTF-8: Diskparto EFI tro malgrandas
+ Sistem-Diskpartigoj EFI en tiu ĉi arĥitekturo ne povas esti kreataj kum grando malplia ol 35 MB. Bonvolu pligrandigu la Sistem-Diskpartigon EFI.
+Description-es.UTF-8: Partición EFI demasiado pequeña
+ Las particiones del sistema EFI en esta arquitectura no pueden crearse con un tamaño inferior a 35 MB. Incremente el tamaño de su partición de sistema EFI.
+Description-et.UTF-8: EFI partitsioon on liiga väike
+ Sellel arhitektuuril puudub võimalus luua EFI süsteemipartitsiooni, mis oleks väiksem kui 35 MB. Palun tee EFI süsteemipartitsioon suuremaks.
+Description-eu.UTF-8: EFI partizioa txikiegia
+ Arkitektura honetan ezin da 35 MB baino txikiagoak diren EFI abioko partiziorik sortu. Egin ezazu EFI abioko partizioa handiagoa.
+Description-fa.UTF-8: افزار EFI بیش از حد کوچک
+ افرازهای سامانه‌ای EFI روی این معماری نمی‌توانند با اندازه‌ای کوچک‌تر از ۳۵ م‌ب ساخته شوند. لطفاً افزار سامانه‌ای EFI را بزرگ‌تر کنید.
+Description-fi.UTF-8: EFI-osio liian pieni
+ Tälle arkkitehtuurille ei voi luoda pienempiä kuin 35 MB kokoisia EFI-osioita. Tee EFI-osiosta suurempi.
+Description-fr.UTF-8: Partition EFI trop petite
+ Les partitions système EFI, pour cette architecture, ne peuvent pas être créées avec une taille inférieure à 35 Mo. Veuillez augmenter la taille de la partition système EFI.
+Description-gl.UTF-8: A partición EFI é demasiado pequena
+ Nesta arquitectura non se poden crear particións do sistema EFI cun tamaño menor de 35 MB. Faga a partición do sistema EFI máis grande.
+Description-he.UTF-8: מחיצת ה־EFI קטנה מדי
+ עבור ארכיטקטורה זו לא ניתן ליצור מחיצות מערכת מסוג EFI שגודלן קטן מ־35 מ״ב. נא להגדיל את מחיצת המערכת מסוג EFI.
+Description-hi.UTF-8: EFI विभाजन बहुत छोटा है
+ इस आर्किटेक्चर पर EFI सिस्टम विभाजन 35 एमबी से कम आकार के साथ नहीं बनाया जा सकता है। कृपया EFI सिस्टम विभाजन को बड़ा करें।
+Description-hr.UTF-8: EFI particija je premala
+ Nije moguće napraviti EFI sistemske particije za ovu arhitekturu manje od 35 MB. Molim napravite veću EFI sistemsku particiju.
+Description-hu.UTF-8: Túl kicsi az EFI partíció
+ Ezen az architektúrán nem lehet 35 MB-nál kisebb EFI rendszerpartíciót létrehozni. Kérlek növeld meg az EFI rendszerpartíció méretét.
+Description-id.UTF-8: Partisi EFI terlalu kecil
+ Partisi Sistem EFI pada arsitektur ini tidak dapat dibuat dengan ukuran kurang dari 35 MB. Mohon perbesar ukuran Partisi Sistem EFI.
+Description-is.UTF-8: EFI-disksneið er of lítil
+ EFI-kerfisdisksneiðar minni en 35 MB er ekki hægt að búa til á þessari tegund kerfis. Endilega stækkaðu EFI-kerfisdisksneiðina.
+Description-it.UTF-8: Partizione EFI troppo piccola
+ Le partizioni di sistema EFI su questa architettura non possono essere create con una dimensione minore di 35MB. Creare una partizione di sistema EFI più grande.
+Description-ja.UTF-8: EFI パーティションが小さすぎます
+ このアーキテクチャの EFI システムパーティションは 35 MB より小さいサイズでは作成できません。EFI システムパーティションを大きくしてください。
+Description-ka.UTF-8: EFI დანაყოფი მეტისმეტად პატარაა
+ EFI-ის სისტემური დანაყოფები ამ არქიტექტურაზე 35 მბ-ზე პატარა ვერ იქნება. გაზარდეთ EFI-ის სისტემური დანაყოფის ზომა, გეთაყვა.
+Description-kab.UTF-8: Aḥric n EFI meẓẓiy aṭas
+ Iḥricen n unagraw EFI ɣef tsegda-a ulamek i ttwarnan s teɣzi ddaw 35 MAṬ. Ttxil-k·m err aḥric n unagraw EFI hraw ugar.
+Description-kk.UTF-8: EFI бөлімі тым кішкентай
+ Бұл архитектурада EFI жүйелік бөлімдерін 35 МБ-тан кіші етіп жасауға болмайды. EFI жүйелік бөлімін үлкенірек жасаңыз.
+Description-ko.UTF-8: EFI 파티션이 너무 작습니다
+ 이 아키텍처에서 EFI 시스템 파티션은 35MB보다 작으면 안 됩니다. EFI 시스템 파티션을 더 크게 만드십시오.
+Description-lt.UTF-8: EFI skaidinys per mažas
+ Šioje architektūroje EFI sistemos skaidinys turi būti bent 35 MB dydžio. Padidinkite EFI sistemos skaidinį.
+Description-lv.UTF-8: EFI nodalījums ir pārāk mazs
+ Šai arhitektūrai nevar izveidot EFI sistēmas nodalījumu, kas ir mazāks kā 35MB. Lūdzu, izveidojiet lielāku EFI sistēmas nodalījumu.
+Description-mr.UTF-8: EFI विभाजन खूप लहान आहे
+ या रचनेत 35 एमबीहून कमी आकाराची ईएफआय प्रणाली विभाजने निर्माण करता येत नाहीत. कृपया ईएफआय प्रणाली विभाजन आणखी मोठे बनवा.
+Description-nb.UTF-8: EFI-partisjonen er for liten
+ EFI-systempartisjoner på denne arkitekturen kan ikke være mindre enn 35 MB. Gjør EFI-systempartisjonen større.
+Description-nl.UTF-8: De EFI-partitie is te klein
+ EFI-systeempartities kunnen niet worden aangemaakt met een formaat kleiner dan 35 MB op deze architectuur. Vergroot de EFI-systeempartitie.
+Description-nn.UTF-8: EFI-partisjonen er for liten
+ EFI-systempartisjonar på denne maskintypen kan ikkje vera mindre enn 35 MB. Gjer EFI-systempartisjonen større.
+Description-no.UTF-8: EFI-partisjonen er for liten
+ EFI-systempartisjoner på denne arkitekturen kan ikke være mindre enn 35 MB. Gjør EFI-systempartisjonen større.
+Description-oc.UTF-8: Particions EFI tròp pichona
+ Las particions sistèma EFI, per aquesta arquitectura, pòdon pas èsser creadas amb una talha superiora a 35 Mo. Aumentatz la talha de la particion sistèma EFI.
+Description-pa.UTF-8: EFI ਪਾਰਟੀਸ਼ਨ ਬਹੁਤ ਛੋਟਾ ਹੈ
+ ਇਸ ਢਾਂਚੇ ਲਈ EFI ਸਿਸਟਮ ਪਾਰਟੀਸ਼ਨ ਨੂੰ 35 MB ਤੋਂ ਘੱਟ ਆਕਾਰ ਉੱਤੇ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ਹੈ। ਵੱਡਾ EFI ਸਿਸਟਮ ਪਾਰਟੀਸ਼ਨ ਬਣਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
+Description-pl.UTF-8: Partycja EFI zbyt mała
+ Partycja systemowa EFI (ESP) w tej architekturze nie może mieć mniej niż 35 MB. Proszę zwiększyć rozmiar partycji EFI (ESP).
+Description-pt.UTF-8: Partição EFI demasiado pequena
+ As partições de sistema EFI nesta arquitectura não podem ser criadas com um tamanho inferior a 35 MB. Por favor torne a Partição de Sistema EFI maior.
+Description-pt_BR.UTF-8: Partição EFI muito pequena
+ Partições de Sistema EFI nesta arquitetura não podem ser criadas com menos do que 35 MB de tamanho. Por favor, aumente o tamanho da Partição de Sistema EFI.
+Description-ro.UTF-8: Partiția EFI este prea mică
+ Partiții de sistem EFI pe această arhitectură nu pot fi create cu o dimensiune mai mică de 35 Mo. Vă rugăm să configurați o partiție de sistem EFI mai mare.
+Description-ru.UTF-8: Раздел EFI слишком мал
+ Системные разделы EFI на этой архитектуре не могут быть менее 35МБ. Увеличьте размер системного раздела EFI.
+Description-sr.UTF-8: EFI партиција је премала
+ EFI системске партиције на овој архитектури се не могу направити са величином мањом од 35 МB. Направите већу ЕFI системску партицију.
+Description-sv.UTF-8: EFI-partitionen är för liten
+ EFI-systempartitioner på denna arkitektur kan inte vara mindre än 35 MB. Gör din EFI-systempartition större.
+Description-ta.UTF-8: இஎஃப்ஐ(EFI) பகிர்வு மிகவும் சிறிய
+ ஈஎஃப்ஐ சிஸ்டம் பகிர்வுகள் இந்த கட்டுமானத்தில் 35 எம்பி க்கும் குறைவான அளவில் உருவாக்க முடியாது. ஈஎஃப்ஐ சிஸ்டம் பகிர்வை இன்னும் பெரியதாக்கவும்.
+Description-th.UTF-8: พาร์ทิชัน EFI เล็กเกินไป
+ ไม่สามารถสร้างพาร์ทิชันระบบของ EFI บนเครื่องชนิดนี้ให้มีขนาดเล็กกว่า 35 MB ได้ กรุณาเพิ่มขนาดของพาร์ทิชันระบบของ EFI
+Description-tr.UTF-8: EFI bölümü çok küçük
+ Bu mimâride EFI Sistem Bölümleri 35 MB'den küçük olamaz. Lütfen EFI Sistem Bölümünü büyütün.
+Description-ug.UTF-8: EFI رايون بەك كىچىك
+ بۇ قۇرۇلمىدىكى EFI سىستېما رايونى 35MB دىن كىچىك بولسا قۇرالمايدۇ. EFI سىستېما رايوننى چوڭايتىڭ.
+Description-uk.UTF-8: Розділ EFI замалий
+ На цій апаратній архітектурі розділи завантаження EFI з розміром, що не перевищує 35 МБ, не може бути створено. Будь ласка, збільшіть розміри розділу завантаження EFI.
+Description-vi.UTF-8: Phân vùng EFI quá nhỏ
+ Phân vùng hệ thống EFI trên kiến trúc này cần nhiều hơn 35 MB. Hãy tăng kích thước phân vùng khởi động EFI.
+Description-zh_CN.UTF-8: EFI 分区太小
+ 此架构上的 EFI 系统分区不可小于 35MB。请扩大 EFI 系统分区。
+Description-zh_TW.UTF-8: EFI 分割太小
+ 這個平台上建立 EFI 系統分割，不可小於 35MB 。請加大 EFI 系統分割。
+
+Template: partman-efi/non_efi_system
+Type: boolean
+Description: Force UEFI installation?
+ This machine's firmware has started the installer in UEFI mode but
+ it looks like there may be existing operating systems already
+ installed using "BIOS compatibility mode". If you
+ continue to install Debian in UEFI mode, it might be difficult to
+ reboot the machine into any BIOS-mode operating systems later.
+ .
+ If you wish to install in UEFI mode and don't care about
+ keeping the ability to boot one of the existing systems, you have the
+ option to force that here. If you wish to keep the option to boot an
+ existing operating system, you should choose NOT to force UEFI
+ installation here.
+Description-ar.UTF-8: إنفاذ تثبيت UEFI؟
+ البرنامج الثايت لهذه الماكنة قد بدأ المثبّت في طور UEFI لكن يبدو أنّ هناك نظاما تشغيليا موجودا مثبت مسبقا باستخدام "طور توافق BIOS". إذا واصلت تثبيت دبيان في طور UEFI، فقد يكون من العسير إعادة إقلاع الماكنة إلى أية أنظمة تشغيلية بطور BIOS لاحقا.
+ .
+ إذا رغبت في التثبيت بطور UEFI ولا تهتم بالاحتفاظ بإمكانية إقلاع أحد الأنظمة التشغيلية الموجودة، فلديك الخيار بإنفاذ ذلك هنا. إذا رغبت في الاحتفاظ بخيار إقلاع نظام تشغيلي موجود، فينبغي عليك أن لا تُنفِذ تثبيت UEFI هنا.
+Description-be.UTF-8: Прымусова ўсталяваць UEFI?
+ Мікрапраграма гэтай машыны запусціла інсталятар у рэжыме UEFI, але выглядае, што тут могуць быць аперацыйныя сістэмы, якія інсталяваныя ў рэжыме сумяшчальнасці з BIOS. Калі працягнеце інсталяцыю Debian у рэжыме UEFI, то можа быць цяжка потым перазапусціць гэту машыну ў любую аперацыйную сістэму ў рэжыме BIOS.
+ .
+ Калі вы хочаце інсталяваць у рэжыме UEFI і вас турбуе захаванне магчымасці запусціць адну з наяўных сістэмаў, вы можаце зрабіць гэта прымусова. Калі вы хочаце захаваць магчымасць запусціць наяўную аперацыйную сістэму, вам не варта тут прымусова інсталяваць у рэжыме UEFI.
+Description-bg.UTF-8: Инсталиране на UEFI на сляпо?
+ Фърмуерът на машината е заредил инсталатора в режим UEFI, но изглежда, че има инсталирана операционна система в режим „съвместимост с BIOS“. Ако продължите с инсталирането на Дебиан в режим UEFI, по-късно може да е трудно да заредите операционните системи, които изискват режима на съвместимост с BIOS.
+ .
+ Ако желаете да продължите инсталирането в режим UEFI и не държите да запазите възможността за зареждане на съществуващите операционни системи, имате възможност да заявите това тук. Ако пък желаете да запазите тази възможност, изберете да НЕ инсталирате на сляпо.
+Description-ca.UTF-8: Voleu forçar la instal·lació UEFI?
+ El microprogramari d'aquest ordinador ha arrencat l'instal·lador en mode UEFI, però sembla que hi ha sistemes operatius existents que ja estan instal·lats emprant el «mode de compatibilitat BIOS». Si continueu instal·lant Debian en mode UEFI, pot ser difícil tornar a arrencar l'ordinador més tard amb qualsevol sistema operatiu en mode BIOS.
+ .
+ Si voleu instal·lar en mode UEFI i no us importa perdre l'habilitat d'arrencar un dels sistemes existents, podeu forçar-ho ací. Si voleu mantenir l'opció d'arrencar un sistema operatiu existent, hauríeu de seleccionar NO forçar la instal·lació UEFI.
+Description-cs.UTF-8: Vynutit UEFI instalaci?
+ Firmware tohoto počítače spustil instalaci v režimu UEFI, ale zdá se, že na počítači mohou existovat operační systémy, které byly nainstalovány v režimu zpětné kompatibility s BIOSem. Budete-li pokračovat v instalaci Debianu v režimu UEFI, může být následně obtížné zavést některý ze systémů používajících režim kompatibility s BIOSem.
+ .
+ Chcete-li instalovat v režimu UEFI a nepotřebujete zachovat možnost zavést některý ze stávajících systémů, odpovězte kladně. Budete-li chtít zavádět stávající operační systémy, odpovězte ZÁPORNĚ.
+Description-da.UTF-8: Fremtving UEFI-installation?
+ Denne maskines firmware har startet installationsprogrammet i UEFI-tilstand, men der ser ud til, at der er eksisterende operativsystemer installeret med brug af »BIOS-kompatibilitetstilstand«. Hvis du fortsætter med at installere Debian i UEFI-tilstand, kan det senere være svært at genstarte maskinen i BIOS-tilstands operativsystemer.
+ .
+ Hvis du ønsker at installere i UEFI-tilstand og er lige glad med at bevare muligheden for at starte et af de eksisterende systemer, så kan du tvinge det igennem her. Hvis du ønsker at bevare indstillingen til at opstarte et eksisterende operativsystem, så skal du vælge IKKE at fremtvinge UEFI-installation her.
+Description-de.UTF-8: UEFI-Installation erzwingen?
+ Die Firmware dieses Rechners hat den Installer im UEFI-Modus gestartet, aber scheinbar existieren weitere Betriebssysteme auf dem Rechner, die im »BIOS-Kompatibilitätsmodus« installiert wurden. Wenn Sie mit der Debian-Installation im UEFI-Modus fortfahren, könnte es später problematisch werden, eines der anderen Betriebssysteme im BIOS-Modus zu starten.
+ .
+ Falls Sie im UEFI-Modus installieren möchten und die Möglichkeit zum Starten der anderen Betriebssysteme nicht benötigen, können Sie dies hiermit erzwingen. Möchten Sie die anderen Betriebssysteme weiterhin startfähig halten, sollten Sie die UEFI-Installation NICHT fortsetzen.
+Description-el.UTF-8: Εξαναγκασμός εγκατάστασης UEFI;
+ Το firmware αυτού του μηχανήματος ξεκίνησε το πρόγραμμα εγκατάστασης σε «λειτουργία UEFI», αλλά φαίνεται ότι μπορεί να υπάρχουν λειτουργικά συστήματα που έχουν ήδη εγκατασταθεί χρησιμοποιώντας τη «λειτουργία συμβατότητας BIOS». Αν συνεχίσετε να εγκαθιστάτε το Debian σε «λειτουργία UEFI», ίσως είναι δύσκολο να επανεκκινήσετε το μηχάνημα σε οποιοδήποτε λειτουργικό σύστημα με «λειτουργία BIOS» αργότερα.
+ .
+ Εάν θέλετε να εγκαταστήσετε σε "λειτουργία UEFI" και δεν ενδιαφέρεστε για τη διατήρηση της δυνατότητας εκκίνησης ενός από τα υπάρχοντα συστήματα, έχετε την επιλογή να το εξαναγκάσετε αυτό εδώ. Εάν θέλετε να διατηρήσετε την επιλογή εκκίνησης ενός υπάρχοντος λειτουργικού συστήματος, θα πρέπει να επιλέξετε να ΜΗΝ εξαναγκάσετε την εγκατάσταση UEFI εδώ.
+Description-eo.UTF-8: Ĉu perfortigi instaladon de UEFI?
+ La mikroprogramaro de la maŝino praŝargis la instalilon laŭ reĝimo UEFI sed ŝajne estas operaciuma sistemo jam instalata uzanta "reĝimo kongrua al BIOS". Se vi daŭrigas instali Debianon laŭ reĝimo UEFI, eble estos malfacile praŝargi la maŝinon je iu ajn BIOS-reĝimaj operaciumaj sistemoj poste.
+ .
+ Se vi deziras instali reĝimon UEFI kaj vi ne zorgas pri praŝargo je unu el la ekzistantaj sistemoj, vi havas la eblecon perfortigi tion ĉi tie. Se vi deziras teni la eblecon praŝargi je ekzintanta operaciuma sistemo, vi devas elekti NE perfortigi la instalon de UEFI ĉi tie.
+Description-es.UTF-8: ¿Forzar la instalación UEFI?
+ El firmware de esta máquina ha arrancado el instalador en modo UEFI pero parece que ya hay sistemas operativos instalados utilizando el «Modo de compatibilidad BIOS». Puede encontrarse con problemas para reiniciar el equipo y arrancar un sistema operativo que utilice este modo BIOS más adelante si continúa la instalación de Debian en modo UEFI.
+ .
+ Tiene la opción de forzar esta operación ahora si desea instalar en el modo UEFI y no le importa perder la posibilidad de arrancar uno de los sistemas operativos ya instalados. Si desea poder arrancar otros sistemas operativos existentes, debería escoger NO forzar la instalación UEFI aquí.
+Description-et.UTF-8: Kohusta UEFI paigaldus?
+ Selle masina püsivara on käivitanud paigaldaja UEFI režiimis, kuid paistab, et olemasolev operatsioonisüsteem on paigaldatud "BIOS ühilduvusrežiimis". Kui sa jätkad Debiani paigaldamist UEFI režiimis, siis võib hiljem tekkida probleeme BIOS-režiimi operatsioonisüsteemi laadimisel.
+ .
+ Kui sa soovid paigaldada UEFI režiimis ja sind ei huvita võimalus säilitada võimekus mõne olemasoleva süsteemi laadimises, siis saad valida kohustusliku UEFI paigalduse. Kui sa soovid säilitada olemasoleva operatsioonisüsteemi laadimise võimaluse, siis pead eelistama valikulist UEFI paigaldust.
+Description-eu.UTF-8: Behartu UEFIren instalazioa?
+ Makina honen firmwareak instalatzailea UEFI moduan abiarazi duen arren, badirudi "BIOSekin bateragarritasun modua" darabilen instalatutako sistema bat duela jadanik. Debian UEFI moduan instalatzen jarraitzen baduzu, zaila gerta daiteke BIOS-moduko edozer sistema eragile batera berrabiaraztea geroago.
+ .
+ UEFI moduan instalatzea nahi baduzu, dauden sistemen abioen gaitasunari jaramonik egin gabe, hori behartzeko aukera duzu hemen. Dauden sistema eragileak abiarazteko aukera edukitzen jarraitzea nahi baduzu, aukeratu UEFIaren instalazioa EZ behartzea hemen.
+Description-fa.UTF-8: اجبار به نصب UEFI؟
+ ثابت‌افزار این دستگاه، نصب کننده را در حالت UEFI اجرا کرده؛ ولی به نظر می‌رسد که سیستم‌عاملی موجود از پیش با استفاده از «حالت سازگاری بایوس» نصب شده باشد. اگر نصب دبیاندر حالت UEFI را ادامه دهید ممکن است راه‌اندازی دوبارهٔ دستگاه با سیستم‌عامل‌های حالت بایوس دشوار باشد.
+ .
+ اگر اهمیتی به توانایی راه‌اندازی سامانه‌های موجود نداده و می‌خواهید در حالت UEFI نصب کنید؛ گزینهٔ اجبارش را دارید. اگر می‌خواهید گزینهٔ راه‌اندازی سیستم‌عاملی موجود را داشته باشید باید اجبار به نصب UEFI را برنگزینید.
+Description-fi.UTF-8: Pakotetaanko UEFI-asennus?
+ Tämän koneen firmware on käynnistänyt asennusohjelman UEFI-tilassa, mutta näyttää siltä, että olemassa olevat käyttöjärjestelmät ovat jo asennettu "BIOS-yhteensopivuustilassa". Jos jatkat Debianin asentamista UEFI-tilassa, saattaa olla vaikeaa käynnistää kone myöhemmin uudelleen BIOS-tilassa oleviin käyttöjärjestelmiin.
+ .
+ Jos haluat asentaa UEFI-tilaan etkä välitä siitä, että voitko käynnistää jonkin olemassa olevista järjestelmistä myöhemmin, voit pakottaa sen tässä. Jos haluat säilyttää mahdollisuuden käynnistää olemassa olevat käyttöjärjestelmät, sinun on valittava tässä kohtaa ÄLÄ pakoa UEFI-asennusta.
+Description-fr.UTF-8: Forcer l'installation UEFI ?
+ Le microcode de ce système a démarré l'installateur en mode UEFI mais il semble exister d'autres systèmes d'exploitation installés qui utilisent le mode de compatibilité BIOS. Si vous poursuivez l'installation en mode UEFI, il pourrait être difficile de redémarrer ces systèmes d'exploitation ultérieurement.
+ .
+ Vous pouvez forcer l'installation en mode UEFI si vous souhaitez poursuivre malgré tout et risquer de ne pas pouvoir démarrer les autres systèmes installés. Si vous souhaitez conserver la possibilité de démarrer les autres systèmes installés, vous ne devriez PAS forcer l'installation en mode UEFI.
+Description-ga.UTF-8: Déan suiteáil UEFI mar sin féin?
+ Thosaigh dochtearraí an ríomhaire seo an suiteálaí i mód UEFI, ach dealraíonn go bhfuil córas oibriúchán ann a suiteáladh i "mód comhoiriúnachta BIOS". Má leanann tú ar aghaidh agus Debian a shuiteáil i mód UEFI, seans go mbeidh sé deacair an ríomhaire a thosú le córas oibriúcháin BIOS amach anseo.
+ .
+ Más mian leat an córas a shuiteáil i mód UEFI agus más cuma leat faoi na córais atá ann, is féidir leat é sin a dhéanamh le lámh láidir anseo. Dá mba mhaith leat na córais atá ann a thosú amach anseo, NÍOR CHÓIR duit suiteáil UEFI a úsáid anseo.
+Description-gl.UTF-8: Desexa forzar a instalación de UEFI?
+ O firmware desta computadora iniciou o instalador en modo UEFI, pero parece que pode haber xa instalados sistemas operativos usando o modo de compatibilidade BIOS. Se continúa instalando Debian en modo UEFI pode que despois teña dificultades para iniciar os sistemas operativos que usen o modo BIOS.
+ .
+ Se quere instalar en modo UEFI e non lle importa que outros sistemas operativos existentes non poidan iniciar ten a opción de forzalo aquí. Se quere seguir tendo a opción de iniciar os sistemas operativos existentes debería escoller NON forzar a instalación UEFI.
+Description-he.UTF-8: להכריח התקנת UEFI?
+ הקושחה של המכונה הזאת הפעילה את תוכנית ההתקנה במצב UEFI אך כנראה שכבר הותקנה מערכת הפעלה בתצורת „מצב תאימות BIOS”. בחירתך להמשיך בהתקנת דביאן במצב UEFI עשויה להקשות על הפעלת המכונה למערכות הפעלה שהותקנו במצב BIOS בהמשך.
+ .
+ אם ברצונך להתקין במצב UEFI ולא אכפת לך לאבד את האפשרות להפעיל את מערכות ההפעלה הקיימות, ניתן לאלץ מצב זה דרך כאן. אם ברצונך לשמר את האפשרות להפעיל מערכת הפעלה קיימת, עדיף שלא לאלץ התקנה בתצורת UEFI מכאן.
+Description-hi.UTF-8: बल UEFI स्थापना?
+ इस मशीन के फर्मवेयर ने UEFI मोड में इंस्टॉलर शुरू कर दिया है, लेकिन ऐसा लगता है कि "BIOS संगतता मोड" का उपयोग करके पहले से स्थापित मौजूदा ऑपरेटिंग सिस्टम हो सकते हैं। यदि आप यूईएफआई मोड में डेबियन को स्थापित करना जारी रखते हैं, तो बाद में किसी भी BIOS-मोड ऑपरेटिंग सिस्टम में मशीन को रिबूट करना मुश्किल हो सकता है।
+ .
+ यदि आप यूईएफआई मोड में स्थापित करना चाहते हैं और मौजूदा प्रणालियों में से एक को बूट करने की क्षमता रखने की परवाह नहीं करते हैं, तो आपके पास यहां मजबूर करने का विकल्प है। यदि आप मौजूदा ऑपरेटिंग सिस्टम को बूट करने का विकल्प रखना चाहते हैं, तो आपको यहां यूईएफआई स्थापना को मजबूर नहीं करना चाहिए।
+Description-hr.UTF-8: Prisilno izvrši UEFI instalaciju?
+ Firmware ovog računala je započeo instalaciju u UEFI načinu, ali vjerojatno postoje operacijski sustavi instalirani korištenjem "BIOS kompatibilnog načina". Ako želite instalirati Debian u UEFI načinu, možda ćete imati poteškoće prilikom startanja operacijskih sustava koji koriste BIOS način.
+ .
+ Ako želite instalirati u UEFI načinu i ne treba vam mogućnost učitavanja već postojećih sustava, možete ovdje prisilno izvršiti instalaciju. Ako vam treba navedena mogućnost, ovdje biste trebali izabrati da NE želite prisilno izvršiti UEFI instalaciju.
+Description-hu.UTF-8: Kényszeríted az UEFI telepítését?
+ A gép firmware-je a telepítőt UEFI módban indította el, de úgy tűnik, hogy egy másik operációs rendszer már telepítve van „BIOS kompatibilitás mód”-ban. Ha folytatod a Debian telepítését UEFI módban, később lehet, hogy nehéz lesz a „BIOS kompatibilitás mód”-ban telepített operációs rendszert elindítani.
+ .
+ Ha UEFI módban szeretnél telepíteni, és nem érdekel az, hogy utána a korábban telepített rendszer elindítható-e, akkor kényszerítheted az UEFI telepítést. Ha viszont meg szeretnéd tartani a meglévő operációs rendszer elindításának lehetőségét, akkor NE kényszerítsd az UEFI telepítést.
+Description-id.UTF-8: Paksakan instalasi UEFI?
+ Firmware mesin ini telah memulai installer dalam mode UEFI tapi sepertinya ada sistem operasi yang sudah diinstal dengan menggunakan "mode kompatibilitas BIOS". Jika Anda terus menginstal Debian dalam mode UEFI, mungkin sulit untuk reboot mesin ke sistem operasi mode BIOS nanti.
+ .
+ Jika Anda ingin menginstal dalam mode UEFI dan tidak peduli tentang menjaga kemampuan untuk mem-boot salah satu sistem yang ada, Anda memiliki opsi untuk memaksanya di sini. Jika Anda ingin mempertahankan opsi untuk mem-boot sistem operasi yang ada, Anda harus memilih TIDAK untuk memaksa instalasi UEFI di sini.
+Description-is.UTF-8: Þvinga UEFI-uppsetningu?
+ Grunnhygbúnaður (firmware) vélarinnar ræsti uppsetningarforritið í UEFI-ham en það lítur út fyrir að þegar sé fyrir hendi stýrikerfi sem sett hafi verið upp í "BIOS samhæfniham". Ef þú heldur áfram að setja Debian inn í UEFI-ham, gæti síðar orðið erfitt að endurræsa vélina í nein BIOS-hams stýrikerfi.
+ .
+ Ef þú vilt setja upp í UEFI-ham og kærir þig ekkert um að geta ræst nokkuð af fyrirliggjandi stýrikerfum, þá hefur þú hér val um að gera það. Ef þú vilt halda þeim möguleika að ræsa fyrirliggjandi stýrikerfi, ættirðu EKKI að velja hér að þvinga fram UEFI-uppsetningu.
+Description-it.UTF-8: Forzare l'installazione UEFI?
+ Il firmware di questo computer ha avviato il programma d'installazione in modalità UEFI, ma sembra ci siano già altri sistemi operativi installati che utilizzano la modalità di compatibilità BIOS. Continuando l'installazione di Debian in modalità UEFI potrebbe essere difficile riavviare il computer in uno dei sistemi operativi che utilizza la modalità BIOS.
+ .
+ Per installare in modalità UEFI perdendo la compatibilità con gli altri sistemi operativi presenti, usare questa opzione. Per mantenere la compatibilità con tali sistemi operativi, NON forzare l'installazione UEFI.
+Description-ja.UTF-8: 強制的にUEFIをインストールしますか?
+ このマシンのファームウェアは UEFI モードでインストーラが開始されました、しかし "BIOS 互換モード" を使ってインストールされたオペレーティングシステムが存在しているように見えます。もし UEFI モードで Debian のインストールを続けるのであれば、後で BIOS モードのオペレーティングシステムを再起動するのは難しいかもしれません。
+ .
+ もし UEFI モードでインストールをしたいかつ既存のシステムを起動する機能がなくなってもよいのであれば、ここでそれを強制する選択ができます。もし既存のオペレーティングシステムを起動する選択を維持したいのであれば、ここで UEFI のインストールを強制しないことを選択すべきです。
+Description-ka.UTF-8: დავაყენო ძალით UEFI?
+ ამ მანქანის მიკროკოდმა დაყენების პროგრამა UEFI-ის რეჟიმში გაუშვა, მაგრამ, როგორც ჩანს, ამ მანქანაზე უკვე არსებობს ოპერაციული სისტემები, რომლებიც "BIOS-თან თავსებადობის რეჟიმშია" დაყენებული. თუ გააგრძელებთ Debian-ის დაყენებას UEFI-ის რეჟიმში, BIOS-ის რეჟიმში დაყენებული ოპერაციული სისტემების დაყენება, შეიძლება, პრობლემა გახდეს.
+ .
+ თუ გნებავთ, დააყენოთ სისტემა UEFI რეჟიმში და არ გაინტერესებთ, ჩაიტვირთება თუ არა უკვე არსებული სისტემები, აქ გაქვთ პარამეტრი, ეს გააკეთოთ. თუ გნებავთ, შეინარჩუნოთ შესაძლებლობა, არსებული ოპერაციული სისტემა ჩატვირთოთ, UEFI-ით დაყენება საჭირო არაა.
+Description-kab.UTF-8: Ḥettem asebded n UEFI?
+ Aɣrab n tmes n tmacint-a isenker asebdad deg uskar UEFI maca yettban belli llan inagrawen n wammud ttusbedden yakan s useqdec n uskar n umṣada n BIOS". Ma yella tkemmleḍ asebded n Debian deg uskar UEFI, yezmer ad yiwɛir usenker n tmacint i tikkelt-nniḍen deg unagraw n wamudd deg uskar n BIOS mbeɛd.
+ .
+ Ma yella tebɣiḍ ad tesbeddeḍ deg uskar UEFI, ur d-tecliɛeḍ ara seg uḥraz n tezmert n usenker n yiwen seg yinagrawen i yellan, tzemreḍ ad t-tḥettmeḍ sya. Ma yella tebɣiḍ ad tḥerzeḍ taxtiṛit n usenker n unagraw n wammud, ilaq ad tferneḍ UR ttḥettim ARA asebded UEFI dagi.
+Description-kk.UTF-8: UEFI орнатуын мәжбүрлету керек пе?
+ Бұл машинаның бинарлық бағдарламасы (firmware) орнатқышты UEFI режимінде іске қосқан, бірақ, "BIOS үйлесімді режимін" қолданып орнатылған операциялық жүйелер бар сияқты. Егер сіз Debian-ды UEFI режимінде орнатуды жалғастырсаңыз, кейінірек машинаны BIOS режимін қолданатын кез-келген операциялық жүйеге жүктеу қиын болуы мүмкін.
+ .
+ Егер сіз UEFI режимінде орнатуды қалап, бар болып тұрған жүйелерді жүктеу мүмкіндігін керек етпесеңіз, оны осында мәжбүрлете аласыз. Егер сіз бар болып тұрған операциялық жүйелерді жүктеу мүмкіндігін сақтағыңыз келсе, осында UEFI орнатуын мәжбүрлетПЕңіз.
+Description-ko.UTF-8: UEFI 설치를 강제하시겠습니까?
+ 이 컴퓨터의 펌웨어는 UEFI 모드에서 설치 프로그램을 시작했지만, "BIOS 호환 모드"에서 설치한 운영 체제가 이미 있는 것 같습니다. 데비안을 UEFI 모드에서 계속 설치하면, BIOS 모드 운영 체제로 부팅이 어려워질 수 있습니다.
+ .
+ UEFI 모드에서 설치하고 기존 운영체제 부팅은 신경 쓰고 싶지 않다면, 여기에서 UEFI 모드를 강제할 수 있습니다. 기존 운영체제 부팅 기능을 유지하려면, UEFI 설치 강제를 하지 않아야 합니다.
+Description-lt.UTF-8: Ar diegti, priverstinai naudojant UEFI veikseną?
+ Diegimo procesas buvo pradėtas UEFI veiksena, tačiau panašu, jog šiame kompiuteryje jau yra operacinių sistemų, įdiegtų naudojant „BIOS suderinamumo veikseną“. Jei tęsite „Debian“ įdiegimą UEFI veiksena, vėliau gali būti sudėtinga paleisti kompiuterį naudojant vieną iš šių jame jau įdiegtų operacinių sistemų.
+ .
+ Jei norite diegimą tęsti UEFI veiksena ir Jums nereikia galimybės ateityje paleisti vieną iš jau įdiegtų operacinių sistemų, galite tai nurodyti dabar. Jei norite, kad galimybė tas sistemas paleisti liktų ir ateityje, NENAUDOKITE prieverstinio diegimo UEFI veiksena.
+Description-lv.UTF-8: Forsēt UEFI instalēšanu?
+ Šī datora aparātprogrammatūra ir palaidusi instalatoru UEFI režīmā, bet izskatās, ka varētu būt operētājsistēmas, kas izmanto BIOS savietojamības režīmu. Ja turpināsiet instalēt Debian ar UEFI režīmu, vēlāk varētu būt grūtības ielādēt BIOS režīma operētājsistēmas.
+ .
+ Ja vēlaties instalēt UEFI režīmā un jums nav svarīgi saglabāt iespēju ielādēt kādu no esošajām sistēmām, jūs šeit varat to forsēt. Ja vēlaties saglabāt iespēju ielādēt esošu operētājsistēmu, jums šeit jāizvēlas NEforsēt UEFI instalēšanu.
+Description-mr.UTF-8: बळजबरीने यूईएफआय मोडमध्ये अधिष्ठापना करायची?
+ या मशीनच्या फर्मवेअरने अधिष्ठापक यूईएफआय मोडमध्ये सुरू केला आहे, पण अस दिसतय की अस्तित्वातील प्रचालन प्रणाल्या "BIOS compatibility mode" वापरून आधीच अधिष्ठापित झालेल्या असाव्या. तुम्ही डेबियन यूईएफआय मोडमध्ये अधिष्ठापित करणे सुरू ठेवल्यास, नंतर कोणत्याही बायोस-मोड प्रचालन प्रणाल्यांमध्ये रीबूट करणे कठीण होऊ शकते.
+ .
+ तुम्हाला यूईएफआय मोडमध्ये अधिष्ठापना करायची इच्छा आहे, व कोणत्याही अस्तित्वातील प्रचालन प्रणाल्यांमध्ये बूट करण्याची क्षमता असण्याची गरज वाटत नसेल, तर तुम्हाला तशी जबरदस्ती करण्याचा पर्याय येथे आहे. अस्तित्वातील प्रचालन प्रणाल्यांमध्ये बूट करण्याची पर्याय तुम्हाला खुला ठेवायच्या असल्यास तुम्ही येथे नाही हा पर्याय निवडून यूईएफआय मोडमध्ये अधिष्ठापना न करण्याचे निवडले पाहिजे.
+Description-nb.UTF-8: Tving UEFI-installasjon?
+ Denne maskinens fastvare har startet installasjonsprogrammet i UEFI-modus, men det ser ut til at det kan være eksisterende system som allerede er installert i «BIOS compatibility mode». Hvis du fortsetter å installere Debian i UEFI-modus, så kan det seinere bli vanskelig å starte opp maskinen på nytt i BIOS-modus operativsystem.
+ .
+ Hvis du ønsker å installere i UEFI-modus og ikke bryr deg om å bevare muligheten til starte opp eksisterende system, så har du valget om å tvinge det her. Hvis du ønsker å beholde valget om å starte opp eksisterende operativsystem, så skal du IKKE tvinge UEFI-installasjon her.
+Description-nl.UTF-8: Een installatie in UEFI modus afdwingen?
+ De door de producent van deze computer geleverde software heeft het installatieprogramma in UEFI modus opgestart, maar het ziet er naar uit dat er reeds andere besturingssystemen geïnstalleerd zijn die gebruik maken van de "modus voor BIOS compatibiliteit." Indien u verdergaat met het installeren van Debian in UEFI modus, kan het moeilijk worden om later nog een van de in BIOS modus geïnstalleerde besturingssystemen op te starten op deze computer.
+ .
+ Indien u de installatie in UEFI modus wenst uit te voeren en niet geeft om de mogelijkheid om nog een van de aanwezige systemen te kunnen opstarten, kunt u hier deze keuze afdwingen. Indien u de mogelijkheid wilt blijven behouden om een bestaand besturingssysteem op te starten, moet u hier kiezen om NIET een installatie in UEFI modus af te dwingen.
+Description-nn.UTF-8: Tving gjennom UEFI-installasjon?
+ Fastvara til denne maskina har starta installasjonen i UEFI-modus, men det ser ut som det finst operativsystem som er installerte med BIOS-kompatibilitetsmodus. Viss du held fram å installera Debian i UEFI-modus, kan det bli vanskeleg å restarta maskina til eit BIOS-basert operativsystem seinare.
+ .
+ Viss du vil installera i UEFI-modus og ikkje bryr deg med å køyra eit av dei andre operativsystema, kan du tvinga gjennom det her. Viss du vil halda på valet om å starta opp andre operativsystem, bør du ikkje tvinga UEFI-installasjon her.
+Description-no.UTF-8: Tving UEFI-installasjon?
+ Denne maskinens fastvare har startet installasjonsprogrammet i UEFI-modus, men det ser ut til at det kan være eksisterende system som allerede er installert i «BIOS compatibility mode». Hvis du fortsetter å installere Debian i UEFI-modus, så kan det seinere bli vanskelig å starte opp maskinen på nytt i BIOS-modus operativsystem.
+ .
+ Hvis du ønsker å installere i UEFI-modus og ikke bryr deg om å bevare muligheten til starte opp eksisterende system, så har du valget om å tvinge det her. Hvis du ønsker å beholde valget om å starte opp eksisterende operativsystem, så skal du IKKE tvinge UEFI-installasjon her.
+Description-oc.UTF-8: Forçar l'installacion d’UEFI ?
+ Lo micrologicial d’aqueste sistèma a aviat l’installador en mòde UEFI mas sembla qu’existís d’autres sistèmas operatius installats en utilizant lo mòde de compatibilitat BIOS. Se contunhatz l’installacion en mòde UEFI, poiriá èsser dificil de reaviar aqueles sistèmas operatius mai tard.
+ .
+ Podètz forçar l’installacion en mòde UEFI se volètz contunhar malgrat tot e en perdent la possibilitat d’aviar los autres sistèmas installats. Se volètz servar la possibilitat d’aviar los autres sistèmas installats, deuriatz PAS forçar l’installacion en mòde UEFI.
+Description-pa.UTF-8: UEFI ਇੰਸਟਾਲੇਸ਼ਨ ਲਈ ਮਜ਼ਬੂਰ ਕਰਨਾ ਹੈ?
+ ਇਸ ਮਸ਼ੀਨ ਦੇ ਫਿਰਮਵੇਅਰ ਨੇ ਇੰਸਟਾਲਰ ਨੂੰ UEFI ਢੰਗ ਨਾਲ ਚਾਲੂ ਕੀਤਾ ਹੈ, ਪਰ ਜਾਪਦਾ ਹੈ ਕਿ "BIOS ਅਨੁਕੂਲਤਾ ਢੰਗ" ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਇੰਸਟਾਲ ਕੀਤਾ ਗਿਆ ਹੋ ਸਕਦਾ ਹੈ। ਜੇ ਤੁਸੀਂ UEFI ਢੰਗ ਵਿੱਚ ਡੇਬੀਅਨ ਨੂੰ ਇੰਸਟਾਲ ਕਰਨਾ ਜਾਰੀ ਰੱਖਿਆ ਤਾਂ ਬਾਅਦ ਵਿੱਚ ਮਸ਼ੀਨ ਨੂੰ ਕਿਸੇ ਵੀ BIOS-ਢੰਗ ਵਿੱਚ ਮੁੜ-ਚਾਲੂ ਕਰਨਾ ਔਖਾ ਹੋ ਜਾਵੇਗਾ।
+ .
+ ਜੇ ਤੁਸੀਂ UEFI ਵਿੱਚ ਇੰਸਟਾਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਅਤੇ ਮੌਜੂਦਾ ਸਿਸਟਮ ਵਿੱਚੋਂ ਕਿਸੇ ਵਿੱਚ ਬੂਟ ਕਰਨਾ ਜਾਰੀ ਰੱਖਣ ਦਾ ਖਿਆਲ ਨਹੀਂ ਰੱਖਦੇ ਹੋ ਤਾਂ ਤੁਸੀਂ ਇੱਥੇ ਚੋਣ ਲਈ ਮਜ਼ਬੂਰ ਕਰ ਸਕਦੇ ਹੋ। ਜੇ ਤੁਸੀਂ ਮੌਜੂਦਾ ਓਪਰੇਟਿੰਗ ਸਿਸਤਮ ਵਿੱਚ ਬੂਟ ਕਰਨਾ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਤੁਹਾਨੂੰ ਇੱਥੇ UEFI ਇੰਸਟਾਲੇਸ਼ਨ ਲਈ ਮਜ਼ਬੂਰ ਨਹੀਂ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।
+Description-pl.UTF-8: Wymusić instalację UEFI?
+ Oprogramowanie układowe tego komputera uruchomiło instalator w trybie UEFI, ale wygląda na to, że mogą tu występować istniejące systemy operacyjne używające "trybu kompatybilności BIOS". Przy kontynuowaniu instalacji Debiana w trybie UEFI mogą wystąpić później problemy z uruchomieniem komputera przy wykorzystaniu systemu operacyjnego działającego w trybie BIOS.
+ .
+ Można wymusić instalację w trybie UEFI, jeśli utrzymanie możliwości uruchomienia któregoś z już zainstalowanych systemów operacyjnych nie jest istotna. Aby móc uruchomić istniejący system operacyjny, należy jednak NIE wymuszać instalacji UEFI.
+Description-pt.UTF-8: Forçar a instalação UEFI?
+ O firmware da sua máquina iniciou o instalador em modo UEFI mas parece que já existem sistemas operativos instalados no seu computador que utilizam o 'modo de compatibilidade da BIOS'. Se continuar a instalar Debian em modo UEFI, poderá ser difícil reiniciar posteriormente o computador para sistemas operativos em modo BIOS.
+ .
+ Se desejar instalar em modo UEFI e não se importar de manter a capacidade de arrancar um dos seus sistemas operativos já existentes, tem aqui a opção para forçar isso. Se desejar manter a opção de arrancar um sistema operativo existente, então deve escolher aqui NÃO forçar a instalação UEFI.
+Description-pt_BR.UTF-8: Forçar a instalação UEFI?
+ O firmware desta máquina iniciou o instalador no modo UEFI, mas parece que podem existir sistemas operacionais já instalados usando o "modo de compatibilidade BIOS". Se você continuar a instalar o Debian no modo UEFI, poderá ser difícil reinicializar a máquina em quaisquer sistemas operacionais no modo BIOS posteriormente.
+ .
+ Se você deseja instalar no modo UEFI e não se importa sobre manter a habilidade de inicializar um dos sistemas existentes, você tem a opção de forçar isso aqui. Se você deseja manter a opção de inicializar um sistema operacional existente, você deverá escolher NÃO forçar a instalação UEFI aqui.
+Description-ro.UTF-8: Forțează instalarea în modul UEFI?
+ Firmaware-ul acestei mașini a pornit programul de instalare în modul UEFI, dar se pare că există deja sisteme de operare instalate folosind „modul de compatibilitate BIOS”. Dacă continuați cu instalarea Debian în modul UEFI ar putea fi dificil să porniți sistemele de operare care utilizează modul BIOS.
+ .
+ Dacă doriți să instalați în modul UEFI și nu doriți să păstrați posibilitatea de a porni unul dintre sistemele existente, aveți opțiunea de a forța acest lucru aici. Dacă doriți să păstrați opțiunea de a porni un sistem de operare existent, trebuie să optați pentru a NU forța o instalare UEFI..
+Description-ru.UTF-8: Выполнить установку в UEFI?
+ Микропрограмма данной машины запустила установщик в режиме UEFI, но это выглядит так, что возможно уже установлена другая ОС в «режиме совместимости с BIOS» (BIOS compatibility mode). Если вы продолжите установку Debian в режиме UEFI, то могут возникнуть сложности с перезагрузкой машины в любую ОС в режиме BIOS.
+ .
+ Если вы хотите выполнить установку в режиме UEFI и вам не важна возможность запуска существующих ОС, то ответьте утвердительно. Если вы хотите продолжать запускать существующие ОС, то ответьте отрицательно.
+Description-sk.UTF-8: Vynútiť inštaláciu v režime UEFI?
+ Firmvér vášho počítača spustil Inštalátor v režime UEFI, ale zdá sa, že na vašom počítači už môžu byť nainštalované nejaké operačné systémy v „režime kompatibility s BIOSom“. Ak budete pokračovať v inštalácii Debianu v režime UEFI, môže byť ťažké neskôr reštartovať váš počítač do akéhokoľvek operačného systému nainštalovaného v režime kompatibility s BIOSom.
+ .
+ Ak chcete vykonať inštaláciu režime UEFI a nemáte záujem zachovať schopnosť zaviesť niektorý z existujúcich operačných systémov, máte na tomto mieste možnosť vynútiť režim UEFI. Ak si chcete ponechať možnosť spustiť existujúci operačného systém, NEMALI by ste vynucovať režim inštalácie UEFI.
+Description-sl.UTF-8: Prisilna namestitev UEFI?
+ Strojna koda je zagnala namestilnik v načinu UEFI. Zdi se, da imate že obstoječe operacijske sisteme nameščene v načinu  "združljivost BIOS". V primeru, da nadaljujete z namestitvijo Debiana v načinu UEFI bo verjetno kasneje težko zagnati stroj v druge sisteme v načinu BIOS.
+ .
+ V primeru, da želite namestiti v načinu UEFI in nimate potrebe zagnati drugega že obstoječega sistema lahko to vsilite tukaj. V primeru, da želite ohraniti možnost zagona obstoječega operacijskega sistema izberite, da NE želite prisilne namestitve UEFI.
+Description-sq.UTF-8: Forco instalimin UEFI?
+ Firmware i kësaj pajisjeje ka filluar instaluesin në mënyrën UEFI por duket sikur mund të jenë sisteme ekzistuese operative tashmë të instaluara duke përdorur "BIOS compatibility mode". Nëse vazhdoni të instaloni Debian në mënyrën UEFI, mund të jetë e vështirë më vonë për të rindezur pajisjen në çdo mënyrë-BIOS që operon sistemet më vonë.
+ .
+ Nëse dëshironi të instaloni në mënyrën UEFI dhe nuk ju duhet ta mbani mundesinë për të rifilluar një nga sistemet ekzistuese, ju keni opsionin për ta ushtruar atë ketu. Nëse dëshironi të mbani mundësinë për të rifilluar një sistem ekzistues operativ, ju duhet të zgjidhni TË MOS ushtroni instalimin e UEFI këtu.
+Description-sr.UTF-8: Да присилим UEFI инсталацију?
+ Фирмвер овог рачунара је започео инсталацију у UEFI режиму, али изгледа да су постојећи системи већ инсталирани помоћу „BIOS компатибилног режима“. Ако наставите инсталацију Дебиана у UEFI режиму, то може отежати касније подизање система у BIOS режиму.
+ .
+ Ако желите да инсталирате у UEFI режиму и да не бринете о одржавању способности за покретањем једног од постојећих система, имате могућност да овде то учините присилно. Ако желите да задржите опцију за покретање постојећег оперативног система, треба да одаберете НЕ за присилну UEFI инсталацију.
+Description-sv.UTF-8: Tvinga UEFI-installation?
+ Denna maskin har startat installationen i UEFI-läge och det verkar finnas operativsystem installerade som redan använder BIOS-kompatibelt läge ("BIOS compatibility mode"). Om du fortsätter installera Debian i UEFI-läge kan det leda till att det senare blir svårt att starta om maskinen till ett system som behöver BIOS-kompatibelt läge.
+ .
+ Om du vill installera i UEFI-läge och inte bryr dig om möjligheten att kunna starta ett existerande system så kan du här välja att tvinga in läget här. Vill du ha kvar möjligheten att starta ett existerande operativsystem ska du välja att inte tvinga in en UEFI-installation här.
+Description-ta.UTF-8: யூஇஎஃபை நிறுவலை வலுக்கட்டாயமாக்கவா?
+ இந்த கணினியின் தளநிரல் நிறுவலை யூஈஎஃப்ஐ பாங்கில் துவங்கியது. ஆனால் இங்கே சில இயங்கு தளங்கள் பயாஸ் தகைமையில் நிறுவப்பட்டு இருக்கலாம். இப்படியே தொடர்ந்தால் பின்னர் அவற்றுக்கு பூட் செய்வது முடியாமல் போகலாம்.
+ .
+ யூஈஎஃப்ஐ பாங்கில் நிறுவலாம், இருக்கும் மற்ற தளங்களுக்கு பூட் செய்வது பற்றி கவலை இல்லை என்று நினைத்தால், நிறுவலை இங்கே கட்டாயப்படுத்தலாம். ஏற்கெனெவே இருக்கும் இயங்கு தளத்துக்கு பூட் செய்ய விரும்பினால் இப்போது இங்கே இதை கட்டாயப்படுத்தாதீர்.
+Description-th.UTF-8: บังคับติดตั้งแบบ UEFI หรือไม่?
+ เฟิร์มแวร์ของเครื่องของคุณได้เรียกโปรแกรมติดตั้งในโหมด UEFI แต่ดูเหมือนจะมีระบบปฏิบัติการที่ติดตั้งไว้โดยใช้ "โหมดเข้ากันได้กับ BIOS" อยู่ ถ้าคุณดำเนินการติดตั้งเดเบียนในโหมด UEFI ต่อไป ก็อาจทำให้บูตเครื่องของคุณใหม่เข้าสู่ระบบปฏิบัติการใดๆ ที่ใช้โหมด BIOS ได้ยาก
+ .
+ ถ้าคุณต้องการติดตั้งในโหมด UEFI และไม่สนใจที่จะคงความสามารถในการบูตระบบใดระบบหนึ่งที่มีอยู่ คุณก็สามารถเลือกบังคับให้เป็นเช่นนั้นได้ แต่ถ้าคุณต้องการรักษาทางเลือกที่จะบูตระบบปฏิบัติการที่มีอยู่ไว้ คุณก็ควรเลือกที่จะ *ไม่* บังคับติดตั้งแบบ UEFI
+Description-tr.UTF-8: UEFI kurulumuna devam edilsin mi?
+ Bu makinenin aygıt yazılımı kurulum programını UEFI kipinde başlattı fakat sistemde "BIOS uyumluluk kipi"nde kurulmuş olan başka işletim sistemleri mevcut. Debian kurulumuna UEFI kipinde devam ederseniz, BIOS kipinde kurulmuş olan işletim sistemlerini başlatırken bazı sorunlarla karşılaşabilirsiniz.
+ .
+ Eğer mevcut işletim sistemlerini başlatmayı önemsemiyor ve kuruluma UEFI kipinde devam etmek istiyorsanız, bu adımda UEFI kipini zorlama imkanınız vardır. Mevcut işletim sistemlerini ileride de başlatabilmek istiyorsanız zorlama seçeneğini KULLANMAYIN.
+Description-ug.UTF-8: UEFI نى مەجبۇرىي ئورنىتامدۇ؟
+ بۇ ئۈسكۈنىنىڭ مۇقىم دېتالى ئورناتقۇچنى UEFI ھالىتىدە قوزغاتتى ئەمما «BIOS ماسلىشىشچان ھالىتى» دە ئورنىتىلغان مەشغۇلات سىستېمىسى ئورنىتىلغاندەك قىلىدۇ. ئەگەر Debian نى UEFI ھالىتىدە ئورنىتىشنى داۋاملاشتۇرسىڭىز، كېيىن باشقا BIOS ھالىتىدىكى مەشغۇلات سىستېمىسىنى قايتا قوزغىتىش قىيىن بولۇشى مۇمكىن.
+ .
+ ئەگەر UEFI ھالىتىدە ئورنىتىپ مەۋجۇت مەشغۇلات سىستېمىسىنىڭ قوزغىتىش مۇمكىنچىلىكىنى ئويلاشمىسىڭىز، مەجبۇرىي ئورنىتىشنى تاللىسىڭىز بولىدۇ. ئەگەر مەۋجۇت مەشغۇلات سىستېمىسىنىڭ قوزغىلىشىنى ساقلاپ قالماقچى بولسىڭىز، UEFI نى مەجبۇرىي ئورنىتىشنى تاللىماڭ.
+Description-uk.UTF-8: Примусово продовжувати UEFI встановлення?
+ Вбудоване програмне забезпечення цієї машини запустило встановлення у режимі UEFI, але здається, що тут можуть бути також вже існуючі операційні системи, які були встановлені у "режимі сумісності BIOS". Якщо ви продовжите встановлення Debian у режимі UEFI, можливо виникнуть труднощі завантажити машину у операційні системі, які були встановлені у BIOS-режимі.
+ .
+ Якщо ви бажаєте продовжувати встановлення у режимі UEFI та для вас не є важливим, чи будуть завантажуватися існуючі системи, у вас є можливість примусово продовжити встановлення. Якщо ви бажаєте зберегти опцію завантажувати існуючі операційні системи, ви повинні обрати НЕ встановлювати примусово у режимі UEFI.
+Description-vi.UTF-8: Buộc cài đặt UEFI?
+ Phần sụn của máy này đã khởi động trình cài đặt ở chế độ UEFI nhưng có vẻ như có thể có các hệ điều hành hiện có đã được cài đặt bằng "chế độ tương thích BIOS". Nếu bạn tiếp tục cài đặt Debian ở chế độ UEFI, có thể khó khởi động lại máy vào bất kỳ hệ điều hành chế độ BIOS nào sau này.
+ .
+ Nếu bạn muốn cài đặt ở chế độ UEFI và không quan tâm đến việc giữ khả năng khởi động một trong các hệ thống hiện có, bạn có tùy chọn buộc điều đó ở đây. Nếu bạn muốn giữ tùy chọn khởi động hệ điều hành hiện có, bạn nên chọn KHÔNG buộc cài đặt UEFI tại đây.
+Description-zh_CN.UTF-8: 强制 UEFI 安装？
+ 此计算机的固件使用 UEFI 模式启动了本安装程序，但是此计算机上似乎已经存在使用 "BIOS 兼容模式" 安装的操作系统。如果继续以 UEFI 模式安装 Debian，以后可能很难重启进入其他 BIOS 模式的操作系统。
+ .
+ 如果您希望以 UEFI 模式安装且不介意无法启动现有的操作系统，您可在此选择强制进行安装。如果您希望保持现有的操作系统可以启动，请不要选择强制 UEFI 安装。
+Description-zh_TW.UTF-8: 強制 UEFI 安裝？
+ 這個機器的韌體使用 UEFI 模式啟動安裝程式，但是似乎先前使用了「BIOS 相容模式」安裝作業系統。如果您繼續使用 UEFI 模式安裝 Debian，之後啟動使用 BIOS 模式安裝的作業系統可能會造成困難。
+ .
+ 如果您想要繼續透過 UEFI 模式安裝作業系統而不理會既有作業系統的開機的話，請選擇「是」。如果您想要保留既有作業系統的開機方式的話，請選擇「否」不強制 UEFI 安裝。

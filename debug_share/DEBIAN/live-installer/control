@@ -1,0 +1,11 @@
+Package: live-installer
+Version: 58
+Architecture: amd64
+Installer-Menu-Item: 6490
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 119
+Depends: archdetect, attr-udeb, base-installer, busybox-udeb, cdebconf-udeb, created-fstab, mounted-partitions, libc6-udeb (>= 2.36)
+Provides: installed-base, kernel-installer
+Section: debian-installer
+Priority: optional
+Description: Install the system

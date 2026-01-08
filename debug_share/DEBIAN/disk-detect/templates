@@ -1,0 +1,705 @@
+Template: debian-installer/disk-detect/title
+Type: text
+Description: Detect disks
+Description-am.UTF-8: ዲስኮችን አግኝ
+Description-ar.UTF-8: اكتشف الأقراص
+Description-ast.UTF-8: Deteutar discos
+Description-be.UTF-8: Вызначыць дыскі
+Description-bg.UTF-8: Разпознаване на дискове
+Description-bn.UTF-8: ডিস্ক সনাক্ত করো
+Description-bo.UTF-8: གསོག་སྡེར་ཚོར་རྟོགས་བྱེད་པ
+Description-bs.UTF-8: Detektiranje diskova
+Description-ca.UTF-8: Detecta els discs
+Description-cs.UTF-8: Rozpoznat disky
+Description-cy.UTF-8: Canfod disgiau
+Description-da.UTF-8: Find diske
+Description-de.UTF-8: Festplatten erkennen
+Description-dz.UTF-8: ཌིཀསི་སྐྱོན་འཛིན་ནི།
+Description-el.UTF-8: Ανίχνευση δίσκων
+Description-eo.UTF-8: Detekti diskojn
+Description-es.UTF-8: Detectar discos
+Description-et.UTF-8: Ketaste tuvastamine
+Description-eu.UTF-8: Detektatu diskoak
+Description-fa.UTF-8: تشخیص دیسک‌ها
+Description-fi.UTF-8: Tunnista levyjä
+Description-fr.UTF-8: Détecter les disques
+Description-ga.UTF-8: Braith dioscaí
+Description-gl.UTF-8: Detectar os discos
+Description-gu.UTF-8: ડિસ્ક ચકાસો
+Description-he.UTF-8: איתור כוננים
+Description-hi.UTF-8: डिस्क्स खोजें
+Description-hr.UTF-8: Prepoznaj diskove
+Description-hu.UTF-8: Lemezek felderítése
+Description-id.UTF-8: Mendeteksi disk
+Description-is.UTF-8: Skoða diska
+Description-it.UTF-8: Rilevare i dischi
+Description-ja.UTF-8: ディスクの検出
+Description-ka.UTF-8: დისკების აღმოჩენა
+Description-kab.UTF-8: Af-d iḍebsiyen
+Description-kk.UTF-8: Дисктерді анықтау
+Description-km.UTF-8: រក​ឃើញ​ថាស
+Description-kn.UTF-8: ಡಿಸ್ಕ್ಗಳನ್ನು ಪತ್ತೆ ಮಾಡಲಾಗುತ್ತಿದೆ
+Description-ko.UTF-8: 디스크 찾기
+Description-ku.UTF-8: Dîskên dîtî
+Description-lo.UTF-8: ກວດຫາດີສ໌
+Description-lt.UTF-8: Diskų aptikimas
+Description-lv.UTF-8: Noteikt diskus
+Description-mk.UTF-8: Детектирај дискови
+Description-ml.UTF-8: ഡിസ്ക്കുകള്‍ കണ്ടെത്തുക
+Description-mr.UTF-8: डिस्क शोधा
+Description-nb.UTF-8: Finn disker
+Description-ne.UTF-8: डिस्कहरू पत्ता लगाउनुहोस्
+Description-nl.UTF-8: Schijven detecteren
+Description-nn.UTF-8: Finn diskar
+Description-no.UTF-8: Finn disker
+Description-oc.UTF-8: Detectar los disques
+Description-pa.UTF-8: ਲੱਭੀਆਂ ਡਿਸਕਾਂ
+Description-pl.UTF-8: Wykryj dyski
+Description-pt.UTF-8: Detectar discos
+Description-pt_BR.UTF-8: Detectar discos
+Description-ro.UTF-8: Detecția discurilor
+Description-ru.UTF-8: Определение дисков
+Description-se.UTF-8: Áicca skearruid
+Description-si.UTF-8: තැටි හදුනාගන්න
+Description-sk.UTF-8: Rozpoznanie diskov
+Description-sl.UTF-8: Zaznaj diske
+Description-sq.UTF-8: Zbulo disqet
+Description-sr.UTF-8: Откривам дискове
+Description-sv.UTF-8: Identifiera diskar
+Description-ta.UTF-8: வட்டுகளை கண்டறிக
+Description-te.UTF-8: డిస్క్ లను కనుగొను
+Description-tg.UTF-8: Муайян кардани дискҳо
+Description-th.UTF-8: ตรวจหาดิสก์
+Description-tl.UTF-8: Hanapin ang mga disk
+Description-tr.UTF-8: Diskleri algıla
+Description-ug.UTF-8: دىسكا تەكشۈر
+Description-uk.UTF-8: Розпізнати диски
+Description-vi.UTF-8: Dò tìm các đĩa
+Description-zh_CN.UTF-8: 探测磁盘
+Description-zh_TW.UTF-8: 偵測磁碟
+
+Template: disk-detect/detect_progress_title
+Type: text
+Description: Detecting disks and all other hardware
+Description-am.UTF-8: ዲስኮችንና ሌሎች ጥር አካላቶችን በማግኘት ላይ
+Description-ar.UTF-8: اكتشاف الأقراص و كل ما سواها من العتاد
+Description-ast.UTF-8: Deteición de los discos y el restu del hardware
+Description-be.UTF-8: Вызначэнне дыскаў і астатняга абсталявання
+Description-bg.UTF-8: Разпознаване на дискове и друг хардуер
+Description-bn.UTF-8: ডিস্ক ও অন্যান্য সকল হার্ডওয়্যার সনাক্ত করছি
+Description-bo.UTF-8: གསོག་སྡེར་དབ་སྲ་ཆས་གཞན་ཡོངས་ཚོར་རྟོགས་བྱེད་བཞིན་པ
+Description-bs.UTF-8: Detektiranje diskova i svog drugog hardware-a
+Description-ca.UTF-8: S'estan detectant els discs i la resta de maquinari
+Description-cs.UTF-8: Rozpoznávají se disky a další hardware
+Description-cy.UTF-8: Yn canfod disgiau a phob caledwedd arall
+Description-da.UTF-8: Søger efter diske og alt andet udstyr
+Description-de.UTF-8: Erkennen von Festplatten und anderen Hardware-Geräten
+Description-dz.UTF-8: སྲ་ཆས་གཞན་ཆ་མཉམ་དང་ཌིཀསི་སྐྱོན་འཛིན་ནི།
+Description-el.UTF-8: Ανίχνευση δίσκων και υπόλοιπου υλικού
+Description-eo.UTF-8: Detektado de la diskoj kaj de ĉiu alia aparataro
+Description-es.UTF-8: Detectando los discos y el resto del hardware
+Description-et.UTF-8: Ketaste ja ülejäänud riistvara tuvastamine
+Description-eu.UTF-8: Diskoak eta bestelako hardwarea detektatzea
+Description-fa.UTF-8: تشخیص دادن دیسک‌ها و دیگر سخت‌افزارها
+Description-fi.UTF-8: Tunnistetaan kiintolevyjä ja muuta laitteistoa
+Description-fr.UTF-8: Détection des disques et des autres périphériques
+Description-ga.UTF-8: Dioscaí á mbrath agus gach crua-earra eile
+Description-gl.UTF-8: Estanse a detectar os discos e o resto do hardware
+Description-gu.UTF-8: ડિસ્ક અને બીજા બધા હાર્ડવેર ચકાસે છે
+Description-he.UTF-8: איתור כוננים וסוגי חומרה נוספים
+Description-hi.UTF-8: डिस्क तथा अन्य हार्डवेयर खोज रहे हैं
+Description-hr.UTF-8: Prepoznavanje diskova i svog ostalog hardvera
+Description-hu.UTF-8: Lemezek és más eszközök felderítése
+Description-id.UTF-8: Mendeteksi disk dan semua perangkat keras lainnya
+Description-is.UTF-8: Skoða diska og annan vélbúnað
+Description-it.UTF-8: Rilevamento dischi e del restante hardware
+Description-ja.UTF-8: ディスクとその他のハードウェアを検出しています
+Description-ka.UTF-8: დისკებისა და დანარჩენი აპარატურის აღმოჩენა
+Description-kab.UTF-8: Tifin n yiḍebsiyen d meṛṛa arrumen-nniḍen
+Description-kk.UTF-8: Дисктер мен басқа құрылғылар анықталуда
+Description-km.UTF-8: កំពុង​រក​ថាស និង ផ្នែករឹង​ផ្សេង​ទៀត
+Description-kn.UTF-8: ಡಿಸ್ಕ್ಗಳು ಮತ್ತು ಇತರೆ ಯಂತ್ರಾಂಶಗಳನ್ನು ಪತ್ತೆ ಮಾಡಲಾಗುತ್ತಿದೆ
+Description-ko.UTF-8: 디스크 및 기타 하드웨어를 찾는 중입니다
+Description-ku.UTF-8: Dîsk û hardware ya din tê tesbîtkirin
+Description-lo.UTF-8: ກຳລັງກວດຫາດີສ໌ ແລະ ຮາດແວຣ໌ອື່ນ ໆ
+Description-lt.UTF-8: Diskų ir visos kitos aparatinės įrangos paieška
+Description-lv.UTF-8: Nosaka diskus un visu pārējo aparatūru
+Description-mk.UTF-8: Детектирање на дискови и сиот останат хардвер
+Description-ml.UTF-8: ഡിസ്ക്കുകളും മറ്റെല്ലാ ഹാര്‍ഡ്‌വെയറുകളും കണ്ടെത്തുന്നു
+Description-mr.UTF-8: डिस्क आणि इतर सर्व हार्डवेअर यांचा शोध होत आहे
+Description-nb.UTF-8: Ser etter harddisker og annen maskinvare
+Description-ne.UTF-8: सबै डिस्कहरू र अन्य सबै हार्डवयेर पत्ता लगाउदै
+Description-nl.UTF-8: Automatische hardwareherkenning wordt uitgevoerd (schijven+rest)
+Description-nn.UTF-8: Ser etter harddiskar og anna maskinvare
+Description-no.UTF-8: Ser etter harddisker og annen maskinvare
+Description-oc.UTF-8: Deteccion dels disques e dels autres periferics
+Description-pa.UTF-8: ਡਿਸਕਾਂ ਅਤੇ ਹੋਰ ਡਿਵਾਈਸ ਖੋਜੇ ਜਾ ਰਹੇ ਹਨ
+Description-pl.UTF-8: Wykrywanie dysków i innego sprzętu
+Description-pt.UTF-8: A detectar discos e o restante hardware
+Description-pt_BR.UTF-8: Detectando discos e todo o restante do hardware
+Description-ro.UTF-8: Se detectează discurile și toate celelalte componente, dispozitive și periferice
+Description-ru.UTF-8: Определение дисков и прочего оборудования
+Description-se.UTF-8: Áicamin garraskearruid ja eará mašiidnagálvvu
+Description-si.UTF-8: තැටි සහ අනෙකුත් සියලු දෘඩාංග හදුනාගනිමින්
+Description-sk.UTF-8: Rozpoznávajú sa disky a ďalšie zariadenia
+Description-sl.UTF-8: Zaznavanje diskov in ostale strojne opreme
+Description-sq.UTF-8: Duke zbuluar disqet dhe të tjera pjesë të kompjuterit
+Description-sr.UTF-8: Откривам дискове и остали хардвер
+Description-sv.UTF-8: Identifierar hårddiskar och all annan maskinvara
+Description-ta.UTF-8: வட்டுகள் மற்றும் இதர வன்பொருள்கள் கண்டறியப்படுகின்றன
+Description-te.UTF-8: డిస్క్ లను మరియు ఇతర హార్డ్వేర్ ను  కనుగొనుట
+Description-tg.UTF-8: Муайянкунии дискҳо ва ҳамаи сахтафзори дигар
+Description-th.UTF-8: กำลังตรวจหาดิสก์และฮาร์ดแวร์อื่นๆ
+Description-tl.UTF-8: Hinahanap ang mga disk at iba pang hardware
+Description-tr.UTF-8: Diskler ve diğer donanımlar algılanıyor
+Description-ug.UTF-8: دىسكا ۋە باشقا قاتتىق دېتاللارنى تەكشۈرۈۋاتىدۇ
+Description-uk.UTF-8: Розпізнавання дисків та іншого обладнання
+Description-vi.UTF-8: Đang dò tìm các đĩa và các phần cứng khác
+Description-zh_CN.UTF-8: 正在探测磁盘和其他硬件
+Description-zh_TW.UTF-8: 偵測磁碟及所有其它硬體
+
+Template: disk-detect/module_select
+Type: select
+Choices: continue with no disk drive, ${CHOICES}, none of the above
+Choices-am.UTF-8: ምንም ዲስክ ማጫወቻ ሳይኖር ቀጥል, ${CHOICES}, የትኛውም አይሆንም
+Choices-ar.UTF-8: الاستمرار دون قرص, ${CHOICES}, ليس أياً مما سبق
+Choices-ast.UTF-8: continuar ensin unidá de discu, ${CHOICES}, denguna de les anteriores
+Choices-be.UTF-8: працягнуць без дыскавай прылады, ${CHOICES}, ніводнага з пералічаных
+Choices-bg.UTF-8: без дисково устройство, ${CHOICES}, никой от горните
+Choices-bn.UTF-8: কোনরকম ডিস্ক ছাড়াই চালিয়ে যাও, ${CHOICES}, উপরের কোনটিও নয়
+Choices-bo.UTF-8: གསོག་སྡེར་འཇུག་སྣོད་མེད་པར་མུ་མཐུད, ${CHOICES}, གོང་གི་གང་ཡང་མིན་པ
+Choices-bs.UTF-8: nastaviti bez hard diska, ${CHOICES}, nijedan od gornjih
+Choices-ca.UTF-8: continuar sense cap unitat de disc, ${CHOICES}, cap de les anteriors
+Choices-cs.UTF-8: pokračovat bez disku, ${CHOICES}, nic z uvedeného
+Choices-cy.UTF-8: parhau heb ddisgyrrwr, ${CHOICES}, dim un o'r uchod
+Choices-da.UTF-8: fortsæt uden diskdrev, ${CHOICES}, ingen af ovenstående
+Choices-de.UTF-8: ohne Laufwerk fortfahren, ${CHOICES}, keines der obigen
+Choices-dz.UTF-8: ཌིཀསི་འདྲེན་འཕྲུལ་མེད་པར་འཕྲོ་མཐུད་འབད, ${CHOICES}, གོང་གི་འགྲལ་ལས་ཅི་ཡང་མེདཔ།
+Choices-el.UTF-8: συνέχιση χωρίς δίσκο, ${CHOICES}, κανένα από τα παραπάνω
+Choices-eo.UTF-8: daŭrigi sen disk-pelilo, ${CHOICES}, neniu el la antaŭaj
+Choices-es.UTF-8: continuar sin unidad de disco, ${CHOICES}, ninguna de las anteriores
+Choices-et.UTF-8: jätka ilma kettaseadmeteta, ${CHOICES}, mitte ükski nimetatuist
+Choices-eu.UTF-8: jarraitu disko unitaterik gabe, ${CHOICES}, hauetako bat ere ez
+Choices-fa.UTF-8: بدون دیسک در درایو ادامه بده, ${CHOICES}, هیچ یک از موارد فوق
+Choices-fi.UTF-8: jatka ilman levyä, ${CHOICES}, ei mikään edellisistä
+Choices-fr.UTF-8: Continuer sans disque dur, ${CHOICES}, Aucun de ces choix
+Choices-ga.UTF-8: lean ar aghaidh gan tiomántán diosca, ${CHOICES}, níl aon cheann acu thuas
+Choices-gl.UTF-8: continuar sen disco, ${CHOICES}, ningunha das anteriores
+Choices-gu.UTF-8: ડિસ્ક ડ્રાઇવ વગર ચાલુ રાખો, ${CHOICES}, ઉપરમાંથી કશું નહી
+Choices-he.UTF-8: להמשיך ללא כוננים קשיחים, ${CHOICES}, אף אחת מהאפשרויות למעלה
+Choices-hi.UTF-8: बिना किसी डिस्क ड्राइव के जारी रखें, ${CHOICES}, उपरोक्त में से कोई भी नहीं
+Choices-hr.UTF-8: nastavi bez diskovnog uređaja, ${CHOICES}, ništa od navedenog
+Choices-hu.UTF-8: folytatás lemezmeghajtó nélkül, ${CHOICES}, egyik sem
+Choices-id.UTF-8: lanjutkan tanpa penggerak disk, ${CHOICES}, tak satupun di atas
+Choices-is.UTF-8: Halda áfram án harða disks, ${CHOICES}, Ekkert af ofangreindu
+Choices-it.UTF-8: continuare senza unità a disco, ${CHOICES}, nessuna delle precedenti
+Choices-ja.UTF-8: ディスクドライブなし, ${CHOICES}, 該当なし
+Choices-ka.UTF-8: გაგრძელება დისკწამყვანის გარეშე, ${CHOICES}, არცერთი მათგანი
+Choices-kab.UTF-8: kemmel war ameɣri n uḍebsi, ${CHOICES}, ulac ulad yiwet seg wayen yezrin
+Choices-kk.UTF-8: дисксіз жалғастыра беру, ${CHOICES}, ешқайсысы
+Choices-km.UTF-8: បន្ដ​ដោយ​គ្មាន​ដ្រាយ​ថាស​, ${CHOICES}, ខាងលើ​សុទ្ធ​តែ​មិន​មែន
+Choices-ko.UTF-8: 디스크 드라이브 없음, ${CHOICES}, 위에 없음
+Choices-ku.UTF-8: bê ajokara dîskê bidomîne, ${CHOICES}, ne yek ji van
+Choices-lo.UTF-8: ດຳເນີນການຕໍ່ໂດຍບໍ່ມີດິກ, ${CHOICES}, ບໍ່ໃຊ້ຕົວເລືອກເບື້ອງຕົ້ນ
+Choices-lt.UTF-8: be disko įrenginio, ${CHOICES}, niekas iš paminėtų
+Choices-lv.UTF-8: turpināt bez diskdziņa, ${CHOICES}, neviens no iepriekš minētajiem
+Choices-mk.UTF-8: продолжи без диск уред, ${CHOICES}, ниедна од наведените
+Choices-ml.UTF-8: ഡിസ്ക്ക്‌ ഡ്രൈവുകളൊന്നും ഇല്ലാതെ തന്നെ തുടരുക, ${CHOICES}, മുകളില്‍ പറഞ്ഞവയില്‍ ഒന്നുമല്ല
+Choices-mr.UTF-8: डिस्क ड्राइव्ह शिवाय पुढे चालू ठेवा, ${CHOICES}, वरील पैकी कोणतेही नाहीत
+Choices-nb.UTF-8: fortsett uten harddisk, ${CHOICES}, ingen av de ovenfor
+Choices-ne.UTF-8: डिस्क ड्राइभ बेगर निरन्तरता दिनुहोस्, ${CHOICES}, तलको मध्ये कुनै
+Choices-nl.UTF-8: verdergaan zonder harde schijf, ${CHOICES}, geen van bovenstaande
+Choices-nn.UTF-8: halda fram utan harddisk, ${CHOICES}, ingen av dei ovanfor
+Choices-no.UTF-8: fortsett uten harddisk, ${CHOICES}, ingen av de ovenfor
+Choices-oc.UTF-8: contunhar sens disc dur, ${CHOICES}, pas cap de las proposicions
+Choices-pa.UTF-8: ਕੋਈ ਵੀ ਡਿਸਕ ਡਰਾਈਵ ਤੋਂ ਬਿਨਾਂ ਜਾਰੀ ਰਹੋ, ${CHOICES}, ਉਪਰਲਿਆਂ ਵਿੱਚੋਂ ਕੋਈ ਨਹੀਂ
+Choices-pl.UTF-8: kontynuuj bez dysku twardego, ${CHOICES}, żaden z powyższych
+Choices-pt.UTF-8: continuar sem nenhum disco, ${CHOICES}, nenhuma das acima
+Choices-pt_BR.UTF-8: continuar sem nenhuma unidade de disco, ${CHOICES}, nenhuma das acima
+Choices-ro.UTF-8: continuare fără unitate de disc, ${CHOICES}, niciuna din cele de mai sus
+Choices-ru.UTF-8: продолжить без дисков, ${CHOICES}, ни одно из перечисленных
+Choices-si.UTF-8: තැටි ධාවකයකින් තොරව ඉදිරියට යන්න, ${CHOICES}, ඉහත කිසිවක් නොවේ
+Choices-sk.UTF-8: pokračovať bez diskovej jednotky, ${CHOICES}, nič z uvedeného
+Choices-sl.UTF-8: nadaljuj brez diska, ${CHOICES}, nič od tega
+Choices-sq.UTF-8: vazhdo pa disk, ${CHOICES}, asnjë e të mësipërmëve
+Choices-sr.UTF-8: настављам без диск уређаја, ${CHOICES}, ништа од наведеног
+Choices-sv.UTF-8: fortsätt utan diskettenhet, ${CHOICES}, ingen av ovanstående
+Choices-ta.UTF-8: வட்டு இயக்கி இல்லாமல் தொடருக, ${CHOICES}, மேலுள்ளவை எவையும் அல்ல
+Choices-te.UTF-8: డిస్కు డ్రైవ్ లేకుండానే కొసాగించు, ${CHOICES}, పైవేవీ కాదు
+Choices-tg.UTF-8: идома додан бе диски компютерӣ, ${CHOICES}, на яке аз боло
+Choices-th.UTF-8: ดำเนินการต่อโดยไม่มีดิสก์, ${CHOICES}, ไม่ใช่ตัวเลือกข้างต้น
+Choices-tl.UTF-8: magpatuloy na walang disk drive, ${CHOICES}, wala sa itaas
+Choices-tr.UTF-8: disk sürücü olmadan devam et, ${CHOICES}, yukarıdakilerden hiçbiri
+Choices-ug.UTF-8: دىسكا يوق ھالەتتە داۋاملاشتۇر, ${CHOICES}, يۇقىرىقىنىڭ ھېچقايسى
+Choices-uk.UTF-8: продовжити без диска, ${CHOICES}, жоден з перерахованих
+Choices-vi.UTF-8: tiếp tục mà không có ổ đĩa, ${CHOICES}, không có cái nào ở trên
+Choices-zh_CN.UTF-8: 在无磁盘驱动器的情况下继续, ${CHOICES}, 以上都不是
+Choices-zh_TW.UTF-8: 在沒有磁碟裝置的狀況下繼續進行, ${CHOICES}, 以上都不是
+Default: continue with no disk drive
+Description: Driver needed for your disk drive:
+ No disk drive was detected. If you know the name of the driver
+ needed by your disk drive, you can select it from the list.
+Description-am.UTF-8: ለዲስክ ማጫወቻው ነጂ ስልት ያስፈልጋል፦
+ ምንም የዲስክ ነጂ አልተገኘም። ዲስክ ማጫወቻው የሚፈያስፈልገውን ነጂ ስልት ስም ካወቁ ከዝርዝሩ ይምረጡ።
+Description-ar.UTF-8: بحاجة إلى مُعرّف للقرص:
+ لم يتم اكتشاف أي قرص. إن كنت تعرف اسم المُعرّف المطلوب لقرصك، يمكنك اختياره من القائمة.
+Description-ast.UTF-8: Controladores que necesita la to unidá de discu:
+ Nun se deteutó denguna unidá de discu. Pues seleicionar el controlador de la llista si conoces el nome que necesita la unidá de discu.
+Description-be.UTF-8: Драйвер, патрэбны для Вашай дыскавай прылады:
+ Не знойдзена ніводнай дыскавай прылады. Калі Вы ведаеце імя патрэбнага драйвера, можна пазначыць яго ў спісе.
+Description-bg.UTF-8: Драйвер, изискван от Вашия твърд диск:
+ Не беше открит твърд диск. Ако знаете името на драйвера за Вашия твърд диск, можете да го изберете от списъка.
+Description-bn.UTF-8: আপনার ডিস্ক ড্রাইভের জন্য ড্রাইভার প্রয়োজন:
+ কোন ডিস্ক ড্রাইভ সনাক্ত করা যায় নি। আপনার ডিস্ক ড্রাইভের জন্য প্রয়োজনীয় ড্রাইভারটির নাম যদি আপনার জানা থাকে, তবে তালিকা থেকে সেটি বেছে নিন।
+Description-bo.UTF-8: གསོག་སྡེར་འཇུག་སྣོད་ལ་དགོས་པའི་སྒུལ་ཆས：
+ གསོག་སྡེར་སྒུལ་ཆས་མ་རྙེད་པས་ཁྱོད་ཀྱིས་དེར་སྤྱོད་དགོས་པའི་སྒུལ་ཆས་ཀྱི་མིང་ཤེས་ན་འདེམས་ཐོ་འདི་ནས་འདེམས་ཆོག
+Description-bs.UTF-8: Upravljački program potreban za Vaš hard disk:
+ Hard disk nije pronađen. Ako znate naziv modula potrebnog za Vaš hard disk, možete ga odabrati sa liste.
+Description-ca.UTF-8: Mòdul requerit per la unitat de disc:
+ No s'ha detectat cap unitat de disc. Si sabeu el nom del controlador que requereix el disc, podeu seleccionar-lo de la llista.
+Description-cs.UTF-8: Ovladač vyžadovaný řadičem pevného disku:
+ Nebyly rozpoznány žádné řadiče pevných disků. Pokud znáte název ovladače vyžadovaného vaším řadičem pevného disku, můžete jej vybrat ze seznamu.
+Description-cy.UTF-8: Gyriant sydd angen i'ch disgyrrwr:
+ Ni chanfuwyd disgyrrwr. Os ydych yn gwybod enw'r gyriant sydd angen ar eich disgyrrwr, gallwch ei ddewis o'r rhestr.
+Description-da.UTF-8: Den driver, som dit diskdrev skal bruge:
+ Der blev ikke fundet noget diskdrev. Hvis du kender navnet på den driver, dit diskdrev skal bruge, kan du vælge den fra listen.
+Description-de.UTF-8: Treiber werden für Ihr Laufwerk benötigt:
+ Es wurde kein Laufwerk erkannt. Falls Sie den Namen des Treibers für Ihr Laufwerk kennen, können Sie ihn aus der Liste wählen.
+Description-dz.UTF-8: ཁྱོད་ཀྱི་ཌིཀསི་འདྲེན་འཕྲུལ་ལུ་འདྲེན་བྱེད་དགོ།
+ ཌིཀསི་འདྲེན་འཕྲུལ་སྐྱོན་འཛིན་མ་འབྱུང་ ཁྱོད་ཀྱི་ཌིཀསི་འདྲེན་འཕྲུལ་ལུ་དགོ་པའི་འདྲེན་བྱེད་ཀྱི་མིང་ཤེས་པ་ཅིན་ ཁྱོད་ཀྱིས་ཐོ་ཡིག་ནང་ལས་སེལ་འཐུ་འབད་ཚུགས།
+Description-el.UTF-8: Οδηγός που απαιτείται από το δίσκο σας:
+ Δεν ανιχνεύτηκε δίσκος. Αν γνωρίζετε το όνομα του οδηγού που χρειάζεται ο δίσκος σας, επιλέξτε τον από τη λίστα.
+Description-eo.UTF-8: Pelilo bezonata de via disk-pelilo:
+ Neniu disk-pelilo estis detektita. Se vi konas la nomon de la pelilon bezonata de via disko, vi povos elekti ĝin el ĉi tiu listo.
+Description-es.UTF-8: Controladores que necesita su unidad de disco:
+ No se detectó ninguna unidad de disco. Puede seleccionar el controlador de la lista si conoce el nombre del que necesita la unidad de disco.
+Description-et.UTF-8: Kettaseadmele vajaminev draiver:
+ Ühtki kettaseadet ei tuvastatud. Kui sa tead, millist draiverit su kettaseade vajab, vali see nimekirjast.
+Description-eu.UTF-8: Disko unitatearen kontrolatzailea behar da:
+ Ez da disko unitaterik detektatu. Disko unitateak behar duen kontrolatzailearen izena badakizu, zerrendan hauta dezakezu.
+Description-fa.UTF-8: راه‌انداز لازم برای گردانندهٔ دیسک:
+ هیچ گردانندهٔ دیسکی تشخیص داده نشد. اگر نام راه‌انداز لازم برای گردانندهٔ دیسک خود را می‌دانید، می‌توانید آنرا از لیست انتخاب کنید.
+Description-fi.UTF-8: Levyn tarvitsema ajuri:
+ Levyä ei löytynyt. Jos tiedät levyasemasi tarvitseman ajurin nimen, voit valita sen listalta.
+Description-fr.UTF-8: Module nécessaire pour le disque dur :
+ Aucun disque dur n'a été trouvé. Si vous connaissez le nom du pilote nécessaire pour le fonctionnement du disque dur, veuillez le choisir dans la liste.
+Description-ga.UTF-8: Tiománaí de dhíth ar do thiomántán diosca:
+ Níor braitheadh tiomántán diosca. Más eol duit ainm an tiománaí atá de dhíth ar do thiomántán diosca, is féidir leat é a roghnú ón liosta.
+Description-gl.UTF-8: Controlador preciso polo disco duro:
+ Non se detectou ningún disco duro. Se coñece o nome do controlador que precisa o disco duro, pode escollelo na lista.
+Description-gu.UTF-8: તમારા ડિસ્ક ડ્રાઇવ માટે જોઇતા ડ્રાઇવર:
+ કોઇ ડિસ્ક ડ્રાઇવ મળી નહી. જો તમને તમારી ડિસ્ક ડ્રાઇવને જોઇતા ડ્રાઇવરનું નામ ખબર હોય તો, તમે તેને યાદીમાંથી પસંદ કરી શકો છો.
+Description-he.UTF-8: מנהל התקן שנדרש עבור התקן הכונן שלך:
+ לא זוהה כונן. אם שם מנהל ההתקן שנדרש עבור הכונן שלך, ניתן לבחור אותו מהרשימה.
+Description-hi.UTF-8: आपकी डिस्क ड्राइव के लिए आवश्यक ड्राइवर:
+ कोई भी डिस्क ड्राइव नहीं मिली. यदि आप अपनी डिस्क ड्राइव के ड्राइवर का नाम जानते हैं तो आप सूची में से उसे चुन सकते हैं.
+Description-hr.UTF-8: Upravljački program za vaš diskovni uređaj:
+ Diskovni uređaj nije prepoznat. Ako znate naziv upravljačkog programa za vaš diskovni uređaj, odaberite ga s popisa.
+Description-hu.UTF-8: A lemezmeghajtóhoz szükséges illesztőprogram:
+ Nem érzékelhető lemezmeghajtó. Ha ismered a lemezmeghajtóhoz szükséges illesztőprogram nevét, kiválaszthatod a listából.
+Description-id.UTF-8: Driver yang dibutuhkan penggerak disk Anda:
+ Penggerak disk tidak ditemukan. Jika Anda tahu nama driver yang dibutuhkan oleh hard disk Anda, silakan pilih dari daftar.
+Description-is.UTF-8: Rekill sem þarf fyrir diskinn:
+ Enginn harður diskur fannst. Ef þú þekkir nafn rekilsins sem diskurinn þarfnast getur þú valið hann úr listanum.
+Description-it.UTF-8: Driver necessario per l'unità a disco:
+ Non è stata rilevata alcuna unità a disco. Se si conosce il nome del driver richiesto dalla propria unità a disco è possibile selezionarlo dall'elenco.
+Description-ja.UTF-8: ディスクドライブに必要なドライバ:
+ ディスクドライブが検出されませんでした。あなたのディスクドライブに必要なドライバの名前がわかっているなら、リストからそれを選択できます。
+Description-ka.UTF-8: თქვენი დისკწამყვანი დრაივერს საჭიროებს:
+ დისკის დრაივერი ვერ იქნა ამოცნობილი. თუ იცით, რომელ დრაივერს საჭიროებს თქვენი დისკწამყვანი, აირჩიეთ ის სიიდან.
+Description-kab.UTF-8: Anuḍaf yettusra i umeɣri-inek·inem n uḍebsi:
+ Ulac ameɣri n uḍebsi i yettwafen. Ma yella tessneḍ isem n unuḍaf i ilaqen s umeɣri-inek·inem n uḍebsi, tzemreḍ ad t-id-tferneḍ seg tebdart.
+Description-kk.UTF-8: Дискіңіздің драйвері:
+ Ешбір диск табылмады. Драйвер атын білсеңіз, төмендегі тізімнен таңдап көруіңізге болады.
+Description-km.UTF-8: ដ្រាយ​ដែល​ត្រូវការ​សម្រាប់​ដ្រាយ​ថាស​របស់​អ្នក ៖
+ រក​មិន​ឃើញ​ដ្រាយ​ថាស​ឡើយ ។ បើ​អ្នក​ស្គាល់​ឈ្មោះ​ដ្រាយ​ដែល​ត្រូវការ​ដោយ​​ដ្រាយ​ថាស​របស់​អ្នក អ្នក​អាចជ្រើស​វា​ពី​បញ្ជី ។
+Description-kn.UTF-8: ನಿಮ್ಮ ಡಿಸ್ಕ್ ಡ್ರೈವ್'ಗೆ ಚಾಲನಾ ತಂತ್ರಾಂಶ ಬೇಕಿದೆ:
+ ಯಾವುದೇ ಡಿಸ್ಕ್ ಡ್ರೈ ವ್ ಪತ್ತೆಯಾಗಿಲ್ಲ. ನಿಮ್ಮ ಡಿಸ್ಕ್ ಡ್ರೈ ವ್'ಗೆ ಬೇಕಾದ ಚಾಲನಾ ತಂತ್ರಾಂಶದ ಹೆಸರು ಗೊತ್ತಿದ್ದರೆ ನೀವು ಅದನ್ನು ಪಟ್ಟಿಯಿಂದ ಆಯ್ದುಕೊಳ್ಳ ಬಹುದು.
+Description-ko.UTF-8: 디스크 드라이브에 필요한 드라이버:
+ 디스크 드라이브를 찾을 수 없습니다. 지금 사용하고 있는 디스크 드라이브에 필요한 드라이버의 이름을 알고 있다면, 다음 목록에서 고르십시오.
+Description-ku.UTF-8: Ajokara ji bo ajokara te ya dîskê pêwist e:
+ Tu ajokara dîskan nehate nasîn. Heke tu navê ajokara ku ji ajokara te ya dîskê re pêwist e dizanî, tu dikarî ji lîsteyê hilbijêrî.
+Description-lo.UTF-8: ໄດເວີທີ່ຕ້ອງການສຳລັບດິກໄດຣຂອງເຈົ້າ:
+ ກວດບໍ່ພົບດິກໄດຣ ຖ້າເຈົ້າຮູ້ຊື່ຂອງໄດເວີສຳລັບດິກໄດຂອງເຈົ້າ ເຈົ້າສາມາດເລືອກໄດ້ຈາກລາຍການນີ້:
+Description-lt.UTF-8: Tvarkyklė, reikalinga diskui:
+ Neaptiktas disko įrenginys. Jei žinote disko įrenginiui reikiamos tvarkyklės pavadinimą, galite išsirinkti ją iš sąrašo.
+Description-lv.UTF-8: Jūsu diskdzinim vajadzīgais draiveris:
+ Nav atrasts neviens diskdzinis. Ja zināt savam diskdzinim vajadzīgā draivera nosaukumu, varat to izvēlēties no saraksta.
+Description-mk.UTF-8: Управувач кој е потребен за твојот диск уред:
+ Не беше детектиран мрежна карта. Ако го знаеш името на управувачот за твојата мрежна карта, можеш да го одбереш од листата.
+Description-ml.UTF-8: നിങ്ങളുടെ ഡിസ്ക്ക്‌ ഡ്രൈവിനാവശ്യമായ പ്രവര്‍ത്തകം:
+ ഡിസ്ക്ക്‌ ഡ്രൈവുകള്‍ ഒന്നും കണ്ടെത്താനായില്ല. ഡിസ്ക്ക് ഡ്രൈവിന്റെ പ്രവര്‍ത്തകത്തിന്റെ പേരു് നിങ്ങള്‍ക്കറിയാമെങ്കില്‍ അതു് ഈ പട്ടികയില്‍ നിന്നു്‌ തെരഞ്ഞെടുക്കാവുന്നതാണു്.
+Description-mr.UTF-8: तुमच्या डिस्क ड्राइव्हसाठी जरुरी असणारे ड्रायव्हर:
+ कोणताही डिस्क ड्राइव्ह सापडला नाही. जर तुम्हाला तुमच्या डिस्क ड्राइव्हसाठी लागणार्‍या ड्रायव्हरचे नाव माहित असेल तर तुम्ही ते सूचीमधून निवडू शकता.
+Description-nb.UTF-8: Driver som trengs for din harddisk:
+ Fant ingen harddisk. Hvis du vet navnet på driveren som din harddisk trenger, så kan du velge den fra lista.
+Description-ne.UTF-8: तपाईँको डिस्क ड्राइभलाई आवश्यक पर्ने ड्राइभर:
+ कुनै पनि डिस्क ड्राइभ पत्ता लागेन । यदि तपाईँलाई तपाईँको डिस्क ड्राइभलाई आवश्यक पर्ने ड्राइभरको नाम थाहा छ भने तपाईँले यसलाई सूचीबाट चयन गर्न सक्नुहुन्छ ।
+Description-nl.UTF-8: Module vereist voor uw harde schijf:
+ Er is geen harde schijf gedetecteerd. Als u de naam weet van het door uw harde schijf vereiste stuurprogramma kunt u het in de lijst selecteren.
+Description-nn.UTF-8: Drivar som trengs for harddisken din:
+ Fann ingen harddisk. Viss du veit namnet på drivaren som trengst for harddisken din, kan du velje han frå lista.
+Description-no.UTF-8: Driver som trengs for din harddisk:
+ Fant ingen harddisk. Hvis du vet navnet på driveren som din harddisk trenger, så kan du velge den fra lista.
+Description-oc.UTF-8: Modul necessari per vòstre disc dur :
+ Avèm pas detectat cap de disc dur. Se coneissètz lo nom del gestionari de vòstre disc, lo podètz causir dins la tièra.
+Description-pa.UTF-8: ਤੁਹਾਡੀ ਡਿਸਕ ਡਰਾਈਵ ਲਈ ਲੋੜੀਦਾ ਡਰਾਇਵਰ:
+ ਕੋਈ ਡਿਸਕ ਡਰਾਈਵਰ ਨਹੀਂ ਲੱਭਿਆ। ਜੇ ਤੁਸੀਂ ਡਿਸਕ ਡਰਾਈਵਰ ਦਾ ਨਾਂ ਜਾਣਦੇ ਹੋ, ਤੁਸੀਂ ਇਸ ਨੂੰ ਸੂਚੀ ਵਿੱਚੋਂ ਚੁਣ ਸਕਦੇ ਹੋ।
+Description-pl.UTF-8: Sterownik wymagany przez Twój dysk twardy:
+ Nie wykryto żadnego dysku twardego. Jeśli znasz nazwę wymaganego sterownika, możesz wybrać go z listy.
+Description-pt.UTF-8: Driver necessário para o seu disco:
+ Não foi detectado nenhum disco. Se sabe o nome do driver necessário para o seu disco, pode escolhê-lo a partir da lista.
+Description-pt_BR.UTF-8: Driver requerido por sua unidade de disco:
+ Nenhuma unidade de disco foi detectada. Se você sabe o nome do driver requerido por sua unidade de disco, você pode selecioná-lo a partir da lista.
+Description-ro.UTF-8: Modulul de nucleu necesar unității de disc:
+ Nu s-a detectat nici o unitate de disc. Dacă cunoașteți numele modulului de nucleu necesar unității dumneavoastră de disc, îl puteți selecta din listă.
+Description-ru.UTF-8: Драйвер, необходимый для диска:
+ Программа установки не обнаружила дисков. Если вы знаете имя драйвера, нужного для вашего диска, то можете выбрать его из списка.
+Description-si.UTF-8: ඔබේ තැටි දහාවකයට ඇවැසි ධාවක:
+ කිසිඳු තැටි ධාවකයක් හමු නොවිනි, ඔබේ තැටි ධාවකයට අවශ්‍ය ධාවකයේ නම දන්නේ නම් ලැයිස්තුවෙන් එය තෝරාගත හැක.
+Description-sk.UTF-8: Ovládač potrebný pre vašu diskovú jednotku:
+ Nebola rozpoznaná žiadna disková jednotka. Ak viete názov ovládača, ktorý je potrebný pre vašu diskovú jednotku, môžete si ho zvoliť zo zoznamu.
+Description-sl.UTF-8: Gonilnik za vaš disk:
+ Ni bilo mogoče zaznati nobenega diska. Če poznate ime gonilnika, ki ga potrebuje vaš disk, ga lahko izberete iz seznama.
+Description-sq.UTF-8: Nevojitet drejtues për diskun tënd:
+ Nuk u gjet asnjë disk. Nëse e njeh emrin e drejtuesit që i nevojitet diskut tënd, mund ta zgjedhësh nga lista.
+Description-sr.UTF-8: Потребан драјвер за ваш диск драјв:
+ Није откривен ниједан диск уређај. Ако знате име драјвера који је потребан за ваш диск, можете да га изаберете са списка.
+Description-sv.UTF-8: Drivrutin som behövs för din diskettenhet:
+ Hittade ingen diskettenhet. Om du vet namnet på den drivrutin som krävs för din diskettenhet kan du välja den från listan.
+Description-ta.UTF-8: வட்டிற்கு தேவையான இயக்கு நிரல்கள்:
+ எந்தவொரு வட்டையும் கண்டறிய இயலவில்லை. தங்கள் வட்டிற்கு தேவையான இயக்கு நிரலை பட்டியலிலிருந்து தேர்வு செய்க.
+Description-te.UTF-8: మీ డిస్కు డ్రైవ్ కి కావలసిన డ్రైవరు (Driver):
+ డిస్క్ డ్రైవ్ కనబడలేదు. మీ డిస్క్ డ్రైవ్ కు కావలసిన డ్రైవర్ పేరు తెలిస్తే, దానిని జాబితా నుండిఎంచుకోవచ్చు.
+Description-tg.UTF-8: Драйвер барои диски компютерии шумо лозим аст:
+ Ягон диски драйв муайян нашудааст. Агар шумо номи драйвери лозимиро барои диски драйв донед, метавонед онро аз рӯйхати зерин интихоб намоед.
+Description-th.UTF-8: ไดรเวอร์ที่ต้องการสำหรับดิสก์ไดรว์ของคุณ:
+ ตรวจไม่พบดิสก์ไดรว์ ถ้าคุณทราบชื่อของไดรเวอร์สำหรับดิสก์ไดรว์ของคุณ คุณสามารถเลือกได้จากรายการนี้
+Description-tl.UTF-8: Driver na kailangan ng inyong disk drive:
+ Walang disk drive na nakita. Kung alam niyo ang pangalan ng driver na kailangan ng inyong disk drive ay maaari niyong piliin mula sa talaan.
+Description-tr.UTF-8: Diskiniz için gerekli sürücü:
+ Herhangi bir disk algılanamadı. Diskiniz için gerekli olan sürücünün adını biliyorsanız, bunu listeden seçebilirsiniz.
+Description-ug.UTF-8: دىسكا قوزغاتقۇچىڭىزغا لازىملىق قوزغىتىش پروگراممىسى:
+ ھېچقانداق دىسكا قوزغاتقۇچ بايقالمىدى. ئەگەر دىسكىڭىزغا لازىملىق قوزغىتىش پروگراممىسىنىڭ ئاتىنى بىلسىڭىز، تىزىملىكتىن تاللاڭ.
+Description-uk.UTF-8: Драйвер, що потрібний для вашого сталого:
+ Сталий диск не знайдено. Якщо ви знаєте назву драйвера, що потрібен для вашого диска, виберіть його зі списку.
+Description-vi.UTF-8: Trình điều khiển cần cho ổ đĩa của bạn:
+ Không có ổ đĩa nào được tìm ra. Nếu bạn biết tên trình điều khiển cần bởi ổ đĩa trong máy tính này, hãy chọn nó trong danh sách.
+Description-zh_CN.UTF-8: 您的磁盘驱动器所需的驱动程序：
+ 未探测到磁盘驱动器。如果您知道其所需的驱动程序的名称，可从以下列表中选择。
+Description-zh_TW.UTF-8: 您的磁碟裝置所需的驅動程式:
+ 無法偵測到任何磁碟裝置。如果您知道您的磁碟裝置所使用的驅動程式的名稱，請在列表中選取。
+
+Template: disk-detect/cannot_find
+Type: error
+Description: No partitionable media
+ No partitionable media were found.
+ .
+ Please check that a hard disk is attached to this machine.
+Description-am.UTF-8: ምንም ተከፋይ አካል አልተገኘም።
+ ምንም ተከፋይ ማጫወቻ አልተገኘም።
+ .
+ እባክዎ ዲስክ ማጫወቻው አስሊው ውስጥ በትክክል መያያዙን ያረጋግጡ።
+Description-ar.UTF-8: لا توجد أوساط قابلة للتجزيء
+ لم يعثر على أيّة أوساطٍ قابلة للتجزيء.
+ .
+ الرجاء التحقق من وجود قرصٍ صلب موصول بهذا الجهاز.
+Description-ast.UTF-8: Nun hai medios particionables
+ Nun s'alcontraron medios que puedan particionase.
+ .
+ Por favor, tate seguru de que se coneutó un discu duru a esti equipu.
+Description-be.UTF-8: Няма прыдатных для падзелу носьбітаў
+ Не знойдзена ніводнага носьбіту, прыдатнага для падзелу.
+ .
+ Калі ласка, праверце,каб да машыны быў падключаны жорсткі дыск.
+Description-bg.UTF-8: Няма носител, който може да се разделя
+ Не е намерен носител, който да може да се разделя.
+ .
+ Моля, проверете дали е прикачен твърд диск към тази машина.
+Description-bn.UTF-8: পার্টিশনযোগ্য মিডিয়া নেই
+ কোন পার্টিশনযোগ্য মিডিয়া খুঁজে পাওয়া যায় নি।
+ .
+ অনুগ্রহপূর্বক এই কম্পিউটারে কোন হার্ডডিস্ক সংযুক্ত আছে কিনা তা নিশ্চিত হন।
+Description-bo.UTF-8: གསོག་སྡེར་ཁག་བཟོ་རུང་འཇུག་མཛོད་མེད་པ
+ ཁག་བཟོ་རུང་བའི་འཇུག་མཛོད་མེད་རྙེད་པ
+ .
+ སྲ་སྡེར་དེ་འཕྲུལ་ཆས་འདི་དང་སྦྲེལ་ཡོད་པར་དག་ཐེར་བྱེད་རོགས
+Description-bs.UTF-8: Nema medija za particionisanje
+ Medij za particionisanje nije pronađen.
+ .
+ Molim provjerite da li je hard disk priključen na ovu mašinu.
+Description-ca.UTF-8: No hi ha cap medi que es puga partir
+ No s'ha trobat cap medi que es puga partir.
+ .
+ Si us plau, comproveu que hi ha un disc dur connectat a aquest ordinador.
+Description-cs.UTF-8: Žádné rozdělitelné médium
+ Nebylo nalezeno žádné rozdělitelné médium.
+ .
+ Zkontrolujte, zda je k tomuto počítači připojen pevný disk.
+Description-cy.UTF-8: Dim cyfrwng rhaniadwy
+ Ni chanfuwyd unrhyw gyfrwng rhaniadwy.
+ .
+ Gwiriwch fod disg galed wedi ei gysylltu i'r peiriant hwn, os gwelwch yn dda.
+Description-da.UTF-8: Ingen partitionerbare medier
+ Der blev ikke fundet nogen partitionerbare medier.
+ .
+ Tjek at der er en harddisk forbundet til denne maskine.
+Description-de.UTF-8: Kein partitionierbares Medium
+ Es wurde kein Medium gefunden, das partitioniert werden kann.
+ .
+ Bitte prüfen Sie, ob eine Festplatte angeschlossen ist.
+Description-dz.UTF-8: བརྡ་ལམ་བར་བཅད་མིན་འདུག
+ བཅད་མཚམས་བཅད་བཏུབ་པའི་བརྡ་ལམ་ཅི་ཡང་འཚོལ་མ་ཐོབ
+ .
+ ཧརཊི་ཌིཀིསི་དེ་གློག་འཕྲུལ་འདི་ལུ་མཉམ་སྦྲགས་འབད་ནུག་ག་ཞིབ་དཔྱད་འབད་གནང་།
+Description-el.UTF-8: Δεν υπάρχουν μέσα που να μπορούν να διαμεριστούν
+ Δεν βρέθηκαν μέσα που να μπορούν να διαμεριστούν.
+ .
+ Παρακαλώ βεβαιωθείτε ότι υπάρχει δίσκος τοποθετημένος σ' αυτό το μηχάνημα.
+Description-eo.UTF-8: Neniu partigebla datumportilo
+ Neniu partigebla datumportilo estis trovita.
+ .
+ Bonvolu kontroli ĉu la fiksita disko estas konektita al tiu ĉi maŝino.
+Description-es.UTF-8: No hay medios particionables
+ No se encontraron medios que se puedan particionar.
+ .
+ Por favor, asegúrese de que se ha conectado un disco duro a este equipo.
+Description-et.UTF-8: Pole partitsioneeritavat andmekandjat
+ Ei leitud ühtki partitsioneeritavat andmekandjat.
+ .
+ Palun veendu, et arvutis on kõvaketas.
+Description-eu.UTF-8: Ez dago partizioetan bana daitekeen euskarririk
+ Ez da partizioetan bana daitekeen euskarririk aurkitu.
+ .
+ Egiaztatu disko gogor bat makina honi konektatuta dagoela.
+Description-fa.UTF-8: هیچ رسانه‌ٔ قابل پارتیشن‌شدن
+ هیچ رسانه‌ٔ قابل پارتیشن‌شدن پیدا نشد.
+ .
+ لطفاً چک کنید که دیسک‌سخت به این ماشین متصل است.
+Description-fi.UTF-8: Ei yhtään osioitavissa olevaa taltiota
+ Ei löytynyt yhtään osioitavissa olevaa taltiota.
+ .
+ Tarkista, että laitteistossa on kiintolevy asennettuna.
+Description-fr.UTF-8: Aucun périphérique disponible pour le partitionnement
+ Aucun périphérique pouvant être partitionné n'a été trouvé.
+ .
+ Veuillez vérifier qu'un disque dur est bien présent sur cette machine.
+Description-ga.UTF-8: Gan mheán indeighilte
+ Níor aimsíodh meáin indeighilte ar bith.
+ .
+ Cinntigh go bhfuil diosca crua ceangailte leis an ríomhaire seo.
+Description-gl.UTF-8: Non hai soportes particionábeis
+ Non se atopou ningún soporte que se poida particionar.
+ .
+ Comprobe que teña un disco duro conectado á máquina.
+Description-gu.UTF-8: પાર્ટિશન કરાય તેવું કોઇ માધ્યમ નથી
+ પાર્ટિશન કરાય તેવું કોઇ માધ્યમ મળ્યું નથી.
+ .
+ મહેરબાની કરી તપાસો કે હાર્ડ ડિસ્ક મશીન જોડે જોડાયેલ છે.
+Description-he.UTF-8: אין מדיה שניתן לחלק למחיצות
+ לא נמצאה מדיה שניתן לחלק אותה למחיצות.
+ .
+ נא לבדוק שיש כונן קשיח שמחובר למכונה זו.
+Description-hi.UTF-8: कोई पार्टिशन योग्य मीडिया नहीं
+ कोई पार्टीशन योग्य मीडिया नहीं मिला.
+ .
+ कृपया जाँचें कि इस मशीन में हार्ड डिस्क जुड़ी है.
+Description-hr.UTF-8: Medij bez mogućnosti particioniranja
+ Nema medija kojeg se može particionirati.
+ .
+ Provjerite je li čvrsti disk spojen na ovo računalo.
+Description-hu.UTF-8: Nincs particionálható adathordozó
+ Nem található particionálható adathordozó.
+ .
+ Kérlek, ellenőrizd van-e merevlemez csatlakoztatva a géphez.
+Description-id.UTF-8: Tak ada media yang bisa dipartisi
+ Tidak ditemukan adanya media yang bisa dipartisi.
+ .
+ Silakan periksa bahwa pada komputer ini terpasang sebuah Hard Disk.
+Description-is.UTF-8: Engir diskar sem hægt er að sneiða niður
+ Fann enga diska sem hægt er að sneiða niður.
+ .
+ Gakktu úr skugga um að harður diskur sé tengdur við þessa vél.
+Description-it.UTF-8: Nessun supporto partizionabile
+ Non è stato trovato alcun supporto partizionabile.
+ .
+ Verificare che un disco fisso sia collegato a questo computer.
+Description-ja.UTF-8: パーティション可能なメディアがありません
+ パーティション可能なメディアが見つかりませんでした。
+ .
+ このマシンに接続されているハードディスクがあるかどうか確認してください。
+Description-ka.UTF-8: დაყოფადი მედიის გარეშე
+ დაყოფადი მედია ვერ მოიძებნა.
+ .
+ გადაამოწმეთ, არის თუ არა მყარი დისკი მიერთებული ამ მანქანაზე.
+Description-kab.UTF-8: Umac amidya ara yettwabḍun
+ Ur yettwaf ara umidya ara yettwabḍun.
+ .
+ Ttxil-k·m senqed ma yella aḍebsi aqquran icudd ɣer tmacint-a.
+Description-kk.UTF-8: Бөлінетін құрылғылар жоқ
+ Бөлінетін құрылғылар табылмады.
+ .
+ Қатты дисктің машинаға қосылғанын тексеріңіз.
+Description-km.UTF-8: គ្មាន​មេឌៀ​ដែល​អាច​ចែក​ជា​ភាគ​​បាន
+ រក​មិន​ឃើញ​មេឌៀ​ដែល​អាច​ចែក​ជា​ភាគ​បាន ។
+ .
+ សូមពិនិត្យ​មើល​ថា បាន​ភ្ជាប់​ថាស​រឹង​ទៅ​ម៉ាស៊ីន​នេះ​ហើយ​ឬ​នៅ ។
+Description-kn.UTF-8: ವಿಭಜಿಸಲ್ಪಡುವ ಮಾಧ್ಯಮಗಳಾವು ಇಲ್ಲ
+ ವಿಭಜಿಸಲ್ಪಡುವ ಮಾಧ್ಯಮಗಳಾವು ಪತ್ತೆಯಾಗಿಲ್ಲ.
+ .
+ ಈ ಗಣಕಕ್ಕೆ ಒಂದು ಹಾರ್ಡ್ ಡಿಸ್ಕ್ ಜೋಡಿಸಲಾಗಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.
+Description-ko.UTF-8: 파티션할 수 있는 미디어 없음
+ 파티션할 수 있는 미디어가 없습니다.
+ .
+ 이 컴퓨터에 하드 디스크가 있는 지 확인하십시오.
+Description-ku.UTF-8: Tu mediayeke ji bo dabeşkirinê tune
+ Mediaya were dabeşkirin nehat dîtin.
+ .
+ Kontol bike ka hard dîskek girêdayî vê makînayê ye yan na.
+Description-lo.UTF-8: ບໍ່ມີຊື່ທີ່ສາມາດແບ່ງພຣາທິຊັນໄດ້
+ ບໍ່ພົບສື່ທີ່ສາມາດແບ່ງພຣາທິຊັນໄດ້.
+ .
+ ກາລຸນາກວດສອບໃຫ້ໝັ້ນໃຈວ່າໄດ້ຕໍ່ຮາດດິກເຂົ້າກັບເຄື່ອງ.
+Description-lt.UTF-8: Nėra dalintino įrenginio
+ Nerasta įrenginių, kuriuos galima būtų dalyti skaidiniais.
+ .
+ Patikrinkite ar kietas diskas prijungtas prie šio kompiuterio.
+Description-lv.UTF-8: Nav disku, ko dalīt
+ Netika atrasts neviens disks, ko varētu sadalīt.
+ .
+ Lūdzu, pārliecinieties, ka šim datoram ir pievienots cietais disks.
+Description-mk.UTF-8: Нема медиум кој може да се партиционира
+ Нема медиум кој може да се партиционира.
+ .
+ Провери дали хард дискот е поврзан со компјутерот.
+Description-ml.UTF-8: വിഭജിക്കാവുന്ന മീഡിയയൊന്നും ലഭ്യമല്ല
+ വിഭജിക്കാവുന്ന മീഡിയയൊന്നും കണ്ടുകിട്ടിയില്ല.
+ .
+ ഈ കമ്പ്യൂട്ടറില്‍ ഒരു ഹാര്‍ഡ് ഡിസ്‌ക്ക് ഘടിപ്പിച്ചിട്ടുണ്ടെന്നു് ഉറപ്പുവരുത്തുക.
+Description-mr.UTF-8: विभाजन करण्यायोग्य साठवणीचे माध्यम उपलब्ध नाही
+ विभाजन करण्यायोग्य साठवणीचे माध्यम सापडले नाही.
+ .
+ कृपया हार्ड डिस्क मशिनला जोडली आहे का ते तपासा.
+Description-nb.UTF-8: Ingen partisjonerbare media
+ Fant ingen partisjonerbare media.
+ .
+ Se etter at det er koblet til en harddisk til denne maskinen.
+Description-ne.UTF-8: कुनै पनि बिभाजन योग्य मेडिया छैन
+ कुनै पनि बिभाजन योग्य मेडिया फेला परेन ।
+ .
+ कृपया एउटा हार्ड डिस्क यो मेसिन सँग सलग्न छ भन्ने कुरा जाँच गर्नुहोस् ।
+Description-nl.UTF-8: Geen indeelbare media
+ Er zijn geen indeelbare media gevonden.
+ .
+ Controleer a.u.b. of er een harde schijf is aangesloten op deze machine.
+Description-nn.UTF-8: Ingen partisjonerbare medium
+ Fann ingen partisjonerbare media.
+ .
+ Sjå til at det finst ein harddisk på denne maskina.
+Description-no.UTF-8: Ingen partisjonerbare media
+ Fant ingen partisjonerbare media.
+ .
+ Se etter at det er koblet til en harddisk til denne maskinen.
+Description-oc.UTF-8: Pas cap de periferic que se pòsca particionar
+ Cap de periferic que se pòsca particionar es pas estat trobat.
+ .
+ Verificatz qu’un disc dur es connectat a l’ordenador.
+Description-pa.UTF-8: ਕੋਈ ਪਾਰਟੀਸ਼ਨ-ਯੋਗ ਮਾਧਿਅਮ ਨਹੀਂ ਹੈ
+ ਕੋਈ ਪਾਰਟੀਸ਼ਨ-ਯੋਗ ਮਾਧਿਅਮ ਨਹੀਂ ਲੱਭਿਆ।
+ .
+ ਜਾਂਚ ਕਰੋ ਕਿ ਹਾਰਡ ਡਿਸਕ ਇਸ ਮਸ਼ੀਨ ਨਾਲ ਜੁੜੀ ਹੈ ਜੀ।
+Description-pl.UTF-8: Brak urządzenia zdatnego do partycjonowania
+ Nie znaleziono urządzenia zdatnego do partycjonowania.
+ .
+ Sprawdź, czy do tego komputera jest podłączony dysk twardy.
+Description-pt.UTF-8: Sem mídia particionável
+ Não foi encontrada mídia particionável.
+ .
+ Por favor verifique se um disco rígido está ligado a esta máquina.
+Description-pt_BR.UTF-8: Nenhuma mídia particionável
+ Nenhuma mídia particionável foi encontrada.
+ .
+ Por favor, confira se realmente existe um disco rígido conectado a esta máquina.
+Description-ro.UTF-8: Nu există medii care pot fi partiționate
+ Nu s-a găsit nici un mediu ce poate fi partiționat.
+ .
+ Vă rugăm să verificați dacă vreun disc dur este atașat la această mașină.
+Description-ru.UTF-8: Нет устройств, которые можно разметить
+ Не найдено устройств, которые можно разметить.
+ .
+ Проверьте, подключён ли к компьютеру жёсткий диск.
+Description-si.UTF-8: කොටස්කල හැකි මාධ්‍යක් නොවේ
+ කිසිඳු කොටස්කල හැකි මාධ්‍යයක් හමු නොවිනි.
+ .
+ කරුණාකර මෙම යන්ත්‍රයට ඈදා ඇති දෘඩ තැටිය පිරික්සන්න.
+Description-sk.UTF-8: Žiadne rozdeliteľné médium
+ Nebolo nájdené žiadne rozdeliteľné médium.
+ .
+ Skontrolujte pripojenie pevného disku k počítaču.
+Description-sl.UTF-8: Ni medija, ki bi ga lahko razdelil
+ Medija za razdeljevanje ni mogoče najti.
+ .
+ Preverite, ali je trdi disk priključen.
+Description-sq.UTF-8: Asnjë mjet i ndashëm
+ Nuk u gjet asnjë mjet i ndashëm.
+ .
+ Të lutem kontrollo nëse ky kompjuter ka një disk të ngurtë të lidhur.
+Description-sr.UTF-8: Нема медијума који се може партиционисати
+ Није пронађен ни један медијум који се може партиционисати.
+ .
+ Проверите да ли је хард диск прикачен за овај рачнуар.
+Description-sv.UTF-8: Inget partitioneringsbart media
+ Hittade inget partitioneringsbart media.
+ .
+ Kontrollera att en hårddisk är ansluten till den här datorn.
+Description-ta.UTF-8: பகுக்கக்கூடிய ஊடகம் ஏதுமில்லை
+ பகுக்கக்கூடிய ஊடகம் எதும் கண்டறியப்படவில்லை.
+ .
+ வட்டு இந்த சாதனத்துடன் இணைக்கப்பட்டுள்ளதா என்பதை சரிபார்க்கவும்.
+Description-te.UTF-8: విభజనకు అనువయిన మీడియా లే
+ విభజనకు అనువయిన మీడియా కనుగొనబడలేదు.
+ .
+ హార్డ్ డిస్క్  ఈ మెషిన్ కి జతచేశారా లేదా తనిఖీ చేయుము.
+Description-tg.UTF-8: Расонаи қисмбандишаванда нест
+ Ягон расонаи қисмбандишаванда ёфт нашудааст.
+ .
+ Лутфан, санҷед, ки агар диски компютерӣ ба ин компютер васл шуда бошад.
+Description-th.UTF-8: ไม่มีสื่อที่สามารถแบ่งพาร์ทิชันได้
+ ไม่พบสื่อที่สามารถแบ่งพาร์ทิชันได้
+ .
+ กรุณาตรวจสอบให้แน่ใจว่าได้ต่อฮาร์ดดิสก์เข้ากับเครื่อง
+Description-tl.UTF-8: Walang media na maaaring i-partisyon
+ Walang nahanap na media na maaaring i-partisyon.
+ .
+ Pakisuri na may hard disk na nakakabit sa makinang ito.
+Description-tr.UTF-8: Bölümlenebilir ortam yok
+ Bölümlenebilir bir ortam bulunamadı.
+ .
+ Lütfen bu makineye bir sabit disk takılı olduğundan emin olun.
+Description-ug.UTF-8: رايونغا ئايرىلغان ۋاسىتە يوق
+ رايونغا ئايرىلغان ۋاسىتە تېپىلمىدى.
+ .
+ قاتتىق دىسكىنىڭ كومپيۇتېرغا چېتىلغان چېتىلمىغانلىقىنى تەكشۈرۈڭ.
+Description-uk.UTF-8: Немає пристрою для розбивки
+ Не знайдений жодний пристрій, який можна розбити.
+ .
+ Перевірте, чи приєднаний жорсткий диск до цієї машини.
+Description-vi.UTF-8: Không có vật chứa nào phân vùng được
+ Không tìm thấy vật chứa nào có khả năng phân vùng.
+ .
+ Hãy kiểm tra xem có đĩa cứng được kết nối đến máy này.
+Description-zh_CN.UTF-8: 无可分区的介质
+ 未找到可分区的介质。
+ .
+ 请您检查这台计算机是否接有硬盘。
+Description-zh_TW.UTF-8: 沒有可進行磁碟分割的裝置
+ 找不到可以進行磁碟分割的裝置。
+ .
+ 請確認在該機器上是否有安裝硬碟。
+
+Template: disk-detect/multipath/enable
+Type: boolean
+Default: false
+Description: for internal use; can be preseeded
+ Check for the presence of multipath devices?
+

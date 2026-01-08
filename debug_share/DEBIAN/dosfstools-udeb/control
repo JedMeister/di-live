@@ -1,0 +1,10 @@
+Package: dosfstools-udeb
+Source: dosfstools
+Version: 4.2-1.2
+Architecture: amd64
+Maintainer: Andreas Bombe <aeb@debian.org>
+Installed-Size: 205
+Depends: libc6-udeb (>= 2.41)
+Section: debian-installer
+Priority: optional
+Description: utilities for making and checking MS-DOS FAT filesystems (udeb)

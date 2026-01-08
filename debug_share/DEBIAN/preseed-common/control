@@ -1,0 +1,10 @@
+Package: preseed-common
+Source: preseed
+Version: 1.125
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 101
+Depends: cdebconf-udeb, di-utils
+Section: debian-installer
+Priority: standard
+Description: common files for preseeding

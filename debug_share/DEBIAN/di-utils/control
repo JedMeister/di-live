@@ -1,0 +1,10 @@
+Package: di-utils
+Source: debian-installer-utils
+Version: 1.155
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 134
+Depends: libc6-udeb (>= 2.41), libdebian-installer4-udeb (>= 0.125), cdebconf-udeb, busybox-udeb (>= 1:1.35.0-2)
+Section: debian-installer
+Priority: standard
+Description: Miscellaneous utilities for the debian installer

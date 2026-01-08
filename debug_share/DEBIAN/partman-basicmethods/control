@@ -1,0 +1,13 @@
+Package: partman-basicmethods
+Version: 80
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 86
+Depends: cdebconf-udeb
+Provides: partman-method
+Section: debian-installer
+Priority: optional
+Description: Basic partition usage methods for partman
+ This package provides partman with two methods to use partitions.
+ The first is to format the partition.  The second is to keep and use
+ the existing data in the partition as it is.

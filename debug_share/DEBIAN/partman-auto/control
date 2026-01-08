@@ -1,0 +1,9 @@
+Package: partman-auto
+Version: 177
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 441
+Depends: cdebconf-udeb, di-utils, partman-base, partman-basicfilesystems, partman-ext3
+Section: debian-installer
+Priority: standard
+Description: Automatically partition storage devices (partman)

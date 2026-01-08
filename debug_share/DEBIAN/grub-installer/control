@@ -1,0 +1,11 @@
+Package: grub-installer
+Version: 1.212
+Architecture: amd64
+Installer-Menu-Item: 7400
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 724
+Depends: libc6-udeb (>= 2.41), libparted2-udeb (>= 3.6), cdebconf-udeb, kernel-installer, created-fstab, di-utils, di-utils-mapdevfs, os-prober, partman-utils
+Provides: bootable-system
+Section: debian-installer
+Priority: standard
+Description: Install GRUB on a hard disk

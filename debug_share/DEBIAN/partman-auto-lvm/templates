@@ -1,0 +1,2533 @@
+Template: partman-auto-lvm/text/choice
+Type: text
+Description: Guided - use entire disk and set up LVM
+Description-am.UTF-8: Guided - ሙሉ ዲስክ ተጠቅሞ LVM ይሰየም
+Description-ar.UTF-8: موجّه - استخدام القرص بأكمله وإعداد الكتل المنطقية (LVM)
+Description-ast.UTF-8: Guiáu - usa'l discu enteru y afita LVM
+Description-be.UTF-8: З падказкай - ужыць дыск цалкам і наладзіць LVM
+Description-bg.UTF-8: Изтриване на цял диск и използване на LVM
+Description-bn.UTF-8: সহায়তা নিয়ে - সম্পূর্ণ ডিস্ক ব্যবহার করে LVM সেট করো
+Description-bo.UTF-8: སྣེ་ཁྲིད་ཡོད་པ - གསོག་སྡེར་ཡོངས་སྤྱོད་པ་དང་LVMསྒྲིག་འཛུགས་བྱེད་པ
+Description-bs.UTF-8: Vođeno - koristite cijeli disk i podesite LVM
+Description-ca.UTF-8: Guiat - utilitza el disc sencer i configura l'LVM
+Description-cs.UTF-8: Asistované - použít celý disk a nastavit LVM
+Description-cy.UTF-8: Wedi tywys - defnyddio'r holl ddisg a creu LVM
+Description-da.UTF-8: Guidet - benyt hele disken og sæt LVM op
+Description-de.UTF-8: Geführt - gesamte Platte verwenden und LVM einrichten
+Description-dz.UTF-8: ལམ་སྟོན་ཅན་ - ཌིཀསི་ཧྲིལ་བུ་ལག་ལེན་འཐབ་སྟེ་ ཨེལ་ཝི་ཨེམ་ གཞི་སྒྲིག་འབད།
+Description-el.UTF-8: Καθοδηγούμενη διαμέριση - χρήση ολόκληρου του δίσκου και ρύθμιση λογικών τόμων LVM
+Description-eo.UTF-8: Gvidata - uzu tutan diskon kaj uzu ilon LVM
+Description-es.UTF-8: Guiado - utilizar el disco completo y configurar LVM
+Description-et.UTF-8: Juhitud - tervest kettast luuakse LVM
+Description-eu.UTF-8: Gidatua - erabili disko osoa eta konfiguratu LVM
+Description-fa.UTF-8: هدایت شده - استفاده از کل دیسک و برپایی LVM
+Description-fi.UTF-8: Ohjattu - käytä koko levyä ja tee LVM:n asetukset
+Description-fr.UTF-8: Assisté - utiliser tout un disque avec LVM
+Description-ga.UTF-8: Treoraithe - úsáid an diosca iomlán agus socraigh LVM
+Description-gl.UTF-8: Guiado, empregar todo o disco e configurar o LVM
+Description-gu.UTF-8: માર્ગદર્શક -  આખી ડિસ્ક ભૂંસો અને LVM ગોઠવો
+Description-he.UTF-8: חלוקה מודרכת - שימוש בכל שטח הכונן והגדרת LVM
+Description-hi.UTF-8: दिग्दर्शित - पूरी डिस्क का प्रयोग करें और एलवीएम व्यवस्थित करें
+Description-hr.UTF-8: Navođeno - koristi cijeli disk i podesi ULU
+Description-hu.UTF-8: Irányított - LVM a teljes lemezen
+Description-id.UTF-8: Terpandu - gunakan seluruh harddisk dan siapkan LVM
+Description-is.UTF-8: Leiðbeint - nota allan diskinn og setja upp rökeintakastjóra (LVM)
+Description-it.UTF-8: Guidato - usa l'intero disco e imposta LVM
+Description-ja.UTF-8: ガイド - ディスク全体を使い LVM をセットアップする
+Description-ka.UTF-8: ოსტატით - მთელი დისკის გამოყენება, LVM-ით
+Description-kab.UTF-8: Yettuwelleh - seqdec akk aḍebsi syen sbadu LVM
+Description-kk.UTF-8: Көмектесіп - түгел диск, LVM орнату
+Description-km.UTF-8: បានណែនាំ - ប្រើ​ថាស​ទាំងមូល និង​ដំឡើង LVM
+Description-kn.UTF-8: ಮಾರ್ಗದರ್ಶಿತ - ಇಡೀ ಡಿಸ್ಕನ್ನು ಬಳಸಿ LVMನ್ನು ಸ್ಥಾಪಿಸಿ
+Description-ko.UTF-8: 자동 - 디스크 전체 사용하고 LVM 설정
+Description-ku.UTF-8: Bi alîkarî - diskê bi tevahî pakij bike û LVM saz bike
+Description-lo.UTF-8: ແນະນຳ - ໃຊ້ເຮື້ອທີ່ດີສໂດຍໃຊ້ LVM
+Description-lt.UTF-8: Auto – naudoti visą diską ir nustatyti LVM
+Description-lv.UTF-8: Vadītā — izmantot visu disku un iestatīt LVM
+Description-mk.UTF-8: Со помош - користи цел диск и постави LVM
+Description-ml.UTF-8: സഹായത്തോടെയുള്ള - മുഴുവന്‍ ഡിസ്കുമുപയോഗിച്ച് എല്‍വിഎം ഒരുക്കുക
+Description-mr.UTF-8: मार्गदर्शित - पूर्ण डिस्क वापरा व ताखंव्य संरचित करा
+Description-nb.UTF-8: Veiledet - Slett hele disken og sett opp LVM
+Description-ne.UTF-8: मार्गदर्शक गरिएको - पूरै डिस्क प्रयोग गर्नुहोस् र LVM सेट गर्नुहोस्
+Description-nl.UTF-8: Begeleid - benut gehele schijf en gebruik LVM
+Description-nn.UTF-8: Rettleia - bruk heile disken og set opp LVM
+Description-no.UTF-8: Veiledet - Slett hele disken og sett opp LVM
+Description-oc.UTF-8: Ajudat - utilizar tot un disc amb LVM
+Description-pa.UTF-8: ਸਹਾਇਕ - ਸਾਰੀ ਡਿਸਕ ਵਰਤੋਂ ਅਤੇ LVM ਸੈੱਟਅੱਪ ਕਰੋ
+Description-pl.UTF-8: Przewodnik – cały dysk i ustawienie LVM
+Description-pt.UTF-8: Guiado - utilizar o disco inteiro e instalar LVM
+Description-pt_BR.UTF-8: Assistido - usar o disco inteiro e configurar LVM
+Description-ro.UTF-8: Ghidată - pe tot discul și se configurează LVM
+Description-ru.UTF-8: Авто - использовать весь диск и настроить LVM
+Description-se.UTF-8: Nevvojuvvon - geavat olles garraskearru ja heivet LVM
+Description-si.UTF-8: මගපෙන්වූ -  සම්පූර්‍ණ තැටිය භාවිතා කිරීම සහ  LVM සැකසීම
+Description-sk.UTF-8: Sprievodca - použiť celý disk a nastaviť LVM
+Description-sl.UTF-8: Vodeno - uporabi celoten disk in nastavi LVM
+Description-sq.UTF-8: E drejtuar - përdor tërë diskun dhe cakto LVM
+Description-sr.UTF-8: Навођено – користи цео диск и постави LVM
+Description-sv.UTF-8: Guidad - använd hela disken med LVM
+Description-ta.UTF-8: வழிநடத்தப்பட்ட - முழு வட்டையும் உபயோகித்து LVM அமை
+Description-te.UTF-8: మార్గదర్శక - మొత్తము డిస్క్ వాడి  LVM సిద్దం చేయి
+Description-tg.UTF-8: Идорашаванда - тамоми дискро истифода баред ва LVM-ро танзим намоед
+Description-th.UTF-8: แนะแนว - ใช้เนื้อที่ทั้งดิสก์โดยใช้ LVM
+Description-tl.UTF-8: May gabay - gamitin ang buong disk at isaayos ang LVM
+Description-tr.UTF-8: Yardımcı ile - diskin tamamını kullan ve LVM'yi ayarla
+Description-ug.UTF-8: يېتەكچى - پۈتۈن دىسكىنى ئىشلىتىپ LVM سەپلەيدۇ
+Description-uk.UTF-8: З допомогою - використати весь диск і налаштувати LVM
+Description-vi.UTF-8: Hướng dẫn — dùng toàn bộ đĩa và cài đặt LVM
+Description-zh_CN.UTF-8: 向导 - 使用整个磁盘并配置 LVM
+Description-zh_TW.UTF-8: 導引 - 使用整顆磁碟並設定 LVM
+
+Template: partman-auto-lvm/new_vg_name
+Type: string
+Description: Name of the volume group for the new system:
+Description-am.UTF-8: የአዲሱ ስርዓት ይዘት ግሩፕ ስም፦
+Description-ar.UTF-8: اسم مجموعة الكتل لنظام دبيان الجديد:
+Description-ast.UTF-8: Nome del grupu de volume pal nuevu sistema:
+Description-be.UTF-8: Назва групы тамоў для новай сістэмы:
+Description-bg.UTF-8: Име на група от томове за новоинсталираната система:
+Description-bn.UTF-8: নতুন সিস্টেমের জন্য ভলিউম গ্রুপের নাম:
+Description-bs.UTF-8: Naziv grupe diskova za novi sistem:
+Description-ca.UTF-8: Nom del grup de volums per al nou sistema:
+Description-cs.UTF-8: Název skupiny svazků pro nový systém:
+Description-cy.UTF-8: Enw y grŵp cyfrol ar gyfer y system newydd:
+Description-da.UTF-8: Navnet på det nye systems diskenhedsgruppe:
+Description-de.UTF-8: Name der Volume-Gruppe für das neue System:
+Description-dz.UTF-8: རིམ་ལུགས་གསརཔ་གི་དོན་ལུ་བོ་ལུསམ་སྡེ་ཚན་གྱི་མིང་:
+Description-el.UTF-8: Όνομα ομάδας τόμων για το νέο σύστημα:
+Description-eo.UTF-8: Nomo de la datumportil-grupo por la nova sistemo:
+Description-es.UTF-8: Introduzca el nombre del grupo de volumen para el nuevo sistema:
+Description-et.UTF-8: Uue süsteemi köitegrupi nimi:
+Description-eu.UTF-8: Sistema berriko bolumen taldearen izena:
+Description-fa.UTF-8: نام گروه حجم برای سیستم جدید:
+Description-fi.UTF-8: Uuden järjestelmän taltioryhmän nimi:
+Description-fr.UTF-8: Nom du groupe de volumes pour le nouveau système :
+Description-ga.UTF-8: Ainm an ghrúpa imleabhar le haghaidh an chórais nua:
+Description-gl.UTF-8: Nome do grupo de volumes do novo sistema:
+Description-gu.UTF-8: નવી સિસ્ટમ માટે કદ સમૂહનું નામ:
+Description-he.UTF-8: שם קבוצת הכרכים למערכת החדשה:
+Description-hi.UTF-8: नए न तंत्र हेतु वॉल्यूम समूह का नाम:
+Description-hr.UTF-8: Naziv grupe uređaja za novi sustav:
+Description-hu.UTF-8: A kötetcsoport neve az új rendszerhez:
+Description-id.UTF-8: Nama grup volum untuk sistem yang baru:
+Description-is.UTF-8: Nafn sýndardisksins fyrir nýja kerfið:
+Description-it.UTF-8: Nome del gruppo di volumi per il nuovo sistema:
+Description-ja.UTF-8: 新しいシステムのボリュームグループ名:
+Description-ka.UTF-8: ტომების ჯგუფის სახელი ახალი სისტემისათვის:
+Description-kab.UTF-8: Isem n ugraw n ubleɣ i unagraw amaynut:
+Description-kk.UTF-8: Жаңа жүйенің томдар тобының аты:
+Description-km.UTF-8: ឈ្មោះ​ក្រុម​ភាគ សម្រាប់​ប្រព័ន្ធ​ថ្មី ៖
+Description-kn.UTF-8: ಹೊಸ ಗಣಕಕ್ಕಾಗಿ ಪರಿಮಾಣ ಸಮೂಹದ ಹೆಸರಿಸಿ:
+Description-ko.UTF-8: 새 데비안 시스템의 볼륨 그룹 이름:
+Description-ku.UTF-8: Navê koma voluman an pergala nû:
+Description-lo.UTF-8: ຊື່ຂອງກຸ່ມໂວລ້ຳສຳລັບລະບົບໃໝ່:
+Description-lt.UTF-8: Naujos sistemos tomų grupės vardas:
+Description-lv.UTF-8: Jaunās sistēmas sējumu grupas nosaukums:
+Description-mk.UTF-8: Те молам внеси го името на логичката група за новиот систем:
+Description-ml.UTF-8: പുതിയ സിസ്റ്റത്തിനായുള്ള വാള്യം ഗ്രൂപ്പിന്റെ പേരു്:
+Description-mr.UTF-8: या नवीन प्रणालीकरिता खंड गटाचे नावः
+Description-nb.UTF-8: Navnet på det grupperte dataområdet for det nye systemet:
+Description-ne.UTF-8: नयाँ प्रणालीका लागि भोल्युम समूहको नाम:
+Description-nl.UTF-8: Naam van de volumegroep voor het nieuwe systeem:
+Description-nn.UTF-8: Namnet på det grupperte dataområdet for det nye systemet:
+Description-no.UTF-8: Navnet på det grupperte dataområdet for det nye systemet:
+Description-oc.UTF-8: Nom del grop de volums pel sistèma novèl :
+Description-pa.UTF-8: ਨਵੇਂ ਸਿਸਟਮ ਲਈ ਵਾਲੀਅਮ ਗਰੁੱਪ ਦਾ ਨਾਂ:
+Description-pl.UTF-8: Nazwa grupy woluminów dla nowego systemu:
+Description-pt.UTF-8: Nome do grupo de volumes para o novo sistema:
+Description-pt_BR.UTF-8: Nome do grupo de volumes para o novo sistema:
+Description-ro.UTF-8: Numele grupului de volume pentru noul sistem:
+Description-ru.UTF-8: Имя группы томов для устанавливаемой системы:
+Description-si.UTF-8: නව පද්ධතිය සඳහා වන වෙළුම් කණ්ඩායමේ නම:
+Description-sk.UTF-8: Názov skupiny zväzkov pre nový systém:
+Description-sl.UTF-8: Navedite ime upravljalnika logičnih nosilcev za novi sistem:
+Description-sq.UTF-8: Emri i grupit të volumit për sistemin e ri:
+Description-sr.UTF-8: Назив групе волумена за нови систем:
+Description-sv.UTF-8: Namn på volymgruppen för det nya systemet:
+Description-ta.UTF-8: புதிய கணினி அமைப்பில் தொகுதிப் பிரிவுக்கு பெயர்:
+Description-te.UTF-8: కొత్త వ్యస్థ కొరకు Volume group పేరు :
+Description-tg.UTF-8: Номи гурӯҳи ҳаҷмҳо барои низоми нав:
+Description-th.UTF-8: ชื่อของกลุ่มโวลุมสำหรับระบบใหม่:
+Description-tl.UTF-8: Pangalan ng volume group para sa bagong sistema:
+Description-tr.UTF-8: Yeni sistem için cilt grubu adı:
+Description-ug.UTF-8: يېڭى سىستېمىنىڭ دىسكا گۇرۇپپا ئاتى:
+Description-uk.UTF-8: Назва групи томів для нової системи:
+Description-vi.UTF-8: Tên của nhóm khối tin cho hệ thống mới:
+Description-zh_CN.UTF-8: 新系统的卷组名称：
+Description-zh_TW.UTF-8: 新系統的 Volume Group 名稱：
+
+Template: partman-auto-lvm/new_vg_name_exists
+Type: string
+Description: Name of the volume group for the new system:
+ The selected volume group name is already in use. Please choose
+ another name.
+Description-am.UTF-8: የአዲሱ ስርዓት ይዘት ግሩፕ ስም፦
+ የተመረጠው የይዘት ግሩፕ ስም በጥቅም ላይ ነው፡፡ እባክዎ ሌላ ስም ይምረጡ፡፡
+Description-ar.UTF-8: اسم مجموعة الكتل لنظام دبيان الجديد:
+ اسم مجموعة الكتل المنتقى مستخدمٌ مسبقاً. الرجاء اختيار اسم آخر.
+Description-ast.UTF-8: Nome del grupu de volume pal nuevu sistema:
+ El nome de grupu de volume seleicionáu ya ta n'usu. Por favor, escueye otru nome.
+Description-be.UTF-8: Назва групы тамоў для новай сістэмы:
+ Абраная назва групы тамоў ужо ўжываецца. Калі ласка, прапануйце іншую.
+Description-bg.UTF-8: Име на група от томове за новоинсталираната система:
+ Избраното име за група от томове вече се използва. Моля, изберете друго име.
+Description-bn.UTF-8: নতুন সিস্টেমের জন্য ভলিউম গ্রুপের নাম:
+ ভলিউম গ্রুপের জন্য নির্বাচিত নামটি ইতিমধ্যে ব্যবহৃত হচ্ছে। অনুগ্রহপূর্বক অন্য একটি নাম বেছে নিন।
+Description-bs.UTF-8: Naziv grupe diskova za novi sistem:
+ Odabrani naziv grupe particija se već koristi. Molim odaberite drugi naziv.
+Description-ca.UTF-8: Nom del grup de volums per al nou sistema:
+ El nom del grup de volums seleccionat ja està en ús. Seleccioneu-ne un altre.
+Description-cs.UTF-8: Název skupiny svazků pro nový systém:
+ Zadané jméno skupiny svazků je již používáno. Vyberte prosím jiné jméno.
+Description-cy.UTF-8: Enw y grŵp cyfrol ar gyfer y system newydd:
+ Mae enw'r grŵp cyfrol a ddewiswyd mewn defnydd yn barod. Dewiswch enw arall os gwelwch yn dda.
+Description-da.UTF-8: Navnet på det nye systems diskenhedsgruppe:
+ Det valgte diskenhedsgruppenavn er allerede i brug. Vælg et andet navn.
+Description-de.UTF-8: Name der Volume-Gruppe für das neue System:
+ Der angegebene Name der Volume-Gruppe wird bereits verwendet. Bitte wählen Sie einen anderen Namen.
+Description-dz.UTF-8: རིམ་ལུགས་གསརཔ་གི་དོན་ལུ་བོ་ལུསམ་སྡེ་ཚན་གྱི་མིང་:
+ སེལ་འཐུ་འབད་ཡོད་མི་བོ་ལུསམ་སྡེ་ཚན་གྱི་མིང་འདི་ཧེ་མ་ལས་ལག་ལེན་འཐབ་ནུག།་ མིང་གཞན་གདམ་ཁ་རྐྱབས་གནང་།
+Description-el.UTF-8: Όνομα ομάδας τόμων για το νέο σύστημα:
+ Το επιλεγμένο όνομα ομάδας τόμων χρησιμοποιείται ήδη. Παρακαλώ, επιλέξτε κάποιο άλλο όνομα.
+Description-eo.UTF-8: Nomo de la datumportil-grupo por la nova sistemo:
+ La elektita datumportila grupa nomo jam estas uzata. Bonvolu elekti alian nomon.
+Description-es.UTF-8: Introduzca el nombre del grupo de volumen para el nuevo sistema:
+ El nombre del grupo de volúmenes seleccionado ya está siendo utilizado. Por favor, escoja otro nombre.
+Description-et.UTF-8: Uue süsteemi köitegrupi nimi:
+ Valitud köitegrupi nimi on juba kasutusel. Palun vali mõni teine nimi.
+Description-eu.UTF-8: Sistema berriko bolumen taldearen izena:
+ Hautatutako bolumen taldearen izena lehendik erabilita dago. Aukeratu beste izen bat.
+Description-fa.UTF-8: نام گروه حجم برای سیستم جدید:
+ نام گروه volume قبلا انتخاب شده است. لطفا نام دیگری را انتخاب کنید.
+Description-fi.UTF-8: Uuden järjestelmän taltioryhmän nimi:
+ Valittu taltioryhmän nimi on jo käytössä. Valitse jokin muu nimi.
+Description-fr.UTF-8: Nom du groupe de volumes pour le nouveau système :
+ Le nom choisi pour ce groupe de volumes existe déjà. Veuillez choisir un autre nom.
+Description-ga.UTF-8: Ainm an ghrúpa imleabhar le haghaidh an chórais nua:
+ Tá grúpa imleabhar ann darb ainm seo cheana. Roghnaigh ainm difriúil, le do thoil.
+Description-gl.UTF-8: Nome do grupo de volumes do novo sistema:
+ Xa se está a utilizar o nome escollido para o grupo de volumes. Escolla outro nome.
+Description-gu.UTF-8: નવી સિસ્ટમ માટે કદ સમૂહનું નામ:
+ પસંદ કરેલ કદ સમૂહ નામ પહેલેથી વપરાશમાં છે. મહેરબાની કરી બીજું નામ પસંદ કરો.
+Description-he.UTF-8: שם קבוצת הכרכים למערכת החדשה:
+ השם שנבחר לקבוצת הכרכים כבר נמצא בשימוש. נא לבחור שם אחר.
+Description-hi.UTF-8: नए न तंत्र हेतु वॉल्यूम समूह का नाम:
+ वॉल्यूम समूह का चुना गया नाम पहले से ही उपयोग में है. कृपया कोई अन्य नाम दें.
+Description-hr.UTF-8: Naziv grupe uređaja za novi sustav:
+ Odabrani naziv grupe uređaja već se koristi. Odaberite drugi naziv.
+Description-hu.UTF-8: A kötetcsoport neve az új rendszerhez:
+ A megadott kötetcsoportnév már foglalt. Kérlek, válassz másik nevet.
+Description-id.UTF-8: Nama grup volum untuk sistem yang baru:
+ Nama Grup Volum yang dipilih telah dipakai. Silakan pilih nama lain.
+Description-is.UTF-8: Nafn sýndardisksins fyrir nýja kerfið:
+ Heitið sem þú valdir fyrir sýndardiskinn er í notkun. Veldu annað heiti.
+Description-it.UTF-8: Nome del gruppo di volumi per il nuovo sistema:
+ Il nome del gruppo di volumi è già in uso. Sceglierne un altro.
+Description-ja.UTF-8: 新しいシステムのボリュームグループ名:
+ 選択されたボリュームグループ名はすでに使われています。別の名前を選んでください。
+Description-ka.UTF-8: ტომების ჯგუფის სახელი ახალი სისტემისათვის:
+ ასეთი სახელის მქონე ტომების ჯგუფი უკვე არსებობს. აირჩიეთ სხვა სახელი.
+Description-kab.UTF-8: Isem n ugraw n ubleɣ i unagraw amaynut:
+ Isem n ugraw n ubleɣ i yettwafernen ha-t-an la yettuseqdac yakan. Ma ulac uɣilif, fren isem-nniḍen.
+Description-kk.UTF-8: Жаңа жүйенің томдар тобының аты:
+ Томдар тобының мұндай атауы бар. Басқа атау таңдаңыз.
+Description-km.UTF-8: ឈ្មោះ​ក្រុម​ភាគ សម្រាប់​ប្រព័ន្ធ​ថ្មី ៖
+ បាន​ប្រើ​ឈ្មោះ​ក្រុម​ភាគ​ដែល​បាន​ជ្រើស​រួច​ហើយ ។ សូម​ជ្រើស​ឈ្មោះ​មួយ​ទៀត ។
+Description-kn.UTF-8: ಹೊಸ ಗಣಕಕ್ಕಾಗಿ ಪರಿಮಾಣ ಸಮೂಹದ ಹೆಸರಿಸಿ:
+ ಆಯ್ಕೆ ಮಾಡಲಾದ ಸಂಪುಟ ಸಮೂಹ ನಾಮವು ಆಗಲೇ ಬಳಕೆಯಲ್ಲಿದೆ. ದಯಮಾಡಿ ಬೇರೊಂದು ಹೆಸರನ್ನು ಸೂಚಿಸಿ.
+Description-ko.UTF-8: 새 데비안 시스템의 볼륨 그룹 이름:
+ 입력한 볼륨 그룹 이름이 이미 사용 중입니다. 다른 이름을 사용하십시오.
+Description-ku.UTF-8: Navê koma voluman an pergala nû:
+ Ev navê komeke voluman ji xwe tê bi kar anîn. Ji kerema xwe re navekî din hilbijîere.
+Description-lo.UTF-8: ຊື່ຂອງກຸ່ມໂວລ້ຳສຳລັບລະບົບໃໝ່:
+ ຊື່ກຸ່ມໂວລຸມທີ່ທ່ານຕັ້ງຖືກໃຊ້ໄປແລ້ວ ກະລຸນາຕັ້ງເປັນຊື່ອື່ນ
+Description-lt.UTF-8: Naujos sistemos tomų grupės vardas:
+ Pasirinktas tomų grupės (Volume Group) pavadinimas jau naudojamas. Prašau pasirinkti kitą pavadinimą.
+Description-lv.UTF-8: Jaunās sistēmas sējumu grupas nosaukums:
+ Cita sējumu grupa jau ir šādi nosaukta. Lūdzu, izvēlieties citu nosaukumu.
+Description-mk.UTF-8: Те молам внеси го името на логичката група за новиот систем:
+ Одбраното име за просторната група е зафатено. Те молам одбери ново име.
+Description-ml.UTF-8: പുതിയ സിസ്റ്റത്തിനായുള്ള വാള്യം ഗ്രൂപ്പിന്റെ പേരു്:
+ തെരഞ്ഞെടുത്ത വാള്യം ഗ്രൂപ്പിന്റെ പേര് നേരത്തെ ഉപയോഗത്തിലുണ്ട്. ദയവായി മറ്റൊരു പേര് തെരഞ്ഞെടുക്കുക.
+Description-mr.UTF-8: या नवीन प्रणालीकरिता खंड गटाचे नावः
+ निवडलेले खंड गटाचे नाव आधीच वापरात आहे. कृपया अन्य नाव निवडा.
+Description-nb.UTF-8: Navnet på det grupperte dataområdet for det nye systemet:
+ Et annet gruppert dataområde bruker dette navnet, du må velge et annet navn.
+Description-ne.UTF-8: नयाँ प्रणालीका लागि भोल्युम समूहको नाम:
+ चयन भएको भोल्युम समूह नाम पहिल्यै प्रयोगमा छन् । कृपया अर्को नाम रोज्नुहोस् ।
+Description-nl.UTF-8: Naam van de volumegroep voor het nieuwe systeem:
+ De geselecteerde volumegroepnaam is reeds in gebruik. U dient een andere naam te kiezen.
+Description-nn.UTF-8: Namnet på det grupperte dataområdet for det nye systemet:
+ Det valde grupperte dataområdet er allereie i bruk. Bruk eit anna namn.
+Description-no.UTF-8: Navnet på det grupperte dataområdet for det nye systemet:
+ Et annet gruppert dataområde bruker dette navnet, du må velge et annet navn.
+Description-oc.UTF-8: Nom del grop de volums pel sistèma novèl :
+ Lo nom causit per aqueste grop de volums existìs ja. Causissètz un nom diferent.
+Description-pa.UTF-8: ਨਵੇਂ ਸਿਸਟਮ ਲਈ ਵਾਲੀਅਮ ਗਰੁੱਪ ਦਾ ਨਾਂ:
+ ਚੁਣਿਆ ਵਾਲੀਅਮ ਗਰੁੱਪ ਨਾਂ ਪਹਿਲਾਂ ਹੀ ਵਰਤਿਆ ਹੈ। ਹੋਰ ਨਾਂ ਚੁਣੋ ਜੀ।
+Description-pl.UTF-8: Nazwa grupy woluminów dla nowego systemu:
+ Wybrana nazwa grupy woluminów jest już używana. Proszę wybrać inną nazwę.
+Description-pt.UTF-8: Nome do grupo de volumes para o novo sistema:
+ O nome do grupo de volumes já está em uso. Por favor escolha outro nome.
+Description-pt_BR.UTF-8: Nome do grupo de volumes para o novo sistema:
+ O nome do grupo de volumes selecionado já está em uso. Por favor, escolha outro nome.
+Description-ro.UTF-8: Numele grupului de volume pentru noul sistem:
+ Numele grupului de volume selectat este deja utilizat. Vă rugăm să alegeți un alt nume.
+Description-ru.UTF-8: Имя группы томов для устанавливаемой системы:
+ Указанное название группы томов уже существует. Выберите другое название.
+Description-si.UTF-8: නව පද්ධතිය සඳහා වන වෙළුම් කණ්ඩායමේ නම:
+ තෝරාගත් කණ්ඩායම් නාමය දැනටමත් භාවිත වේ. කරුණාකර වෙනත් නාමයක් තෝරන්න.
+Description-sk.UTF-8: Názov skupiny zväzkov pre nový systém:
+ Daný názov vybranej skupiny zväzkov už existuje. Zvoľte, prosím, iný názov.
+Description-sl.UTF-8: Navedite ime upravljalnika logičnih nosilcev za novi sistem:
+ Izbrano ime skupine nosilcev je že v uporabi. Izberite drugo ime in poskusite znova.
+Description-sq.UTF-8: Emri i grupit të volumit për sistemin e ri:
+ Ky emër Grupi Volumi i zgjedhur është në përdorim. Të lutem zgjidh një tjetër.
+Description-sr.UTF-8: Назив групе волумена за нови систем:
+ Изабран назив за групу волумена је већ у употреби. Изаберите други назив.
+Description-sv.UTF-8: Namn på volymgruppen för det nya systemet:
+ Det valda namnet på volymgruppen används redan. Välj ett annat namn.
+Description-ta.UTF-8: புதிய கணினி அமைப்பில் தொகுதிப் பிரிவுக்கு பெயர்:
+ உள்ளிட்ட தொகுதிப் பிரிவு பெயர் ஏற்கெனவே பயன் பாட்டில் உள்ளது. வேறு பெயரை உள்ளிடவும்.
+Description-te.UTF-8: కొత్త వ్యస్థ కొరకు Volume group పేరు :
+ ఎంచుకున్న Volume group పేరు యిప్పటికే వాడుకలో వుంది. దయచేసి ఇంకొకపేరు ఎంచుకో.
+Description-tg.UTF-8: Номи гурӯҳи ҳаҷмҳо барои низоми нав:
+ Номи интихобшудаи гурӯҳи ҳаҷмҳо аллакай истифода мешавад. Лутфан, номи дигареро интихоб намоед.
+Description-th.UTF-8: ชื่อของกลุ่มโวลุมสำหรับระบบใหม่:
+ ชื่อกลุ่มโวลุมที่คุณตั้ง ถูกใช้ไปแล้ว กรุณาตั้งเป็นชื่ออื่น
+Description-tl.UTF-8: Pangalan ng volume group para sa bagong sistema:
+ Ang napiling pangalan ng volume group ay ginagamit na. Magbigay ng ibang pangalan.
+Description-tr.UTF-8: Yeni sistem için cilt grubu adı:
+ Seçtiğiniz cilt grubu adı zaten kullanılıyor. Lütfen başka bir ad seçip tekrar deneyin.
+Description-ug.UTF-8: يېڭى سىستېمىنىڭ دىسكا گۇرۇپپا ئاتى:
+ تاللىغان دىسكا گۇرۇپپا ئاتى ئىشلىتىلىۋاتىدۇ، باشقا ئىسىمنى تاللاڭ.
+Description-uk.UTF-8: Назва групи томів для нової системи:
+ Вибрана назва групи томів вже використовується. Виберіть іншу назву.
+Description-vi.UTF-8: Tên của nhóm khối tin cho hệ thống mới:
+ Tên nhóm khối tin đã chọn đang được dùng. Hãy chọn tên khác.
+Description-zh_CN.UTF-8: 新系统的卷组名称：
+ 所选卷组名已被使用，请换用另一个名称。
+Description-zh_TW.UTF-8: 新系統的 Volume Group 名稱：
+ 所指定的 Volume Group 名稱已在使用中。請換用另一個名稱。
+
+Template: partman-auto-lvm/unusable_recipe
+Type: error
+Description: Failed to partition the selected disk
+ This happened because the selected recipe does not contain any partition
+ that can be created on LVM volumes.
+Description-am.UTF-8: የተመረጠውን ዲስክ መክፈል አልተሳካም።
+ ይህ የሆነበት ምክንያት የተመረጠው ዝግጅት በLVM ይዘት ላይ የሚፈጠር ምንም ክፋይ ስለልየለው ነው፡፡
+Description-ar.UTF-8: فشل تجزيء القرص المنتقى
+ حدث هذا على الأرجح بسبب عملية التجزئة المختارة لا تحتوي أية أجزاء يمكن إنشاءها على كتل LVM.
+Description-ast.UTF-8: Falló particionar el discu seleicionáu
+ Esto asocedió porque la receta escoyida nun contién denguna partición que pueda criase en volúmenes LVM.
+Description-be.UTF-8: Не атрымалася падзяліць абраны дыск
+ Гэта здарылася, бо пазначаны атрымальнік не ўтрымлівае падзелаў, што маглі б быць створаны на тамах LVM.
+Description-bg.UTF-8: Грешка при разделяне на избрания диск
+ Вероятно причината е, че избраната рецепта не съдържа дялове, които могат да бъдат създавани в томове на LVM.
+Description-bn.UTF-8: নির্বাচিত ডিস্ককে পার্টিশন করতে ব্যর্থ
+ এমনটি ঘটেছে কারণ নির্বাচিত তালিকায় (recipe) এমন কোন পার্টিশন নেই যাকে LVM ভলিউম-এ তৈরি করা যায়।
+Description-bs.UTF-8: Neuspješno particionisanje odabranog diska
+ Ovo se dogodilo zato što odabrani recept ne sadrži nijednu particiju koja se može kreirati na LVM volumenima.
+Description-ca.UTF-8: No s'ha pogut partir el disc seleccionat
+ Això ha ocorregut perquè la recepta seleccionada no conté cap partició que es puga crear en volums LVM.
+Description-cs.UTF-8: Selhalo rozdělení vybraného disku
+ Toto se stalo kvůli faktu, že vybraný návod neobsahuje žádnou oblast, která by se dala na LVM svazku vytvořit.
+Description-cy.UTF-8: Methwyd rhaniadu'r disg a ddewiswyd
+ Fe ddigwyddodd hyn am nad yw'r rysait yn cynnwys unrhyw raniad a all eu greu ar gyfrolau LVM.
+Description-da.UTF-8: Kunne ikke partitionere den valgte disk
+ Dette skyldes sandsynligvis at den valgte opskrift ikke indeholder nogen partitioner, der kan oprettes på LVM-diskenheder.
+Description-de.UTF-8: Die gewählte Festplatte konnte nicht partitioniert werden.
+ Dies geschah, da das gewählte Rezept keine Partition enthält, die auf LVM-Volumes erzeugt werden kann.
+Description-dz.UTF-8: སེལ་འཐུ་འབད་ཡོད་པའི་ཌིཀསི་བར་བཅད་འབད་ནི་ལུ་མཐར་འཁྱོལ་མ་བྱུང་།
+ སེལ་འཐུ་འབད་ཡོད་པའི་བཟའ་འཐུང་བཟོ་ཐངས་ནང་LVMསྐད་ཤུགས་ཚུ་ལུ་གསར་བསྐྲུན་འབད་བཏུབ་མི་གི་བར་བཅད་གང་རུང་མེདཔ་ལས་འ་ནི་འདི་བྱུངམ་ཨིན།
+Description-el.UTF-8: Αποτυχία διαμέρισης του επιλεγμένου δίσκου
+ Αυτό συνέβη επειδή η συνταγή που επιλέξατε δεν περιέχει καμία κατάτμηση που να μπορεί να δημιουργηθεί σε τόμους LVM.
+Description-eo.UTF-8: Malsukcesis la diskpartigado de la elektita disko
+ Tio ĉi okazis ĉar la elektita recepto enhavas neniun diskparton kiu povas esti kreata sur datumportiloj LVM.
+Description-es.UTF-8: Falló el particionado en el disco seleccionado
+ Esto sucedió porque la receta elegida no contiene ninguna partición que pueda crearse en volúmenes LVM.
+Description-et.UTF-8: Valitud ketta partitsioneerimine nurjus
+ Arvatavasti juhtus see, kuna valitud retsept ei sisalda ühtki partitsiooni, mida saaks luua LVM köidetele.
+Description-eu.UTF-8: Huts egin du hautatutako diskoan partizioa egitean
+ Hautatutako errezetak LVM bolumenetan sor daitekeen partiziorik ez duelako gertatu da hau.
+Description-fa.UTF-8: پارتیشن‌بندی دیسک انتخاب شده شکست خورد
+ این اتفاق احتمالا به علت تعدد پارتیشن‌ّای اولیه بر روی دیسک رخ داده است.
+Description-fi.UTF-8: Valitun levyn osiointi ei onnistunut
+ Näin kävi koska valittu malline ei sisällä yhtään osiota, joka voitaisiin luoda LVM-taltiolle.
+Description-fr.UTF-8: Échec du partitionnement du disque choisi
+ Cet échec est probablement dû à un schéma de partitionnement sans partition à créer sur les volumes LVM.
+Description-ga.UTF-8: Theip ar an diosca roghnaithe a dheighilt
+ Tharla sé seo toisc nach bhfuil aon deighilt ag an oideas roghnaithe b'fhéidir a chruthú ar imleabhar LVM.
+Description-gl.UTF-8: Non foi posíbel particionar o disco escollido
+ Isto aconteceu porque a receita escollida non contén ningunha partición que se poida crear en volumes LVM.
+Description-gu.UTF-8: પસંદ કરેલ ડિસ્ક પર પાર્ટિશન કરવામાં નિષ્ફળ
+ આવું બન્યું છે તેનું કારણ એ છે કે પસંદ કરેલ રીત LVM કદો બનાવી શકાય એવા કોઇ પાર્ટિશનો ધરાવતી નથી.
+Description-he.UTF-8: חלוקת הכונן הנבחר למחיצות נכשלה
+ מצב זה קרה כנראה כיוון שהמרשם הנבחר לא מכיל מחיצה אותה ניתן ליצור על כרכי מנהל מחיצות לוגיות.
+Description-hi.UTF-8: चयनित डिस्क को पार्टीशन करने में असफल
+ ऐसा इसलिए हुआ क्योंकि चुनी गयी विधि में कोई भी ऐसा पार्टिशन नहीं था जिसे कि एलवीएम वॉल्यूमों पर बनाया जा सके.
+Description-hr.UTF-8: Particioniranje odabranog diska nije uspjelo
+ To se dogodilo zato što odabrano pravilo ne sadrži nijednu particiju koja se može stvoriti na ULU uređajima.
+Description-hu.UTF-8: A kiválasztott lemez particionálása nem sikerült
+ Ez azért történt, mert a kiválasztott recept nem tartalmaz LVM köteteken létrehozható partíciót.
+Description-id.UTF-8: Gagal mempartisi hard disk yang telah dipilih
+ Ini terjadi karena resep yang dipilih tidak berisi partisi yang dapat dibuat pada volum LVM.
+Description-is.UTF-8: Mistókst að disksneiða niður valinn disk
+ Þetta átti sér stað vegna þess að valin uppskrift innihélt enga disksneið sem hægt er að búa til á LVM-stýrðum sýndardiskum.
+Description-it.UTF-8: Partizionamento del disco selezionato non riuscito
+ Questo probabilmente è accaduto perché la scelta effettuata non contiene alcuna partizione che possa essere creata su volumi LVM.
+Description-ja.UTF-8: 選択されたディスクのパーティショニングに失敗しました
+ これは、選択されたレシピが LVM ボリュームとして作成できるパーティションを含んでいないために起きました。
+Description-ka.UTF-8: შეცდომა მონიშნული დისკის დაყოფისას
+ ეს მოხდა იმის გამო, რომ არჩეული მეთოდი არ შეიცავს დანაყოფებს, რომლებიც შეიძლება შეიქმნას LVM-ის ტომებზე.
+Description-kab.UTF-8: Beṭṭu n uḍebsi i d-yettufernen yecceḍ
+ Yeḍra-d waya acku tasesfert i yettwafernen ulac deg-s ula d yiwen uḥric i izemren ad yettwarnu ɣef yiblaɣen LVM.
+Description-kk.UTF-8: Таңдалған дискіні бөлу мүмкін болмады
+ Мұның себебі: таңдалған шешімде (recipe) LVM томдарында жасауға болатын томдар көрсетілмеген.
+Description-km.UTF-8: បរាជ័យ​ក្នុងការ​ចែក​ថាស​ដែល​បាន​ជ្រើស​ជា​ភាគ
+ វា​កើតឡើង​ដោយ​សារ​តែ​រូបមន្ត​ដែល​បានាន​ជ្រើស​មិន​មាន​ភាគ​ថាស​ណា​មួយ ដែល​អ្នក​អាច​បង្កើត​លើ​ភាគ LVM បាន ។
+Description-kn.UTF-8: ಆಯ್ದುಕೊಂಡ ಡಿಸ್ಕನ್ನು ವಿಭಜಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ.
+ ಆಯ್ಕೆ ಮಾಡಿದ ಸೂತ್ರದಲ್ಲಿ LVM ಸಂಪುಟಗಳ ಮೇಲೆ ನಿರ್ಮಿಸುವ ಯಾವುದೇ ವಿಭಜನೆಯನ್ನು ಹೊಂದದಿರುವುದರಿಂದ ಇದು ಆಗಿದೆ
+Description-ko.UTF-8: 선택한 디스크를 파티션하는데 실패했습니다
+ 선택한 파티션 조합 중에 LVM 볼륨에 설치할 수 있는 파티션이 하나도 없어서 이 문제가 발생했을 수도 있습니다.
+Description-ku.UTF-8: Partîsiyonkirina diska hilbijartî serneket
+ Sedema vê yekê bi îhtimaleke mezin awayê ku hatiye hilbijartin beşeke ku li ser cildên LVM bête çêkirin nahundirîne.
+Description-lo.UTF-8: ບໍ່ສາມາດແບ່ງພາທີ່ຊັ່ນໃນດີສທີ່ເລືອກ
+ ຂໍ້ຜິດພາດນີ້ເກີດຂຶ້ນເພາະສູດທີ່ເລືອກບໍ່ມີພາທີຊັນໃດທີ່ສາມາດສ້າງໃນໂວລ້ຳ LVM ໄດ້ເລີຍ
+Description-lt.UTF-8: Pasirinkto disko dalijimas nepavyko
+ Galbūt tai atsitiko todėl, kad pasirinktas variantas neturi disko skaidinių, kurie gali būti sukurti LVM tomuose..
+Description-lv.UTF-8: Neizdevās sadalīt izvēlēto disku
+ Šī kļūda notika, jo izvēlētā recepte nesatur nodalījumus, kas varētu tikt izveidoti uz LVM sējumiem.
+Description-mk.UTF-8: Не успеав при партиционирање на одбраниот диск
+ Ова се случи бидејќи избра рецепт кој не содржи никакви партиции кои може да бидат создадени на LVM простори.
+Description-ml.UTF-8: തിരഞ്ഞടുത്ത ഡിസ്ക് വിഭജിക്കുന്നതില്‍ പരാജയപ്പെട്ടു
+ എല്‍വിഎം വാള്യങ്ങളില്‍ സൃഷ്ടിക്കാവുന്ന ഒരു ഭാഗങ്ങളുമുള്‍‌ക്കൊള്ളാത്ത പാചകക്കൂട്ട് തെരഞ്ഞെടുത്തതു കൊണ്ടാണു് ഇതു് സംഭവിച്ചത്.
+Description-mr.UTF-8: निवडलेल्या डिस्कचे विभाजन करता आले नाही
+ हे घडण्याचे कारण निवडलेल्या यादीत ताखंव्य खंडांमधे बनवता येण्याजोगे एकही विभाजन नाही.
+Description-nb.UTF-8: Klarte ikke å partisjonere den valgte harddisken
+ Dette skjedde sannsynligvis fordi den valgte oppskriften ikke inneholder en partisjon som kan opprettes på LVM-volumer.
+Description-ne.UTF-8: चयन भएका डिस्कलाई विभाजन गर्न असफल
+ यो भयो किन भने चयन भएको भर्पाईले LVM भोल्युममा सिर्जना हुन सक्ने कुनै विभाजनलाई समाविष्ट गर्न सकेन ।
+Description-nl.UTF-8: Indelen van de uitgekozen schijf is mislukt
+ De oorzaak hiervan is dat het geselecteerde recept geen partitie bevat die kan worden aangemaakt op een LVM-volume.
+Description-nn.UTF-8: Klarte ikkje partisjonere den valde disken
+ Dette skjedde truleg fordi den valde oppskrifta ikkje inneheld ein partisjon som kan opprettast på LVM-dataområde.
+Description-no.UTF-8: Klarte ikke å partisjonere den valgte harddisken
+ Dette skjedde sannsynligvis fordi den valgte oppskriften ikke inneholder en partisjon som kan opprettes på LVM-volumer.
+Description-oc.UTF-8: Impossible de particionar lo disc seleccionat
+ Aqueste fracàs ven segurament de la causida de l'aisina qu'a pas de particion que se pòt crear suls volums LVM.
+Description-pa.UTF-8: ਚੁਣੀ ਡਿਸਕ ਦੇ ਪਾਰਟੀਸ਼ਨਿੰਗ ਵਿੱਚ ਅਸਫਲ
+ ਇਹ ਤਾਂ ਹੀ ਵਾਪਰਿਆ ਹੈ, ਕਿਉਂਕਿ ਚੁਣੀ ਲਿਸਟ ਵਿੱਚ ਕੋਈ LVM ਵਾਲੀਅਮ ਤੇ ਬਣਾਇਆ ਜਾ ਸਕੇ।
+Description-pl.UTF-8: Nie udało się spartycjonować wybranego dysku
+ Błąd wystąpił ponieważ wybór nie zawiera żadnej partycji, która może być utworzona na woluminie LVM.
+Description-pt.UTF-8: Falhou o particionamento do disco escolhido
+ Isto  aconteceu porque a receita escolhida não contém qualquer partição que possa ser criada em volumes LVM.
+Description-pt_BR.UTF-8: Falha ao particionar o disco selecionado
+ Isto ocorreu devido à receita selecionada não conter nenhuma partição que possa ser criada em volumes LVM.
+Description-ro.UTF-8: Partiționarea discului selectat a eșuat
+ Acest lucru s-a întâmplat deoarece rețeta selectată nu conține nicio partiție care poate fi creată pe volume LVM.
+Description-ru.UTF-8: Не удалось разметить выбранный диск
+ Это произошло из-за того, что выбранный способ не содержит разделов, которые могли бы быть созданы в томах LVM.
+Description-si.UTF-8: තෝරාගත් තැටිය කොටස් කල නොහැකි විය
+ මෙය නිර්මාණය කල LVM වෙළුම් මත නිර්මාණය කල හැකි කිසිඳු කොටසක් වට්ටෝරුව සතු නොවන විට සිදුවේ.
+Description-sk.UTF-8: Pri rozdeľovaní zvoleného disku došlo k chybe
+ Možno sa to stalo kvôli tomu, že zvolený návod neobsahuje žiadnu oblasť, ktorá by sa dala vytvoriť na LVM zväzku.
+Description-sl.UTF-8: Ni bilo mogoče razdeliti izbranega diska
+ Do tega je prišlo, ker izbran recept ne vsebuje nobenega razdelka, ki je lahko ustvarjen na nosilcih LVM.
+Description-sq.UTF-8: Dështoi në ndarjen e diskut të zgjedhur
+ Kjo ndodhi sepse receta nuk përmban asnjë ndarje që mund të krijohet në volume OVL.
+Description-sr.UTF-8: Нисам успео да партиционишем изабрани диск
+ Ово се десило зато што изабрани рецепт не садржи ниједну партицију која може бити направљена на LVM волуменима.
+Description-sv.UTF-8: Misslyckades med att partitionera den valda hårddisken
+ Det här inträffade för att det valda receptet inte innehåller några partitioner som kan skapas på LVM-volymer.
+Description-ta.UTF-8: தேர்வு செய்த வட்டினை பகுக்க இயலவில்லை
+ எல்விஎம் தொகுதிகளில் உருவாக்கக் கூடிய பகிர்வு ஏதும் தரப் பட்ட குறிப்பில் இல்லாததால் இது நேர்ந்தது.
+Description-te.UTF-8: ఎంచుకొన్న డిస్క్ ని విభజన చేయుట విఫలమైంది
+ ఎంచుకున్న పద్ధతి లో LVM volumes లో సృష్ఠించుటకు వీలయ్యే విభజనలేకపోవటం వలన యిలాజరిగింది.
+Description-tg.UTF-8: Қисмбандии диски интихобшуда қатъ шудааст
+ Ин аз он сабаб ба вуҷуд омад, ки нақшаи интихобшуда ягон қисми дискро дар бар намегирад, ки метавонад дар ҳаҷмҳои LVM эҷод карда шавад.
+Description-th.UTF-8: ไม่สามารถแบ่งพาร์ทิชันในดิสก์ที่เลือก
+ ข้อผิดพลาดนี้เกิดขึ้นเพราะสูตรที่เลือกไม่มีพาร์ทิชันใดที่สามารถสร้างในโวลุม LVM ได้เลย
+Description-tl.UTF-8: Bigo sa pag-partisyon ng napiling disk
+ Nangyari ito dahil ang napiling résipé ay hindi naglalaman ng anumang partisyon na maaaring malikha sa mga LVM volume.
+Description-tr.UTF-8: Seçilen diskin bölümlenmesi başarısız oldu
+ Bunun nedeni büyük ihtimalle, seçilen yöntemin LVM ciltleri üzerinde oluşturulabilecek herhangi bir bölüm içermemesidir.
+Description-ug.UTF-8: تاللانغان دىسكىنى رايونغا ئايرىش مەغلۇپ بولدى
+ تاللىغان لايىھىدە LVM دىسكىدا قۇرالايدىغان ھېچقانداق رايوننى ئۆز ئىچىگە ئالمىغان.
+Description-uk.UTF-8: Не вдалося розбити вибраний диск
+ Це сталося скоріше за все через те, що ви вибрали схему яка не містить жодного розділу, який би міг бути створений на томах LVM.
+Description-vi.UTF-8: Gặp lỗi khi phân vùng đĩa đã chọn
+ Nó xảy ra vì phương pháp đã chọn không chứa phân vùng nào có thể được tạo trên khối tin kiểu LVM.
+Description-zh_CN.UTF-8: 对所选磁盘进行分区失败
+ 这是由于所选的方案中没有包含任何能在 LVM 卷上创建的分区。
+Description-zh_TW.UTF-8: 無法分割所選定的磁碟
+ 這是因為所選定的組合中並沒有包含可以在 LVM volumes 中新增的任何磁碟區。
+
+Template: partman-auto-lvm/no_boot
+Type: boolean
+Description: Continue installation without /boot partition?
+ The recipe you selected does not contain a separate partition for /boot.
+ This is normally needed to allow you to boot the system when using LVM.
+ .
+ You can choose to ignore this warning, but that may result in a failure to
+ reboot the system after the installation is completed.
+Description-am.UTF-8: ተከላውን ያለ /boot ክፋይ ቀጥል
+ ምርጫዎ ለ/boot የተለየ ክፋይ አይሰጥም። LVMን ተጠቅመው ስርዓትዎን ቡት ሲያደርጉ ይህ ያስፈልግዎታል።
+ .
+ ይህንን ማስጠንቀቂያ አለመቀበል ይችላሉ፣ ነገርግን ተከላው ካለቀ በኋላ ስርዓትዎ ላይነሳ ይችላል።
+Description-ar.UTF-8: متابعة التثبيت بدون الجزء /boot؟
+ طريقة تحضير الأجزاء التي اخترتها لا تحتوي جزء /boot منفصل. تحتاج عادة إلى هذا كي تستطيع إقلاع نظامك عند استخدام إدارة الكتل الافتراضية (LVM).
+ .
+ قد تختار تجاهل هذا التحذير، إلا أن هذا قد يتسبب عدم قدرتك على إعادة تشغيل النظام بعد انتهاء التثبيت.
+Description-ast.UTF-8: ¿Siguir la instalación ensin partición /boot?
+ La receta que seleicionó nun tien una partición separtada pa /boot. Xeneralmente ye necesario tener esta partición separtada si va a arrancar el so sistema usando LVM.
+ .
+ Pues ignorar esti avisu, pero puede resultar nun fallu nel reiniciu del sistema dempues que la instalación te completada dafechu.
+Description-be.UTF-8: Працягнуць устаноўку без падзела /boot ?
+ Абраны атрымальнік не змяшчае асобнага падзела для /boot. Звычайна гэта трэба, каб мець магчымасць загрузкі сістэмы пры выкарыстанні LVM.
+ .
+ Вы можаце не зважаць на гэтае папярэджанне, але ў выніку магчымая памылка пры спробе перазагрузіць сістэму пасля заканчэння ўстаноўкі.
+Description-bg.UTF-8: Да се продължи ли инсталирането без дял /boot?
+ Избраната рецепта не съдържа отделен дял за /boot. Това обикновено е необходимо за начално зареждане на системата при използване на LVM.
+ .
+ Можете да изберете да пренебрегнете това предупреждение, но тогава може да се получат грешки след рестартиране на системата, когато инсталацията е приключила.
+Description-bn.UTF-8: /boot পার্টিশন ছাড়াই ইনস্টলেশন চালিয়ে যাব কি?
+ আপনি যে তালিকা (recipe) নির্বাচন করেছেন, তাতে কোন পৃথক /boot পার্টিশন নেই। স্বাভাবিক অবস্থায় LVM ব্যবহার করার সময় সিস্টেমকে বুট করার অনুমতি পাওয়ার জন্য এই পার্টিশনটি প্রয়োজন হয়।
+ .
+ আপনি এই সতর্কবার্তাকে উপেক্ষা করতে পারেন, তবে এর ফলে হয়তো ইনস্টলেশন সম্পন্ন হওয়ার পর সিস্টেমকে রিবুট করা সম্ভব নাও হতে পারে।
+Description-bs.UTF-8: Nastaviti instalaciju bez /boot particije?
+ Recept koji ste odabrali ne sadrži zasebnu particiju za /boot. Ovo je normalno potrebno kako bi Vam se omogućilo podizanje sistema prilikom korištenja LVM-a.
+ .
+ Možete odabrati da ignorišete ovo upozorenje, ali to može rezultovati u nemogućnosti ponovnog podizanja sistema nakon što završi instalacija.
+Description-ca.UTF-8: Voleu continuar la instal·lació sense partició /boot?
+ L'esquema que heu seleccionat no conté una partició separada per a /boot. Normalment això es necessita per a permetre arrencar el sistema quan s'utilitza LVM.
+ .
+ Podeu ometre aquest avís, però això pot resultar en la impossibilitat de tornar a arrencar el sistema una vegada s'haja completat la instal·lació.
+Description-cs.UTF-8: Pokračovat v instalaci bez oblasti /boot?
+ Zvolený návod neobsahuje samostatnou oblast pro /boot. Ta je obvykle vyžadována pro zavádění systémů používajících LVM.
+ .
+ Toto varování můžete ignorovat, ale výsledkem může být nemožnost zavedení nového systému po skončení instalace.
+Description-cy.UTF-8: Parhau sefydliad heb raniad /boot ?
+ Nid yw'r rysait a ddewiswyd yn cynnwys rhaniad ar wahan i /boot. Mae angen hyn fel arfer er mwyn i chi allu ymgychwyn y system pan yn defnyddio LVM.
+ .
+ Fe allwch anwybyddu y rhybudd hwn os hoffech, ond fe allai hynny olygu methiant i ailgychwyn y system ar ôl i'r sefydlu ei gwblhau.
+Description-da.UTF-8: Fortsæt installationen uden en /boot-partition?
+ Den opskrift, du valgte, indeholder ikke nogen separat partition til /boot. Dette er normalt nødvendigt for at du kan starte systemet op med LVM.
+ .
+ Du kan vælge at ignorere denne advarsel, men det kan resultere i at du ikke kan starte systemet op, når installationen er afsluttet.
+Description-de.UTF-8: Mit der Installation ohne /boot-Partition fortfahren?
+ Das von Ihnen gewählte Rezept enthält keine separate Partition für /boot. Diese wird normalerweise benötigt, um Ihnen das Booten des Systems zu ermöglichen, wenn LVM verwendet wird.
+ .
+ Sie können diese Warnung ignorieren, aber dies kann zu einem Fehler beim Neustarten des Systems, nachdem die Installation abgeschlossen wurde, führen.
+Description-dz.UTF-8: /boot བར་བཅད་མེད་པར་གཞི་བཙུགས་འཕྲོ་མཐུད་འབད?
+ /boot ཀྱི་དོན་ལུ་ཁྱོད་ཀྱི་སེལ་འཐུ་འབད་ཡོད་པའི་བཟའ་འཐུང་བཟོ་ཐངས་ནང་ལུ་བར་བཅད་སོ་སོ་ཚུ་མིན་འདུག། འ་ནི་འདི་ཁྱོད་ལུ་LVM ལག་ལེན་འཐབ་ད་རིམ་ལུགས་འདི་བུཊི་འབད་ནི་ལུ་སྤྱིར་བཏང་གི་དགོཔ་ཨིན།
+ .
+ འ་ནི་མཉེན་བརྡ་འདི་སྣང་མེད་བཞག་ནི་ལུ་ཁྱོད་ཀྱིས་གདམ་ཁ་རྐྱབ་ཆོག་ དེ་འབདཝ་ད་ དེ་གིས་གཞི་བཙུགས་འདི་མཇུག་བསྡུ་བའི་ཤུལ་ལུ་རིམ་ལུགས་འདི་ལོག་བུཊི་འབད་ནི་ལུ་འཐུས་ཤོར་གྱི་གྲུབ་འབྲས་བྱུང་འོང་།
+Description-el.UTF-8: Συνέχιση της εγκατάστασης χωρίς κατάτμηση εκκίνησης /boot;
+ Η συνταγή που διαλέξατε δεν προβλέπει ξεχωριστή κατάτμηση για το /boot. Συνήθως αυτό χρειάζεται για να έχετε την δυνατότητα εκκίνησης του συστήματος όταν χρησιμοποιείτε LVM.
+ .
+ Μπορείτε να επιλέξετε να αγνοήσετε αυτή την προειδοποίηση, αλλά αυτό μπορεί να οδηγήσει σε αποτυχία επανεκκίνησης του συστήματος μετά την ολοκλήρωση της εγκατάστασης.
+Description-eo.UTF-8: Ĉu daŭrigi la instaladon sen diskparto /boot ?
+ La elektita recepto de diskpartigado ne enhavas apartan diskparton /boot. Tio ĉi estas ordinare bezonata por ebligi al vi ekŝargi je la sistemo uzante LVM.
+ .
+ Vi povas ignori tiun ĉi averton, sed tio povos fiaskigi la ekŝargon je la sistemo post plenumo de la instalado.
+Description-es.UTF-8: ¿Desea continuar la instalación sin una partición /boot?
+ La receta que ha seleccionado no tiene una partición separada para /boot. Generalmente es necesario tener esta partición separada si va a arrancar el sistema utilizando LVM.
+ .
+ Puede elegir descartar este aviso, pero entonces puede que el sistema no sea capaz de reiniciar una vez se haya terminado el proceso de instalación.
+Description-et.UTF-8: Kas jätkame paigaldamist /boot partitsioonita?
+ Sinu valitud retsept ei sisalda /boot jaoks eraldi partitsiooni. Üldjuhul on seda aga LVM kasutamisel süsteemi alglaadimiseks tarvis.
+ .
+ Võid soovi korral seda hoiatust eirata, kuid selle tõttu võib süsteem peale paigaldamise lõppu alglaadimisel tõrkuda.
+Description-eu.UTF-8: Instalazioa /boot partiziorik gabe aurrera jarraitu?
+ Aukeratutako errezetak ez du bereizitako /boot partiziorik. Beharrezkoa izan ohi da sistema LVM bidez abiarazteko.
+ .
+ Abisu honi ez ikusi egitea erabaki diezaiokezu, baina honek instalazioa amaitu eta sistema abiaraztean arazoak sor ditzake.
+Description-fa.UTF-8: آیا می‌خواهید عملیات پارتیشن کردن را ادامه دهید؟
+  را استفاده می‌کنید، سیستم را بوت کنید.LVM را شامل نمی‌شود. این به صورت نرمال این امکان را برای شما فراهم می‌آورد تا زمانیکه /bootدستور العملی که انتخاب کرده اید، یک پارتیشن جداگانه برای 
+ .
+ شما می‌توانید از این هشدار چشم پوشی کنید، اما ممکن است موجب ناموفق بودن در ریبوت کردن سیستم پس از کامل شدن نصب شود.
+Description-fi.UTF-8: Jatketaanko asennusta ilman /boot-osiota?
+ Valittu malline ei sisällä erillistä osiota hakemistolle /boot. Tavallisesti tätä tarvitaan järjestelmän käynnistämiseen käytettäessä loogista taltiohallintaa.
+ .
+ Tämä varoitus voidaan ohittaa, mutta järjestelmä ei ehkä käynnisty kun asennus on valmis.
+Description-fr.UTF-8: Voulez-vous continuer sans partition /boot ?
+ Le schéma de partitionnement choisi ne comporte pas de partition distincte pour /boot, normalement indispensable au démarrage d'un système qui utilise LVM.
+ .
+ Vous pouvez ignorer cet avertissement mais cela peut rendre le système incapable de démarrer après l'installation.
+Description-ga.UTF-8: An bhfuil fonn ort leanúint ar aghaidh leis an tsuiteáil gan deighilt /boot?
+ Níl deighilt ar leith le haghaidh /boot ag an oideas a roghnaigh tú. Tá sé seo de dhíth de ghnáth sa chaoi go mbeidh tú in ann an córas a thosú agus LVM in úsáid.
+ .
+ Is féidir leat neamhshuim a dhéanamh ar an rabhadh seo, ach tá seans ann nach mbeidh tú in ann an córas a atosú nuair a bheidh an tsuiteáil curtha i gcrích.
+Description-gl.UTF-8: Desexa continuar a instalación sen unha partición /boot?
+ A receita que escolleu non contén unha partición separada para /boot, que se adoita precisar para poder arrincar o sistema ao empregar LVM.
+ .
+ Pode ignorar este aviso, pero pode ser que non poida reiniciar o sistema despois de completar a instalación.
+Description-gu.UTF-8: /boot પાર્ટિશન વગર સ્થાપન ક્રિયા ચાલુ રાખશો?
+ તમે પસંદ કરેલી પધ્ધતિ અલગ /boot પાર્ટિશન ધરાવતી નથી. સામાન્ય રીતે જ્યારે તમે LVM ઉપયોગ કરો ત્યારે તમારી સિસ્ટમને બૂટ કરવા માટે આ જરુરી છે.
+ .
+ તમે આ ચેતવણીને અવગણવાનું પસંદ કરી શકો છો, પણ તે કદાચ સ્થાપન પુરૂ થયા પછી સિસ્ટમને ફરી શરૂ કરવામાં નિષ્ફળતા જેવું પરિણામ આપી શકે છે.
+Description-he.UTF-8: להמשיך את ההתקנה ללא מחיצת ‎/boot?
+ המרשם שנבחר אינו מכיל מחיצה נפרדת עבור ‎/boot. כדי לאפשר את הפעלת את המערכת בעת שימוש במנהל מחיצות לוגיות עדיף להגדיר את המחיצה כך.
+ .
+ ניתן לבחור להתעלם מאזהרה זאת, אך כתוצאה מכך יתכן שלא ניתן יהיה לאתחל את המערכת לאחר סיום ההתקנה.
+Description-hi.UTF-8: बिना /boot पार्टिशन के ही संस्थापन जारी रखें?
+ आपके द्वारा चुनी गई विधि में अलग से /boot के लिए कोई पार्टिशन नहीं है. सामान्यतः ऐसा आवश्यक होता है ताकि आप एलवीएम का प्रयोग करते समय बूट करने में सक्षम हों.
+ .
+ आप इस चेतावनी पर ध्यान न दे कर छोड़ सकते हैं, पर इससे संस्थापन सम्पन्न होने पर रीबूट करनेमें आप असफल हो सकते हैं.
+Description-hr.UTF-8: Nastavi s instalacijom bez /boot particije?
+ Sadržaj koji ste odabrali ne sadrži zasebnu /boot particiju. Ovo je uobičajeno potrebno kako bi mogli pokrenuti sustav dok se koristi ULU.
+ .
+ Možete zanemariti ovo upozorenje, ali to bi moglo uzrokovati neuspjelo ponovno pokretanje sustava nakon završetka instalacije.
+Description-hu.UTF-8: Folyatod a telepítést /boot partíció nélkül?
+ A kiválasztott receptben a /boot nincs külön partíción. Pedig ez szükséges ahhoz, hogy LVM használatakor a rendszer indítható legyen.
+ .
+ Figyelmen kívül hagyhatod ezt, de lehet, hogy a telepítés befejezése után nem sikerül újraindítani a rendszert.
+Description-id.UTF-8: Melanjutkan instalasi tanpa partisi /boot?
+ Aturan partisi yang anda buat tidak memiliki partisi terpisah untuk /boot. Normalnya ini dibutuhkan agar anda dapat melakukan booting sistem bila menggunakan LVM.
+ .
+ Anda dapat mengabaikan peringatan ini, tetapi itu dapat menyebabkan kegagalan saat reboot setelah instalasi selesai.
+Description-is.UTF-8: Halda uppsetningu áfram án /boot ræsisneiðar?
+ Uppskriftin sem þú valdir inniheldur ekki sérstaka disksneið fyrir /boot. Venjulega er nauðsynlegt að hafa slíka disksneið svo þú getir ræst kerfið þegar þú notar LVM sýndardiskastjórann.
+ .
+ Þú getur valið að horfa fram hjá þessarri viðvörun en það gæti leitt til þess að þú getir ekki endurræst kerfið eftir að uppsetningu er lokið.
+Description-it.UTF-8: Proseguire l'installazione senza la partizione /boot?
+ La scelta effettuata non contiene una partizione per /boot. Questa è normalmente richiesta per permettere l'avvio su sistemi che usano LVM.
+ .
+ È possibile decidere di ignorare questo avviso, ma questo potrebbe causare il non riavvio del computer al termine dell'installazione.
+Description-ja.UTF-8: /boot パーティションなしにインストールを続けますか?
+ 選択したレシピには、/boot 用に分けられたパーティションが含まれていません。これは通常、LVM を使っているときには、システムをブートすることができるようにするのに必要となります。
+ .
+ この警告を無視して選ぶことができますが、インストール完了後、システムの再起動に失敗することになるかもしれません。
+Description-ka.UTF-8: გავაგრძელოთ დაყენება /boot დანაყოფის გარეშე?
+ თქვენს მიერ არჩეული მეთოდი არ ითვალისწინებს /boot დანაყოფს, რომელიც, როგორც წესი, საჭიროა LVM-ის გამოყენებით ჩატვირთვისას.
+ .
+ შეგიძლიათ არ მიაქციოთ ყურადღება ამ შეტყობინებას, მაგრამ გაითვალისწინეთ, რომ დაყენების შემდეგ გადატვირთვისას, შეიძლება, პრობლემები შეიქმნას.
+Description-kab.UTF-8: Kemmel asebded n uḥric s war /boot?
+ Tasesfart i tferneḍ ulac deg-s aḥric i yettuɛezlen /boot. Ayagi yettusra deg tuget akken ad ak·akem-yeǧǧ ad tesnekreḍ anagraw mi ara tesqedceḍ LVM.
+ .
+ Tzemreḍ ad tferneḍ ad tzegleḍ tuccḍa-a, maca aya yezmer ad d-yeglu s truẓi n wallus n usenker seld ad yemmed usebded.
+Description-kk.UTF-8: Орнатуды /boot бөлімісіз жалғастыруды қалайсыз ба?
+ Сіз таңдаған шешімде (recipe) /boot үшін бөлек бөлім көрсетілмеген. Жүйені LVM пайдаланған кезде жүктеу үшін бөлек бөлімнің болуы қажет.
+ .
+ Бұл хабарды елемеуге болады, бірақ орнату аяқталған соң жүйе жүктеле алмауы мүмкін.
+Description-km.UTF-8: បន្ត​ដំឡើង​ដោយ​គ្មាន​ភាគថាស /boot ?
+ រូបមន្ត​ដែល​អ្នក​បាន​ជ្រើស មិន​មាន​ភាគថាស​ដាច់​ដោយ​ឡែក​សម្រាប់ /boot ឡើយ ។ ជា​ធម្មតា វា​ត្រូវ​បាន​ទាមទារ​ដើម្បី​អនុញ្ញាត​ឲ្យ​អ្នក​អាច​ចាប់ផ្ដើម​ប្រព័ន្ធ​នៅ​ពេល​ប្រើ LVM ។
+ .
+ អ្នក​អាច​ជ្រើស​ថា​មិន​អើពើ​ការ​ព្រមាន​នេះ ប៉ុន្តែ​វា​អាច​នឹង​បណ្ដាល​ឲ្យ​បរាជ័យ ពេល​ចាប់ផ្ដើម​ប្រព័ន្ធ​ឡើង​វិញ​បន្ទាប់​ពី​បញ្ចប់​ការ​ដំឡើង ។
+Description-kn.UTF-8: /ಬೂಟ್ ವಿಭಜನೆಯಿಲ್ಲದೆ ಅನುಸ್ಥಾಪನೆಯನ್ನು ಮುಂದುವರೆಸುವುದೇ?
+ ನೀವು ಆಯ್ಕೆ ಮಾಡಿದ ಸೂತ್ರವು /ಬೂಟ್ ಗಾಗಿ ಯಾವುದೆ ಪ್ರತ್ಯೇಕ ವಿಭಜನೆಯನ್ನು ಹೊಂದಿರುವುದಿಲ್ಲ. ಸಾಮಾನ್ಯವಾಗಿ ಇದು LVM ಬಳಸಿ ನಿಮ್ಮ  ಗಣಕ ವ್ಯವಸ್ಥೆಯನ್ನು ಬೂಟ್ ಮಾಡಲು ಬೇಕಾಗುತ್ತದೆ.
+ .
+ ಈ ಎಚ್ಚರಿಕೆಯನ್ನು ನೀವು ಅಲಕ್ಷಿಸಬಹುದು, ಆದರೆ ಇದರಿಂದಾಗಿ ಅನುಸ್ಥಾಪನೆ ಮುಗಿದ ನಂತರ ಗಣಕ ವ್ಯವಸ್ಥೆಯನ್ನು ಪುನರಾರಂಭಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಬಹುದು.
+Description-ko.UTF-8: /boot 파티션 없이 설치를 계속하시겠습니까?
+ 선택한 내역에 /boot 파티션이 따로 없습니다. LVM을 통해 시스템을 부팅하려면 일반적으로 /boot 파티션을 따로 둬야 합니다.
+ .
+ 이 경고를 무시하고 계속 진행할 수는 있지만, 설치를 마친 뒤에 시스템을 부팅할 때 부팅이 안 될 수도 있습니다.
+Description-ku.UTF-8: Bêyî beşa /boot tunebe tu dixwazî sazkirinê bidomînî?
+ Metoda ku te hilbijartiye beşeke cihê ya /boot nahundirîne. Di şertên asayî de ev beş ji bo pêşbarkirina pergalên ku LVM bikar tîne pêwist e.
+ .
+ Tu dikarî vê hişyariyê paş guh re biavêjî, lê ev rewş dibe ku bibe sedema venebûna pergala we ya piştî sazkirinê.
+Description-lo.UTF-8: ຈະດຳເນີ້ນການຕິດຕັ້ງຕໍ່ໄປໂດຍບໍ່ມີພາທີຊັນ /boot ຫຼື ບໍ່?
+ ສູດທີ່ທ່ານເລືອກບໍ່ມີພາທີຊັນຕ່າງຫາກສຳລັບ /boot ຊື່ງມັນເປັນສີ່ງທີ່ຈຳເປັນທີ່ຈະເຮັດໃຫ້ລະບົບບູດດ້ວຍ LVM ໄດ້
+ .
+ ທ່ານອາດຈະເລືອກທີ່ຈະສະເຫຼີຍຄຳເຕືອນນີ້ກໍ່ໄດ້ ແຕ່ກໍ່ອາດເຮັດໃຫ້ບູດລະບົບໃໝ່ບໍ່ໄດ້ ຫຼັງສຳເລັດການຕິດຕັ້ງແລ້ວ
+Description-lt.UTF-8: Ar tęsti įdiegimą be /boot disko skaidinio?
+ Pasirinktame variante /boot katalogui nenumatytas atskiras disko skaidinys. Paprastai jis yra būtinas, įkeliant sistemą naudojančią LVM.
+ .
+ Galite ignoruoti šį įspėjimą, bet tai gali tapti nesėkmės priežastimi įkeliant sistemą po įdiegimo.
+Description-lv.UTF-8: Turpināt instalāciju bez /boot nodalījuma?
+ Izvēlētā recepte nesatur atsevišķu /boot nodalījumu. Parasti tas ir nepieciešams, lai varētu palaist sistēmu, izmantojot LVM.
+ .
+ Jūs varat ignorēt šo brīdinājumu, taču tas visticamāk izraisīs sistēmas palaišanas problēmas pēc instalēšanas beigām.
+Description-mk.UTF-8: Продолжи ја инсталацијаа без /boot партиција?
+ Рецептот кој го избра не содржи посебна партиција за /boot. Ваква партиција вообичаено е потребна за да може да се бутира системот користејќи Менаџер со логички простори (LVM).
+ .
+ Може да одлучиш да го игнорираш ова известување, но тоа може да предизвика да се подигне ситемот кога инсталацијата ќе заврши.
+Description-ml.UTF-8: /boot ഭാഗമില്ലാതെ ഇന്‍സ്റ്റളേഷന്‍ തുടരണമോ?
+ നിങ്ങള്‍ തെരഞ്ഞെടുത്ത പാചകക്കുറിപ്പില്‍ /boot നു് പ്രത്യേക ഭാഗമില്ല. എല്‍വിഎം ഉപയോഗിക്കുമ്പോള്‍ നിങ്ങള്‍ക്കു് ബൂട്ട് ചെയ്യാന്‍ പറ്റുന്നതിനാണു് ഇതു് സാധാരണയായി ആവശ്യം വരുന്നതു്.
+ .
+ നിങ്ങള്‍ക്കു് വേണമെങ്കില്‍ ഈ മുന്നറിയിപ്പു് അവഗണിയ്ക്കാം, പക്ഷേ അതിന്റെ ഫലമായി ഇന്‍സ്റ്റളേഷന്‍ പൂര്‍ത്തിയായതിനു ശേഷം സിസ്റ്റം റീബൂട്ട് ചെയ്യുന്നതില്‍ പരാജയപ്പെട്ടേക്കാം.
+Description-mr.UTF-8: /boot विभाजनाशिवाय अधिष्ठापना सुरू ठेवायची?
+ आपण निवडलेल्या यादीत /boot करिता वेगळे विभाजन नाही. ताखंव्य वापरून प्रणालीचा आरंभ होउ देण्याकरिता सामान्यतः हे आवश्यक असते.
+ .
+ या ताकिदीकडे आपण दुर्लक्ष करू शकता, पण त्यामुळे अधिष्ठापना पूर्ण झाल्यानंतर कदाचित आपल्या या प्रणालीचा पुनरारंभ होऊ शकणार नाही.
+Description-nb.UTF-8: Vil du fortsette partisjoneringa uten /boot-partisjon?
+ Oppskriften du valgte inneholder ikke en egen partisjon for /boot. Dette er som regel nødvendig for å kunne starte systemet med LVM.
+ .
+ Du kan velge å overse denne advarselen, men det kan hende at det ikke går an å starte systemet på nytt når installeringen er ferdig.
+Description-ne.UTF-8: /boot विभाजन बिना स्थापना निरन्तरता दिनुहुन्छ ?
+ तपाईँले चयन गर्नु भएको रसिदले /boot का लागि भिन्न विभाजन समाविष्ट गर्देन । यो साधरणतया LVM प्रयोग गर्दा प्रणाली बुट गर्न आवश्यक पर्दछ ।
+ .
+ तपाईँ यो चेतावनीलाई उपेक्षा गर्न रोज्नु सक्नुहुन्छ, तर त्यसले स्थापना समाप्त भएपछि प्रणाली पुन:बुट गर्न असफलताको नतिजा दिन्छ ।
+Description-nl.UTF-8: Doorgaan met de installatie zonder '/boot'-partitie?
+ Het recept dat u geselecteerd heeft bevat geen aparte '/boot'-partitie. Dit is bij gebruik van LVM normaal noodzakelijk om uw systeem te kunnen opstarten.
+ .
+ Negeren van deze waarschuwing kan resulteren in een systeem dat niet opstart na installatie.
+Description-nn.UTF-8: Vil du halde fram installeringa utan /boot-partisjon?
+ Oppskrifta du valde inneheld ikkje ein eigen partisjon for /boot. Dette er som regel nødvendig for å kunne starte systemet med LVM.
+ .
+ Du kan velje å oversjå denne åtvaringa, men det kan vere at det ikkje går an å starte systemet om att når installeringa er ferdig.
+Description-no.UTF-8: Vil du fortsette partisjoneringa uten /boot-partisjon?
+ Oppskriften du valgte inneholder ikke en egen partisjon for /boot. Dette er som regel nødvendig for å kunne starte systemet med LVM.
+ .
+ Du kan velge å overse denne advarselen, men det kan hende at det ikke går an å starte systemet på nytt når installeringen er ferdig.
+Description-oc.UTF-8: Contunhar l'installacion sens particion /boot ?
+ L'esquèma de particionament causit a pas de particion distincta per /boot., normalement indispensabla a l'aviada d'un sistèma qu'utiliza LVM.
+ .
+ Podètz ignorar aqueste avertiment mas es pas segur que lo sistèma siá capable de s'amodar aprèp l'installacion.
+Description-pa.UTF-8: ਕੀ /boot ਭਾਗ ਦੇ ਬਿਨਾਂ ਇੰਸਟਾਲੇਸ਼ਨ ਜਾਰੀ ਰੱਖਣੀ ਹੈ?
+ ਤੁਸੀਂ ਵੱਖਰੇ /boot ਭਾਗ ਦੀ ਚੋਣ ਨਹੀਂ ਕੀਤੀ ਗਈ ਹੋ ਸਕਦੀ ਹੈ। ਇਹ ਅਕਸਰ ਤੁਹਾਡੇ ਸਿਸਟਮ ਨੂੰ ਬੂਟ ਕਰਨ ਲਈ ਲੋੜੀਦਾ ਹੈ, ਜਦੋਂ LVM ਵਰਤਿਆ ਜਾਵੇ।
+ .
+ ਤੁਸੀਂ ਇਸ ਚੇਤਾਵਨੀ ਨੂੰ ਅਣਡਿੱਠਾ ਕਰ ਸਕਦੇ ਹੋ, ਪਰ ਇਸ ਨਾਲ ਇੰਸਟਾਲੇਸ਼ਨ ਦੇ ਬਾਅਦ ਸਿਸਟਮ ਬੂਟ ਹੋਣ 'ਚ ਅਸਫ਼ਲ ਹੋ ਸਕਦਾ ਹੈ।
+Description-pl.UTF-8: Kontynuować instalację bez partycji /boot?
+ Dokonany wybór nie zawiera osobnej partycji dla /boot. Zazwyczaj jest ona konieczna, aby móc uruchomić system z użyciem LVM.
+ .
+ Możesz wybrać zignorowanie tego ostrzeżenia, ale może to doprowadzić do sytuacji, że po instalacji system nie uruchomić się.
+Description-pt.UTF-8: Continuar a instalação sem a partição /boot?
+ A receita que escolheu não contém uma partição separada para /boot. Isto normalmente é necessário para permitir iniciar o sistema quando utiliza LVM.
+ .
+ Pode escolher ignorar este aviso, mas isso pode resultar numa falha em reiniciar o sistema após a instalação ser completada.
+Description-pt_BR.UTF-8: Continuar a instalação sem uma partição /boot?
+ A receita que você selecionou não contém uma partição separada para o /boot. Normalmente isso é necessário para permitir que seu sistema inicialize quando você está usando LVM.
+ .
+ Você pode optar por ignorar este aviso, mas isso pode resultar em falhas ao reinicializar o sistema após a instalação ter sido completada.
+Description-ro.UTF-8: Se continuă instalarea fără o partiție „/boot”?
+ Rețeta aleasă de dumneavoastră nu conține o partiție separată pentru „/boot”. Acest lucru este, în mod normal, necesar pentru a vă permite să porniți sistemul când se folosește LVM.
+ .
+ Puteți alege să ignorați acest avertisment, dar acest lucru poate duce la eșecul de a reporni sistemul după finalizarea instalării.
+Description-ru.UTF-8: Продолжить установку без раздела /boot?
+ В выбранном вами способе для /boot не предусмотрено отдельного раздела. Обычно он требуется при загрузке системы использующей LVM.
+ .
+ Вы можете проигнорировать предупреждение, но это может привести к неработоспособной системе при перезагрузке после завершения установки.
+Description-si.UTF-8: /boot කොටස නොමැතිව ස්ථාපනය කරන්නද?
+ ඔබ තෝරාගත් වට්ටෝරුවේ වෙන් කල /boot කොටසක් නොමැත, මෙය සාමාන්‍යයෙන් LVM භාවිත කර පද්ධති පණගැන්වීමට ඉඩදෙයි.
+ .
+ ඔබට මෙම අවවාදය මඟහැර යා හැක, නමුත් එය ස්ථාපනය අවසන් වූ පසු පරිගණකය නැවත ආරම්භ වීමේ දෝශයක් ඇතිකල හැක.
+Description-sk.UTF-8: Pokračovať v inštalácii bez /boot oblasti?
+ Zvolený návod neobsahuje samostatnú oblasť /boot. Zvyčajne je to potrebné pre zavedenie systému používajúceho LVM.
+ .
+ Toto upozornenie môžete ignorovať, ale môže to viesť k chybe pri zavádzaní systému po ukončení inštalácie a následnom reštarte.
+Description-sl.UTF-8: Nadaljujem namestitev brez razdelka  /boot?
+ Recept, ki ste ga izbrali ne vsebuje ločenega razdelka za /boot. To normalno potrebujete za zagon sistema, ko uporabljate LVM.
+ .
+ Lahko spregledate to opozorilo, vendar potem morda ne boste mogli ponovno zagnati računalnika po dokončanju namestitve.
+Description-sq.UTF-8: Të vazhdoj me instalimin pa ndarjen /boot?
+ Receta që zgjodhe nuk përmban një ndarje të veçantë për /boot. Normalisht kjo kërkohet për të lejuar nisjen e sistemit kur përdoret OVL.
+ .
+ Mund të zgjedhësh shpërfilljen e këtij lajmërimi, por kjo mund të të shpjerë në një dështim nisjeje sistemi pasi instalimi të ketë përfunduar.
+Description-sr.UTF-8: Да наставим инсталацију без „/boot“ партиције?
+ Рецепт који сте изабрали не садржи засебну партицију за „/boot“. Ово је потребно да би вам омогућило да покренете систем када користите Управника логичким волуменима.
+ .
+ Можете изабрати да занемарите ово упозорење, али то може довести до немогућности да поново покренете систем када се заврши инсталација.
+Description-sv.UTF-8: Fortsätt installationen utan /boot-partition?
+ Receptet du valde innehåller inte en separat partition för /boot. Det är normalt sett nödvändigt för att låta dig att starta upp systemet när LVM används.
+ .
+ Du kan välja att ignorera den här varningen men det kan resultera i fel vid omstart av systemet efter att installationen är färdig.
+Description-ta.UTF-8: /boot பகிர்வு இல்லாமல் நிறுவலைத் தொடரவா?
+ நீங்கள் தேர்ந்தெடுத்த குறிப்பில் /boot க்கு தனி பகிர்வு இல்லை. எல்விஎம் ஐ பயன் படுத்தும் போது வழக்கமாக கணினியை துவக்க இது தேவை.
+ .
+ நீங்கள் இந்த எச்சரிக்கையை உதாசீனப் படுத்தலாம். ஆனால் நிறுவல் முடிந்த பின் கணினியை மீண்டும் துவக்குதல் தோல்வி அடையும்.
+Description-te.UTF-8: /boot విభజన లేకుండా స్థాపన కొనసాగించాలా?
+ ఎంచుకున్న పద్ధతి లో  /boot కొరకు ప్రత్యేక విభజన లేదు. వ్యవస్థ ని LVM వాడి బూట్ చేయుటకు  యిది సామాన్యంగా కావాలి.
+ .
+ ఈ హెచ్చరికని పట్టించుకోకపోవచ్చు, కాని  స్థాపన పూర్తయిన తర్వాత  వ్యవస్థ బూట్ విఫలం కావచ్చు.
+Description-tg.UTF-8: Насбкуниро бе қисми диски /boot идома медиҳед?
+ Нақшае, ки шумо интихоб кардед, қисмбандии алоҳидаро барои /boot дар бар намегирад. Одатан, ин барои он лозим аст, ки шумо низомро ҳангоми истифодаи LVM роҳандозӣ намоед.
+ .
+ Шумо метавонед интихоб намоед, ки ин огоҳиро нодида гузаронед, аммо ин метавонад сабаби он гардад, ки баъд аз ба анҷом расидани насбкунӣ низом бозоғозӣ намешавад.
+Description-th.UTF-8: จะดำเนินการติดตั้งต่อโดยไม่มีพาร์ทิชัน /boot หรือไม่?
+ สูตรที่คุณเลือกไม่มีพาร์ทิชันต่างหากสำหรับ /boot ซึ่งมักเป็นสิ่งจำเป็นที่จะทำให้ระบบบูตด้วย LVM ได้
+ .
+ คุณอาจเลือกที่จะละเลยคำเตือนนี้ก็ได้ แต่ก็อาจทำให้บูตระบบใหม่ไม่ได้หลังเสร็จสิ้นการติดตั้งแล้ว
+Description-tl.UTF-8: Ipagpatuloy ang pagluklok na walang /boot partisyon?
+ Ang napili ninyong recipe ay hindi naglalaman ng hiwalay na partisyon para sa /boot. Karaniwan itong kinakailangan upang makapag-boot ng sistema kapag gamit ang LVM.
+ .
+ Maaari ninyong hindi pansinin ang babalang ito, ngunit maaaring magdulot ito ng pagkabigo sa pag-boot ng inyong sistema matapos ng pagluluklok.
+Description-tr.UTF-8: /boot bölümü olmadan kuruluma devam edilsin mi?
+ Seçtiğiniz yöntem ayrı bir /boot bölümü içermiyor. Olağan şartlarda bu bölüm LVM kullanan sisteme önyükleme için gerekmektedir.
+ .
+ Bu uyarıyı göz ardı etmeyi seçebilirsiniz, fakat bu durum kurulum tamamlandıktan sonra sistemin açılmamasına yol açabilir.
+Description-ug.UTF-8: /boot رايونى يوق ئەھۋالدا ئورنىتىشنى داۋاملاشتۇرامسىز؟
+ سىز تاللىغان لايىھىدە /boot غا ئايرىم رايون تەڭشەلمىگەن. LVM ئىشلەتكەندە مۇشۇ رايوننى بەلگىلىسىڭىز ئاندىن سىستېمىنى قوزغىلالايدۇ.
+ .
+ بۇ ئاگاھلاندۇرۇشنى ئېتىبارغا ئالمىسىڭىزمۇ بولىدۇ، ئەمما بۇ ئورنىتىش تاماملانغاندىن كېيىن قايتا قوزغىتىش مەغلۇپ بولۇشنى كەلتۈرۈپ چىقىرىشى مۇمكىن.
+Description-uk.UTF-8: Продовжити встановлення без розділу /boot?
+ Рецепт, який ви вибрали не містить окремого розділу для /boot. Він зазвичай потрібен при використанні LVM щоб система змогла завантажитись.
+ .
+ Ви можете вирішити ігнорувати це попередження, але це може призвести до неможливості перезавантаження системи після завершення встановлення.
+Description-vi.UTF-8: Tiếp tục cài đặt mà không có phân vùng “/boot” không?
+ Bạn đã chọn một phương pháp không chứa một phân vùng riêng cho “/boot”. Phân vùng này thường cần thiết để cho bạn có khả năng khởi động hệ thống khi sử dụng LVM.
+ .
+ Bạn có thể chọn bỏ qua cảnh báo này, nhưng mà sự chọn này có thể gây ra hệ thống không khởi động lại được sau khi cài đặt xong.
+Description-zh_CN.UTF-8: 在没有 /boot 分区的情况下继续安装吗？
+ 您所选择的方案没有为 /boot 设置一个单独的分区。在使用 LVM 时，您通常需要设定此分区才能启动系统。
+ .
+ 您可以忽略这个警告，但这可能会导致安装完成后重启失败。
+Description-zh_TW.UTF-8: 是否要在沒有 /boot 分割區的狀況之下繼續進行安裝？
+ 您所採取的方案並沒有將 /boot 放到獨立的分割區中。一般會需要採取這種方式來讓使用 LVM 的系統能夠開機。
+ .
+ 您可以選擇不去理會這項警告，但在安裝程序完成之後可能會因而造成系統無法重新啟動。
+
+Template: partman-auto-lvm/vg_exists
+Type: error
+Description: Volume group name already in use
+ The volume group name used to automatically partition using LVM is already
+ in use. Lowering the priority for configuration questions will allow you
+ to specify an alternative name.
+Description-am.UTF-8: የይዘት ግሩፑ ስም ቀድሞ በጥቅም ላይ ውሏል።
+ LVMን ተጠቅሞ በራስሰር እንዲያካፍል የተሰጠው የይዘት ግሩፕ ስም ከቀድሞው በጥቅም ላይ ውሏል። የማዘጋጃ ጥያቄዎች ቅድሚያን ማሳነስ ተለዋጭ ስም እንዲመርጡ ይፈቅድልዎታል።
+Description-ar.UTF-8: إسم مجموعة الكتل مستخدم مسبقاً
+ اسم مجموعة الكتل المستخدم للتجزئة باستخدام LVM تلقائياً مستخدم مسبقاً. خفض أولوية أسئلة التهيئة سيمكنك من تحديد اسم بديل.
+Description-ast.UTF-8: Nome grupu volume ya ta n'usu
+ Yá se ta usando'l nome de grupu de volúmenes a usar pa particionar automáticamente con LVM. Podrá especificar un nome alternativu si amenorga la prioridá de les entrugues de configuración.
+Description-be.UTF-8: Такая назва групы тамоў ужо ўжываецца
+ Назва групы тамоў, выкарыстаная пры аўтаматычным перадзеле з дапамогай LVM, ужо занятая. Каб мець магчымасць вызначыць іншую назву, трэба зменшыць прыярытэт для пытанняў наладкі.
+Description-bg.UTF-8: Името, избрано за група от томове, вече се използва
+ Името на група от томове, използвано за автоматично разделяне чрез LVM, вече се употребява. Понижаването на приоритета на въпросите за настройка ще позволи задаването на алтернативно име.
+Description-bn.UTF-8: এই ভলিউম গ্রুপ নামটি ইতিমধ্যেই ব্যবহৃত হচ্ছে
+ LVM ব্যবহার করে স্বয়ংক্রিয়ভাবে পার্টিশন করার জন্য ভলিউম গ্রুপের যে নাম ব্যবহার করা হয়, তা এখনি ব্যবহৃত হচ্ছে। কনফিগারেশন সংক্রান্ত প্রশ্নের অগ্রাধিকার হ্রাস করলে আপনি বিকল্প একটি নাম উল্লেখ করার সুযোগ পাবেন।
+Description-bs.UTF-8: Naziv grupe particija se već koristi
+ Naziv grupe diskova korišten pri automatskom particionisanju pomoću LVM se već koristi. Snižavanjem prioriteta konfiguracijskih pitanja će Vam omogućiti da navedete drugi naziv.
+Description-ca.UTF-8: El nom del grup de volums ja està en ús
+ El nom del grup de volums utilitzat per a partir automàticament utilitzant LVM ja està en ús. Si abaixeu la prioritat per a les preguntes de la configuració podreu especificar-ne un d'alternatiu.
+Description-cs.UTF-8: Jméno skupiny svazků je již používáno
+ Jméno skupiny svazků použité pro automatické rozdělení pomocí LVM je již používáno. Snížení priority otázek vám umožní zadat jiné jméno.
+Description-cy.UTF-8: Mae enw'r grŵp cyfrol yma mewn defnydd yn barod
+ Mae enw y grŵp cyfrol a ddefnyddiwyd yn awtomatig gan y rhaniadydd yn bodoli yn barod. Mi fydd lleihau y blaenoraeth ar gyfer cwestiynau cyflunio yn eich caniatau i nodi enw gwahanol.
+Description-da.UTF-8: Diskenhedsgruppenavnet er allerede i brug
+ Det diskenhedsgruppenavn, der benyttes til automatisk partitionering med LVM, er allerede i brug. Hvis du sænker prioriteten for opsætningsspørgsmål, kan du angive et alternativt navn.
+Description-de.UTF-8: Der Name der Volume-Gruppe wird bereits verwendet
+ Der Name der Volume-Gruppe für die automatische Partitionierung mit LVM wird bereits verwendet. Eine Verringerung der Priorität der Konfigurationsfragen wird es Ihnen erlauben, einen anderen Namen anzugeben.
+Description-dz.UTF-8: ཧེ་མ་ལས་ལག་ལེན་འཐབ་ཡོད་པའི་བོ་ལུསམ་སྡེ་ཚན་གྱི་མིང་།་
+ LVM འདི་ལག་ལེན་འཐབ་འདི་རང་བཞིན་གྱིས་བར་བཅད་འབད་ནི་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བོ་ལུསམ་སྡེ་ཚན་གྱི་མིང་འདི་ཧེ་མ་ལས་ལག་ལེན་འཐབ་ནུག། རིམ་སྒྲིག་འབད་ནིའི་དྲི་བ་ཚུ་གི་དོན་ལུ་གཙོ་རིམ་འདི་མར་ཕབ་འབད་མི་འདི་གིས་ཁྱོད་ལུ་གསལ་བཀོད་འབད་མི་ཐབས་གཞན་གི་མིང་འབད་བཅུག་འོང་།
+Description-el.UTF-8: Το όνομα της ομάδας τόμων χρησιμοποιείται ήδη
+ Τo όνομα ομάδας τόμου που επιλέξατε για αυτόματη διαμέριση με χρήση LVM είναι ήδη σε χρήση. Η ελάττωση της προτεραιότητας των ερωτήσεων ρύθμισης θα σας επιτρέψει να προσδιορίσετε εναλλακτικό όνομα.
+Description-eo.UTF-8: Jam uzata datumportila grupa nomo
+ La datumportila grup-nomo uzata por aŭtomate diskpartigi per LVM jam estas uzata. Malpliigo de la prioritato por agordaj demandoj ebligos al vi indiki alternativan nomon.
+Description-es.UTF-8: Ya se está utilizando ese nombre de grupo de volúmenes
+ Ya se está utilizando el nombre de grupo de volúmenes a utilizar para particionar automáticamente con LVM. Podrá especificar un nombre alternativo si reduce la prioridad de las preguntas de configuración.
+Description-et.UTF-8: Antud köitegrupi nimi on juba kasutusel
+ Köitegrupi nimi, mida LVM automaatsel partitsioneerimisel kasutab, on juba kasutusel. Soovi korral saad käsitsi teist nime määrata alandades seadistusküsimuste prioriteeti.
+Description-eu.UTF-8: Bolumen taldearen izena lehendik erabilita dago
+ Bolumen taldearen izena lehendik ere erabiltzen ari da. Konfigurazioko galderen lehentasunaren maila baxuagoa ezarriz beste izen bat ezartzeko aukera izango duzu.
+Description-fa.UTF-8: نام گروه volume قبلا انتخاب شده است
+ انتخاب شده است قبلا استفاده شده است.بر هم زدن اولویت برای سوال‌های تایید می‌تواند امکان انتخاب نام دیگری را برای شما فراهم کند. LVMنام گروه حجم که برای پارتیشن به صورت خودکار با استفاده از
+Description-fi.UTF-8: Taltioryhmän nimi on jo käytössä
+ Nimi, jota käytetään LVM:n automaattisessa osioinnissa, on jo käytössä. Nimen muuttaminen onnistuu valitsemmalla myös vähemmän tärkeät asetuskysymykset kysyttäviksi.
+Description-fr.UTF-8: Nom de groupe de volumes déjà utilisé
+ Le nom du groupe de volumes utilisé pour le partitionnement automatique avec LVM est déjà utilisé. Vous pouvez choisir vous-même un autre nom en diminuant la priorité des questions de configuration.
+Description-ga.UTF-8: Tá grúpa imleabhar ann darb ainm seo cheana
+ Tá ainm an ghrúpa imleabhar a úsáidtear chun deighilt le LVM in úsáid cheana. Má íslíonn tú tosaíocht na gceisteanna cumraíochta beidh tú in ann ainm malartach a roghnú.
+Description-gl.UTF-8: Nome do grupo de volumes xa en uso
+ O nome de grupo de volumes que se empregou para particionar automaticamente empregando LVM xa se está a utilizar. Reducir a prioridade das preguntas de configuración halle permitir especificar un nome alternativo.
+Description-gu.UTF-8: કદ સમૂહ નામ પહેલેથી વપરાશમાં છે
+ LVM નો ઉપયોગ કરીને આપમેળે પાર્ટિશન માટે વપરાવવાનું કદ સમૂહ નામ પહેલેથી ઉપયોગમાં છે. રુપરેખાંકન પ્રશ્ર્નોની અગ્રતા નીચી કરવાથી તમે વૈકલ્પિક નામ સ્પષ્ટ કરી શકશો.
+Description-he.UTF-8: שם קבוצת הכרכים כבר בשימוש
+ שם קבוצת הכרכים שמשמש לחלוקה אוטומטית למחיצות עם מנהל המחיצות הלוגיות כבר נמצא בשימוש. הורדת העדיפות של שאלות ההגדרה תאפשר לך לבחור שם חלופי.
+Description-hi.UTF-8: वॉल्यूम समूह का नाम पहले से ही उपयोग में है
+ एलवीएम से स्वचालित विभाजन के लिए दिया गया वॉल्यूम समूह का नाम पहले से ही प्रयोग में है. कॉन्फ़िगरेशन प्रश्नों की प्राथमिकता को कम करने से आपको वैकल्पिक नाम देने की अनुमति जाएगी.
+Description-hr.UTF-8: Naziv grupe uređaja već se koristi
+ Naziv grupe uređaja koji je korišten pri automatskom particioniranju ULU-a se već koristi. Smanjivanje prioriteta za pitanja podešavanja će vam omogućiti određivanje nekog drugog naziva.
+Description-hu.UTF-8: A kötetcsoportnév már foglalt
+ Az LVM automatikus particionálásához használt kötetcsoportnév már használatban van. A konfigurációs kérdések prioritásának csökkentése lehetővé teszi egy alternatív név megadását.
+Description-id.UTF-8: Nama Grup Volum telah dipakai
+ Nama Grup Volum yang digunakan untuk melakukan partisi LVM secara otomatis telah digunakan. Menurunkan prioritas pertanyaan pengaturan akan memungkinkan Anda memberi nama alternatif.
+Description-is.UTF-8: Heiti sýndardisks þegar í notkun
+ Heiti sýndardisksins sem notað er til að sneiða tæki sjálfvirkt með LVM sýndardiskstjóranum er þegar í notkun. Með því að lækka forgang uppsetningarspurninga geturðu tilgreint annað nafn.
+Description-it.UTF-8: Nome del gruppo di volumi già in uso
+ Il nome del gruppo di volumi utilizzato per partizionare automaticamente con LVM è già in uso. Abbassando la priorità delle domande di configurazione è possibile specificare un altro nome.
+Description-ja.UTF-8: ボリュームグループ名はすでに使われています
+ LVM を使うよう自動的にパーティショニングするために使われるボリュームグループ名が、すでに使われています。設定質問の優先度を下げることで、別の名前を指定できるようになります。
+Description-ka.UTF-8: ტომების ჯგუფის სახელი უკვე არსებობს
+ LVM-ით ავტომატური დაყოფისას გამოსაყენებელი ჯგუფის სახელი დაკავებულია. მორგების საკითხების პრიორიტეტის დაწევა მოგცემთ საშუალებას, სხვა სახელი გამოიყენოთ.
+Description-kab.UTF-8: Isem n ugraw n ubleɣ yettuseqdac yakan
+ Isem n unagraw n ubleɣ yettuseqdec i beṭṭu awurman s useqdec n LVM yetuseqdac yakan. Asenqes deg tezwart i yisteqsiyen n twila ad ak·akem-yeǧǧ ad tferneḍ isem-nniḍen.
+Description-kk.UTF-8: Томдардың тобының мұндай атауы бар
+ LVM пайдаланып бөлуге арналған томдар тобының аты бос емес. Баптау сұрақтарының басымдылығын төмендету арқылы басқа ат беруге болады.
+Description-km.UTF-8: បាន​ប្រើ​ឈ្មោះ​ក្រុម​ភាគ​រួច​ហើយ
+ បាន​ប្រើ​ឈ្មោះ​ក្រុម​ភាគ​ដែល​បាន​ប្រើ​ដើម្បី​ចែក​ថាស​ជា​ភាគ​ដោយ​ស្វ័យប្រវត្តិ​ដោយ​ប្រើ LVM រួច​ហើយ ។ ការ​បន្ថយ​អាទិភាព​សម្រាប់​សំណួរ​របស់​ការ​កំណត់​រចនាសម្ព័ន្ធ នឹង​អនុញ្ញាត​ឲ្យ​អ្នក​បញ្ជាក់​ឈ្មោះ​ជំនួស​ផ្សេង​ទៀត ។
+Description-kn.UTF-8: ಶೇಖರಣಾ ಪರಿಮಾಣದ ಹೆಸರು ಈಗಾಗಲೆ ಬಳಕೆಯಲ್ಲಿದೆ.
+ ಸ್ವಯಂಚಾಲಿತವಾಗಿ LVM ಬಳಸಿ ವಿಭಜನೆ ಮಾಡುವಾಗ ಬಳಸಲಾದ ಸಂಪುಟ ಸಮೂಹನಾಮವು ಆಗಲೇ ಬಳಕೆಯಲ್ಲಿದೆ. ಸಂಯೋಜನಾ ಪ್ರಶ್ನೆಗಳ ಪ್ರಾಮುಖ್ಯತೆಯನ್ನು ಕಡಿಮೆಗೊಳಿಸುವುದರಿಂದ ನಿಮಗೆ ಬೇರೊಂದು ಹೆಸರು ಕೊಡಲು ಅವಕಾಶ ನೀಡುತ್ತದೆ.
+Description-ko.UTF-8: 볼륨 그룹 이름이 이미 사용 중입니다
+ LVM을 사용해 자동으로 파티션할 때 사용하려는 볼륨 그룹 이름을 이미 사용 중입니다. 설정 질의의 우선 순위를 낮추면 볼륨 그룹 이름을 바꿀 수 있습니다.
+Description-ku.UTF-8: Navê komeke voluman ji xwe tê bi kar anîn
+ Navê koma cîldên ku di LVM de dabeşkirinên bixweber pêk tîne niha tê bikaranîn. Heke tu pêşikiya pirsên veavakirinê kêm bike wê pêwist be ku tu navekî nû binivîse.
+Description-lo.UTF-8: ຊື່ກຸ່ມໂວລຸມ
+ ຊື່ກຸ່ມໂວລ້ຳທີ່ໃຊ້ແບ່ງພາທີຊັນໂດຍອັດຕະນາໂນມັດໂດຍໃຊ້ LVM ໄດ້ຖຶກໃຊ້ໄປແລ້ວ ຂໍໃຫ້ປັບລະດັບຄຳຖາມ ໃຫ້ລະອຽດຂຶ້ນທ່ານຈະສາມາດຕັ້ງຊື່ເປັນຊື່ອື່ນໄດ້
+Description-lt.UTF-8: Tomų grupės (Volume Group) pavadinimas jau naudojamas
+ Tomų grupės pavadinimas, naudojamas automatiniam dalijimui skaidiniais LVM pagalba, jau yra naudojamas. Konfigūravimo klausimų prioritetiškumo pažeminimas leis Jums nurodyti kitą pavadinimą.
+Description-lv.UTF-8: Šāds sējumu grupas nosaukums jau tiek lietots
+ Automātiskajā LVM dalīšanā izmantotais sējumu grupas nosaukums jau tiek izmantots. Lai ievadītu citu sējumu grupas nosaukumu, samaziniet konfigurēšanas jautājumu prioritāti.
+Description-mk.UTF-8: Името на просторната група е зафатено
+ Името на просторната група кое се користеше за автоматски да се партиционира со LVM е веќе во употреба. Намалувањето на приоритетот за конфигурациски прашања ќе ти дозволи да специфицираш друго име.
+Description-ml.UTF-8: വാള്യം ഗ്രൂപ്പിന്റെ പേര് നേരത്തെ ഉപയോഗത്തിലുണ്ട്
+ എല്‍വിഎം ഉപയോഗിച്ചു് ഇടപെടലില്ലാതെ വിഭജിക്കാനുപയോഗിച്ച വാള്യം ഗ്രൂപ്പിന്റെ പേരു് മുമ്പു് തന്നെ ഉപയോഗത്തിലുണ്ടു്.
+Description-mr.UTF-8: खंड गटाचे नाव आधीच वापरात आहे
+ ताखंव्य वापरून आपोआप विभाजन होण्याकरिता वापरले जाणारे खंड गट नाव आधीच वापरात आहे. संरचना प्रश्नांचा अग्रक्रम कमी केल्यास आपल्याला पर्यायी नाव निर्धारित करता येईल.
+Description-nb.UTF-8: Et annet gruppert dataområde bruker dette navnet
+ Navnet på gruppert dataområde som brukes til automatisk partisjonering med LVM er allerede i bruk. Bruker du lavere prioritet for innstillingsspørsmålene, så får du mulighet til å oppgi et annet navn.
+Description-ne.UTF-8: भोल्युम समूह नाम पहिल्यै प्रयोगमा छन् 
+ LVM प्रयोग गरेर स्वत: विभाजन गर्न प्रयोग गरिएको भोल्युम समूह नाम पहिल्यै प्रयोग भइसकेको छ । कन्फिगरेशन प्रश्नहरुका लागि प्राथमिकता कम गर्नाले एउटा वैकल्पिक नाम निर्दिष्ट गर्न अनुमति दिनेछ ।
+Description-nl.UTF-8: Deze volumegroepnaam is reeds in gebruik
+ De volumegroepnaam die wordt gebruikt voor het automatisch indelen met LVM is reeds is gebruik. U kunt een andere naam opgeven als u de prioriteit voor tijdens de configuratie gestelde vragen verlaagt.
+Description-nn.UTF-8: Eit anna gruppert dataområde brukar namnet
+ Namnet på det grupperte dataområdet som vert brukt til automatisk partisjonering med LVM er allereie i bruk. Brukar du lågare prioritet for innstillingsspørsmåla, så får du høve til å oppgje eit anna namn.
+Description-no.UTF-8: Et annet gruppert dataområde bruker dette navnet
+ Navnet på gruppert dataområde som brukes til automatisk partisjonering med LVM er allerede i bruk. Bruker du lavere prioritet for innstillingsspørsmålene, så får du mulighet til å oppgi et annet navn.
+Description-oc.UTF-8: Nom de grop de volums ja utilizat
+ Lo nom del grop de volums utilizat pel particionament automatic amb LVM ja es utilizat. La diminucion de la prioritat de las questions de configuracion vos donarà la possibilitat de causir un nom diferent.
+Description-pa.UTF-8: ਵਾਲੀਅਮ ਗਰੁੱਪ ਨਾਂ ਪਹਿਲਾਂ ਹੀ ਵਰਤਿਆ ਹੈ
+ ਆਟੋਮੈਟਿਕ ਭਾਗ ਰਾਹੀਂ ਵਰਤਿਆ ਗਿਆ ਵਾਲੀਅਮ ਗਰੁੱਪ ਨਾਂ ਪਹਿਲਾਂ ਹੀ ਵਰਤਿਆ ਗਿਆ ਹੈ। ਸੰਰਚਨਾ ਸਵਾਲਾਂ ਲਈ ਤਰਜੀਹ ਨੂੰ ਘੱਟ ਕਰਨ ਨਾਲ ਤੁਸੀਂ ਇੱਕ ਬਦਲਵਾਂ ਨਾਂ ਦੇ ਸਕਦੇ ਹੋ।
+Description-pl.UTF-8: Nazwa grupy woluminów jest już używana
+ Nazwa grupy woluminów użyta do automatycznego partycjonowania z użyciem LVM jest aktualnie wykorzystywana. Zmniejszenie priorytetu dla pytań konfiguracyjnych pozwoli określić nazwę alternatywną.
+Description-pt.UTF-8: Nome do grupo de volumes já está em uso
+ O nome do grupo de volumes utilizado para particionar automaticamente utilizando LVM já está em uso. Baixar a prioridade das questões de configuração irá permitir-lhe especificar um nome alternativo.
+Description-pt_BR.UTF-8: Nome do grupo de volumes já em uso
+ O nome do grupo de volumes usado para particionar automaticamente usando LVM já está em uso. Diminuir a prioridade das perguntas de configuração permitirá que você especifique um nome alternativo.
+Description-ro.UTF-8: Nume de grup de volume deja utilizat
+ Numele grupului de volume utilizat pentru partiționarea automată folosind LVM este deja utilizat. Reducerea priorității pentru întrebările de configurare vă va permite să specificați un nume alternativ.
+Description-ru.UTF-8: Такое название группы томов уже существует
+ Имя группы томов, используемое при автоматической разметке с помощью LVM, уже занято. Понижение приоритета уровня вопросов настройки позволит вам указать другое имя.
+Description-si.UTF-8: වෙළුම් කණ්ඩායම් නාමය දැනටමත් භාවිත වේ
+ LVM මගින් ස්වයංක්‍රීයව කොටස් කිරීමට යොදාගත් නාමය දැනටමත් භාවිත වේ. සැකසුම් ගැටළු වල ප්‍රමුඛතාව අඩු කිරීම ඔබට වෙනත් නාමයක් තෝරාගැනීමට ඉඩදෙයි.
+Description-sk.UTF-8: Daný názov skupiny zväzkov už existuje
+ Názov skupiny zväzkov, ktorý ste chceli použiť na automatické rozdeľovanie pomocou LVM, už existuje. Ak znížite prioritu konfiguračných otázok, môžete zadať iný názov.
+Description-sl.UTF-8: To ime skupine nosilcev je že v uporabi
+ Ime skupine nosilcev, ki se uporablja za samodejno razdeljevanje s pomočjo LVM je že v uporabi. Z znižanjem prioritete namestitvenih vprašanj boste lahko določili alternativno ime.
+Description-sq.UTF-8: Emër Grupi Volumi në përdorim
+ Emri i grupit të volumeve i përdorur për të ndarë automatikisht OVL është në përdorim e sipër. Duke ulur përparësinë e pyetjeve të konfiguruesit do jetë i mundur caktimi i një emri tjetër.
+Description-sr.UTF-8: Назив групе волумена је већ у употреби
+ Назив групе волумена коришћене при аутоматском партиционисању помоћу LVM-а је већ у употреби. Снижавање приоритета за питања подешавања ће вам омогућити да назначите други назив.
+Description-sv.UTF-8: Namnet på volymgruppen används redan
+ Namnet på volymgruppen du angav för att automatiskt partitionera med LVM används redan. Sänk prioriteten för konfigurationsfrågor om du vill ange ett alternativt namn.
+Description-ta.UTF-8: உள்ளிட்ட தொகுதிப் பிரிவு பெயர் ஏற்கெனவே பயன் பாட்டில் உள்ளது
+ எல்விஎம் ஐ உபயோகித்து தானியங்கியாக பகிர்வு செய்ய பயன் படும் தொகுதிப் பிரிவின் பெயர் ஏற்கெனவே உபயோகத்தில் உள்ளது. வடிவமைப்பு கேள்விகளுக்கான முன்னுரிமையை குறைப்பதால் வேறு பெயரை குறிப்பிட அனுமதி பெறலாம்.
+Description-te.UTF-8: Volume group పేరు యిప్పటికే వాడుకలో వుంది
+ LVM తో స్వయంచాలకంగా విభజన  చేయవలసిన  Volume group పేరు యిప్పటికే వాడబడింది. అమరిక ప్రశ్నల ప్రాధాన్యత తగ్గించితే ప్రత్యామ్నాయపేరు యివ్వటానికి అనుమతి వుంటుంది.
+Description-tg.UTF-8: Номи гурӯҳи ҳаҷм аллакай истифода шудааст
+ Номи гурӯҳи ҳаҷмҳое, ки барои қисмгузории худкор тавассути LVM истифода шудааст, аллакай истифода мешавад. Паст кардани аввалият барои саволҳои танзим ба шумо иҷозат медиҳад, ки номи дигарро муайян намоед.
+Description-th.UTF-8: ชื่อกลุ่มโวลุมถูกใช้ไปแล้ว
+ ชื่อกลุ่มโวลุมที่ใช้แบ่งพาร์ทิชันโดยอัตโนมัติโดยใช้ LVM ได้ถูกใช้ไปแล้ว ขอให้ปรับระดับคำถามให้ละเอียดขึ้น คุณจะสามารถตั้งชื่อเป็นชื่ออื่นได้
+Description-tl.UTF-8: Gamit na ang pangalan ng volume group
+ Ang pangalan ng grupo ng volume na ginagamit sa awtomatikong pagpartisyon gamit ang LVM ay kasalukuyang ginagamit na. Maaari kayong magbigay ng ibang pangalan kung inyong ibababa ang antas ng mga katanungan tungkol sa pagsasaayos.
+Description-tr.UTF-8: Bu cilt grubu adı zaten kullanılıyor
+ LVM otomatik bölümlemede kullanılan cilt grubu adı zaten kullanılıyor. Yapılandırma sorularının önceliğini düşürmeniz halinde başka bir ad girmeniz mümkün olacaktır.
+Description-ug.UTF-8: دىسكا گۇرۇپپا ئاتى ئىشلىتىلىۋاتىدۇ
+ LVM ئۆزلۈكىدىن رايونغا ئايرىش ئىقتىدارى ئىشلىتىدىغان دىسكا گۇرۇپپا ئاتى ئىگىلىنىپ بولغان، سەپلىمە سوراش دەرىجىسىنى تۆۋەنلەتسىڭىز باشقا ئات بەلگىلەشكە يول قويىدۇ.
+Description-uk.UTF-8: Група томів з такою назвою вже існує
+ Назва групи томів, яка використовується при автоматичній розбивці з використанням LVM, вже використовується. Зменшивши пріоритет для конфігураційних запитань ви отримаєте можливість вказати альтернативну назву.
+Description-vi.UTF-8: Tên nhóm khối tin đang được dùng
+ Tên nhóm khối tin được dùng để phân vùng tự động bằng LVM đang được dùng. Việc hạ thấp ưu tiên cho các câu hỏi cấu hình sẽ cho bạn có khả năng xác định một tên xen kẽ.
+Description-zh_CN.UTF-8: 卷组名已被使用
+ LVM 自动分区功能所使用的卷组名称已经被占用。您可以降低询问配置问题的优先级以指定其他的名称。
+Description-zh_TW.UTF-8: Volume Group 名稱已在使用中
+ 在使用 LVM 來進行磁碟自動分割時所採用的 Volume Group 名稱已在使用中。降低設定的提問等級將允許您自行指定另一個名稱。
+
+Template: partman-auto-lvm/vg_create_error
+Type: error
+Description: Unexpected error while creating volume group
+ Autopartitioning using LVM failed because an error occurred while creating
+ the volume group.
+ .
+ Check /var/log/syslog or see virtual console 4 for the details.
+Description-am.UTF-8: የይዘት ግሩፕ ሲፈጠር ያልተጠበቀ ስህተት ተከስቷል
+ የይዘት ግሩፑን በመፍጠር ላይ ስህተት ስለተፈጠረ LVM በመጠቀም የሚደረገው የራስገዝ ከፈላ አልተሳካም።
+ .
+ ለዝርዝሩ /var/log/syslog ወይም virtual console 4ን ይመልከቱ።
+Description-ar.UTF-8: حدث خطأ غير متوقع أثناء إنشاء مجموعة الكتل
+ فشلت التجزئة التلقائية باستخدام LVM لأن خطأ حدث أثناء إنشاء مجموعة الكتل.
+ .
+ تفقّد ‎/var/log/syslog أو انظر الطرفية الافتراضية الرابعة للتفاصيل.
+Description-ast.UTF-8: Fallu inesperáu mientres se criaba grupu de volume
+ Autoparticionáu usando LVM falló porque ocurrió un fallu mientres se criaba'l grupu de volume.
+ .
+ Comprobar /var/log/syslog o ver consola virtual 4 pa los detalles.
+Description-be.UTF-8: Раптоўная памылка падчас стварэння групы тамоў
+ Аўтаматычны перадзел з дапамогай LVM не атрымаўся, бо падчас стварэння групы тамоў адбылася памылка.
+ .
+ Падрабязнасці чытайце ў /var/log/syslog і на віртуальнай кансолі 4.
+Description-bg.UTF-8: Неочаквана грешка при създаване на група от томове
+ Автоматичното разделяне чрез LVM беше неуспешно поради грешка при създаване на група от томове.
+ .
+ Проверете /var/log/bootstrap.log или вижте виртуална конзола 4 за подробности.
+Description-bn.UTF-8: ভলিউম গ্রুপ তৈরির সময় একটি অপ্রত্যাশিত সমস্যা হয়েছে
+ ভলিউম গ্রুপ তৈরির সময় একটি সমস্যা হওয়ায় LVM ব্যবহার করে স্বয়ংক্রিয়ভাবে পার্টিশন তৈরির প্রক্রিয়া ব্যর্থ হয়েছে।
+ .
+ বিস্তারিত জানার জন্য /var/log/syslog পড়ুন অথবা চতুর্থ ভার্চুয়াল কনসোল দেখুন।
+Description-bs.UTF-8: Neočekivana greška pri kreiranju grupe diskova
+ Autopartcionisanje koristeći LVM nije uspjelo zbog pojave greške prilikom kreiranja grupe diskova.
+ .
+ Provjerite /var/log/syslog ili pogledajte virtualnu konzolu 4 za detalje.
+Description-ca.UTF-8: S'ha produït un error inesperat en crear el grup de volums
+ La partició automàtica utilitzant LVM ha fallat perquè s'ha produït un error en crear el grup de volums.
+ .
+ Comproveu /var/log/syslog o vegeu la consola virtual 4 per als detalls.
+Description-cs.UTF-8: Neočekávaná chyba při vytváření skupiny svazků
+ Automatické rozdělení pomocí LVM selhalo, protože se při vytváření skupiny svazků objevila chyba.
+ .
+ Podrobnosti naleznete ve /var/log/syslog nebo na 4. virtuální konzoli.
+Description-cy.UTF-8: Gwall annisgwyl wrth greu grŵp cyfrol
+ Fe wnaeth awto-raniadu yn defnyddio LVM fethu oherwydd cafwyd gwall wrth greu y grŵp cyfrol.
+ .
+ Gwiriwch /var/log/syslog neu gwelwch consol rhithwir 4 am y manylion.
+Description-da.UTF-8: Uventet fejl under opretning af diskenhedsgruppe
+ Automatisk partitionering med LVM mislykkedes, fordi der opstod en fejl under oprettelse af diskenhedsgruppen.
+ .
+ Tjek /var/log/syslog eller kig på den virtuelle konsol 4 for detaljer.
+Description-de.UTF-8: Unerwarteter Fehler beim Erstellen einer Volume-Gruppe
+ Die automatische Partitionierung mit LVM ist fehlgeschlagen, da ein Fehler beim Erzeugen der Volume-Gruppe auftrat.
+ .
+ Schauen Sie in /var/log/syslog oder auf die vierte virtuelle Konsole bezüglich detaillierter Informationen.
+Description-dz.UTF-8: བོ་ལུསམ་སྡེ་ཚན་གསར་བསྐྲུན་འབདཝ་ད་ རྣམ་རྟོག་མེད་པའི་འཛོལ་བ།
+ རང་བཞིན་གྱིས་བར་བཅད་འབད་ནིའི་LVM་ལག་ལེན་འཐབ་ནི་འདི་འཐུས་ཤོར་བྱུང་ཡོད་ དེ་ཡང་ བོ་ལུསམ་སྡེ་ཚན་འདི་གསར་བསྐྲུན་འབདཝ་ད་འཛོལ་བ་བྱུང་ནུག།
+ .
+ /var/log/syslog ཞིབ་དཔྱད་འབད་ཡང་ན་རྒྱས་བཤད་ཀྱི་དོན་ལུ་བར་ཅུ་ཡལ་མ་སྒྲོམ་༤་པ་འདི་བལྟ།
+Description-el.UTF-8: Απροσδόκητο σφάλμα κατά την δημιουργία της ομάδας τόμου
+ Η αυτόματη διαμέριση με χρήση LVM απέτυχε εξαιτίας ενός σφάλματος που προέκυψε κατά την δημιουργία της ομάδας τόμου.
+ .
+ Ελέγξτε το αρχείο /var/log/syslog ή δείτε την εικονική κονσόλα 4 για λεπτομέρειες.
+Description-eo.UTF-8: Ne atendata eraro dum la kreado de datumportil-grupo
+ Aŭtomata diskpartigo uzanta LVM fiaskis ĉar eraro okazis dum la kreado de datumportil-grupo.
+ .
+ Kontrolu '/var/log/syslog' aŭ rigardu la virtualan konzolon 4 por havi detalojn.
+Description-es.UTF-8: Se ha producido un error al crear el grupo de volúmenes
+ Falló el autoparticionado con LVM porque se produjo un error cuando se creaba el grupo de volúmenes.
+ .
+ Compruebe el fichero /var/log/syslog o la consola virtual número 4 para los detalles.
+Description-et.UTF-8: Kettaruumi grupi loomisel ilmnes ootamatu viga
+ LVM automaatne partitsioneerimine nurjus, kuna kettaruumi grupi loomisel ilmnes viga.
+ .
+ Detailid leiad failist /var/log/syslog või 4. virtuaalkonsoolilt.
+Description-eu.UTF-8: Ustekabeko errorea bolumen taldea sortzean
+ Huts egin du LVM erabiliz partizioak automatikoki egitean, bolumen taldea sortzean errore bat gertatu delako.
+ .
+ Egiaztatu /var/log/syslog edo ikusi 4. kontsola xehetasunetarako.
+Description-fa.UTF-8: خطای نامنتظره هنگام ایجاد کردن گروه حجمی
+ افرازش‫ خودکار با LVM به خاطر بروز خطایی هنگام ایجاد گروه حجمی شکست خورد.
+ .
+ /var/log/syslog یا کنسول مجازی ۴ را برای جزئیات ببینید.
+Description-fi.UTF-8: Odottamaton virhe luotaessa taltioryhmää
+ Automaattinen osiointi loogisen taltiohallinnan avulla epäonnistui koska luotaessa taltioryhmää tapahtui virhe.
+ .
+ Tarkista tiedosto /var/log/syslog tai katso tarkempaa tietoa virtuaalikonsolista 4.
+Description-fr.UTF-8: Erreur inattendue lors de la création du groupe de volumes
+ Le partitionnement automatique avec LVM a échoué car une erreur s'est produite lors de la création du groupe de volumes.
+ .
+ Veuillez consulter le fichier /var/log/syslog ou la quatrième console virtuelle pour obtenir des précisions.
+Description-ga.UTF-8: Earráid gan choinne agus grúpa imleabhar á chruthú
+ Níorbh fhéidir deighilt go huathoibríoch le LVM toisc gur tharla earráid agus an grúpa imleabhar á chruthú.
+ .
+ Seiceáil /var/log/syslog nó féach ar chonsól fíorúil 4 le tuilleadh eolais a fháil.
+Description-gl.UTF-8: Erro inesperado ao crear o grupo de volumes
+ O particionamento automático empregando LVM fallou porque houbo un erro ao crear o grupo de volumes.
+ .
+ Consulte os detalles en /var/log/syslog ou na consola virtual 4.
+Description-gu.UTF-8: કદ સમૂહ બનાવતી વખતે અણધારી ક્ષતિ આવી
+ LVM નો ઉપયોગ કરીને આપમેળે પાર્ટિશન કરવાનું નિષ્ફળ ગયું કારણકે કદ સમૂહ બનાવતી વખતે ક્ષતિ આવી.
+ .
+ /var/log/syslog તપાસો અથવા માહિતી માટે વર્ચયુઅલ કોન્સોલ ૪ જુઓ.
+Description-he.UTF-8: שגיאה לא צפויה בזמן יצירת קבוצת כרכים
+ חלוקה אוטומטית למחיצות בעזרת מנהל המחיצות הלוגיות נכשלה עקב שגיאה שהתרחשה במהלך יצירת קבוצת הכרכים.
+ .
+ מוטב לעיין ב־‎/var/log/syslog או במסוף וירטואלי מס׳ 4 לקבלת פרטים.
+Description-hi.UTF-8: वॉल्यूम समूह बनाते समय अनपेक्षित त्रुटि हुई
+ एलवीएम का प्रयोग करके स्वचालित पार्टिशनिंग असफल रही क्योंकि वाल्यूम समूह बनाते समय एक त्रुटि हुई.
+ .
+ विस्तृत सूचना के लिए /var/log/messages या वर्चुअल कंसोल 4 देखें।
+Description-hr.UTF-8: Neočekivana greška pri stvaranju grupe uređaja
+ Automatsko particioniranje koristeći ULU nije uspjelo zbog greške pri stvaranju grupe uređaja.
+ .
+ Za pojedinosti provjerite /var/log/syslog ili četvrtu konzolu.
+Description-hu.UTF-8: Hiba a kötetcsoport létrehozása közben
+ Az LVM használatával történő automatikus particionálás sikertelen volt, mert hiba történt a kötetcsoport létrehozásakor.
+ .
+ Részletek a /var/log/syslog fájlban vagy a 4. virtuális konzolon találhatók.
+Description-id.UTF-8: Terjadi kesalahan tak terduga saat membuat Grup Volum
+ Partisi otomatis menggunakan LVM gagal karena kesalahan saat membuat grup volum.
+ .
+ Periksa /var/log/syslog atau lihat konsol maya no. 4.
+Description-is.UTF-8: Óvænt villa kom upp við að búa til sýndardisk
+ Sjálfvirk disksneiðing með LVM sýndardiskstjóranum mistókst þar sem villa kom upp á meðan sýndardiskur var búinn til.
+ .
+ Skoðaðu skránna /var/log/syslog, eða skipanalínu (virtual console) 4 fyrir nánari upplýsingar.
+Description-it.UTF-8: Errore durante la creazione del gruppo di volumi
+ Il partizionamento automatico tramite LVM non è riuscito a causa di un errore nel creare il gruppo di volumi.
+ .
+ Controllare /var/log/syslog o la console virtuale 4 per i dettagli.
+Description-ja.UTF-8: ボリュームグループの作成中に予期せぬエラー
+ ボリュームグループの作成中に、何らかのエラーが発生したため、LVM の自動パーティショニングが失敗しました。
+ .
+ 詳細については、/var/log/syslog を確認するか、仮想コンソール 4 を見てください。
+Description-ka.UTF-8: გაურკვეველი შეცდომა ტომების ჯგუფის შექმნისას
+ ტომების ჯგუფის შექმნისას წარმოქმნილი შეცდომის გამო ავტომატური დაყოფა ვერ განხორციელდა.
+ .
+ დეტალებისთვის იხილეთ /var/log/syslog ან ვირტუალური კონსოლი 4.
+Description-kab.UTF-8: Tella tuccḍu yettwaṛǧă ara deg tmerna n ugraw n ubleɣ
+ Beṭṭu awurman s useqdec n LVM yecceḍ acku tella-d tuccḍa mi ara nrennu agraw n ubleɣ.
+ .
+ Senqed /var/log/syslog neɣ wali tadiwent tuhlist 4 i wugar n telqayt.
+Description-kk.UTF-8: Томдар тобын жасау кезінде күтпеген қате кетті
+ LVM қолдана отырып бөлу сәтсіз аяқталды, себебі томдар тобын құру кезінде қате кетті.
+ .
+ Қосымша мәліметті /var/log/syslog файлынан не 4 виртуал консольдан қараңыз.
+Description-km.UTF-8: កំហុស​មិន​រំពឹង ខណៈ​ពេល​បង្កើត​ក្រុម​ភាគ
+ ការ​ចែក​ថាស​ជា​ភាគ​ដោយ​ស្វ័យប្រវត្តិ​ដោយ​ប្រើ LVM បាន​បរាជ័យ​ហើយ ព្រោះ​កំហុស​មួយ​បាន​កើតឡើត​ខណៈពេល​បង្កើត​ក្រុម​ភាគ ។
+ .
+ សម្រាប់​ព័ត៌មាន​លម្អិត សូម​ពិនិត្យ​មើល /var/log/syslog ឬ មើលកុងសូល​និម្មិត​ទី ៤ ។
+Description-kn.UTF-8: ಹೊಸ ತಾರ್ಕಿಕ ಪರಿಮಾಣ ರಚಿಸುವಾಗ ದೋಷಉಂಟಾಗಿದೆ
+ ಸಂಪುಟ ಸಮೂಹವನ್ನು ರಚಿಸುವಾಗ ಒಂದು ದೋಷವುಂಟಾದ್ದರಿಂದ LVM ಬಳಸುವ ಸ್ವಯಂಚಾಲಿತ ವಿಭಜನೆ ವಿಫಲವಾಗಿದೆ.
+ .
+ /var/log/syslogನಲ್ಲಿ ಅಥವಾ ಅವಾಸ್ತವಿಕ ಆಜ್ಞಾಫಲಕ ೪ ರಲ್ಲಿ ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ಪರೀಕ್ಷಿಸಿ.
+Description-ko.UTF-8: 볼륨 그룹을 만드는데 예상치 못한 오류가 발생했습니다
+ 볼륨 그룹을 만드는데 오류가 발생했기 때문에 LVM을 사용해 자동으로 파티션 나누는 작업이 실패했습니다.
+ .
+ 자세한 정보를 확인하시려면 /var/log/messages를 보시거나 가상 콘솔 4을보십시오.
+Description-ku.UTF-8: Di jêbirina koma voluman de çewtiyek derkete holê
+ Dema koma cîldan dihate pêkanîn ji ber ku pirsgirêkek derkev dabeşkirina bixweber ya LVM bi ser neket.
+ .
+ Ji bo agahiyên kîtekît yan li pela /var/log/syslog binihêrî yan jî konsola 4 binihêrî.
+Description-lo.UTF-8: ເກີດຂໍ້ຜິດພາດກະທັນຫັນລະຫວ່າງສ້າງກຸ່ມໂວລ້ຳ
+ ແບາງພາທີຊັນໂດຍອັດຕາໂນມັດໂດຍໃຊ້ LVM ບໍ່ສຳເລັດເພາະເກີດຂໍ້ຜິດພາດລະຫວ່າງສ້າງກຸ່ມໂວລ້ຳ
+ .
+ ກະລຸນາກວດສອບ /var/log/syslog ຫຼືເບີ່ງທີ່ຄອນໂຊຄວາມແທ້ຈິງທີ 4 ເພື່ອເບິ່ງລາຍລະອຽດ.
+Description-lt.UTF-8: Kuriant tomų grupę (Volume Group) įvyko nenumatyta klaida
+ Automatinis dalijimas skaidiniais LVM pagalba nepavyko, kadangi kuriant tomų grupę įvyko klaida.
+ .
+ Detaliau žiūrėkite į /var/log/syslog arba ketvirtojoje virtualioje konsolėje.
+Description-lv.UTF-8: Neparedzēta kļūda, veidojot sējumu grupu
+ Automātiskā LVM dalīšana neizdevās, jo notika kļūda, veidojot sējumu grupu.
+ .
+ Pārbaudiet /var/log/syslog vai skatieties sīkāk ceturtajā virtuālajā konsolē (ALT+F4).
+Description-mk.UTF-8: Неочекувана грешка при создавање на просторната група
+ Автоматското партиционирање користејќи LVM неуспеа бидејќи се случи грешки додека се создавање просторната група.
+ .
+ Провери во /var/log/syslog или види ја виртуелната конзола 4 за детали.
+Description-ml.UTF-8: വാള്യം ഗ്രൂപ്പ് സൃഷ്ടിച്ചു് കൊണ്ടിരിക്കുമ്പോള്‍ അവിചാരിതമായ തെറ്റു്
+ എല്‍വിഎം ഉപയോഗിച്ചുള്ള ഇടപെടലില്ലാത്ത വിഭജനം വാള്യം ഗ്രൂപ്പ് സൃഷ്ടിച്ചു കൊണ്ടിരിക്കുമ്പോള്‍ പറ്റിയ തെറ്റു് മൂലം പരാജയപ്പെട്ടു.
+ .
+ വിവരങ്ങള്‍ക്കായി /var/log/syslog പരിശോധിക്കുക അല്ലെങ്കില്‍ വിര്‍ച്വല്‍ കണ്‍സോള്‍ 4 കാണുക.
+Description-mr.UTF-8: खंड गट बनवत असताना अनपेक्षित त्रुटी
+ ताखंव्य वापरून स्वयंविभाजन करणे असफल झाले, कारण हा खंड गट बनवत असताना त्रुटी निर्माण झाली.
+ .
+ आधिक माहितीसाठी/var/log/syslog तपासा किंवा आभासी कन्सोल ४ पहा.
+Description-nb.UTF-8: Uventet feil ved oppretting av et gruppert dataområde
+ Automatisk partisjonering med LVM mislyktes fordi det oppsto en feil ved oppretting av et gruppert dataområde.
+ .
+ Detaljer finner du i /var/log/syslog eller på virtuelt konsoll 4.
+Description-ne.UTF-8: भोल्युम समूह सिर्जना गर्दा अनपेक्षित त्रुटि
+ LVM प्रयोग गरेर गरिएको स्वत: विभाजन असफल भयो किन भने भोल्युम समूह सिर्जना गर्दा त्रुटि उत्पन्न भयो । 
+ .
+ विस्तृतका लागि /var/log/syslog जाच्नुहोस् वा अवास्तविक कन्सोल ४ लाई हेर्नुहोस् ।
+Description-nl.UTF-8: Onverwachte fout bij het aanmaken van de volumegroep
+ Het automatisch indelen met LVM is mislukt doordat tijdens het creëren van de volumegroep een fout is opgetreden.
+ .
+ Controleer /var/log/syslog of kijk op de vierde virtuele console (VT4) voor de details.
+Description-nn.UTF-8: Uventa feil ved oppretting av eit gruppert dataområde
+ Automatisk partisjonering med LVM mislukkast fordi det oppstod ein feil ved oppretting av eit gruppert dataområde.
+ .
+ Sjekk /var/log/messages eller sjå virtuelt konsoll 4 for detaljar.
+Description-no.UTF-8: Uventet feil ved oppretting av et gruppert dataområde
+ Automatisk partisjonering med LVM mislyktes fordi det oppsto en feil ved oppretting av et gruppert dataområde.
+ .
+ Detaljer finner du i /var/log/syslog eller på virtuelt konsoll 4.
+Description-oc.UTF-8: Error imprevista al moment de la creacion del grop de volums
+ Lo particionament automatic amb LVM a pas capitat perque i a agut una error al moment de la creacion del grop de volums.
+ .
+ Consultatz lo fichièr /var/log/syslog o la quatrena consòla virtuala per obténer de precisions.
+Description-pa.UTF-8: ਵਾਲੀਅਮ ਗਰੁੱਪ ਬਣਾਉਣ ਸਮੇਂ ਅਚਾਨਕ ਗਲਤੀ
+ ਵਾਲੀਅਮ ਗਰੁੱਪ ਬਣਾਉਣ ਦੌਰਾਨ ਗ਼ਲਤੀ ਆਉਣ ਕਰਕੇ LVM ਨਾਲ ਸਵੈ-ਪਾਰਟੀਸ਼ਨ ਬਣਾਉਣਾ ਅਸਫ਼ਲ ਹੈ।
+ .
+ ਵੇਰਵੇ ਵਾਸਤੇ /var/log/syslog ਦੀ ਚੈੱਕ ਕਰੋ ਜਾਂ ਆਰਜੀ ਕੰਸੋਲ 4 ਵੇਖੋ।
+Description-pl.UTF-8: Niespodziewany błąd podczas tworzenia grupy woluminów
+ Automatyczne partycjonowanie z użyciem LVM nie powiodło się, ponieważ wystąpił błąd podczas tworzenia grupy woluminów.
+ .
+ Sprawdź /var/log/messages lub wirtualną konsolę nr 4, aby uzyskać szczegółowe informacje.
+Description-pt.UTF-8: Erro inesperado ao criar grupo de volumes
+ O particionamento automático utilizando LVM falhou devido a um erro que ocorreu ao criar o grupo de volumes.
+ .
+ Para detalhes veja /var/log/syslog ou a consola virtual 4.
+Description-pt_BR.UTF-8: Erro inesperado na criação de grupo de volumes
+ O autoparticionamento usando LVM falhou devido a um erro ter ocorrido durante a criação do grupo de volumes.
+ .
+ Verifique o arquivo /var/log/syslog ou consulte o console virtual 4 para os detalhes.
+Description-ro.UTF-8: Eroare neașteptată în timpul creării grupului de volume
+ Partiționarea automată folosind LVM a eșuat deoarece a apărut o eroare în timpul creării grupului de volume.
+ .
+ Verificați „/var/log/syslog” sau consola virtuală numărul 4 pentru detalii.
+Description-ru.UTF-8: Непредвиденная ошибка при создании группы томов
+ Авторазметку с помощью LVM произвести не удалось из-за ошибок при создании группы томов.
+ .
+ Подробности смотрите в файле /var/log/syslog или на консоли 4.
+Description-si.UTF-8: වෙළුම් කණ්ඩායම නිර්මාණයේදී බලාපොරොත්තු නොවූ දෝශයක් ඇතිවිය.
+ වෙළුම් කණ්ඩායම සැකසීමේ දෝශයක් ඇතිවූ නුසා LVM භාවිත කර ස්වයංක්‍රීය කොටස්කිරීම සිදු කිරීම අසාර්ථකයි.
+ .
+ තොරතුරු සඳහා /var/log/syslog හෝ 4 වැනි අතත්‍ය කොන්සෝලය පිරික්සන්න.
+Description-sk.UTF-8: Neočakávaná chyba pri vytváraní skupiny zväzkov
+ Automatické rozdeľovanie pomocou LVM zlyhalo kvôli chybe pri vytváraní skupiny zväzkov.
+ .
+ Podrobnosti nájdete v súbore /var/log/syslog alebo na štvrtej virtuálnej konzole.
+Description-sl.UTF-8: Nepričakovana napaka pri ustvarjanju skupine nosilcev
+ Samodejno razdeljevanje z LVM ni uspelo, ker je prišlo do napake pri ustvarjanju skupine nosilcev.
+ .
+ Preverite /var/log/messages ali poglejte navidezno konzolo 4 za podrobnosti.
+Description-sq.UTF-8: Gabim në krijimin e grupit të volumit
+ Autondarja me anë të OVL-së dështoi pasi ndodhi një gabim ndërsa krijohej grupi i volumeve.
+ .
+ Kontrollo /var/log/syslog ose shiko konsolën virtuale 4 për hollësitë.
+Description-sr.UTF-8: Дошло је до неочекиване грешке приликом стварања групе волумена
+ Аутоматско партиционисање коришћењем LVM-а није успело јер је дошло до грешке приликом стварања групе волумена.
+ .
+ За више о томе погледајте „/var/log/syslog“ или виртуелну конзолу 4.
+Description-sv.UTF-8: Oväntat fel inträffade när volymgrupp skapades
+ Automatisk partitionering med LVM misslyckades på grund av att ett fel inträffade när volymgruppen skapades.
+ .
+ Kontrollera /var/log/syslog eller se på den virtuella konsolen 4 för mer detaljer.
+Description-ta.UTF-8: தொகுதிப் பிரிவு உருவாக்குவதில் எதிர் பாராத தவறு
+ எல்விஎம் ஐ உபயோகித்து தானியங்கியாக பகிர்வு செய்வது தோல்வியுற்றது. ஏனெனில் தொகுதிப் பிரிவு உருவாக்கும் போது தவறு நேர்ந்தது.
+ .
+ /var/log/syslog அல்லது மெய்நிகர் முனையம் 4 (virtual console 4) ஐ விளக்கங்களுக்கு பார்க்கவும்.
+Description-te.UTF-8: Volume group సృష్ఠిలో అనుకోని దోషం
+ Volume group సృష్ఠిలో దోషం వలన LVM తో స్వయంచాలకంగా విభజన చేయుట   విఫలం .
+ .
+ వివరాలకు /var/log/syslog లేక virtual console 4 చూడండి.
+Description-tg.UTF-8: Ҳангоми эҷодкунии гурӯҳи ҳаҷм, хатои ногаҳон ба вуҷуд омад
+ Қисмбандии худкор тавассути LVM бо нокомӣ дучор шуд, чунки ҳангоми эҷодкунии гурӯҳи ҳаҷм хато дучор шуд.
+ .
+ Файли /var/log/syslog -ро санҷед ё барои тафсилот консоли виртуалии 4-ро кушоед.
+Description-th.UTF-8: เกิดข้อผิดพลาดกระทันหันระหว่างสร้างกลุ่มโวลุม
+ แบ่งพาร์ทิชันโดยอัตโนมัติโดยใช้ LVM ไม่สำเร็จ เพราะเกิดข้อผิดพลาดระหว่างสร้างกลุ่มโวลุม
+ .
+ กรุณาตรวจสอบ /var/log/syslog หรือดูที่คอนโซลเสมือนที่ 4 เพื่อดูรายละเอียด
+Description-tl.UTF-8: Di inaasahang error sa paglikha ng volume group
+ Bigo ang pagpartisyon ng awtomatiko gamit ang LVM dahil nagkaroon ng error habang nililikha ang grupong volume.
+ .
+ Basahin ang /var/log/syslog o tignan ang virtuwal na konsol 4 para sa mga detalye.
+Description-tr.UTF-8: Cilt grubu oluşturulurken beklenmeyen bir hata oluştu
+ Cilt grubu oluşturulurken karşılaşılan bir hatadan dolayı LVM otomatik bölümleme başarısız oldu.
+ .
+ Ayrıntılı bilgi için /var/log/syslog dosyasına veya 4 numaralı konsola bakın.
+Description-ug.UTF-8: دىسكا گۇرۇپپىسى قۇرۇشتا تاسادىپىي خاتالىق يۈز بەردى
+ دىسكا گۇرۇپپىسى قۇرۇش جەريانىدا خاتالىق كۆرۈلگەچكە LVM ئۆزلۈكىدىن رايونغا ئايرىش مەغلۇپ بولدى.
+ .
+ /var/log/syslog نى تەكشۈرۈڭ ياكى 4-مەۋھۇم كونترول سۇپىسىنى(console) كۆرۈپ تېخىمۇ كۆپ تەپسىلىي ئۇچۇرغا ئېرىشىڭ.
+Description-uk.UTF-8: Неочікувана помилка при створенні групи томів
+ Не вдалося провести автоматичну розбивку з використанням LVM через помилку під час створення групи томів.
+ .
+ Подробиці дивіться в /var/log/syslog або на віртуальній консолі 4.
+Description-vi.UTF-8: Gặp lỗi bất thường trong khi tạo nhóm khối tin
+ Việc tự động phân vùng bằng LVM đã thất bại vì gặp lỗi trong khi tạo nhóm khối tin.
+ .
+ Xem bản ghi hệ thống “/var/log/syslog” hoặc bàn giao tiếp ảo 4 để tìm chi tiết.
+Description-zh_CN.UTF-8: 创建卷组时出现意外错误
+ 由于在创建卷组的过程中出现错误，LVM 自动分区失败。
+ .
+ 请检查 /var/log/syslog 或查看第四虚拟控制台以获得详细信息。
+Description-zh_TW.UTF-8: 在建立 Volume Group 時發生了預期之外的錯誤
+ 在 LVM 上進行的自動分割失敗了，在建立 Volume Group 時發生了錯誤。
+ .
+ 請查看 /var/log/syslog 或是第四個虛擬主控台來獲得詳細訊息。
+
+Template: partman-auto-lvm/text/multiple_disks
+Type: text
+Description: Multiple disks (%s)
+Description-ar.UTF-8: عدّة أقراص (%s)
+Description-ast.UTF-8: Discos múltiples (%s)
+Description-be.UTF-8: Шмат дыскаў (%s)
+Description-bg.UTF-8: Устройство от много дискове (%s)
+Description-bn.UTF-8: মাল্টিপল ডিস্ক (%s)
+Description-bs.UTF-8: Više diskova (%s)
+Description-ca.UTF-8: Discs múltiples (%s)
+Description-cs.UTF-8: Více disků (%s)
+Description-cy.UTF-8: Disgiau amryfal (%s)
+Description-da.UTF-8: Flere diske (%s)
+Description-de.UTF-8: Mehrere Platten (%s)
+Description-dz.UTF-8: སྣ་མང་ཌིཀསི་ (%s)
+Description-el.UTF-8: Πολλαπλοί δίσκοι (%s)
+Description-eo.UTF-8: Multopaj diskoj (%s)
+Description-es.UTF-8: Discos múltiples (%s)
+Description-et.UTF-8: Mitu ketast (%s)
+Description-eu.UTF-8: Disko-anitzak (%s)
+Description-fa.UTF-8: (%s) دیسک‌های چندگانه
+Description-fi.UTF-8: Useita levyjä (%s)
+Description-fr.UTF-8: Disques multiples (%s)
+Description-ga.UTF-8: Ildioscaí (%s)
+Description-gl.UTF-8: Varios discos (%s)
+Description-gu.UTF-8: અનેક ડિસ્ક્સ (%s)
+Description-he.UTF-8: כוננים מרובים (%s)
+Description-hi.UTF-8: अनेक डिस्क (%s)
+Description-hr.UTF-8: Višestruki diskovi (%s)
+Description-hu.UTF-8: Többszörös lemezek (%s)
+Description-id.UTF-8: Larik harddisk (%s)
+Description-is.UTF-8: Margir diskar (%s)
+Description-it.UTF-8: Dischi multipli (%s)
+Description-ja.UTF-8: マルチプルディスク %s (%s)
+Description-ka.UTF-8: მრავალი დისკი (%s)
+Description-kab.UTF-8: Iḍebsiyen usgiten (%s)
+Description-kk.UTF-8: Бірнеше диск (%s)
+Description-km.UTF-8: ថា​ស​ច្រើន (%s)
+Description-kn.UTF-8: Multiple disks (%s)
+Description-ko.UTF-8: 다중 디스크 (%s)
+Description-ku.UTF-8: Gelek dîsk (%s)
+Description-lo.UTF-8: ດິກຫຼາຍຕົວ (%s)
+Description-lt.UTF-8: Keletas diskų (%s)
+Description-lv.UTF-8: Vairāki diski (%s)
+Description-mk.UTF-8: Повеќе дискови (%s)
+Description-ml.UTF-8: ഒന്നിലധികം ഡിസ്കുകള്‍ (%s)
+Description-mr.UTF-8: बहुविध डिस्क्स (%s)
+Description-nb.UTF-8: Flere disk %s (%s)
+Description-ne.UTF-8: बहुविध डिस्क (%s)
+Description-nl.UTF-8: Meervoudige schijven (%s)
+Description-nn.UTF-8: Fleire diskar (%s)
+Description-no.UTF-8: Flere disk %s (%s)
+Description-oc.UTF-8: Disques multiples (%s)
+Description-pa.UTF-8: ਮਲਟੀਪਲ ਡਿਸਕਾਂ (%s)
+Description-pl.UTF-8: Wiele dysków (%s)
+Description-pt.UTF-8: Vários discos (%s)
+Description-pt_BR.UTF-8: Múltiplos discos (%s)
+Description-ro.UTF-8: Discuri multiple (%s)
+Description-ru.UTF-8: Несколько дисков (%s)
+Description-si.UTF-8: තැටි කිහිපයක් (%s)
+Description-sk.UTF-8: Viaceré disky (%s)
+Description-sl.UTF-8: Več enot (%s)
+Description-sq.UTF-8: Disqe të shumëfishtë (%s)
+Description-sr.UTF-8: Више дискова (%s)
+Description-sv.UTF-8: Multipla diskar (%s)
+Description-ta.UTF-8: பல் வட்டுகள் (%s)
+Description-te.UTF-8: చాలా డిస్క్ లు (%s)
+Description-tg.UTF-8: Якчанд диск (%s)
+Description-th.UTF-8: ดิสก์หลายตัว (%s)
+Description-tl.UTF-8: Maraming mga disk (%s)
+Description-tr.UTF-8: Çoklu diskler (%s)
+Description-ug.UTF-8: كۆپ دىسكا (%s)
+Description-uk.UTF-8: Декілька дисків (%s)
+Description-vi.UTF-8: Đa đĩa (%s)
+Description-zh_CN.UTF-8: 多个磁盘 (%s)
+Description-zh_TW.UTF-8: 多個磁碟 (%s)
+
+Template: partman-auto-lvm/no_such_pv
+Type: error
+Description: Non-existing physical volume
+ A volume group definition contains a reference to a non-existing
+ physical volume.
+ .
+ Please check that all devices are properly connected.
+ Alternatively, please check the automatic partitioning recipe.
+Description-ar.UTF-8: كتلة ماديّة غير موجودة
+ يحتوي تعريف مجموعة الكتل على مرجع لكتلة مادية غير موجودة.
+ .
+ رجاءً تأكّد من أن جميع الأجهزة موصولة بشكل صحيح. بدلاً من ذلك، رجاءً تأكّد من وصْفة التجزئة الآلية.
+Description-ast.UTF-8: Non existe volume físicu
+ Una definición de grupu de volume contien una referencia a un volume físicu non existente.
+ .
+ Por favor, comprueba que tolos dispositivos tan coneutaos. Alternativamente, por favor comprueba que la configuración del particionáu automáticu.
+Description-be.UTF-8: Неісны фізічны том
+ Вызначэнне групы тамоў змяшчае згадку пра няісны фізічны том.
+ .
+ Праверце, што ўсе прылады карэктна злучаны. Інакш, праверце спосаб аўта-перадзелу.
+Description-bg.UTF-8: Несъществуващ физически том
+ Описанието на група томове използва несъществуващ физически том.
+ .
+ Проверете дали всички устройства са свързани. Може да проверите и рецептата за автоматично разделяне на дисковото пространство.
+Description-bn.UTF-8: অস্তিত্ব বিহীন ফিজিক্যাল ভলিউম
+ একটি ভলিউপ গ্রুপ সংজ্ঞাতে অস্তিত্ব বিহীন ফিজিক্যাল ড্রাইভের সূত্র তাকে।
+ .
+ অনুগ্রহ করে পরীক্ষা করুন যে সকল যন্ত্র সঠিকভাবে সংযুক্ত আছে কিনা। বিকল্পভাবে, অনুগ্রহ করে স্বয়ংক্রীয় পার্টিশনিং রেসিপি পরীক্ষা করুন।
+Description-bs.UTF-8: Nepostojeća fizička particija
+ Grupa particija definiše referencu na nepostojeću fizički particiju.
+ .
+ Molim provjerite da su svi uređaji ispravno priključeni. Alternativno, provjerite recept automatskog particionisanja.
+Description-ca.UTF-8: Volum físic no existent
+ Una definició de grup de volums conté una referència a un volum físic no existent.
+ .
+ Comproveu que tots els dispositius estan connectats correctament. Alternativament, comproveu la recepta de partició automàtica.
+Description-cs.UTF-8: Neexistující fyzický svazek
+ Definice skupiny svazků se odkazuje na neexistující fyzický svazek.
+ .
+ Zkontrolujte prosím, zda jsou všechna zařízení správně připojena. Případně také zkontrolujte návod pro automatické rozdělení disku.
+Description-cy.UTF-8: Cyfrol corfforol ddim yn bodoli
+ Mae diffiniad grŵp cyfrol yn cynnwys cyfeiriad at gyfrol corfforol sydd ddim yn bodoli.
+ .
+ Gwnewch yn siwr fod yr holl ddyfeisiau wedi eu cysylltu yn gywir. Fel arall, gwiriwch y rysai rhaniadau awtomatig.
+Description-da.UTF-8: Ikkeeksisterende fysisk diskenhed
+ En definition af en diskenhedsgruppe indeholder en reference til en ikkeeksisterende fysisk diskenhed.
+ .
+ Kontroller at alle enheder er korrekt tilsluttet. Alternativt, kontroller den automatiske partitioneringsopskrift.
+Description-de.UTF-8: Nicht-existierendes physisches Volume
+ Eine Volume-Gruppen-Definition enthält eine Referenz auf ein nicht-existierendes physisches Volume.
+ .
+ Bitte überprüfen Sie, ob alle Geräte korrekt angeschlossen sind. Alternativ überprüfen Sie bitte das automatische Partitionierungsrezept.
+Description-dz.UTF-8: མེད་བཞིན་པའི་དངོས་ཅན་བོ་ལུསམ།
+ བོ་ལུསམ་སྡེ་ཚན་ངེས་ཚིག་ལུ་ མེད་བཞིན་པའི་དངོས་ཅན་བོ་ལུསམ་གྱི་དོན་ལུ་ རྒྱབ་རྟེན་ཅིག་ཡོདཔ་ཨིན།
+ .
+ ཐབས་འཕྲུལ་ཚུ་ཆ་མཉམ་ ལེགས་ཤོམ་པས་མཐུད་ཡོད་ག་ ཞིབ་དཔྱད་འབད་དགོ། ཐབས་གཞན་ཐོག་ལས་ རང་བཞིན་བར་བཅད་བཟོ་ཐངས་ཡང་ ཞིབ་དཔྱད་འབད་གནང་།
+Description-el.UTF-8: Μη-υπαρκτός φυσικός τόμος
+ Ο ορισμός μιας ομάδας τόμων περιέχει μια αναφορά σε μη-υπαρκτό φυσικό τόμο.
+ .
+ Παρακαλώ ελέγξτε ότι όλες οι συσκευές είναι κανονικά συνδεδεμένες. Εναλλακτικά, παρακαλώ ελέγξτε την συνταγή της αυτόματης διαμέρισης.
+Description-eo.UTF-8: Ne-ekzistanta konkreta datumportilo
+ Difino de datumportil-grupo enhavas referencon al ne-ekzistanta konkreta datumportilo.
+ .
+ Bonvolu certigi, ke ĉiuj aparatoj estas ĝuste konektataj. Alternative, bonvolu kontroli la aŭtomatan diskpartigan recepton.
+Description-es.UTF-8: Volumen físico inexistente
+ Una definición del grupo de volúmenes contiene una referencia a un volumen físico inexistente.
+ .
+ Compruebe que todos los dispositivos están correctamente conectados. Puede también utilizar alternativamente el mecanismo de particionado automático.
+Description-et.UTF-8: Olematu füüsiline köide
+ Köitegrupp sisaldab viidet olematule füüsilisele köitele.
+ .
+ Kontrolli, kas kõik seadmed on õigesti ühendatud. Lisaks kontrolli automaatse partitsioneerimise plaani.
+Description-eu.UTF-8: Existitzen ez den bolumen fisikoa
+ Bolumen talde baten definizioak existitzen ez den bolumen fisiko bati erreferentzi egiten dio.
+ .
+ Egiaztatu gailuak behar bezala konektatuta daudela. Bestela, egiaztatu partizio automatikoaren errezeta.
+Description-fa.UTF-8: هیچ حجم منطقی پیدا نشد.
+ تعریف یک گروه حجم شامل یک مرجع و صدای فیزیکی غیر موجود می‌شود.
+ .
+ بررسی وصل بودن درست همهٔ افزاره‌ها. یا بررسی دستورالعمل افرازش خودکار.
+Description-fi.UTF-8: Olematon fyysinen taltio
+ Taltioryhmän määrittely sisältää viitteen fyysiseen taltioon, jota ei ole olemassa.
+ .
+ Tarkista, että kaikki laitteet on kytketty kunnolla. Vaihtoehtoisesti voit tarkistaa automaattisen osiointisuunnitelman.
+Description-fr.UTF-8: Volume physique inexistant
+ La définition d'un groupe de volume contient une référence à un volume physique inexistant.
+ .
+ Veuillez contrôler que tous les périphériques sont correctement connectés. Vous devriez également vérifier le schéma de partitionnement automatique.
+Description-ga.UTF-8: Imleabhar fisiceach nach ann dó
+ Tá tagairt d'imleabhar fisiceach nach ann dó i sainmhíniú ar ghrúpa imleabhar.
+ .
+ Bí cinnte go bhfuil gach gléas ceangailte i gceart. Nó, seiceáil an t-oideas deighilte uathoibríche.
+Description-gl.UTF-8: Volume físico non existente
+ Unha definición de grupo de volumes contén unha referencia a un volume físico non existente.
+ .
+ Comprobe que todos os dispositivos estean conectados correctamente. En alternativa, comprobe a receita de particionamento automático.
+Description-gu.UTF-8: અસ્તિત્વ ન ધરાવતું ભૌતિક કદ
+ કદ સમૂહ વ્યાખ્યા અસ્તિત્વ ન ધરાવતા ભૌતિક કદનો સંદર્ભ ધરાવે છે.
+ .
+ મહેરબાની કરી ચકાસો કે બધા ઉપકરણો યોગ્ય રીતે જોડાયેલ છે. વૈકલ્પિક રીતે, મહેરબાની કરીને આપમેળે પાર્ટિશન કરનારની પધ્ધતિ ચકાસો.
+Description-he.UTF-8: כרך פיזי לא קיים
+ הגדרת קבוצת הכרכים מכילה הפניה לכרך פיזי שאינו קיים.
+ .
+ נא לבדוק שכל ההתקנים מחוברים כראוי. לחלופין, יש לבדוק את מרשם החלוקה האוטומטית למחיצות.
+Description-hi.UTF-8: अनुपस्थित फिजिकल वॉल्यूम
+ वॉल्यूम समूह परिभाषा में गैर-मौजूदा भौतिक वॉल्यूम का संदर्भ होता है।
+ .
+ कृपया जाँचें कि सारे उपकरण सही तरह से जोडे गए हैं. नहीं तो कृपया स्वचलित पार्टिशनिंग तरीके की जाँच करें.
+Description-hr.UTF-8: Nepostojeći fizički uređaj
+ Definicija grupe uređaja sadrži poveznicu na nepostojeći fizički uređaj.
+ .
+ Provjerite jesu li svi uređaji ispravno povezani. Alternativno, provjerite sadržaj automatskog particioniranja.
+Description-hu.UTF-8: Nemlétező fizikai kötet
+ Egy kötetcsoport-meghatározás egy nemlétező fizikai kötetre mutató hivatkozást tartalmaz.
+ .
+ Kérlek, ellenőrizd, hogy minden eszköz helyesen kapcsolódik-e, valamint az automatikus particionálás receptjét is.
+Description-id.UTF-8: Volum fisik tidak ada
+ Definisi volum grup berisi acuan ke volum fisik yang tidak ada.
+ .
+ Mohon periksa kembali apakah semua piranti telah tersambung dengan benar. Sebagai pilihan, silakan periksa pola pemartisi otomatis.
+Description-is.UTF-8: Rauneintak sem er ekki til
+ Skilgreining sýndardisksins vísar í rauneintak sem er ekki til.
+ .
+ Gakktu úr skugga um það hvort öll tækin séu ekki örugglega tengd. Athugaðu einnig sjálfvirka uppsetningu disksneiðanna.
+Description-it.UTF-8: Volume fisico non esistente
+ Una definizione di un gruppo di volumi contiene un riferimento a un volume fisico non esistente.
+ .
+ Verificare che tutti i dispositivi siano collegati correttamente. In alternativa controllare il partizionamento automatico.
+Description-ja.UTF-8: 存在しない物理ボリューム
+ ボリュームグループ定義は、存在しない物理ボリュームへの参照を含んでいます。
+ .
+ すべてのデバイスが正しく接続されていることを確認してください。そのほかに、自動パーティショニングレシピを確認してください。
+Description-ka.UTF-8: არარსებული ფიზიკურ ტომი
+ ტომების ჯგუფის აღწერა არარსებული ფიზიკური დანაყოფზე მიმართვას შეიცავს.
+ .
+ შეამოწმეთ, რომ ყველა მოწყობილობა სწორადაა მიერთებული. ან გადაამოწმეთ ავტომატური დაყოფის სცენარი.
+Description-kab.UTF-8: Ableɣ aɣaran ur nelli
+ Tbadadut n ugraw n yiblaɣen tella deg-s temselɣut ɣer ubleɣ aɣaran ur nelli.
+ .
+ Ttxil-k·m senqed ma yella meṛṛa ibenkan qqnen akken iwata. Daɣen, senqed ttxil-k·m beṭṭu awurman n uḍebsi d iḥricen.
+Description-kk.UTF-8: Жоқ физикалық том
+ Томдар тобының сипаттамасы өзінде жоқ физикалық томға сілтеме жасайды.
+ .
+ Барлық құрылғылардың дұрыс қосылғандығын тексеріңіз. Сонымен қатар бөлу шешімін (recipe) тексеріңіз.
+Description-km.UTF-8: ភាគ​ពិត​មិនទាន់​មាន​ទេ
+ កា​រកំណត់ក្រុម​ភាគ​មាន​សេចក្ដី​យោង​ទៅ​កាន់​ភាគ​ពិត​ដែល​មិនទាន់មាន ។
+ .
+ សូម​ពិនិត្យ​មើល​ថា​ឧបករណ៍​ទាំងអស់​ត្រូវ​បាន​តភ្ជាប់​យ៉ាង​ត្រឹមត្រូវ ។ ជា​ជម្រើស​សូម​ពិនិត្យ​មើល​បង្កាន់ដៃ​ការ​ចែកភាគ​ថាស​ដោយ​ស្វ័យ​ប្រវត្តិ ។
+Description-kn.UTF-8: ಅಸ್ತಿತ್ವ ವಿಲ್ಲದ ಭೌತಿಕ ಪರಿಮಾಣ 
+ ಒಂದು ಸಂಪುಟ ಸಮೂಹದ ಲಕ್ಷಣ ನಿರೂಪಣೆಯು ಅಸ್ತಿತ್ವದಲ್ಲಿರದ ಭೌತಿಕ ಸಂಪುಟವೊಂದರ ಉಲ್ಲೇಖವನ್ನೊಳಗೊಂಡಿದೆ.
+ .
+ ದಯಮಾಡಿ ಎಲ್ಲ ಉಪಕರಣಗಳು ಸರಿಯಾಗಿ  ಜೋಡಿಸಲಾಗಿದೆಯೆ ಎಂದು ಪರೀಕ್ಷಿಸಿ. ಬದಲಾಗಿ ಸ್ವಯಂಚಾಲಿತ ವಿಭಜನಾ ಸೂತ್ರವನ್ನು ದಯಮಾಡಿ ಪರೀಕ್ಷಿಸಿ.
+Description-ko.UTF-8: 물리 볼륨이 없습니다
+ 볼륨 그룹 정의에서 없는 물리 볼륨을 참고하고 있습니다.
+ .
+ 모든 장치를 올바르게 연결했는 지 확인하십시오. 아니면 자동 파티션 조합이 맞는 지 확인하십시오.
+Description-lo.UTF-8: ບໍ່ມີດິກ physical volume ຢູ່
+ ຂໍ້ກຳນົດກຸ່ມໂວລ້ຳມີການອ້າງເຖີງ physical volume ທີ່ບໍ່ມີຢູ່
+ .
+ ກາລຸນາກວດສອບວ່າອຸປະກອນທຸກຢ່າງທີ່ມີການເຊື່ອມຕໍ່ຢ່າງຖຶກຕ້ອງຫຼືບໍ່ສະນັ້ນກໍ່ກາລຸນາກວດສອບການແບ່ງພາທີຊັນແບບອັດຕາໂນມັດ
+Description-lt.UTF-8: Neegzistuojantis fizinis tomas (physical volume)
+ Tomų grupės (volume group) apibrėžimas turi nuorodą į neegzistuojantį fizinį tomą.
+ .
+ Patikrinkite ar visi įrenginiai yra gerai prijungti. Arba patikrinkite pasiūlytas parinktis, esant automatiniam disko dalijimui.
+Description-lv.UTF-8: Neeksistējošs fiziskais sējums
+ Sējumu grupas apraksts satur atsauci uz neeksistējošu fizisko sējumu.
+ .
+ Lūdzu, pārliecinieties, ka visas ierīces ir labi pievienotas. Vai arī pārbaudiet automātiskās dalīšanas recepti.
+Description-mk.UTF-8: Непостоечки физички уред
+ Некоја дефиниција за група содржи референца до непостоечки физички уред.
+ .
+ Проверете дали исте уреди се правилно поврзани или проверете го рецептот за автоматското партиционирање.
+Description-ml.UTF-8: നിലവിലില്ലാത്ത ഭൌതിക വാള്യം
+ ഒരു വാള്യം ഗ്രൂപ്പിന്റെ നിര്‍വ്വചനം നിലവിലില്ലാത്തൊരു ഭൌതിക വാള്യം ഉപയോഗിയ്ക്കുന്നു.
+ .
+ ദയവായി എല്ലാ ഉപകരണങ്ങളും ശരിയായി ബന്ധിപ്പിച്ചിരിയ്ക്കുന്നു എന്നു് ഉറപ്പാക്കുക. ഇതിനു പകരമായി, സ്വയം വിഭജിയ്ക്കുന്ന രീതി ദയവായി പരിശോദിയ്ക്കുക.
+Description-mr.UTF-8: अस्तित्वात नसलेला भौतिक खंड
+ एका खंड गट व्याख्येत अस्तित्वात नसलेल्या भौतिक खंड गटाचा संदर्भ समाविष्ट आहे.
+ .
+ सर्व उपकरणे योग्य रित्या जोडलेली आहेत का हे तपासा. अन्यथा, आपोआप विभाजनीकरणाची कृती तपासून घ्या.
+Description-nb.UTF-8: Ikke-eksisterende fysisk dataområde
+ En definisjon for gruppert dataområde inneholder en referanse til et ikke-eksisterende fysisk dataområde.
+ .
+ Sjekk at alle enheter er skikkelig koblet til. Alternativt, sjekk oppskriften for automatisk partisjonering.
+Description-ne.UTF-8: नभएको भौतिक भोल्युम
+ भोल्युम समूह परिभाषामा भौतिक भोल्युम नभएको सन्दर्भ रहन्छ ।
+ .
+ कृपया सबै यन्त्रहरू राम्रोसँग जडान गरिएको छ भन्ने कुरा जाँच गर्नुहोस् । वैकल्पिक रूपमा, कृपया स्वाचालित विभाजन रिसिप जाँच गर्नुहोस् ।
+Description-nl.UTF-8: Niet bestaand fysiek volume
+ De definitie van een volumegroep bevat een verwijzing naar een niet bestaand fysiek volume.
+ .
+ Controleer dat alle apparaten juist zijn aangesloten of controleer anders het recept voor de begeleide schijfindeling.
+Description-nn.UTF-8: Ikkje-eksisterande fysisk dataområde
+ Ein definisjon for eit gruppert dataområde inneheld ein referanse til eit ikkje-eksisterande fysisk dataområde.
+ .
+ Sjekk at alle einingar er skikkeleg tilkopla. Alternativt, sjekk oppskrifta for automatisk partisjonering.
+Description-no.UTF-8: Ikke-eksisterende fysisk dataområde
+ En definisjon for gruppert dataområde inneholder en referanse til et ikke-eksisterende fysisk dataområde.
+ .
+ Sjekk at alle enheter er skikkelig koblet til. Alternativt, sjekk oppskriften for automatisk partisjonering.
+Description-oc.UTF-8: Volum fisic inexistent
+ La definicion d'un grop de volum conten una referéncia a un volum fisic inexistent.
+ .
+ Contrarotlatz que totes los periferics son corrèctament connectats. Vos caldriá tanben verificar l'esquèma de particionament automatic.
+Description-pa.UTF-8: ਗ਼ੈਰ-ਮੌਜੂਦ ਫਿਜ਼ੀਕਲ ਵਾਲੀਅਮ
+ ਵਾਲੀਅਮ ਗਰੱਪ ਵਿੱਚ ਗ਼ੈਰ-ਮੌਜੂਦ ਫਿਜ਼ੀਕਲ ਵਾਲੀਅਮ ਲਈ ਹਵਾਲਾ ਹੈ।
+ .
+ ਚੈੱਕ ਕਰੋ ਕਿ ਕੀ ਸਭ ਡਿਵਾਈਸ ਠੀਕ ਤਰ੍ਹਾਂ ਕੁਨੈਕਟ ਹਨ। ਬਦਲਵੇਂ ਰੂਪ ਵਿੱਚ ਆਟੋਮੈਟਿਕ ਪਾਰਟੀਸ਼ਨ ਰਿਸੀਪੀ ਚੈੱਕ ਕਰੋ।
+Description-pl.UTF-8: Nieistniejący fizyczny wolumin
+ Grupa woluminów odnosi się do nieistniejącego fizycznego woluminu.
+ .
+ Proszę sprawdzić, czy wszystkie urządzenia są poprawnie podłączone lub sprawdzić sposób automatycznego partycjonowania.
+Description-pt.UTF-8: Volume físico não existente
+ Uma definição de grupo de volumes contém uma referência para um volume físico não existente.
+ .
+ Por favor verifique que todos os dispositivos estão correctamente ligados. Em alternativa, por favor verifique a receita de particionamento automático.
+Description-pt_BR.UTF-8: Volume físico não existente
+ Uma definição de grupo de volumes contém uma referência para um volume físico não existente.
+ .
+ Por favor, verifique se todos os dispositivos estão apropriadamente conectados. Alternativamente, por favor, verifique a receita de particionamento automático.
+Description-ro.UTF-8: Volum fizic inexistent
+ O definiție de grup de volume conține o referință la un volum fizic inexistent.
+ .
+ Vă rugăm să verificați dacă toate dispozitivele sunt conectate corect. Alternativ, vă rugăm să verificați rețeta de partiționare automată.
+Description-ru.UTF-8: Несуществующий физический том
+ В описании группы томов содержится ссылка на несуществующий физический том.
+ .
+ Проверьте, что все устройства подключены. Или же проверьте, что выбралось при автоматической разметке.
+Description-si.UTF-8: නොපවතින භෞතික වෙළුම
+ වෙළුම් කණ්ඩායමක් සතුව නොපවතින භෞතික වෙළුමකට යොමුවක් පවතී.
+ .
+ කරුණාකර සියළු උපකරණ නිවැරදිව සම්බන්ධ කර ඇතිදැයි පරීක්‍ෂා කරන්න. ඊට අමතරව, කරුණාකර ස්වයංක්‍රීය කොටස්කරන වට්ටෝරුව පිරික්සන්න.
+Description-sk.UTF-8: Neexistujúci fyzický zväzok
+ Definícia skupiny zväzkov obsahuje odkaz na neexistujúci fyzický zväzok.
+ .
+ Prosím, skontrolujte, či sú všetky zariadenia správne zapojené. Môžete tiež skontrolovať postupnosť automatického rozdeľovania.
+Description-sl.UTF-8: Neobstoječi fizični nosilec
+ Definicija skupine nosilcev se nanaša na neobstoječ fizični nosilec.
+ .
+ Preverite, prosim, da so vse naprave pravilno priključene. Drugače pa preverite predlog samodejnega razdeljevanja.
+Description-sq.UTF-8: Volum fizikë që nuk ekziston
+ Një grup volumi përmban një referencë tek një volum fizik që nuk ekziston.
+ .
+ Të lutem kontrollo që të gjithë dipozitivët janë lidhur si duhet. Gjithashtu, të lutem kontrollo recetën e ndarjes automatike.
+Description-sr.UTF-8: Непостојећи физички волумен
+ Дефиниција групе волумена садржи упуту ка непостојећем физичком волумену.
+ .
+ Проверите да ли су сви уређаји добро повезани или проверите аутоматско партиционисање.
+Description-sv.UTF-8: Icke-existerande fysisk volym
+ En volymgruppsdefinition innehåller en referens till en icke-existerande fysisk volym.
+ .
+ Kontrollera att alla enheter är korrekt anslutna. Alternativt kan du kontrollera det automatiska partitioneringsreceptet.
+Description-ta.UTF-8: இல்லாத பௌதிகத் தொகுதி
+ ஒரு தொகுதி குழு வரையரை இல்லாத ஒரு பௌதிக தொகுதியை குறிப்பதாக உள்ளது.
+ .
+ தயை செய்து எல்லா சாதனங்களும் சரியாக இணைக்கப்பட்டு உள்ளனவா என சோதிக்கவும். மாற்றாக தானியங்கி பகிர்வு சீடை சோதிக்கவும்.
+Description-te.UTF-8: లేని  Physical volume
+ Volume group  నిర్వచనం లో   లేని  Physical volume ప్రస్తావించబడినది.
+ .
+ అన్ని పరికరాలు సరిగా అనుసంధానించబడినవని తనిఖీ చేయండి. బదులుగా  స్వయంచాలక విభజన  పద్ధతి  తనిఖీ చేయండి.
+Description-tg.UTF-8: Ҳаҷми ҷисмонии мавҷуднабуда
+ Тавсифи гурӯҳи ҳаҷм дорои истинод ба ҳаҷми мавҷуднабудаи ҷисмонӣ мебошад.
+ .
+ Лутфан, санҷед, ки ҳамаи дастгоҳҳо ба таври дуруст пайваст карда шудаанд. Илова бар ин, лутфан, дастури қисмгузории худкорро санҷед.
+Description-th.UTF-8: โวลุมจริงไม่มีอยู่จริง
+ ข้อกำหนดกลุ่มโวลุมมีการอ้างถึงโวลุมจริงที่ไม่มีอยู่จริง
+ .
+ กรุณาตรวจสอบว่าอุปกรณ์ทุกชิ้นมีการเชื่อมต่ออย่างถูกต้อง หรือมิฉะนั้น ก็กรุณาตรวจสอบสูตรการแบ่งพาร์ทิชันแบบอัตโนมัติ
+Description-tl.UTF-8: Walang ganitong pisikal na volume
+ Ang pagkatakda ng volume group ay tumutukoy sa pisikal na volume na wala.
+ .
+ Pakisiguro na lahat ng mga device ay nakakonekta ng wasto. O kaya ay pakiayos ang recipe ng awtomatikong pagpapartisyon.
+Description-tr.UTF-8: Var olmayan fiziksel cilt
+ Bir cilt grubu tanımı var olmayan fiziksel ciltlere başvuru içeriyor.
+ .
+ Lütfen otomatik bölümleme yöntemini denetleyin ya da tüm aygıtların düzgünce bağlandığına emin olun.
+Description-ug.UTF-8: مەۋجۇت بولمىغان فىزىكىلىق دىسكا
+ دىسكا گۇرۇپپا ئېنىقلىمىسى مەۋجۇت بولمىغان فىزىكىلىق دىسكا نەقىلىنى ئۆز ئىچىگە ئالغان.
+ .
+ ھەممە ئۈسكۈنىنىڭ توغرا چېتىلغانلىقىنى تەكشۈرۈڭ ياكى ئۆزلۈكىدىن رايون تەقسىملەش لايىھىسىنى تەكشۈرۈڭ.
+Description-uk.UTF-8: Неіснуючий фізичний том
+ Означення групи томів містить посилання на неіснуючий фізичний том.
+ .
+ Будь ласка, перевірте, що всі пристрої під'єднано правильно. Або ж перевірте сценарій автоматичного розбиття на розділи.
+Description-vi.UTF-8: Khối tin vật lý không tồn tại
+ Một nhóm khối tin thì bao gồm một tham chiếu đến một khối tin vật lý không tồn tại.
+ .
+ Hãy kiểm tra xem tất cả các thiết bị được kết nối đúng. Hoặc kiểm tra công thức tự động phân vùng.
+Description-zh_CN.UTF-8: 不存在的物理卷
+ 卷组定义包含指向不存在的物理卷的引用。
+ .
+ 请检查所有设备已经连接好。或者，请检查自动分区方案。
+Description-zh_TW.UTF-8: 不存在的 Physical Volume
+ 在 Volume Group 的設定裡包含了指向不存在的 Physical Volume。
+ .
+ 請檢查是否所有的裝置都已正確得裝設了。而或者，請檢查自動磁碟分割的內容是否合宜。
+
+Template: partman-auto-lvm/no_pv_in_vg
+Type: error
+Description: No physical volume defined in volume group
+ The automatic partitioning recipe contains the definition of a
+ volume group that does not contain any physical volume.
+ .
+ Please check the automatic partitioning recipe.
+Description-ar.UTF-8: ليست هناك كتلة ماديّة مُعرّفة في مجموعة الكتل
+ تحتوي وصفة التجزئة الآلية تعريف مجموعة الكتل والتي لا تشتمل على أي كتل مادية.
+ .
+ رجاءً تأكّد من وصْفة التجزئة الآلية.
+Description-ast.UTF-8: Ensin volume físicu definíu nel grupu de volume
+ La configuración del particionáu automáticu contien la definición del grupu de volume que nun contien un volume físicu.
+ .
+ Por favor, comprueba la configuración del particionáu automáticu.
+Description-be.UTF-8: Не вызнычана фізічнага тома ў групе тамоў
+ Спосаб аўта-перадзелу змяшчае вызначэнне групы тамоў, якая не месціць фізічных тамоў.
+ .
+ Калі ласка, праверце спосаб перадзелу дыскаў.
+Description-bg.UTF-8: В групата томове не са открити физически томове
+ Рецептата за автоматично разделяне на дисковото пространство съдържа описание на група томове, която не съдържа физически томове.
+ .
+ Проверете рецептата за автоматично разделяне на дисковото пространство.
+Description-bn.UTF-8: ভলিউম গ্রুপ এ কোন ফিজিক্যাল ভলিউম উল্লেখ করা হয়নি
+ স্বয়ংক্রীয় পার্টিশনিং রেসিপি একটি ভলিউম গ্রুপের সংজ্ঞা ধারন করে যেটি কোনো ফিজিকাল ভলিউম ধারন করে না।
+ .
+ স্বয়ংক্রিয় পার্টিশন তৈরির প্রণালী পরীক্ষা করুন।
+Description-bs.UTF-8: Nema fizičke particije definisane u grupi
+ Recept automatskog particionisanja sadržo definiciju grupe particija koja ne sadrži nijednu fizičku particiju.
+ .
+ Molim pogledajte recept automatskog particionisanja
+Description-ca.UTF-8: No s'ha definit cap volum físic al grup de volums
+ La recepta de partició automàtica conté la definició d'un grup de volums que no conté cap vilum físic.
+ .
+ Comproveu la recepta de partició automàtica.
+Description-cs.UTF-8: Ve skupině svazků nebyl definován fyzický svazek
+ Návod pro automatické rozdělení disku obsahuje definici skupiny svazků, která neobsahuje žádný fyzický svazek.
+ .
+ Zkontrolujte prosím návod pro automatické rozdělení disku.
+Description-cy.UTF-8: Dim cyfrol corfforol wedi ei ddiffinio yn y grŵp cyfrol
+ Mae'r rysait rhaniadau awtomatig yn cynnwys diffiniad o grŵp cyfrol sydd ddim yn cynnwys unrhyw cyfrol corfforol.
+ .
+ Gwiriwch y rysait rhaniadu awtomatig.
+Description-da.UTF-8: Ingen fysisk diskenhed defineret i diskenhedsgruppe
+ Den automatiske partitioneringsopskrift indeholder definitionen af en diskenhedsgruppe, som ikke indeholder nogen fysiske diskenheder.
+ .
+ Kontroller venligst den automatiske partitioneringsopskrift.
+Description-de.UTF-8: Kein physisches Volume in der Volume-Gruppe definiert
+ Das automatische Partitionierungsrezept enthält die Definition einer Volume-Gruppe, die kein einziges physisches Volume enthält.
+ .
+ Überprüfen Sie das automatische Partitionierungsrezept.
+Description-dz.UTF-8: སད་ཤུགས་སྡེ་ཚན་ནང་ལུ་ དངོས་ཅན་བོ་ལུསམ་ངེས་འཛིན་མ་འབད་བས།
+ རང་བཞིན་བར་བཅད་ལག་དེབ་ནང་ལུ་ དངོས་ཅན་བོ་ལུསམ་མེད་པའི་བོ་ལུསམ་སྡེ་ཚན་གྱི་ངེས་ཚིག་ཡོདཔ་ཨིན།
+ .
+ རང་བཞིན་བར་བཅད་འབད་ཐངས་ ཞིབ་དཔྱད་འབད་གནང་།
+Description-el.UTF-8: Δεν έχει οριστεί φυσικός τόμος στην ομάδα τόμων
+ Η συνταγή αυτόματης διαμέρισης περιέχει τον ορισμό μιας ομάδας τόμων που δεν περιέχει κανέναν φυσικό τόμο.
+ .
+ Παρακαλώ ελέγξτε τη συνταγή αυτόματης διαμέρισης.
+Description-eo.UTF-8: Neniu konkreta datumportilo estas difinita en la datumportil-grupo
+ La aŭtomata diskpartiga recepto enhavas difinon de datumportil-grupo, kiu enhavas neniun konkretan datumportilon.
+ .
+ Bonvolu kontroli la aŭtomatan diskpartigan recepton.
+Description-es.UTF-8: No se ha definido un volumen físico para el grupo de volúmenes
+ El mecanismo de particionado automático contiene la definición de un grupo de volúmenes que no contiene ningún volumen físico.
+ .
+ Por favor, utilice la herramienta automática de particionado.
+Description-et.UTF-8: Selles köitegrupis pole määratud ühtki füüsilist köidet
+ Automaatne partitsioneerimisplaan sisaldab ilma ühegi füüsilise köiteta köitegrupi kirjeldust.
+ .
+ Palun kontrolli automaatse partitsioneerimise plaani.
+Description-eu.UTF-8: Ez da bolumen fisikorik definitu bolumen taldean
+ Partizio automatikoaren errezetak bolumen fisikorik ez duen bolumen talde baten definizioa du.
+ .
+ Egiaztatu partizio automatikoaren errezeta.
+Description-fa.UTF-8: هیچ حجم فیزیکی در گروه صدا تعریف نشد.
+ دستورالعمل پارتیشن بندی خودکار شامل تعریف گروه حجم می‌شود که هیچ حجم فیزیکی را شامل نمی‌شود.
+ .
+ لطفا این مشکل را از طریق منوی پارتیشن‌بندی تصحیح کنسد.
+Description-fi.UTF-8: Taltioryhmään ei ole määritelty yhtään fyysistä taltiota
+ Automaattisessa osiointisuunnitelmassa on määritelty taltioryhmän, jossa ei ole yhtään fyysistä taltiota.
+ .
+ Tarkista automaattinen osiointisuunnitelma.
+Description-fr.UTF-8: Pas de volume physique défini dans le groupe de volumes
+ Le schéma de partitionnement automatique comporte une définition d'un groupe de volumes qui ne contient aucun volume physique.
+ .
+ Veuillez vérifier le schéma de partitionnement automatique.
+Description-ga.UTF-8: Níl aon imleabhar fisiceach sainmhínithe sa ghrúpa imleabhar
+ Tá sainmhíniú ar ghrúpa imleabhar san oideas deighilte uathoibríche nach bhfuil aon imleabhar fisiceach ann.
+ .
+ Seiceáil an t-oideas deighilte uathoibríche.
+Description-gl.UTF-8: Non se definiu un volume físico no grupo de volumes
+ A receita de particionamento automático contén a definición dun grupo de volumes que non contén ningún volume físico.
+ .
+ Comprobe a receita de particionamento automático.
+Description-gu.UTF-8: કદ સમૂહમાં કોઇ ભૌતિક કદ વ્યાખ્યાયિત કરેલ નથી
+ આપમેળે પાર્ટિશન કરનારની પધ્ધતિ કદ સમૂહની વ્યાખ્યા ધરાવે છે કે જે કોઇપણ ભૌતિક કદ ધરાવતું નથી.
+ .
+ મહેરબાની કરી આપમેળે પાર્ટિશન કરનારની પધ્ધતિ ચકાસો.
+Description-he.UTF-8: בקבוצת הכרכים לא מוגדר כרך פיזי
+ מרשם החלוקה האוטומטית למחיצות מכיל הגדרת קבוצת כרכים, שאינה מכילה אף כרך פיזי.
+ .
+ נא לבדוק את מרשם החלוקה האוטומטית למחיצות.
+Description-hi.UTF-8: वॉल्यूम समूह में फ़िज़िकल वॉल्यूम उपस्थित नहीं
+ स्वचलित पार्टिशनिंग तरीके में एक ऐसे वॉल्यूम का जिक्र किया गया है जिसमें कोई फिज़िकल वॉल्यूम उपस्थित नहीं है.
+ .
+ कृपया स्वचालित विभाजन नुस्खा की जाँच करें।
+Description-hr.UTF-8: Nema određenih fizičkih uređaja u grupi uređaja
+ Sadržaj automatskog particioniranja sadrži definiciju grupe uređaja koja ne sadrži nijedan fizički uređaj.
+ .
+ Provjerite sadržaj automatskog particioniranja.
+Description-hu.UTF-8: Nincs megadva fizikai kötet a kötetcsoportban
+ Az automatikus partícionálás receptje egy olyan kötetcsoport meghatározását tartalmazza, amely nem tartalmaz fizikai kötetet.
+ .
+ Kérlek, ellenőrizd az automatikus partícionálás receptjét.
+Description-id.UTF-8: Volum fisik tidak didefinisikan dalam grup volum
+ Pola pemartisi otomatis berisi definisi sebuah grup volum yang tidak berisi suatu volum fisik.
+ .
+ Mohon periksa kembali pola pemartisi otomatis.
+Description-is.UTF-8: Ekkert rauneintak er skilgreint í sýndardiski
+ Uppsetning sjálfvirku disksneiðaskipingarinnar inniheldur skilgreiningu sýndardisks sem hefur ekkert rauneintak (disk/disksneið).
+ .
+ Athugaðu sjálfvirka uppsetningu disksneiðaskiptingar.
+Description-it.UTF-8: Nessun volume fisico definito nel gruppo di volumi
+ Il partizionamento automatico contiene la definizione di un gruppo di volumi che non contiene alcun volume fisico.
+ .
+ Controllare il partizionamento automatico.
+Description-ja.UTF-8: ボリュームグループで物理ボリュームが何も定義されていません
+ 自動パーティショニングレシピが、物理ボリュームを含んでいないボリュームグループの定義を含んでいます。
+ .
+ 自動パーティショニングレシピを確認してください。
+Description-ka.UTF-8: ტომების ჯგუფში ფიზიკური ტომი აღწერილი არაა
+ ავტომატური დაყოფის რეცეპტი შეიცავს აღწერას ტომების ჯგუფისთვის, რომელიც ფიზიკურ ტომებს არ შეიცავს.
+ .
+ შეამოწმეთ ავტომატურად დაყოფის სცენარი.
+Description-kab.UTF-8: Ulac ableɣ aɣaran yettusbadun deg ugraq n yiblaɣen
+ Beṭṭu awurman n uḍebsi d iḥricen tella deg-s tbadut n ugraw n yiblaɣen ideg ulac akk ableɣ aɣaran.
+ .
+ Ttxil-k·m senqed beṭṭu awurman n uḍebsi d iḥricen.
+Description-kk.UTF-8: Томдар тобында ешбір физикалық том көрсетілмеген
+ Өздігінен бөлу шешімінде (recipe) өзінде жоқ физикалық томға сілтеме жасайтын томдар тобы бар.
+ .
+ Өздігінен бөлу шешімін (recipe) тексеріңіз.
+Description-km.UTF-8: មិន​មានន​ភាគ​ពិត​បានកំណត់​នៅ​ក្នុង​ក្រុម​ភាគ
+ បង្កាន់​ដៃ​ចែកភាគ​ថាស​ដោយ​ស្វ័យ​ប្រវត្តិ​មាន​ការ​កំណត់​ក្រុម​ភាគ​ដែល​មិនមាន​ភាគថាស​ណាមួយ​ទេ ។
+ .
+ សូម​ពិនិត្យ​មើល​បង្កាន់ដៃ​ការ​ចែកភាគ​ថាស​ដោយ​ស្វ័យ​ប្រវត្តិ ។
+Description-kn.UTF-8: ಸಂಪುಟ ಸಮೂಹದಲ್ಲಿ ಯಾವುದೇ ಭೌತಿಕ ಸಂಪುಟವನ್ನು ನಿರೂಪಿಸಲಾಗಿಲ್ಲ
+ ಸ್ವಯಂಚಾಲಿತ ವಿಭಜನಾ ಸೂತ್ರವು ಸಂಪುಟ ಸಮೂಹವೊಂದರ ಲಕ್ಷಣ ನಿರೂಪಣೆಯನ್ನು ಒಳಗೊಂಡಿದೆ, ಆ ಸಂಪುಟ ಸಮೂಹವು ಯಾವುದೇ ಭೌತಿಕ ಸಂಪುಟವನ್ನು ಹೊಂದಿರುವುದಿಲ್ಲ
+ .
+ ಸ್ವಯಂಚಾಲಿತ ವಿಭಜನಾ ಸೂತ್ರವನ್ನು ದಯಮಾಡಿ ಪರೀಕ್ಷಿಸಿ.
+Description-ko.UTF-8: 볼륨 그룹에 물리 볼륨을 정의하지 않았습니다
+ 자동 파티션 조합에는 물리 볼륨이 없는 볼륨 그룹의 정의가 들어 있습니다.
+ .
+ 자동 파티션 조합을 확인하십시오.
+Description-lo.UTF-8: ບໍ່ໄດ້ກຳນົດ physical volume ໃນກຸ່ມໂວລ້ຳ
+ ສູດການແບ່ງພາທີຊັນແບບອັດຕາໂນມັດມີຂໍ້ກຳນົກຂອງກຸ່ມໂວລ້ຳທີ່ບໍ່ໄດ້ມີ physical volume ຢູ່ເສີຍ
+ .
+ ກາລຸນາກວດສອບສູດການແບ່ງພາທີຊັນແບບອັດຕາໂນມັດ
+Description-lt.UTF-8: Tomų grupėje (volume group) nenurodytas fizinis tomas
+ Automatinio disko dalijimo metu pasiūlyta tomų grupė, kurioje nėra jokio fizinio tomo.
+ .
+ Patikrinkite pasiūlytas parinktis, esant automatiniam disko dalijimui.
+Description-lv.UTF-8: Sējumu grupā nav noteikti fiziskie sējumi
+ Automātiskā dalīšanas recepte satur tādas sējumu grupas aprakstu, kas nesatur nevienu fizisko sējumu.
+ .
+ Lūdzu pārbaudiet automātiskās dalīšanas recepti.
+Description-mk.UTF-8: Нема физички уред во групата
+ Рецептот за автоматско партиционирање содржи дефиниција за група која не содржи физички уред.
+ .
+ Проверете го автоматското партиционирање.
+Description-ml.UTF-8: വാള്യം ഗ്രൂപ്പില്‍ ഭൌതിക വാള്യങ്ങളൊന്നും നിര്‍വ്വചിച്ചിട്ടില്ല
+ ഭൌതിക വാള്യങ്ങളൊന്നും ഉള്‍ക്കൌള്ളാത്ത വാള്യം ഗ്രൂപ്പിന്റെ നിര്‍വ്വചനം സ്വയം വിഭജിയ്ക്കുന്ന രീതിയിലുണ്ടു്.
+ .
+ ദയവായി സ്വയം വിഭജിയ്ക്കുന്ന രീതി പരിശോധിയ്ക്കുക.
+Description-mr.UTF-8: खंड गटात कोणताही भौतिक खंड निर्धारित केलेला नाही
+ आपोआप विभाजनीकरण कृतीमध्ये कोणत्याही भौतिक खंडाचा समावेश नसलेल्या एका खंड गटाच्या व्याखेचा समावेश आहे.
+ .
+ कृपया आपोआप विभाजनीकरणाची कृती तपासून घ्या.
+Description-nb.UTF-8: Intet fysisk dataområde definert i gruppert dataområde
+ Den automatiske partisjoneringsoppskriften inneholder definisjonen av et gruppert dataområde som ikke inneholder noe fysisk dataområde.
+ .
+ Sjekk oppskriften for automatisk partisjonering.
+Description-ne.UTF-8: भोल्युम समूहमा कुनै पनि भौतिक भोल्युम परिभाषित गरिएको छैन
+ स्वाचालित विभाजन रिसिमा कुनै पनि भौतिक भोल्युम समाविष्ट नभएको भोल्युम समूहको परिभाषा समाविष्ट छ।
+ .
+ स्वाचालित विभाजन रिसिप जाँच गर्नुहोस् ।
+Description-nl.UTF-8: Geen fysiek volume gedefinieerd voor de volumegroep
+ Het recept voor de begeleide schijfindeling bevat een definitie van een volumegroep zonder fysiek volume.
+ .
+ Controleer het recept voor de begeleide schijfindeling.
+Description-nn.UTF-8: Ingen fysiske dataområde er definerte i gruppert dataområde
+ Den automatiske partisjoneringsoppskrifta inneheld definisjonen av eit gruppert dataområde som ikkje inneheld noko fysisk dataområde.
+ .
+ Sjekk oppskrifta for automatisk partisjonering.
+Description-no.UTF-8: Intet fysisk dataområde definert i gruppert dataområde
+ Den automatiske partisjoneringsoppskriften inneholder definisjonen av et gruppert dataområde som ikke inneholder noe fysisk dataområde.
+ .
+ Sjekk oppskriften for automatisk partisjonering.
+Description-oc.UTF-8: Pas de volum fisic definit dins lo grop de volums
+ L'esquèma de particionament automatic compòrta una definicion de grop de volums que conten pas cap de volum fisic.
+ .
+ Verificatz l'esquèma de particionament automatic.
+Description-pa.UTF-8: ਵਾਲੀਅਮ ਗਰੁੱਪ ਵਿੱਚ ਫਿਜ਼ੀਕਲ ਵਾਲੀਅਮ ਨਹੀਂ
+ ਆਟੋਮੈਟਿਕ ਪਾਰਟੀਸ਼ਨਿੰਗ ਰੀਸਿਪੀ ਵਿੱਚ ਵਾਲੀਅਮ ਗਰੁੱਪ ਦੀ ਪ੍ਰੀਭਾਸ਼ਾ ਹੁੰਦੀ ਹੈ, ਜੋ ਕਿ ਕਿਸੇ ਫਿਜ਼ੀਕਲ ਵਾਲੀਅਮ ਨੂੰ ਰੱਖਦਾ ਹੈ।
+ .
+ ਆਟੋਮੈਟਿਕ ਪਾਰਟੀਸ਼ਨ ਬਣਾਉਣ ਲਈ ਚੈੱਕ ਕਰੋ।
+Description-pl.UTF-8: Brak zdefiniowanych fizycznych woluminów w grupie woluminów
+ Wybrany sposób automatycznego partycjonowania zawiera definicję grupy woluminów, która nie zawiera fizycznych woluminów.
+ .
+ Proszę sprawdzić sposób automatycznego partycjonowania.
+Description-pt.UTF-8: Nenhum volume físico definido no grupo de volumes
+ A receita de particionamento automático contém a definição de um grupo de volumes que não contém qualquer volume físico.
+ .
+ Por favor verifique a receita de particionamento automático.
+Description-pt_BR.UTF-8: Nenhum volume físico definido no grupo de volumes
+ A receita de particionamento automático contém a definição de um grupo de volumes que não contém nenhum volume físico.
+ .
+ Por favor, verifique a receita de particionamento automático.
+Description-ro.UTF-8: Niciun volum fizic definit în grupul de volume
+ Rețeta de partiționare automată conține definiția unui grup de volume care nu conține niciun volum fizic.
+ .
+ Verificați rețeta de partiționare automată.
+Description-ru.UTF-8: В группе томов не задано физического тома
+ Процесс автоматической разметки создал описание группы томов, в которой не содержится физического тома.
+ .
+ Проверьте, что выбралось при автоматической разметке.
+Description-si.UTF-8: වෙළුම් කණ්ඩායමේ කිසිඳු භෞතික වෙළුමක් නිවේශණය කර නොමැත
+ ස්වයංක්‍රීය කොටස්කරණ වට්ටෝරුව සඳහා කිසිඳු භෞතික වෙළුමක අඩංගු නොවන වෙළුම් කණ්ඩායමක් නිවේශනය කල යුතුයි.
+ .
+ කරුණාකර ස්වයංක්‍රීය කොටස්කරන වට්ටෝරුව පිරික්සන්න.
+Description-sk.UTF-8: V skupine zväzkov nie je definovaný žiadny fyzický zväzok
+ Postupnosť automatického rozdeľovania obsahuje definíciu skupiny zväzkov, ktorá neobsahuje žiadny fyzický zväzok.
+ .
+ Prosím, skontrolujte postupnosť automatického rozdeľovania.
+Description-sl.UTF-8: V skupini nosilcev ni določen noben fizični nosilec
+ Predlog samodejnega razdeljevanja vsebuje definicijo skupine nosilcev v kateri ni nobenega fizičnega nosilca.
+ .
+ Preverite prosim predlog samodejnega razdeljevanja.
+Description-sq.UTF-8: Asnjë volum fizik i caktuar në grupin e volumit
+ Receta e ndarjes automatike përmban listën e një grupi volumi që nuk përmban ndonjë volum fizik.
+ .
+ Të lutem kontrollo recetën e ndarjes automatike.
+Description-sr.UTF-8: Физички волумени нису дефинисани у групи волумена
+ Аутоматско партиционисање садржи дефиницију групе волумена која не садржи ниједан физички волумен.
+ .
+ Проверите аутоматско партиционисање.
+Description-sv.UTF-8: Ingen fysisk volym definierad i volymgrupp
+ Det automatiska partitioneringsreceptet innehåller definitionen för en volymgrupp som inte innehåller någon fysisk volym.
+ .
+ Kontrollera det automatiska partitioneringsreceptet.
+Description-ta.UTF-8: தொகுதிக்குழுவில் பௌதிக தொகுதி ஏதும் குறிப்பிடப்படவில்லை
+ தானியங்கி பகிர்வு சீட்டில் பௌதிக தொகுதி அல்லாத தொகுதி குழு வரையருக்கப்பட்டுள்ளது.
+ .
+ தானியங்கி பகிர்வு சீட்டை சோதிக்கவும்.
+Description-te.UTF-8: Volume group నిర్వచనంలో  Physical volume లేదు
+ స్వయంచాలక విభజన  పద్ధతి లోని  Volume group నిర్వచనంలో  ఏ Physical volume లేదు
+ .
+ స్వయంచాలక విభజన  పద్ధతి  తనిఖీ చేయండి.
+Description-tg.UTF-8: Ягон ҳаҷми ҷисмонӣ дар гурӯҳи ҳаҷмҳо муайян карда нашудааст
+ Нақшаи қисмбандии худкор дорои таърифи гурӯҳи ҳаҷмҳо мебошад, ки ягон ҳаҷми ҷисмониро дар бар намегирад.
+ .
+ Лутфан, дастури қисмбандии худкорро санҷед.
+Description-th.UTF-8: ไม่ได้กำหนดโวลุมจริงในกลุ่มโวลุม
+ สูตรการแบ่งพาร์ทิชันแบบอัตโนมัติมีข้อกำหนดของกลุ่มโวลุมที่ไม่ได้มีโวลุมจริงอยู่เลย
+ .
+ กรุณาตรวจสอบสูตรการแบ่งพาร์ทิชันแบบอัตโนมัติ
+Description-tl.UTF-8: Walang pisikal na volume sa volume group
+ Ang recipe ng awtomatikong pagpapartisyon ay naglalaman ng nakatakdang volume group na walang pisikal na volume.
+ .
+ Suriin ang gagamiting recipe sa awtomatikong pagpapartisyon.
+Description-tr.UTF-8: Cilt grubunda herhangi bir fiziksel cilt tanımlanmadı
+ Otomatik bölümleme yöntemi, hiçbir fiziksel cilt içermeyen bir cilt grubu tanımı içeriyor.
+ .
+ Lütfen otomatik bölümleme yöntemini denetleyin.
+Description-ug.UTF-8: بۇ دىسكا گۇرۇپپىسىدا فىزىكىلىق دىسكا بەلگىلەنمىگەن
+ ئۆزلۈكىدىن تەقسىملەش لايىھىسى ھېچقانداق فىزىكىلىق دىسكىنى ئۆز ئىچىگە ئالمىغان دىسكا گۇرۇپپىسىنى ئۆز ئىچىگە ئالغان.
+ .
+ ئۆزلۈكىدىن رايونغا ئايرىش لايىھىسىنى تەكشۈرۈڭ.
+Description-uk.UTF-8: До групи томів не включено жодного фізичного тому
+ Сценарій автоматичного розбиття на розділи містить означення групи томів, до якої не включено жодного фізичного тому.
+ .
+ Будь ласка, перевірте сценарій автоматичного розбиття.
+Description-vi.UTF-8: Chưa xác định khối tin vật lý trong nhóm khối tin
+ Công thức tự động phân vùng bao gồm lời định nghĩa một nhóm khối tin mà không bao gồm khối tin vật lý nào.
+ .
+ Hãy kiểm tra công thức tự động phân vùng.
+Description-zh_CN.UTF-8: 此卷组没有定义物理卷
+ 自动分区方案包含了不含有任何物理卷的卷组。
+ .
+ 请检查自动分区方案。
+Description-zh_TW.UTF-8: 在儲區群組內沒有定義的實體儲區
+ 自動磁碟分割的內容裡有個 Volume Group 裡沒有設定任何的 Physical Volume。
+ .
+ 請檢查自動磁碟分割的內容是否合宜。
+
+Template: partman-auto-lvm/guided_size
+Type: string
+Default: some number
+Description: Amount of volume group to use for guided partitioning:
+ You may use the whole volume group for guided partitioning, or part of it.
+ If you use only part of it, or if you add more disks later, then you will
+ be able to grow logical volumes later using the LVM tools, so using a
+ smaller part of the volume group at installation time may offer more
+ flexibility.
+ .
+ The minimum size of the selected partitioning recipe is ${MINSIZE} (or
+ ${PERCENT}); please note that the packages you choose to install may
+ require more space than this. The maximum available size is ${MAXSIZE}.
+ .
+ Hint: "max" can be used as a shortcut to specify the maximum size, or
+ enter a percentage (e.g. "20%") to use that percentage of the maximum size.
+ You can specify partition sizes in decimal units (like MB or GB) as well as
+ in binary units (like GiB or TiB).
+Description-ar.UTF-8: كمية حجم المجموعة لاستخدامها في التقسيم المُوجه:
+ ربما تستخدم مجموعة الحجم كلياً في التقسيم الموجه، او جزء منه. إذا استخدمت جزء منه فقط، أو أضفت أقراص أكثر لاحقاً، فإنك ستستطيع تنمية اﻷحجام المنطقية لاحقاً باستخدام أدوات الكتلة المنطقية LVM، لذا فإن استخدام جزء أصغر من مجموعة اﻷحجام أثناء التثبيت ربما يعطي مرونة أكثر.
+ .
+ أقل حجم للتقسيم المُحضّر ${MINSIZE} (or ${PERCENT})؛ لطفا لاحظ أنّ الحزم التي تختار تثبيتها قد تتطلّب مساحة أكبر من هذه. أقصى حجم متوفر ${MAXSIZE}.
+ .
+ تلميح: يمكن استخدام الحد الأقصى "max" كاختصار لتحديد الحد الأقصى للحجم، أو إدخال نسبة مئوية (على سبيل المثال، "20%") لاستخدام هذه النسبة من الحد الأقصى للحجم. يمكنك تحديد أحجام الأقسام بالوحدات العشرية (مثل ميغابايت أو جيجابايت) وكذلك في الوحدات الثنائية (مثل GiB أو TiB).
+Description-be.UTF-8: Колькасьць месца для аўтаматычнага падзелу:
+ Вы можаце абраць усё дасяжнае месца для аўтаматычнага падзелу ці частку. Калі вы абіраеце частку, вы можаце дадаць новыя дыскі і лагічныя падзелы пазьней праз сродкі кіраваньня LVM tools. Меньшы памер падзелу падчас інсталяцыі робіць сыстэму больш гнуткай.
+ .
+ Мінімальны памер месца пад абраную партыцыю ${MINSIZE} (ці ${PERCENT}); калі ласка ўлічвайце што пакеты, абраныя да інсталяцыі могуць запатрабаваць болей месца. Максімальны магчымы памер ${MAXSIZE}.
+ .
+ Падказка: "max" можа быць скарыстана як скарот для вызначэння максімальнага памеру, таксама можаце ўвесці працэнты (г.зн. "20%") ад максімальнага памеру. Можна задаць памеры раздзелаў як у дзесяцярычных адзінках (як MB ці GB), так і ў дваічных (як GiB ці TiB).
+Description-ca.UTF-8: Quantitat del grup de volums a utilitzar per a la partició guiada:
+ Podeu utilitzar el volum complet per a la partició guiada, o bé part d'ell. En cas que només n'utilitzeu una part, o bé si hi afegiu més discos més endavant, podreu augmentar la mida dels volums lògics també més endavant fent ús de les eines LVM. És per això que utilitzar una part menor del grup de volums durant la instal·lació ofereix una major flexibilitat.
+ .
+ La mida mínima de la configuració de partició ${MINSIZE} (o ${PERCENT}). Tingueu en compte que pot ser que als paquets que vulgueu instal·lar els calgui més espai. La mida màxima disponible és ${MAXSIZE}.
+ .
+ Consell: es pot emprar «max» com a drecera per a especificar la mida màxima, o introduir un percentatge (p. ex. «20%») per a emprar aquest percentatge de la mida màxima. Es poden especificar les mides de partició amb unitats decimals (com ara MB i GB) així com també amb unitats binàries (com ara GiB i TiB).
+Description-cs.UTF-8: Skupiny svazků, které můžete použít pro asistované rozdělení:
+ Můžete použít celou skupinu svazků pro asistované rozdělení, či jeho část. Pokud používáte jen část, nebo přidáte-li další disky později, pak budete moci rozšířit logické svazky později pomocí nástroje LVM, použití menší části svazků při instalaci může nabídnout větší flexibilitu.
+ .
+ Minimální velikost vybraného způsobu rozdělení je ${MINSIZE} (nebo ${PERCENT}); pamatujte, že balíky, které budete instalovat, mohou vyžadovat více místa. Maximální dostupná velikost je ${MAXSIZE}.
+ .
+ Tip: jako zkratku pro maximální velikost můžete zadat „max“, případně lze použít procenta (např. „20%“), což znamená, že se použije zadané procento z maximální velikosti. Velikost oblasti můžete zadat jak v desítkových jednotkách (třeba MB nebo GB), tak v binárních (např. GiB nebo TiB).
+Description-de.UTF-8: Zu nutzender Anteil der Volume-Gruppe für die geführte Partitionierung:
+ Sie können die gesamte Volume-Gruppe oder nur einen Teil davon für die geführte Partitionierung verwenden. Wenn Sie nur einen Teil verwenden oder später neue Platten hinzufügen, können sie die virtuellen Partitionen dann mit den LVM-Tools vergrößern. Somit kann es flexibler sein, bei der Installation lediglich einen kleineren Teil der Volume-Gruppe zu nutzen.
+ .
+ Die minimale Größe des gewählten Partitionierungsrezepts ist ${MINSIZE} (oder ${PERCENT}). Bitte beachten Sie, dass die Pakete, die Sie installieren, mehr Platz als dieses Minimum in Anspruch nehmen könnten. Die maximal verfügbare Größe ist ${MAXSIZE}.
+ .
+ Tipp: »max« kann als Kürzel verwendet werden, um die maximale Größe anzugeben. Alternativ kann ein prozentualer Wert (z.B. »20%«) angegeben werden, um eine relative Größe vom Maximum zu nutzen. Sie können Partitionsgrößen sowohl in dezimalen Einheiten (wie MB oder GB) als auch in binären Einheiten (wie GiB oder TiB) angeben.
+Description-el.UTF-8: Ποσό της ομάδας τόμου που θα χρησιμοποιηθεί για την καθοδηγούμενη διαμέριση:
+ Μπορείτε να χρησιμοποιήσετε ολόκληρη την ομάδα τόμων ή ένα μέρος από αυτή για καθοδηγούμενη διαμέριση. Αν χρησιμοποιήσετε ένα μέρος της ή αν αργότερα προσθέσετε επιπλέον δίσκους, θα μπορείτε τότε να επεκτείνετε αργότερα τους λογικούς τόμους χρησιμοποιώντας τα εργαλεία LMV. Έτσι η χρήση ενός μικρότερου τμήματος της ομάδας τόμων κατά την εγκατάσταση, σας δίνει περισσότερη ευελιξία.
+ .
+ Το ελάχιστο μέγεθος του επιλεγμένου τρόπου διαμέρισης είναι ${MINSIZE} (ή ${PERCENT}). Παρακαλούμε σημειώστε πως τα πακέτα που θα επιλέξετε να εγκαταστήσετε μπορεί να χρειαστούν περισσότερο χώρο από αυτόν. Ο μέγιστος διαθέσιμος χώρος είναι ${MAXSIZE}.
+ .
+ Υπόδειξη: μπορείτε να χρησιμοποιήσετε το "max" σαν συντόμευση για τον προσδιορισμό του μέγιστου μεγέθους ή να εισάγετε ένα ποσοστό (πχ. "20%") αυτού του μέγιστου μεγέθους. Μπορείτε να προσδιορίσετε μεγέθη κατατμήσεων ως σε δεκαδικές τιμές (όπως MB ή GB) καθώς και σε δυαδικές τιμές (όπως GiB ή TiB).
+Description-es.UTF-8: Cantidad en el grupo de volumen a usar en el particionado guiado:
+ Puede utilizar todo el grupo de volúmenes para el particionado guiado, o parte de él. Si utiliza solo una parte, o si añade más discos después, podrá agrandar los volúmenes lógicos más adelante usando las herramientas de LVM, así que usar una parte menor del grupo de volumen en el momento de instalación puede ofrecer una mayor flexibilidad.
+ .
+ El tamaño mínimo de la partición seleccionada es de ${MINSIZE} (o ${PERCENT}); tenga en cuenta que los paquetes que eligió instalar pueden requerir más espacio que esto. El tamaño máximo disponible es de ${MAXSIZE}.
+ .
+ Sugerencia: "max" puede usarse como un atajo para especificar el tamaño máximo, o introducir un porcentaje (por ejemplo, "20%") para usar ese porcentaje del tamaño máximo. Puede especificar los tamaños de la partición en unidades decimales (como MB o GB) así como en unidades binarias (como GiB o TiB).
+Description-et.UTF-8: Köitegrupi maht, mida kasutatakse juhitud partitsioneerimise jaoks:
+ Juhitud partitsioneerimise jaoks võid kasutada kogu köitegruppi või selle osa. Kui kasutad ainult osa, või kui lisad hiljem kettaid, saad loogilisi köiteid LVM-tööriistadega hiljem kasvatada, seega annab paigaldamisel väiksema köitegrupi kasutamine suurema paindlikkuse.
+ .
+ Valitud partitsiooniskeemi vähim suurus on ${MINSIZE} (või ${PERCENT}); pane tähele, et kui sa tahad rohkem pakke paigaldada, läheb selle jaoks rohkem ruumi vaja. Suurim saadaolev ruum on ${MAXSIZE}.
+ .
+ Vihje: "max" on otsetee suurimale võimalikule suurusele, võib sisestada ka protsendi (nt "20%") et kasutada osa suurimast võimalikust suurusest. Sa võis määrata partitsiooni suuruse nii kümnend- (GB, TB) kui ka kahendsüsteemi (GiB, TiB) ühikutes.
+Description-fi.UTF-8: Ohjattuun osiointiin käytettävä osuus taltioryhmästä:
+ Voit käyttää koko taltioryhmää ohjattuun osiointiin, tai vain osaa siitä. Jos käytät vain osaa siitä, tai jos lisääty levyjä myöhemmin, voit kasvattaa loogisten taltioiden kokoja LVM-työkaluilla. Tästä johtuen pienemmän osan käyttäminen asennettaessa voi tarjota lisäjoustavuutta.
+ .
+ Pienin valitun osiointireseptin koko on ${MINSIZE} (tai ${PERCENT}). Huomaa, että asennettavaksi valittavat paketit voivat vaatia tätä enemmän tilaa. Suurin saatavilla oleva koko on ${MAXSIZE}.
+ .
+ Vihje: "max" voidaan käyttää pikanäppäimenä enimmäiskoon määrittämiseen tai syöttämällä prosenttiosuus (esim. "20%"), jos haluat käyttää tätä prosenttiosuutta enimmäiskoosta. Voit määrittää osioiden koot desimaaliyksiköissä (kuten MB tai GB) sekä binääriyksiköissä (kuten GiB tai TiB).
+Description-fr.UTF-8: Quantité d'espace sur le groupe de volumes pour le partitionnement assisté :
+ Vous pouvez utiliser la totalité ou une partie de l'espace du groupe de volumes pour le partitionnement assisté. Si vous en utilisez seulement une partie ou si vous ajoutez des disques ultérieurement, vous pourrez alors agrandir les volumes logiques grâce aux outils de LVM. L'utilisation partielle de l'espace du groupe de volume lors de l'installation vous apportera donc plus de flexibilité par la suite.
+ .
+ La taille minimale de la partition sélectionnée est ${MINSIZE} (ou ${PERCENT}) ; notez bien que les paquets choisis pour installation peuvent occuper plus de place que cela. La taille maximale disponible est ${MAXSIZE}.
+ .
+ Il est possible d'utiliser « max » comme méthode simplifiée pour choisir la taille maximale ou d'indiquer un pourcentage (p. ex. « 20% ») pour utiliser ce pourcentage de la taille maximale. Les tailles de partitions peuvent être indiquées en unités décimales (p. ex. MB ou GB) ou en unités binaires (p. ex GiB ou TiB).
+Description-gl.UTF-8: Cantidade do grupo de volume a empregar para a partición guiada:
+ Pode empregar o grupo de volume completo para a partición guiada ou parte del. Se só emprega parte, ou se engaden máis discos despois pode facer que aumenten os volumes lóxicos máis adiante coas ferramentas de LVM, polo que empregar unha parte máis pequena do grupo de volume no momento da instalación pode fornecer máis flexibilidade.
+ .
+ O tamaño mínimo da receita de partición seleccionada é ${MINSIZE} (ou ${PERCENT}); teña en conta que os paquetes que escolla para instalar poden requirir máis espazo que este. O tamaño máximo disponíbel é ${MAXSIZE}.
+ .
+ Consello: pódese introducir «max» para indicar o tamaño máximo, ou introducir unha porcentaxe (por ex. «20%») para empregar esa porcentaxe do tamaño máximo. Podes especificar o tamaño de partición en decimais (coma MB or GB) así como en unidades binarias (coma GiB ou TiB).
+Description-he.UTF-8: כמות קבוצות כרכים לשימוש לטובת חלוקה מודרכת למחיצות:
+ אפשר להשתמש בכל הגודל עבור הגדרת המחיצות המודרכת או בחלק ממנו. בחירה בחלק ממנו או הוספה של כוננים נוספים אח״כ, תאפשר לך להגדיל את הנפח בצורה לוגית בהמשך בעזרת LVM, כך ששימוש בחלק קטן יותר מהנפח בזמן ההתקנה יציע גמישות יתר.
+ .
+ הגודל המזערי של הגדרת המחיצה שנבחרה הוא ${MINSIZE} (או ${PERCENT}); נא לשים לב שייתכן שהחבילות שבחרת להתקין ידרשו יותר מקום מזה. הגדול הזמין המרבי הוא ${MAXSIZE}.
+ .
+ רמז: ניתן לכתוב „max” בתור קיצור לציון הגודל המרבי, או לכתוב באחוזים (לדוגמה: „20%”) כדי לציין את האחוז מתוך הגודל המרבי. אפשר לציין את גודלי המחיצות ביחידות עשרוניות (כגון MB או GB) או בינריות (כגון GiB או TiB).
+Description-hi.UTF-8: निर्देशित विभाजन के लिए उपयोग करने के लिए मात्रा समूह की राशि:
+ पार्टिशन निर्देश के उपयोग हेतु पूरे मात्रा समुह का उपयोग कर सकते है, या इसके किसी भाग का। यदि आप केवल इसके भाग का उपयोग करते हैं, या बाद में आप और डिस्क जोड़ते हैं तब LVM औजार का उपयोग कर logical मात्रा को बढ़ा सकते हैं अतः मात्रा समुह के छोटे भाग का उपयोग करने पर संस्थापन का समय आपको और लचीलापन प्रदान करता है।
+ .
+ चुने गए पार्टिशन रेसिपि के लिए न्यूनतम आकार ${MINSIZE} (or ${PERCENT}) है; कृपया ध्यान दें कि आपके द्वारा चुने गए पैकेज के लिए और अधिक जगह की आवश्यकता होगी। अधिकतम उपलब्ध आकार ${MAXSIZE} है।
+ .
+ संकेत: "max" द्वारा अधिकतम संभव आकार चुना जा सकता है, अथवा प्रतिशत संख्या (उदाहरण: "20%") द्वारा अधिकतम आकार का एक प्रतिशत चुना जा सकता है. आप पार्टीशन आकार को दशमलव इकाइयों (जैसे MB या GB) के साथ-साथ बाइनरी इकाइयों (जैसे GiB या TiB) में निर्दिष्ट कर सकते हैं।
+Description-hr.UTF-8: Veličina grupe uređaja koja će se koristiti za navođeno particioniranje:
+ Za navođeno particioniranje možete koristiti cijelu grupu uređaja ili samo dio nje. Ako koristite samo dio iste ili ako kasnije dodate nove diskove, tada ćete moći povećati logičke uređaje koristeći ULU alate. Stoga, korištenje manjeg dijela grupe uređaja prilikom instalacije može ponuditi veću fleksibilnost.
+ .
+ Najmanja veličina odabranog pravila particioniranja je ${MINSIZE} (ili ${PERCENT}); uzmite u obzir da će paketima koje ste odabrali za instalaciju možda trebati više prostora no što postoji sada. Najveća dostupna veličina je ${MAXSIZE}.
+ .
+ Savjet: "max" se može koristiti kao kratica za najveću veličinu, ili možete unijeti postotak (npr. "20%") kao postotni dio te veličine. Veličine particija možete zadati korištenjem decimalnih jedinica (kao što su MB ili GB), kao i pomoću binarnih jedinica (npr. GiB ili TiB).
+Description-hu.UTF-8: Az irányított particionáláshoz használható kötetcsoportok száma:
+ Az irányított partícionáláshoz használhatod a teljes kötetcsoportot vagy csak annak egy részét. Ha csak egy részét használod, vagy ha később további lemezeket adsz hozzá, akkor később az LVM eszközeivel a logikai köteteket meg tudod növelni, ezért a kötetcsoport csak egy részének használata a telepítéskor nagyobb rugalmasságot biztosíthat.
+ .
+ A kiválasztott particionálási receptben a legkisebb méret ${MINSIZE} (vagy ${PERCENT}); kérlek vedd figyelembe, hogy a telepíteni kívánt csomagok ennél nagyobb helyet igényelhetnek. A partíció legnagyobb mérete ${MAXSIZE} lehet.
+ .
+ Tipp: a „max” rövidítésként használható a maximális méret megadására, de megadhatsz százalékos értéket is a maximális méret megadott százalékának használatához (pl. 20%). A partíció méretét megadhatod tizes számrendszerű mértékegységben (például MB vagy GB) és bináris mértékegységben is (például GiB vagy TiB).
+Description-id.UTF-8: Jumlah volume grup digunakan untuk partisi terpandu:
+ Anda dapat menggunakan seluruh kelompok volume untuk partisi terpandu, atau sebagiannya. Jika anda menggunakan hanya sebagiannya, atau jika anda menambah disk, kemudian anda akan bisa untuk menambah volume logik dengan menggunakan perangkat LVM, jadi gunakan bagian yang lebih kecil dari kelompok volume pada waktu instalasi memberikan fleksibilitas lebih.
+ .
+ Ukuran minimum pada partisi yang dipilih adalah ${MINSIZE} (atau ${PERCENT}); harap diingat bahwa paket-paket yang Anda pilih untuk menginstal mungkin memerlukan lebih banyak daripada ini. Ukuran maksimum yang tersedia adalah ${MAXSIZE}.
+ .
+ Petunjuk: "max" dapat digunakan sebagai jalan pintas untuk menentukan ukuran maksimum, atau masukkan sebuah persentase (mis. "20%") untuk menyatakan persentase ukuran maksimum. Anda dapat menyatakan ukuran partisi dalam unit desimal (seperti MB atau GB) maupun dalam unit biner (seperti GiB atau TiB).
+Description-is.UTF-8: Hluti sýndardisks sem á að nota fyrir leiðbeinda disksneiðingu:
+ Þú getur notað allan sýndardiskinn undir skiptingu eða hluta hans. Þú getur búið til rökeiningar með LVM tólunum seinna ef þú notar aðeins hluta hans eða ef þú bætir fleiri diskum við. Þetta þýðir að það getur verið frjálslegra að nota smærri hluta sýndardisksins við uppsetningu.
+ .
+ Minnsta stærðin fyrir valda disksneiðaskiptingu er ${MINSIZE} (þ.e.a.s. ${PERCENT}); hafðu í huga að pakkarnir sem þú setur upp geti tekið meira pláss en þetta. Mesta stærðin sem þér býðst er ${MAXSIZE}.
+ .
+ Hjálp: Hægt er að nota „max“ sem flýtivísun til að tilgreina stærstu mögulegu stærðina, og einnig er hægt að setja inn hundraðshluti (til dæmis „20%“) til að nota þann hluta af stærstu mögulegu stærðinni. Þú getur skilgreint stærðir disksneiða í tugakerfiseiningum (eins og MB eða GB) en einnig í tvíundarkefiseiningum (á borð við GiB eða TiB).
+Description-it.UTF-8: Quantità del gruppo di volumi da usare per il partizionamento guidato:
+ È possibile usare l'intero gruppo di volumi per il partizionamento guidato o solo parte di esso. Se ne viene usata solo una parte o se vengono aggiunti altri dischi in seguito, sarà possibile aumentare la dimensione dei volumi logici utilizzando gli strumenti di LVM. Usare quindi una porzione ridotta del gruppo di volumi in fase di installazione può risultare in una maggiore flessibilità del sistema.
+ .
+ La dimensione minima per il partizionamento selezionato è ${MINSIZE} (oppure ${PERCENT}): notare che i pacchetti scelti per l'installazione potrebbero richiedere più spazio di quello indicato. La dimensione massima disponibile è ${MAXSIZE}.
+ .
+ Suggerimento: «max» può essere usato per specificare la dimensione massima oppure inserire una percentuale (come «20%») per usare quella percentuale della dimensione massima. Si può indicare la dimensione di una partizione in unità decimali (come MB o GB) oltre che in unità informatiche (come GiB o TiB).
+Description-ja.UTF-8: ガイドによるパーティショニングを利用するボリューム:
+ ガイドによるパーティショニングは、パーティション単位でも、ディスク単位でも利用できます。部分的に利用したい場合は、後から追加して利用することもできます。LVMツールを用いることで、論理ボリュームの拡張も可能です。インストール時にLVMのボリュームグループを利用することで、より柔軟な設定が行えます。
+ .
+ 設定されたパーティション設定の最低サイズは、${MINSIZE} (ないし ${PERCENT}) です ; インストールするように選択したパッケージによっては、この数字よりも大きな領域が必要になります。利用可能な最大サイズは ${MAXSIZE} です。
+ .
+ ヒント: 最大サイズを指定するショートカットとして、"max" を利用できます。また、利用する最大サイズの割合を指定するのにパーセンテージ ("20%" など) を入力できます。また、十進数の単位 (MBやGB)と二進数の単位 (GiBやTiB) も指定できます。
+Description-ka.UTF-8: ტომების ჯგუფის რაოდენობა დახმარებით დაყოფისას გამოსაყენებლად:
+ დახმარებით დასაყოფად მთლიანი ტომების ჯგუფი შეგიძლიათ, გამოიყენოთ, ან მისი ნაწილი. თუ გნებავთ, მხოლოდ, ნაწილის გამოყენება, ან თუ მოგვიანებით მეტ დისკს დაამატებთ, LVM-ის ხელსაწყოებით თქვენი ლოგიკური ტომების გაზრდა შეგეძლებათ, ასე რომ ტომების ჯგუფის უმცირესი ნაწილის გამოყენებამ დაყენებისას, შეიძლება, მეტი მოქნილობა მოგცეთ.
+ .
+ ამ დანაყოფის მინიმალური ზომაა ${MINSIZE} (ან ${PERCENT}). გაითვალისწინეთ, რომ პაკეტები, რომლებიც აირჩიეთ, შეიძლება უფრო დიდიც იყოს, მაქსიმალური ხელმისაწვდომი ზომაა ${MAXSIZE}.
+ .
+ რჩევა: "max" შეგიძლიათ გამოიყენოთ მაქსიმალური ზომის განსაზღვრისთვის, ან შეიყვანეთ პროცენტული მაჩვენებელი (მაგ. "20%") მაქსიმალური ზომის გარკვეული პროცენტის გამოსაყენებლად.
+Description-ko.UTF-8: 자동 파티션으로 사용할 볼륨 그룹의 크기:
+ 자동 분할을 위해 볼륨 그룹 전체 또는 일부분을 사용하게 할 겁니다.  만약 일부분만 사용하거나, 나중에 디스크를 추가한다면, LVM 도구를 이용해서 논리 볼륨을 확장할 수 있으므로, 설치 시점에서는 불륨 그룹의 작은 부분만 사용하는 것이 더 유연성이 좋을 겁니다.
+ .
+ 선택한 분할의 최소 크기는 ${MINSIZE} (또는 ${PERCENT}) 입니다;  설치하도록 선택한 패키지를 위해 이 보다 더 많은 공간이 필요할 수도 있다는 것에 주의하시기 바랍니다.  최대 쓸 수 있는 크기는 ${MAXSIZE} 입니다.
+ .
+ 힌트: "max" 최대 크기를 지정할 때 "max"를 사용할 수 있습니다. 아니면 퍼센트를 입력하면 (예를 들어 "20%") 최대 크기의 그 퍼센트만큼의 크기를 사용합니다. 파티션 크기를 십진수 단위로 (예를 들어 MB 또는 GB) 지정할 수도 있고, 이진수 단위로 (예를 들어 GiB 또는 TiB) 지정할 수도 있습니다.
+Description-lt.UTF-8: Tomų grupės apimtis vadovaujamam skirstymui:
+ Galite naudoti visą arba dalį tomų grupės vadovaujamam skirstymui. Jei naudosite tik dalį, ar pridėsite daugiau diskų vėliau, tada galėsite padidinti loginius tomus vėliau naudodami LVM įrankius, taigi, mažesnės tomų grupės dalies naudojimas diegiant gali būti daug lankstesnis.
+ .
+ Mažiausias pasirinkto skirstymo būdo dydis yra ${MINSIZE} (ar ${PERCENT}); pastebėkite, kad pasirinktiems diegimui paketams gali reikėti daugiau vietos. Didžiausias prieinamas dydis yra ${MAXSIZE}.
+ .
+ Pastaba: „max“ reikš maksimalų galimą dydį, o, pvz., „20%“ – atitinkamą procentinę dalį nuo jo. Be to, galite nurodyti skirsnio dydį dešimtainiais (kaip antai MB ar GB) ar dvejetainiais (kaip antai GiB ar TiB) matavimo vienetais.
+Description-lv.UTF-8: Sējumu grupu apjoms, ko izmantot vadītajai dalīšanai:
+ Jūs varat izmantot veselu sējumu grupu vadītajai dalīšanai, vai tās daļu. Ja izmantojat tikai tās daļu, vai arī vēlāk pievienojat papildus diskus, jūs varēsiet palielināt loģiskos sējumus vēlāk, izmantojot LVM rīkus. Izmantojot mazāku daļu sējumu grupas instalācijas laikā dod lielāku elastību.
+ .
+ Mazākais izmērs izvēlētajai dalīšanas receptei ir ${MINSIZE} (vai ${PERCENT}); ņemiet vērā, ka pakotnes, kuras jūs izvēlēsities instalēt, var aizņemt vairāk vietas. Lielākais pieejamais izmērs ir ${MAXSIZE}.
+ .
+ Padoms: "max" var izmantot kā saīsni, lai norādītu maksimālo izmēru, vai ievadiet procentuālo daļu (piemēram, "20%"), lai izmantotu šo procentuālo daļu no maksimālā izmēra. Varat norādīt nodalījumu izmērus decimāldaļās (piemēram, MB vai GB), kā arī binārajās vienībās (piemēram, GiB vai TiB).
+Description-mr.UTF-8: मार्गदर्शित विभाजनासाठी वापरण्यासाठी व्हॉल्यूम गटाची रक्कम:
+ तुम्ही संपूर्ण व्हॉल्यूम ग्रुपचा मार्गदर्शित विभाजनासाठी, किंवा त्याचा काही भाग वापरू शकता. जर तुम्ही त्याचा फक्त काही भाग वापरत असाल, किंवा तुम्ही नंतर अधिक डिस्क जोडल्यास, नंतर तुम्ही LVM साधनांचा वापर करून लॉजिकल व्हॉल्यूम वाढवू शकाल, त्यामुळे इंस्टॉलेशनच्या वेळी व्हॉल्यूम ग्रुपचा लहान भाग वापरणे अधिक लवचिकता देऊ शकते.
+ .
+ निवडलेल्या विभाजन रेसिपीचा किमान आकार ${MINSIZE} (किंवा ${PERCENT}) आहे; कृपया लक्षात घ्या की तुम्ही इंस्टॉल करण्यासाठी निवडलेल्या पॅकेजेस यापेक्षा जास्त जागा आवश्यक असू शकते. कमाल उपलब्ध आकार ${MAXSIZE} आहे.
+ .
+ इशारा: जास्तीत जास्त आकार निर्दिष्ट करण्यासाठी शॉर्टकट म्हणून "कमाल" वापरला जाऊ शकतो किंवा कमाल आकाराची टक्केवारी वापरण्यासाठी टक्केवारी (उदा. "20%") प्रविष्ट करा. तुम्ही विभाजन आकार दशांश युनिट्समध्ये (जसे की MB किंवा GB) तसेच बायनरी युनिट्समध्ये (जसे GiB किंवा TiB) निर्दिष्ट करू शकता.
+Description-nb.UTF-8: Antall volumgrupper som skal brukes til veiledet partisjonering:
+ Du kan bruke hele eller deler av volumgruppen til veiledet partisjonering. Hvis du kun bruker deler av den, eller hvis du kobler til flere disker i ettertid vil du få mulighet til å utvide logiske volumer ved hjelp av LVM-verktøyene. Å bruke en mindre del av volumgruppen ved installasjonen kan gi mer fleksibilitet.
+ .
+ Minimumsstørrelsen til den valgte partisjoneringsoppskriften er ${MINSIZE} (eller ${PERCENT}). Vennligst merk deg at pakkene du velger å installere kan kreve mer plass enn dette. Maks størrelse tilgjengelig er ${MAXSIZE}.
+ .
+ Hint: «max» kan bli brukt som en snarvei til å angi maksimum størrelse eller skriv inn prosent (f.eks. «20%») for å bruke den prosentdelen av maksimum størrelse. Du kan oppgi partisjonsstørrelser både i desimalenheter (som MB eller GB) og som binære enheter (som GiB eller TiB).
+Description-nl.UTF-8: Hoeveel van de volumegroep voor de begeleide schijfindeling gebruikt moet worden:
+ U kunt de volledige volumegroep gebruiken voor de begeleide schijfindeling of een gedeelte ervan. Indien u er slechts een gedeelte van gebruikt, of indien u later meer schijven toevoegt, zult u later de logische volumes kunnen uitbreiden met het LVM-gereedschap. Bij de installatie een kleiner gedeelte van de volumegroep gebruiken kan dus meer flexibiliteit bieden.
+ .
+ De minimale grootte voor het geselecteerde schijfindelingsschema is ${MINSIZE} (of ${PERCENT}). Merk op dat de pakketten die u voor installatie kiest mogelijk meer ruimte nodig kunnen hebben. De maximaal beschikbare grootte is ${MAXSIZE}.
+ .
+ Tip: "max" kan worden gebruikt als een snelkoppeling om de maximale grootte op te geven, of voer een percentage in (bijvoorbeeld "20%") om dat percentage van de maximale grootte te gebruiken. U kunt partitiegroottes opgeven in decimale eenheden (zoals MB of GB) en ook in binaire eenheden (zoals GiB of TiB).
+Description-nn.UTF-8: Antal volumgrupper som skal brukast for rettleia partisjonering:
+ Du kan bruke heile eller delar av volumgruppa til rettleia partisjonering. Dersom du berre brukar ein del av ho eller legg til fleire diskar seinare, får du høve til å utvide logiske volum i ettertid med LVM-verktøya. Dermed kan det å bruke ein mindre del av volumgruppa ved installasjon gi meir fleksibilitet.
+ .
+ Minstestorleiken til den valde partisjonsoppskrifta er ${MINSIZE} (eller ${PERCENT}); legg merke til at pakkar du vel å installera kan krevje meir plass enn dette. Den største tilgjengelege storleiken er ${MAXSIZE}.
+ .
+ Tips: «max» kan brukast som ein snarveg for å spesifisera maksimum storleik, eller skriv inn prosent (t.d. «20%») for å nytta prosent av maksimum storleik. Du kan skriva partisjonsstorleikar både som desimaleiningar (som MB eller GB) og som binære einingar (som GiB eller TiB).
+Description-no.UTF-8: Antall volumgrupper som skal brukes til veiledet partisjonering:
+ Du kan bruke hele eller deler av volumgruppen til veiledet partisjonering. Hvis du kun bruker deler av den, eller hvis du kobler til flere disker i ettertid vil du få mulighet til å utvide logiske volumer ved hjelp av LVM-verktøyene. Å bruke en mindre del av volumgruppen ved installasjonen kan gi mer fleksibilitet.
+ .
+ Minimumsstørrelsen til den valgte partisjoneringsoppskriften er ${MINSIZE} (eller ${PERCENT}). Vennligst merk deg at pakkene du velger å installere kan kreve mer plass enn dette. Maks størrelse tilgjengelig er ${MAXSIZE}.
+ .
+ Hint: «max» kan bli brukt som en snarvei til å angi maksimum størrelse eller skriv inn prosent (f.eks. «20%») for å bruke den prosentdelen av maksimum størrelse. Du kan oppgi partisjonsstørrelser både i desimalenheter (som MB eller GB) og som binære enheter (som GiB eller TiB).
+Description-pa.UTF-8: ਸਹਾਇਤਾ ਪ੍ਰਾਪਤ ਪਾਰਟੀਸ਼ਨ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਵਾਲੀਅਮ ਗਰੁੱਪ ਦੀ ਮਾਤਰਾ:
+ ਤੁਸੀਂ ਪੂਰੇ ਵਾਲੀਅਮ ਗਰੁੱਪ ਲਈ ਸੇਧ ਦਿੱਤੀ ਪਾਰਟੀਸ਼ਨ ਨੂੰ ਵਰਤ ਸਕਦੇ ਹੋ ਜਾਂ ਇਸ ਦੀ ਹਿੱਸੇ ਲਈਹੀ। ਜੇ ਤੁਸੀਂ ਸਿਰਫ਼ ਇਸ ਦੇ ਹਿੱਸੇ ਲਈ ਵਰਤਦੇ ਹੋ ਤਾਂ ਜਾਂ ਤੁਸੀਂ ਬਾਅਦ ਵਿੱਚ ਹੋਰ ਡਿਸਕਾਂ ਜੋੜਦੇ ਹੋ ਤਾਂ ਤੁਸੀਂ LVM ਟੂਲ ਵਰਤ ਕੇ ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਵਧਾ ਸਕਦੇ ਹੋ, ਇਸ ਤਰ੍ਹਾਂ ਇੰਸਟਾਲੇਸ਼ਨ ਦੇ ਸਮੇਂ ਵਾਲੀਅਮ ਦੇ ਛੋਟੇ ਹਿੱਸੇ ਵਰਤ ਕੇ ਵੱਧ ਲਚਕੀਲਾ ਮਿਲ ਸਕਦੀ ਹੈ।
+ .
+ ਚੁਣੀ ਗਈ ਪਾਰਟੀਸ਼ਨ ਜੁਗਤ ਲਈ ਘੱਟੋ-ਘੱਟ ਆਕਾਰ ${MINSIZE} (ਜਾਂ ${PERCENT}) ਹੈ; ਯਾਦ ਰੱਖੋ ਕਿ ਤੁਹਾਡੇ ਵਲੋਂ ਚੁਣੇ ਪੈਕੇਜਾਂ ਨੂੰ ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਇਸ ਤੋਂ ਵੱਧ ਥਾਂ ਚਾਹੀਦੀ ਹੈ। ਵੱਧ-ਤੋਂ-ਵੱਧ ਸਾਈਜ਼ ${MAXSIZE} ਹੈ।
+ .
+ ਇਸ਼ਾਰਾ: "ਵੱਧੋ-ਵੱਧ" ਨੂੰ ਵੱਧੋ-ਵੱਧ ਸਾਈਜ਼ ਦੇਣ ਲਈ ਸ਼ਾਰਟਕੱਟ ਦੇਣ ਲਈ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ ਜਾਂ ਵੱਧੋ-ਵੱਧ ਸਾਈਜ਼ ਦਾ ਫੀਸਦੀ ਦੇਣ ਵਾਸਤੇ ਫੀਸਦੀ ਢੰਗ ਦਿਓ (ਜਿਵੇਂ ਕਿ "20%")। ਤੁਸੀਂ ਪਾਰਟੀਸ਼ਨ ਆਕਾਰਾਂ ਨੂੰ ਦਹਾਈ ਦੀਆਂ ਇਕਾਈਆਂ (ਜਿਵੇਂ MB ਜਾਂ GB) ਜਾਂ ਬਾਈਨਰੀ ਇਕਾਈਆਂ (ਜਿਵੇਂ GiB ਜਾਂ TiB) ਵਿੱਚ ਦੱਸ ਸਕਦੇ ਹੋ।
+Description-pl.UTF-8: Liczba woluminów używanych przy partycjonowaniu automatycznym:
+ Można użyć wszystkich woluminów z grupy lub tylko jakiejś ich części. W przypadku użycia tylko części z nich, lub późniejszego dodania większej liczby dysków, możliwe będzie powiększenie logicznych woluminów, używając narzędzi LVM. Zatem użycie mniejszej części woluminów przy instalacji da większą swobodę późniejszych zmian.
+ .
+ Minimalny rozmiar wybranego przepisu partycjonowania to ${MINSIZE} (lub ${PERCENT}); proszę zwrócić uwagę, że pakiety wybrane do instalacji mogą wymagać więcej miejsca. Maksymalny dostępny rozmiar to ${MAXSIZE}.
+ .
+ Wskazówka: "max" może być użyte jako skrót dla maksymalnej wielkości lub można wykorzystać zapis procentowy (np. "20%"), aby określić procentowe wykorzystanie maksimum. Rozmiary partycji można określić w jednostkach dziesiętnych (takich jak MB lub GB), a także w jednostkach binarnych (takich jak GiB lub TiB).
+Description-pt.UTF-8: Quantidade de grupo de volumes a utilizar para o particionamento assistido:
+ Pode utilizar todo o grupo de volumes para o particionamento guiado, ou parte deste. Se utilizar só parte, ou se posteriormente acrescentar mais discos, terá a possibilidade de depois aumentar os volumes lógicos utilizando as ferramentas LVM, assim, utilizar uma parte mais pequena de grupo de volume durante a instalação pode oferecer mais flexibilidade.
+ .
+ O tamanho mínimo da partição seleccionada é ${MINSIZE} (ou ${PERCENT}); salienta-se que os pacotes que foram escolhidos para instalação podem necessitar de mais espaço. O tamanho máximo disponível é ${MAXSIZE}.
+ .
+ Dica: "max" pode ser utilizado como atalho para especificar o tamanho máximo, ou introduza uma percentagem (e.g. "20%") para utilizar essa percentagem do tamanho máximo. Pode especificar tamanhos de partição em unidades decimais (como MB ou GB) assim como em unidades binárias (como GiB ou TiB).
+Description-pt_BR.UTF-8: Quantidade do grupo de volumes para usar no particionamento guiado:
+ Você pode usar todo o grupo de volumes, ou apenas parte dele, no particionamento guiado. Se você usar apenas parte dele, ou adicionar mais discos depois, então você será capaz de aumentar os volumes lógicos posteriormente usando as ferramentas LVM, assim, usar uma pequena parte do grupo de volumes na hora da instalação pode oferecer mais flexibilidade.
+ .
+ O tamanho mínimo para a receita de particionamento selecionada é ${MINSIZE} (ou ${PERCENT}). Por favor, note que os pacotes que você escolheu para instalar podem requerer mais espaço que isso. O tamanho máximo disponível é ${MAXSIZE}.
+ .
+ Dica: "max" pode ser usado como um atalho para especificar o tamanho máximo, ou informe uma porcentagem (e.g. "20%") para usar essa porcentagem do tamanho máximo. Você pode especificar tamanhos de partição em unidades decimais (como MB ou GB) e também em unidades binárias (como GiB ou TiB).
+Description-ro.UTF-8: Cantitatea de spațiu a grupului de volume care urmează să fie utilizată pentru partiționarea ghidată:
+ Puteți utiliza întregul grup de volume pentru partiționarea ghidată sau o parte a acestuia. Dacă utilizați doar o parte din acesta sau dacă adăugați mai multe discuri mai târziu, atunci veți putea crește volumele logice mai târziu utilizând instrumentele LVM, astfel încât utilizarea unei părți mai mici a grupului de volume la momentul instalării poate oferi mai multă flexibilitate.
+ .
+ Dimensiunea minimă a rețetei de partiționare selectate este ${MINSIZE} (sau ${PERCENT}); vă rugăm să rețineți că pachetele pe care alegeți să le instalați pot necesita mai mult spațiu decât acesta. Dimensiunea maximă disponibilă este ${MAXSIZE}.
+ .
+ Pont: „max” poate fi utilizat ca o scurtătură pentru a specifica dimensiunea maximă sau introduceți un procent (de exemplu, „20%”) pentru a utiliza acel procent din dimensiunea maximă. Puteți specifica dimensiunile partițiilor în unități zecimale (precum Mo sau Go), precum și în unități binare (precum Gio sau Tio).
+Description-ru.UTF-8: Размер группы томов, используемый для установки:
+ Для установки можно использовать как всю группу томов, так и часть её. При использовании части, либо если вы добавите другие диски после разбивки, позднее вы сможете увеличить размер логических дисков, используя утилиты LVM, а значит, использование малой части группы томов во время установки может быть более гибким решением.
+ .
+ Минимальный размер для выбранного способа установки — ${MINSIZE} (или ${PERCENT}); однако учтите, что установка выбранных вами пакетов может потребовать большего места. Максимально доступный размер — ${MAXSIZE}.
+ .
+ На заметку: чтобы задать максимальный размер можно ввести "max", а также можно задавать процентное значение (например, «20%»), которое считается от максимального размера. Также можно задавать размеры разделов в десятичных основаниях (MB или GB), а также в двоичных (GiB или TiB).
+Description-sr.UTF-8: Количина групе волумена за коришћење за навођено партиционисање:
+ За навођено партиционисање можете да користите целу групу волумена или само један њен део. Ако користите само један део, или ако касније додате још дискова, онда ћете касније уз помоћ LVM алата моћи да проширујете логичке волумене, тако да коришћење мањег дела групе волумена у току инсталације може да пружи више флексибилности.
+ .
+ Најмања величина изабраног поступка партиционисања је ${MINSIZE} (или ${PERCENT}); знајте да пакети које сте изабрали могу да захтевају више простора од тога. Највећа доступна величина је ${MAXSIZE}.
+ .
+ Савет: можете унети „max“ да означите максималну величину, или можете унети проценат (нпр. 20%) да употребите толики проценат максималне величине. Можете одредити величине партиција у децималним јединицама (као што су MB или GB) као и у бинарним јединицама (као што су GiB или TiB).
+Description-sv.UTF-8: Mängd av volymgrupp att använda för guidad partitionering:
+ Du kan använda hela volymgruppen för guidad partitionering, eller en del av den. Om du endast använder en del av den, eller om du lägger till fler diskar senare, så kommer du att kunna växa logiska volymer senare med hjälp av LVM-verktygen, så användning av en mindre del av volymgruppen vid installationen kan innebära en större flexibilitet.
+ .
+ Den minimala storleken för den valda partitioneringsplanen är ${MINSIZE} (eller ${PERCENT}); observera att paketen som du väljer att installera kan kräva mer utrymme än detta. Maximalt tillgängligt utrymme är ${MAXSIZE}.
+ .
+ Tips: "max" kan användas som en genväg för att ange den största storleken, eller ange en procentandel (t.ex. "20%") för att använda den procentandelen av den största storleken. Du kan ange partitionsstorlekar i decimalenheter (som MB eller GB) såväl som binära enheter (som GiB eller TiB).
+Description-ta.UTF-8: வழிகாட்டிய பகிர்வில் பயன்படுத்த தேவையான தொகுதி குழுவின் அளவு:
+ நீங்கள் முழு தொகுதி குழுவையும் வழிகாட்டிய பகிர்வுக்கு பயன்படுத்தலாம். அல்லது ஒரு பகுதியை பயன்படுத்தி பின்னால் மேலும் சில வட்டுகளை சேர்க்க வேண்டி இருந்தால் எல்விஎம் கருவிகளை பயன்படுத்தி தர்க்கரீதி தொகுதிகளை பெரிதாக்க இயலும். ஆகவே நிறுவலின்போது தொகுதி குழுவின் ஒரு சிறு பகுதியை பயன்படுத்துவது அதிக நெகிழ்வை தரும்.
+ .
+ இந்த பகிர்வுக்கு நீங்கள் பயன்படுத்தக்கூடிய குறைந்தபட்ச அளவு ${MINSIZE} அல்லது ${PERCENT}; கிடைக்கக்கூடிய அதிகபட்ச அளவு ${MAXSIZE}. நீங்கள் நிறுவ விரும்பும் பொதிகளின் அளவு இதைவிட அதிகமாக இருக்கலாம்.
+ .
+ குறிப்பு: அதிகபட்ச அளவைக் குறிப்பிட "அதிகபட்சம்" ஒரு குறுக்குவழியாகப் பயன்படுத்தப்படலாம் அல்லது அதிகபட்ச அளவின் அந்த சதவீதத்தைப் பயன்படுத்த ஒரு சதவீதத்தை (எ.கா. "20%") உள்ளிடவும். பகிர்வு அளவுகளை தசம அலகுகளிலும் (எம்பி அல்லது சிபி போன்றவை) மற்றும் பைனரி அலகுகளிலும் (கிப் அல்லது டிப் போன்றவை) குறிப்பிடலாம்.
+Description-tr.UTF-8: Kılavuzla bölümlemede kullanılacak birim grubu toplamı:
+ Tüm cilt grubunu veya bir kısmını rehberli bölümlendirme için kullanabilirsiniz. Sadece bir kısmını kullanmanız, veya daha fazla disk eklemeniz durumunda sonradan mantıksal ciltleri LVM araçlarını kullanarak büyütebilirsiniz, böylece kurulum zamanında cilt grubunun küçük bir kısmını kullanmanız daha fazla esneklik sağlayabilir.
+ .
+ Seçilen bölümleme değeri için en düşük boyut ${MINSIZE} (ya da ${PERCENT}) olmalı; lütfen seçtiğiniz paketlerin kurulumunun bundan daha fazla gerektirebileceğini unutmayın. Kullanılabilir en büyük boyut ${MAXSIZE}.
+ .
+ İpucu: "max", maksimum boyutu belirtmek için kısayol olarak kullanılabilir veya maksimum boyutun yüzdesini kullanmak için bir yüzde (ör. "20%") girilebilir. Bölüm boyutlarını ondalık birimler (MB veya GB gibi) ve ikili birimler (GiB veya TiB gibi) cinsinden belirtebilirsiniz.
+Description-ug.UTF-8: يېتەكچى رايونغا بۆلۈشتە ئىشلىتەلەيدىغان دىسكا گۇرۇپپا سانى:
+ سىز رايونغا بۆلگەندە پۈتكۈل ياكى قىسمەن دىسكا گۇرۇپپىسىنى ئىشلەتسىڭىز بولىدۇ. ئەگەر بىر قىسمىنى ئىشلەتكەن بولسىڭىز كېيىن تېخىمۇ كۆپ دىسكا قوشقاندا لوگىكىلىق دىسكا باشقۇرغۇچ قورالى LVM نى ئىشلىتىپ لوگىكىلىق دىسكا سىغىمىنى ئاشۇرالايسىز، شۇڭلاشقا ئورناتقاندا ئازراق دىسكا گۇرۇپپىسى ئىشلىتىلسە جانلىقلىقنى ئۆستۈرگىلى بولىدۇ.
+ .
+ تاللىغان رايوننىڭ ئەڭ كىچىك بوشلۇقى ${MINSIZE} ياكى ${PERCENT}؛ دىققەت سىز تاللىغان ئورنىتىش بوغچىسى تېخىمۇ كۆپ دىسكا بوشلۇقىغا ئېھتىياجلىق. ئەڭ چوڭ ئىشلىتىلىشچان بوشلۇق ${MAXSIZE}.
+ .
+ ئەسكەرتىش: «max» ئەڭ چوڭ چوڭلۇقتىكى تېزلەتمە شەكلىنى بەلگىلەشكە ئىشلىتىلىدۇ ياكى پىرسەنت (مەسىلەن،«%20») كىرگۈزۈپ مۇناسىپ پىرسەنت چوڭلۇقىدا ئىشلىتىدۇ. سىز ئونلۇق سىستېما بىرلىكى (MB ياكى GB غا ئوخشاش) ياكى ئىككىلىك سىستېما بىرلىكى (GiB ياكىTiB غا ئوخشاش) دە رايون چوڭلۇقىنى بەلگىلىيەلەيسىز.
+Description-uk.UTF-8: Розмір частини групи томів, що буде використана для розмітки з супроводом:
+ Ви можете використати всю групу томів для розмітки з супроводом чи її частку. Якщо ви використаєте лише її частку чи якщо ви додасте більше дисків пізніше, тоді ви зможете збільшити логічні томи з використанням інструментів LVM, - таким чином використання меньшої частки групи томів під час встановлення може дати більше гнучкості.
+ .
+ Мінімальний розмір обраної розмітки ${MINSIZE} (чи ${PERCENT}); будь-ласка зауважте, що пакунки, які ви виберете для інсталяції, можуть потребувати більше місця ніж вказано. Максимальний доступний розмір ${MAXSIZE}.
+ .
+ Порада: можна використовувати скорочення "max", щоб вказати максимально можливий розмір або ввести відсоток (напр. 20%) від максимально можливого розміру. Ви можете вказати розмір розділу в десяткових одиницях (наприклад MB або GB) або в двійкових (наприклад GiB або TiB).
+Description-zh_CN.UTF-8: 可用于分区向导的卷组的数量：
+ 您可以让分区向导使用整个或部分卷组。如果您只使用了部分卷组，或者您以后想要添加更多磁盘时，您可以使用逻辑卷管理 (LVM) 增加逻辑卷容量，所以安装时使用一小部分卷组可以提高灵活性。
+ .
+ 所选择的分区方案的最小大小是 ${MINSIZE} (或 ${PERCENT})；请注意您选择安装的软件包可能需要更多的磁盘空间。最大可用大小是 ${MAXSIZE}。
+ .
+ 提示：可以使用 "max" 表示最大的大小，或使用百分比 (比如 "20%") 来表示使用最大大小的百分之多少。您可以使用十进制单位（如 MB 或 GB）或二进制单位（如 GiB 或 TiB）。
+Description-zh_TW.UTF-8: 使用於導引式分割的卷冊群組數量：
+ 您可以使用整個卷冊群組來進行導引式分割，或者只使用其中的部份。如您只使用了部份，或是在系統安裝完成之後加入其他硬碟，您仍然可以以 LVM 工具程式將邏輯卷冊增大，因此在安裝時只使用卷冊群組的一小部份，可以讓整件事更有彈性。
+ .
+ 已選擇的分割方案最小大小為 ${MINSIZE} (或 ${PERCENT})；請留意您所選擇安裝的套件可能會需要比這個更大的空間。最大的可用空間為 ${MAXSIZE}。
+ .
+ 提示: 可使用 "max" 來使用最大容量，或輸入百分比 (比如 "20%") 來使用容量的百分比。也能指定分割區的十進位單位 (如 MB 或 GB)，或二進位單位 (例如 GiB 或 TiB)。
+
+Template: partman-auto-lvm/bad_guided_size
+Type: error
+Description: Invalid input
+ You entered "${INPUT}", which was not recognized as a valid size.
+Description-ar.UTF-8: مدخل غير صالح
+ أدخلت "${INPUT}", لكنه لم يُقبل كحجم صالح.
+Description-ast.UTF-8: Entrada inválida
+ Introduxo «${INPUT}», que nun foi reconocíu como un tamañu válidu.
+Description-be.UTF-8: Няверны ўвод
+ Вы ўвялі "${INPUT}", што не з'яўляецца карэктным памерам.
+Description-bg.UTF-8: Невалидна стойност
+ Въведохте "${INPUT}", което не се разпознава като валиден размер.
+Description-bn.UTF-8: অকার্যকর ইনপুট
+ আপনি "${INPUT}" দিয়েছেন, এটি কোন আকার বলে বোধ হচ্ছে না।
+Description-bs.UTF-8: Nevažeći unos
+ Unijeli ste "${INPUT}", što nije prepoznato kao važeća veličina.
+Description-ca.UTF-8: L'entrada no és vàlida
+ Heu introduït «${INPUT}», la qual no s'ha reconegut com a mida vàlida.
+Description-cs.UTF-8: Chybný vstup
+ Zadali jste "${INPUT}", což nebylo rozpoznáno jako platná velikost.
+Description-da.UTF-8: Ugyldig værdi
+ Du indtastede »${INPUT}«, hvilket ikke blev genkendt som en gyldig størrelse.
+Description-de.UTF-8: Ungültige Eingabe
+ "${INPUT}" wurde eingegeben, was nicht als gültige Größe erkannt wurde.
+Description-el.UTF-8: Μη έγκυρη είσοδος
+ Εισάγατε "${INPUT}", το οποίο δεν αναγνωρίστηκε σαν έγκυρο μέγεθος.
+Description-eo.UTF-8: Nevalida enmetaĵo
+ Vi enmetis "${INPUT}", kio ne estas rekonita kiel valida dimensio.
+Description-es.UTF-8: Entrada inválida
+ Introdujo «${INPUT}», que no ha sido reconocido como un tamaño válido.
+Description-et.UTF-8: Vigane sisend
+ Sisestasid "${INPUT}", mis ei ole sobiv suurus.
+Description-eu.UTF-8: Sarrera baliogabea
+ "${INPUT}" idatzi duzu, baina hau ez da baliozko tamaina bat bezala onartzen.
+Description-fa.UTF-8: ورودی نامعتبر
+ مقدار «${INPUT}» را وارد کرده‌اید که به عنوان اندازه‌ای معتبر شناخته نشد.
+Description-fi.UTF-8: Virheellinen syöte
+ Syötit arvon ”${INPUT}”, jota ei tunnistettu kelvolliseksi kooksi.
+Description-fr.UTF-8: Saisie incorrecte
+ Vous avez saisi « ${INPUT} », ce qui n'est pas une taille valable.
+Description-gl.UTF-8: O que se escribiu non é válido
+ Escribiu «${INPUT}», que non se recoñece como tamaño válido.
+Description-he.UTF-8: קלט בלתי חוקי
+ מילאת „${INPUT}”, אשר אינו מזוהה כגדול חוקי.
+Description-hi.UTF-8: अवैध निवेश
+ आपने जो "${INPUT}" दिया है, वह वैध आकार का नहीं है।
+Description-hr.UTF-8: Neispravan upis
+ Upisali ste "${INPUT}", što nije prepoznato kao valjana veličina.
+Description-hu.UTF-8: Érvénytelen adatbevitel
+ A megadott „${INPUT}” partícióméret nem érvényes méret.
+Description-id.UTF-8: Masukan yang salah
+ Anda memasukkan "${INPUT}", yang tidak dikenali sebagai ukuran yang valid.
+Description-is.UTF-8: Ógilt ílag
+ Þú skrifaðir „${INPUT}“ sem er ekki gild stærð.
+Description-it.UTF-8: Dato non valido
+ È stato inserito «${INPUT}» che non è una dimensione valida.
+Description-ja.UTF-8: 不正な入力
+ 入力は "${INPUT}" でしたが、これは正しいサイズではありません。
+Description-ka.UTF-8: არასწორი შეყვანა
+ შეიყვანეთ "${INPUT}, რომელიც სწორ ზომას არ წარმოადგენს.
+Description-kab.UTF-8: Yir anekcam
+ Teskecmeḍ "${INPUT}", ur nettuneḥsab ara d teɣti tameɣtut.
+Description-kk.UTF-8: Дұрыс емес енгізу
+ Сіз "${INPUT}" еңгіздіңіз, бұл дұрыс емес өлшем.
+Description-ko.UTF-8: 잘못된 입력
+ "${INPUT}"은 올바른 크기가 아닙니다.
+Description-lt.UTF-8: Įvesta neteisingai
+ Įvedėte "${INPUT}", kas nebuvo atpažinta kaip tinkamas dydis.
+Description-lv.UTF-8: Nederīga ievade
+ Jūs ievadījāt "${INPUT}", kas netika atpazīts kā derīgs izmērs.
+Description-mr.UTF-8: अवैध इनपुट
+ तुम्ही "${INPUT}" प्रविष्ट केले, जे वैध आकार म्हणून ओळखले गेले नाही.
+Description-nb.UTF-8: Ugyldig inndata
+ Du tastet "${INPUT}", som ikke ble gjenkjent som en gyldig størrelse.
+Description-nl.UTF-8: Ongeldige invoer
+ U voerde "${INPUT}" in, wat niet als een geldige grootte herkend werd.
+Description-nn.UTF-8: Ugyldig inndata
+ Du skreiv inn "${INPUT}", men det vart ikkje gjenkjent som ein gyldig storleik.
+Description-no.UTF-8: Ugyldig inndata
+ Du tastet "${INPUT}", som ikke ble gjenkjent som en gyldig størrelse.
+Description-oc.UTF-8: Picada incorrècta
+ Avètz picat « ${INPUT} », aquò es pas una talha valabla.
+Description-pa.UTF-8: ਗ਼ਲਤ ਦਰਜ ਕੀਤੀ
+ ਤੁਸੀਂ "${INPUT}" ਦਿੱਤਾ ਹੈ, ਜੋ ਕਿ ਠੀਕ ਆਕਾਰ ਵਜੋਂ ਪਛਾਣਿਆ ਨਹੀਂ ਗਿਆ ਹੈ।
+Description-pl.UTF-8: Niepoprawne dane wejściowe
+ Wprowadzono "${INPUT}", co nie jest rozpoznaną poprawną wartością.
+Description-pt.UTF-8: Entrada inválida
+ Introduziu "${INPUT}", que não foi reconhecido com um tamanho válido
+Description-pt_BR.UTF-8: Entrada inválida
+ Você informou "${INPUT}", que não foi reconhecido como um tamanho válido.
+Description-ro.UTF-8: Intrare nevalidă
+ Ați introdus „${INPUT}”, care nu este recunoscută ca o dimensiune validă.
+Description-ru.UTF-8: Неверный ввод
+ Вы ввели "${INPUT}", что не является корректным размером.
+Description-sk.UTF-8: Neplatný vstup
+ Zadali ste „${INPUT}“, čo nebolo rozpoznané ako platná veľkosť.
+Description-sl.UTF-8: Neveljaven vnos
+ Vnesli ste "${INPUT}", kar ni bilo prepoznano kot veljavna velikost.
+Description-sq.UTF-8: Hyrje e pavlefshme
+ Ju vendosët "${INPUT}", e cila nuk u njoh si një përmasë e vlefshme.
+Description-sr.UTF-8: Неисправан унос
+ Унели сте „${INPUT}“, али то не представља исправну величину.
+Description-sv.UTF-8: Ogiltig inmatning
+ Du angav "${INPUT}", vilket inte kändes igen som en giltig storlek.
+Description-ta.UTF-8: செல்லுபடியாகாத உள்ளீடு
+ நீங்கள் "${INPUT}" என உள்ளிட்டீர்கள். அது செல்லுபடியாகும் ஒரு அளவு இல்லை.
+Description-tg.UTF-8: Вуруди нодуруст
+ Шумо адади "${INPUT}"-ро ворид кардаед, ки ҳамчун андозаи нодуруст муайян карда шудааст.
+Description-th.UTF-8: ข้อมูลที่ป้อนมาไม่ถูกต้อง
+ ข้อมูลที่คุณให้ "${INPUT}" ไม่ใช่ขนาดที่ใช้ได้
+Description-tr.UTF-8: Geçersiz giriş
+ Geçerli bir boyutta tanınmayan "${INPUT}" girişini yaptınız.
+Description-ug.UTF-8: كىرگۈزۈش ئىناۋەتسىز
+ "${INPUT}" كىرگۈزگىنىڭىز ئىناۋەتسىز چوڭلۇق.
+Description-uk.UTF-8: Невірний ввід
+ Ви ввели "${INPUT}", що не було визнано дійсним розміром.
+Description-vi.UTF-8: Nội dung nhập không hợp lệ
+ Thông tin bạn nhập vào "${INPUT}" không phải dung lượng hợp lệ.
+Description-zh_CN.UTF-8: 无效的输入
+ 您输入的 "${INPUT}" 是无效的大小。
+Description-zh_TW.UTF-8: 無效的輸入
+ 您輸入未能辨認為有效大小的 "${INPUT}"。
+
+Template: partman-auto-lvm/big_guided_size
+Type: error
+Description: ${SIZE} is too big
+ You asked for ${SIZE} to be used for guided partitioning, but the available
+ space is only ${MAXSIZE}.
+Description-ar.UTF-8: ${SIZE} كبير جداً
+ طلبت ${SIZE} لتستخدم للتقسيم الموجه، لكن المساحة المتاحة هي ${MAXSIZE} فقط.
+Description-ast.UTF-8: ${SIZE} ye enforma grande
+ Vusté solicitó por ${SIZE} a ser usáu pa particionáu guiáu, pero l'espaciu disponible ye de namái ${MAXSIZE}.
+Description-be.UTF-8: ${SIZE} вельмі вялікі
+ Вы запыталі ${SIZE} дзеля аўтаматычнагя падзелу, але дасяжны памер складае толькі ${MAXSIZE}.
+Description-bg.UTF-8: ${SIZE} е прекалено голям
+ Поискахте ${SIZE} да се използва за ръководено разделяне на дялове, но наличното място е само ${MAXSIZE}.
+Description-bn.UTF-8: ${SIZE} অত্যন্ত বড়
+ আপনি guided পার্টিশনিং এর জন্য ${SIZE} জায়গা ব্যবহার করতে চাচ্ছেন, কিন্তু বর্তমানে শুধুমাত্র ${MAXSIZE} জায়গাই ফাঁকা আছে।
+Description-bs.UTF-8: ${SIZE} je prevelika
+ Htjeli ste da koristite ${SIZE} za navođeno particionisanje, ali raspoloživ prostor je samo ${MAXSIZE}.
+Description-ca.UTF-8: La mida ${SIZE} és massa gran
+ Heu triat utilitzar ${SIZE} per a la partició guiada, però l'espai disponible és només de ${MAXSIZE}.
+Description-cs.UTF-8: ${SIZE} je příliš velký
+ Chcete použít ${SIZE} pro asistované rozdělení, ale k dispozici je pouze ${MAXSIZE}.
+Description-da.UTF-8: ${SIZE} er for stor
+ Du har angivet, at ${SIZE} skal bruges til guidet partitionering, men den tilgængelige plads er kun ${MAXSIZE}.
+Description-de.UTF-8: ${SIZE} ist zu groß
+ Sie haben angegeben, ${SIZE} für die geführte Partitionierung zu verwenden, es verbleiben aber nur ${MAXSIZE}.
+Description-el.UTF-8: ${SIZE} είναι πολύ μεγάλο
+ Ζητήσατε ${SIZE} να χρησιμοποιηθούν για την καθοδηγούμενη διαμέριση, αλλά ο διαθέσιμος χώρος είναι μόνο ${MAXSIZE}.
+Description-eo.UTF-8: ${SIZE} estas tro granda
+ Vi postulis ke ${SIZE} estu uzata por gvidata dispartigo, sed la havebla loko estas nur ${MAXSIZE}.
+Description-es.UTF-8: ${SIZE} es demasiado grande
+ Pidió usar ${SIZE} en el particionado guiado, pero el espacio disponible es de solo ${MAXSIZE}.
+Description-et.UTF-8: ${SIZE} on liiga suur
+ Valisid juhitud partitsioneerimise jaoks ${SIZE}, kuid saadaval on ainult ${MAXSIZE}.
+Description-eu.UTF-8: ${SIZE} handiegia da
+ Partizio gidatu gisa ${SIZE} erabiltzea eskatu duzu, baina leku erabilgarria ${MAXSIZE} da.
+Description-fi.UTF-8: ${SIZE} on liian suuri
+ Pyysit kokoa ${SIZE} käytettäväksi ohjatussa osioinnissa, mutta tilaa vapaana on ainoastaan ${MAXSIZE}.
+Description-fr.UTF-8: ${SIZE} est trop grand.
+ Vous avez demandé à ce que ${SIZE} soient utilisés pour le partitionnement assisté, mais l'espace disponible n'est que de ${MAXSIZE}.
+Description-gl.UTF-8: ${SIZE} é demasiado grande
+ Pediu que se empregasen ${SIZE} para a partición guiada, mais o espazo disponíbel é de só ${MAXSIZE}.
+Description-he.UTF-8: ${SIZE} גדול מדי
+ בחרת ב־${SIZE} כגודל לשימוש בחלוקת המחיצות המודרכת, אך הגודל הזמין הוא ${MAXSIZE} בלבד.
+Description-hi.UTF-8: ${SIZE} काफी बड़ा है
+ निर्देशित पार्टिशन हेतु आपने ${SIZE} दिया है, लेकिन उपलब्ध जगह ${MAXSIZE} मात्र है।
+Description-hr.UTF-8: ${SIZE} je preveliko
+ Zatražili ste da se za navođeno particioniranje iskoristi ${SIZE}, ali dostupan prostor iznosi samo ${MAXSIZE}.
+Description-hu.UTF-8: Túl nagy a méret (${SIZE})
+ Az irányított particionáláshoz ${SIZE} méretet kértél, de a rendelkezésre álló szabad terület csak ${MAXSIZE}.
+Description-id.UTF-8: ${SIZE} terlalu besar
+ Anda diminta ${SIZE} untuk digunakan pada partisi terpandu, tetapi ruang yang tersedia hanya ${MAXSIZE}.
+Description-is.UTF-8: ${SIZE} er of stórt
+ Þú vildir nota ${SIZE} í disksneiðaskiptinguna, en aðeins er ${MAXSIZE}.
+Description-it.UTF-8: ${SIZE} è troppo grande
+ Sono stati richiesti ${SIZE} da usare per il partizionamento guidato, ma lo spazio disponibile è solo ${MAXSIZE}.
+Description-ja.UTF-8: ${SIZE} は大きすぎます
+ ガイドによるパーティショニングに ${SIZE} を利用しようとしていますが、空き領域は ${MAXSIZE} しかありません。
+Description-ka.UTF-8: ${SIZE} ძალიან დიდია
+ მოითხოვეთ ${SIZE} დაყოფისთვის, მაგრამ ხელმისაწვდომია, მხოლოდ ${MAXSIZE}.
+Description-kab.UTF-8: ${SIZE} meqqer aṭas
+ Tsutreḍ i ${SIZE} ad tettuseqdec i unegzum yettuwellhen, maca ala ${MAXSIZE} n tallunt i yellan.
+Description-kk.UTF-8: ${SIZE} аса үлкен
+ Бөлу үшін сіз ${SIZE} өлшемін енгіздіңіз, бірақ тек ${MAXSIZE} бос орын бар.
+Description-ko.UTF-8: ${SIZE}이 너무 큼
+ ${SIZE}를 자동 분할에 사용하도록 했지만, 쓸 수 있는 공간은 ${MAXSIZE} 뿐 입니다.
+Description-lt.UTF-8: ${SIZE} yra per didelis
+ Vadovaujamam skirstymui paprašėte ${SIZE} vietos, bet prieinama tik ${MAXSIZE}.
+Description-lv.UTF-8: ${SIZE} ir pārāk daudz
+ Jūs prasījāt, lai ${SIZE} tiktu izmantoti vadītajai dalīšanai, bet ir pieejami tikai ${MAXSIZE}.
+Description-mr.UTF-8: ${SIZE} खूप मोठे आहे
+ तुम्ही मार्गदर्शित विभाजनासाठी वापरण्यासाठी ${SIZE} मागितले, परंतु उपलब्ध जागा फक्त ${MAXSIZE} आहे.
+Description-nb.UTF-8: ${SIZE} er for stor
+ Du ønsket å bruke ${SIZE} til veiledet partisjonering, men du har kun ${MAXSIZE} til rådighet.
+Description-nl.UTF-8: ${SIZE} is te groot
+ U vroeg om ${SIZE} te gebruiken voor de begeleide schijfindeling, maar de beschikbare ruimte is slechts ${MAXSIZE}.
+Description-nn.UTF-8: ${SIZE} er for stor
+ Du ynskja å bruke ${SIZE} til rettleia partisjonering, men du har berre ${MAXSIZE} tilgjengeleg.
+Description-no.UTF-8: ${SIZE} er for stor
+ Du ønsket å bruke ${SIZE} til veiledet partisjonering, men du har kun ${MAXSIZE} til rådighet.
+Description-oc.UTF-8: ${SIZE} es tròp granda
+ Avètz demandat que ${SIZE} sián utilizats pel particionament assistit, mas l'espaci disponible es pas que de ${MAXSIZE}.
+Description-pa.UTF-8: ${SIZE} ਬਹੁਤ ਵੱਡਾ ਹੈ
+ ਤੁਸੀਂ ਸਹਾਇਤਾ ਪ੍ਰਾਪਤ ਪਾਰਟੀਸ਼ਨ ਕਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ${SIZE} ਦਿੱਤਾ ਹੈ, ਪਰ ਮੌਜੂਦ ਥਾਂ ਸਿਰਫ਼ ${MAXSIZE} ਹੈ।
+Description-pl.UTF-8: ${SIZE} to zbyt dużo
+ Zażądano ${SIZE} do użycia podczas partycjonowania, ale dostępne miejsce to tylko ${MAXSIZE}.
+Description-pt.UTF-8: ${SIZE} é grande demais
+ Pediu para utilizar ${SIZE} para particionamento guiado, mas o espaço disponível é de apenas ${MAXSIZE}.
+Description-pt_BR.UTF-8: ${SIZE} é muito grande
+ Você pediu para ${SIZE} serem usados no particionamento guiado, mas o espaço disponível é apenas ${MAXSIZE}.
+Description-ro.UTF-8: ${SIZE} este prea mare
+ Ați cerut să fie folosit un spațiu de ${SIZE} pentru partiționarea ghidată, dar spațiul disponibil este de doar ${MAXSIZE}.
+Description-ru.UTF-8: ${SIZE} слишком велик
+ Вы указали размер ${SIZE} для разбивки, однако доступное свободное место ${MAXSIZE}.
+Description-sk.UTF-8: ${SIZE} je príliš veľa
+ Požiadali ste sprievodcu rozdeľovaním, aby použil ${SIZE}, ale dostupné miesto je iba ${MAXSIZE}.
+Description-sl.UTF-8: ${SIZE} je preveč
+ Zahtevali ste, da se za vodeno razdelitev uporabi ${SIZE}, vendar je na voljo le ${MAXSIZE} prostora.
+Description-sq.UTF-8: ${SIZE} është shumë e madhe
+ Ju kërkuat për ${SIZE} që të mund të përdorej për particionim të drejtuar, por hapësira e disponueshme është vetëm ${MAXSIZE}.
+Description-sr.UTF-8: ${SIZE} је сувише велика
+ Хтели сте да користите ${SIZE} за навођено партиционисање, али расположив простор је само ${MAXSIZE}.
+Description-sv.UTF-8: ${SIZE} är för stort
+ Du begärde ${SIZE} att användas för guidad partitionering, men det tillgängliga utrymmet är endast ${MAXSIZE}.
+Description-ta.UTF-8: ${SIZE} மிகப்பெரியது
+ ${SIZE} ஐ வழிகாட்டிய பகிர்வுக்கு கேட்டீர்கள். ஆனால் இருப்பில் உள்ளது ${MAXSIZE} மட்டுமே.
+Description-tg.UTF-8: ${SIZE} хеле калон аст
+ Шумо барои қисмбандии ёридиҳанда истифодаи ${SIZE}-ро дархост кардед, аммо ҳаҷми дастрас танҳо ${MAXSIZE} мебошад.
+Description-th.UTF-8: ${SIZE} ใหญ่เกินไป
+ คุณกำหนดขนาด ${SIZE} เพื่อที่จะใช้ในการพาร์ทิชันแบบชี้แนะ แต่มีพื้นที่เหลือเพียง ${MAXSIZE}
+Description-tr.UTF-8: ${SIZE} çok fazla
+ Kılavuzla bölümlemede kullanılması için istediğiniz alan ${SIZE}, ancak kullanılabilir alan sadece ${MAXSIZE}.
+Description-ug.UTF-8: ${SIZE} بەك چوڭ
+ سىز ${SIZE} ئىشلىتىپ يېتەكچى ئارقىلىق رايونغا ئايرىيالايسىز، ئەمما ئىشلىتىلىشچان بوشلۇق ${MAXSIZE}.
+Description-uk.UTF-8: ${SIZE} занадто багато
+ Ви вимагаєте використання ${SIZE} для розмітки з супроводженням, але доступно лише ${MAXSIZE} вільного простору.
+Description-vi.UTF-8: ${SIZE} là quá lớn
+ Bạn đã yêu cầu dùng ${SIZE} cho quy trình hỗ trợ phân vùng, tuy nhiên dung lượng còn trống chỉ còn ${MAXSIZE}.
+Description-zh_CN.UTF-8: ${SIZE} 太大
+ 您请求分区向导使用 ${SIZE} 磁盘空间，但可用空间只有 ${MAXSIZE}。
+Description-zh_TW.UTF-8: ${SIZE} 太大
+ 導引式分割需要您有 ${SIZE}，但可用空間只有 ${MAXSIZE}。
+
+Template: partman-auto-lvm/small_guided_size
+Type: error
+Description: ${SIZE} is too small
+ You asked for ${SIZE} to be used for guided partitioning, but the selected
+ partitioning recipe requires at least ${MINSIZE}.
+Description-ar.UTF-8: ${SIZE} صغير جداً
+ طلبت ${SIZE} ليستخدم للتقسيم الموجه، لكن التقسيم المحضر المختار يحتاج على الأقل ${MINSIZE}.
+Description-ast.UTF-8: ${SIZE} ye enforma pequeñu
+ Vusté solicitó por ${SIZE} a ser usáu pa particionáu guiáu, pero l'espaciu disponible requier de a lo menos ${MINSIZE}.
+Description-be.UTF-8: ${SIZE} вельмі малы
+ Вы запыталі ${SIZE} дзеля аўтаматычнага падзелу, але абраны тып партыцыі патрабуе ня меньш за ${MINSIZE}.
+Description-bg.UTF-8: ${SIZE} е прекалено малък
+ Поискахте ${SIZE} да се използва за ръководено разделяне на дялове, но избрания дял изисква поне ${MINSIZE}.
+Description-bn.UTF-8: ${SIZE} অত্যন্ত ছোট
+ আপনি guided পার্টিশনিং এর জন্য ${SIZE} জায়গা ব্যবহার করতে চাচ্ছেন, কিন্তু নির্বাচিত পার্টিশনিং এর জন্য অন্তত ${MINSIZE} প্রয়োজন।
+Description-bs.UTF-8: ${SIZE} je premala
+ Htjeli ste da koristite ${SIZE} za navođeno particionisanje, ali izabrani recept za particionisanje zahteva bar ${MINSIZE}.
+Description-ca.UTF-8: La mida ${SIZE} és massa petita
+ Heu triat utilitzar ${SIZE} per a la partició guiada, però la configuració de partició requereix almenys ${MINSIZE}.
+Description-cs.UTF-8: ${SIZE} je příliš malý
+ Chcete použít ${SIZE} pro asistované rozdělení, ale k vybranému způsobu rozdělení je třeba aspoň ${MINSIZE}.
+Description-da.UTF-8: ${SIZE} er for lille
+ Du har angivet, at ${SIZE} skal bruges til guidet partitionering, men den valgte partitioneringsløsning kræver mindst ${MINSIZE}.
+Description-de.UTF-8: ${SIZE} ist zu klein
+ Sie haben angegeben, ${SIZE} für die geführte Partitionierung zu verwenden, aber das gewählte Partitionierungsrezept erfordert mindestens ${MINSIZE}.
+Description-el.UTF-8: ${SIZE} είναι πολύ μικρό
+ Ζητήσατε ${SIZE} να χρησιμοποιηθούν για την καθοδηγούμενη διαμέριση, αλλά η επιλεγμένη διαμέριση απαιτεί το λιγότερο ${MINSIZE}.
+Description-eo.UTF-8: ${SIZE} estas tro malgranda
+ Vi postulis ke ${SIZE} estu uzata por gvidata dispartigo, sed la elektita dispartiga skemo postulas almenaŭ ${MINSIZE}.
+Description-es.UTF-8: ${SIZE} es demasiado pequeño
+ Usted solicitó usar ${SIZE} para particionado guiado, pero el espacio disponible requiere de al menos ${MINSIZE}.
+Description-et.UTF-8: ${SIZE} on liiga väike
+ Valisid juhitud partitsioneerimise jaoks ${SIZE}, kuid valitud partitsiooniskeem vajab vähemalt ${MINSIZE}.
+Description-eu.UTF-8: ${SIZE} txikiegia da
+ Partizio gidatu gisa ${SIZE} erabiltzea eskatu duzu, baina partizio errezetak gutxienez ${MINSIZE} behar du.
+Description-fi.UTF-8: ${SIZE} on liian pieni
+ Pyysit kokoa ${SIZE} käytettäväksi ohjatussa osioinnissa, mutta valittu osiointiresepti vaatii vähintään ${MINSIZE}.
+Description-fr.UTF-8: ${SIZE} est trop petit
+ Vous avez demandé que ${SIZE} soient utilisés pour le partitionnement assisté, mais le partitionnement sélectionné nécessite au moins ${MINSIZE}.
+Description-gl.UTF-8: ${SIZE} é demasiado pouco
+ Pediu que se empregasen ${SIZE} para a partición guiada, mais a receita de partición seleccionada require cando menos ${MINSIZE}.
+Description-he.UTF-8: ${SIZE} קטן מידי
+ בחרת ב־${SIZE} כגודל לשימוש בחלוקת המחיצות המודרכת, אך הגדרת חלוקת המחיצות שבחרת דורשת ${MINSIZE} לפחות.
+Description-hi.UTF-8: ${SIZE} काफी छोटा है
+ निर्देशित पार्टिशन रेसिपि हेतु आपने ${SIZE} दिया है, परंतु चुने गए पार्टिशन के लिए कम से कम ${MINSIZE} की आवश्यकता है।
+Description-hr.UTF-8: ${SIZE} je premalo
+ Zatražili ste da se ${SIZE} koristi za navođeno particioniranje, ali odabrano pravilo particioniranja zahtijeva barem ${MINSIZE}.
+Description-hu.UTF-8: Túl kicsi a méret (${SIZE})
+ Az irányított particionáláshoz ${SIZE} méretet kértél, de a kiválasztott particionálási recept legalább ${MINSIZE} méretet igényel.
+Description-id.UTF-8: ${SIZE} terlalu kecil
+ Anda diminta menyedikan ${SIZE} untuk digunakan pada partisi terpandu, tetapi partisi yang dipilih membutuhkan paling tidak ${MINSIZE}.
+Description-is.UTF-8: ${SIZE} er of lítið
+ Þú vildir nota ${SIZE} í disksneiðaskiptingu en skiptingin sem þú valdir þarfnast að minnsta kosti ${MINSIZE}.
+Description-it.UTF-8: ${SIZE} è troppo piccolo
+ Sono stati richiesti ${SIZE} da usare per il partizionamento guidato, ma il partizionamento richiesto necessita di almeno ${MINSIZE}.
+Description-ja.UTF-8: ${SIZE} は小さすぎます
+ ガイドによるパーティショニングに ${SIZE} を利用しようとしていますが、そのパーティション配置には 少なくとも ${MINSIZE} が必要です。
+Description-ka.UTF-8: ${SIZE} მეტისმეტად პატარაა
+ მოითხოვეთ ${SIZE}, მაგრამ მონიშნულ დაყოფის სცენარს, მინიმუმ, ${MINSIZE} სჭირდება.
+Description-kk.UTF-8: ${SIZE} аса кішкентай
+ Бөлу үшін сіз ${SIZE} өлшемін енгіздіңіз, бірақ ағымдағы орнатылымға ең аз дегенде ${MINSIZE} бос орын қажет.
+Description-ko.UTF-8: ${SIZE}이 너무 작음
+ ${SIZE}를 자동 분할에 사용하도록 했지만, 선택한 분할 방법은 최소 ${MINSIZE} 이상이 필요합니다.
+Description-lt.UTF-8: ${SIZE} yra per mažas
+ Vadovaujamam skirstymui paprašėte ${SIZE} vietos, bet pasirinktam skirstymo būdui reikia mažiausiai ${MINSIZE}.
+Description-lv.UTF-8: ${SIZE} ir pārāk maz
+ Jūs prasījāt, lai ${SIZE} tiktu izmantoti vadītajai dalīšanai, bet izvēlētā dalīšanas receptei ir vajadzīgi vismaz ${MINSIZE}.
+Description-mr.UTF-8: ${SIZE} खूप लहान आहे
+ तुम्ही मार्गदर्शित विभाजनासाठी ${SIZE} वापरण्यास सांगितले, परंतु निवडलेल्या विभाजन रेसिपीसाठी किमान ${MINSIZE} आवश्यक आहे.
+Description-nb.UTF-8: ${SIZE} er for liten
+ Du ønsket å bruke ${SIZE} til veiledet partisjonering, men den ønskede partisjoneringsoppskriften krever minst ${MINSIZE}.
+Description-nl.UTF-8: ${SIZE} is te klein
+ U vroeg om ${SIZE} te gebruiken voor de begeleide schijfindeling, maar het geselecteerde schijfindelingsschema vereist minimaal ${MINSIZE}.
+Description-nn.UTF-8: ${SIZE} er for lite
+ Du ynskte å bruka ${SIZE} til rettleia partisjonering, men den ynskte partisjoneringsoppskrifta krev minst ${MINSIZE}.
+Description-no.UTF-8: ${SIZE} er for liten
+ Du ønsket å bruke ${SIZE} til veiledet partisjonering, men den ønskede partisjoneringsoppskriften krever minst ${MINSIZE}.
+Description-oc.UTF-8: ${SIZE} es tròp pichona
+ Avètz demandat que ${SIZE} sián utilizats pel particionament assistit, mas la particion seleccionada necessita al mens ${MINSIZE}.
+Description-pa.UTF-8: ${SIZE} ਬਹੁਤ ਛੋਟਾ ਹੈ
+ ਤੁਸੀਂ ਸੇਧ ਦਿੱਤੇ ਪਾਰਟੀਸ਼ਨ ਬਣਾਉਣ ਲਈ ${SIZE} ਲਈ ਕਿਹਾ ਸੀ, ਪਰ ਚੁਣੇ ਪਾਰਟੀਸ਼ਨ ਇੰਤਜ਼ਾਮ ਲਈ ਘੱਟੋ-ਘੱਟ ${MINSIZE} ਚਾਹੀਦਾ ਹੈ।
+Description-pl.UTF-8: ${SIZE} to zbyt mało
+ Zażądano ${SIZE} do użycia podczas partycjonowania, ale wybrany przepis partycjonowania wymaga co najmniej ${MINSIZE}.
+Description-pt.UTF-8: ${SIZE} é demasiado pequeno
+ Pediu ${SIZE} para particionamento guiado, mas necessita de pelo menos ${MINSIZE}.
+Description-pt_BR.UTF-8: ${SIZE} é muito pequeno
+ Você pediu para ${SIZE} serem usados no particionamento guiado, mas a receita de particionamento selecionada requer no mínimo ${MINSIZE}.
+Description-ro.UTF-8: ${SIZE} este prea mică
+ Ați cerut să fie folosit un spațiu de ${SIZE} pentru partiționarea ghidată, dar rețeta de partiționare selectată necesită cel puțin ${MINSIZE}.
+Description-ru.UTF-8: ${SIZE} слишком мал
+ Вы указали размер ${SIZE} для разбивки, однако выбранный способ установки требует как минимум ${MINSIZE}.
+Description-sk.UTF-8: ${SIZE} je príliš málo
+ Požiadali ste sprievodcu rozdeľovaním, aby použil ${SIZE}, ale vyžadované rozdelenie potrebuje aspoň ${MINSIZE}.
+Description-sl.UTF-8: ${SIZE} je premalo
+ Zahtevali ste, da se za vodeno razdelitev uporabi ${SIZE}, vendar izbran recept za razdelitev zahteva vsaj ${MINSIZE} prostora.
+Description-sq.UTF-8: ${SIZE} është shumë e vogël
+ Ju kërkuat për ${SIZE} për tu përdorur për particionim të drejtuar, por kërkesa për particionin e përzgjedhur është për të paktën ${MINSIZE}.
+Description-sr.UTF-8: ${SIZE} је сувише мала
+ Хтели сте да користите ${SIZE} за навођено партиционисање, али изабрани рецепт за партиционисање захтева бар ${MINSIZE}.
+Description-sv.UTF-8: ${SIZE} är för litet
+ Du begärde ${SIZE} att användas för guidad partitionering, men den valda partitioneringsplanen kräver minst ${MINSIZE}.
+Description-ta.UTF-8: ${SIZE} என்பது மிகச்சிறியது
+ ${SIZE} ஐ வழிகாட்டிய பகிர்வுக்கு கேட்டீர்கள். ஆனால் தேர்ந்தெடுத்த பகிர்வுக்கு தேவை குறைந்தது ${MINSIZE}.
+Description-th.UTF-8: ${SIZE} เล็กเกินไป
+ คุณกำหนดขนาด ${SIZE} เพื่อที่จะใช้ในการพาร์ทิชันแบบชี้แนะ แต่สูตรของพาร์ทิชันที่เลือกไว้ต้องการอย่างน้อย ${MINSIZE}
+Description-tr.UTF-8: ${SIZE} çok küçük
+ Kılavuzla bölümlemede kullanılması için istediğiniz alan ${SIZE}, ancak seçtiğiniz bölümleme değeri en az ${MINSIZE} olmalı.
+Description-ug.UTF-8: ${SIZE} بەك كىچىك
+ سىز ${SIZE} ئىشلىتىپ يېتەكچى ئارقىلىق رايونغا ئايرىيالايسىز، ئەمما تاللىغان رايوندىكى ئىشلىتىلىشچان بوشلۇق ${MINSIZE}.
+Description-uk.UTF-8: ${SIZE} занадто мало
+ Ви вимагаєте ${SIZE} для використання розмітки із супроводом, але обраний тип розмітки вимагає не менше ${MINSIZE}.
+Description-vi.UTF-8: ${SIZE} là quá nhỏ
+ Bạn đã yêu cầu dùng ${SIZE} cho quy trình hỗ trợ phân vùng, tuy nhiên giải pháp phân vùng đã được chọn yêu cầu tối thiểu phải có ${MINSIZE}.
+Description-zh_CN.UTF-8: ${SIZE} 太小
+ 您请求分区向导使用 ${SIZE} 磁盘空间，但已选择的分区方案需要至少 ${MINSIZE}。
+Description-zh_TW.UTF-8: ${SIZE} 太小
+ 導引式分割需要您有 ${SIZE}，但選擇的分割方案需要最少 ${MINSIZE}。
