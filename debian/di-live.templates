@@ -1,0 +1,2506 @@
+Template: di-live/main_menu
+Type: select
+Choices: ${CHOICES}
+Description: Debian Installer Live Menu
+
+Template: di-live/partman-failed-unmount
+Type: boolean
+Default: true
+Description: Failed to unmount partitions
+ The installer needs to commit changes to partition tables, but cannot do so
+ because partitions on the following mount points could not be unmounted:
+ .
+ ${MOUNTED}
+ .
+ Please close any applications using these mount points.
+ .
+ Would you like the installer to try to unmount these partitions again?
+
+Template: di-live/partition-too-small
+Type: boolean
+Description: Do you want to return to the partitioner?
+ Some of the partitions you created are too small.  Please make the following
+ partitions at least this large (in bytes):
+ .
+ ${PARTITIONS}
+ .
+ If you do not go back to the partitioner and increase the size of these
+ partitions, the installation may fail.
+
+Template: di-live/progress/remove_pkgs
+Type: text
+Description: Removing unrequired packages from installed system
+
+Template: di-live/finalize_install
+Type: select
+Choices: Eject and Reboot, Reboot system
+Default: Reboot system
+Description: Enter to reboot
+ Installation is complete.
+ .
+ The system needs to reboot now. Please be sure to remove the CD/USB when prompted.
+
+Template: di-live/finalize_live
+Type: select
+Choices: Reboot system, Exit installer
+Default: Reboot system
+Description: Select option
+ Installation is complete.
+ .
+ Select Eject to eject the live medium, Reboot to reboot the system, or Exit to
+ exit back to the Live system command prompt.
+ .
+ Please note that rebooting without ejecting, will likely result in rerunning
+ this installer. Eject can be rerun multiple times if desired.
+ .
+ Important: if you wish to Exit continue using the live system; DO NOT eject!
+
+Template: di-live/eject
+Type: text
+Description: Press Enter to continue:
+ Please remove the live medium and close the tray (if any) before continuing.
+
+Template: di-live/progress/generic
+Type: text
+Description: ${DESCRIPTION}
+
+Template: di-live/password
+Type: password
+Description: ${DESCRIPTION}
+
+Template: di-live/password_again
+Type: password
+Description: Repeat password:
+
+Template: di-live/password_mismatch
+Type: error
+Description: Passwords do not match, please try again.
+
+Template: di-live/password_empty
+Type: error
+Description: Please enter a non-empty password.
+
+Template: di-live/get-string
+Type: string
+Description: ${DESCRIPTION}
+
+Template: base-installer/use_unclean_target
+Type: boolean
+Default: true
+Description: Proceed with installation to unclean target?
+ The target file system contains files from a past installation. These files
+ could cause problems with the installation process, and if you proceed,
+ some of the existing files may be overwritten.
+
+Template: base-installer/no_target_mounted
+Type: error
+Description: No file system mounted on /target
+ Before the installation can proceed, a root file system must be mounted on
+ /target. The partitioner and formatter should have done this for you.
+
+Template: base-installer/unclean_target_cancel
+Type: error
+Description: Not installing to unclean target
+ The installation to the target file system has been canceled. You should go
+ back and erase or format the target file system before proceeding with the
+ install.
+
+Template: base-installer/progress/preparing
+Type: text
+Description: Preparing to install the base system...
+
+Template: base-installer/progress/installing-base
+Type: text
+Description: Installing the base system
+
+Template: base-installer/progress/fallback
+Type: text
+Description: Running ${SCRIPT}...
+
+Template: base-installer/section/setup_dev
+Type: text
+Description: Setting up the base system...
+
+Template: base-installer/section/configure_apt
+Type: text
+Description: Configuring APT sources...
+
+Template: base-installer/section/apt_update
+Type: text
+Description: Updating the list of available packages...
+
+Template: base-installer/section/install_extra
+Type: text
+Description: Installing extra packages...
+
+Template: base-installer/section/install_extra_package
+Type: text
+Description: Installing extra packages - retrieving and installing ${SUBST0}...
+
+Template: base-installer/install-recommends
+Type: boolean
+Default: true
+Description: for internal use; can be preseeded
+ Will configure APT in the target system not to install recommened
+ packages by default. For experienced users only.
+
+Template: base-installer/progress/register-modules
+Type: text
+Description: Registering modules...
+
+Template: debian-installer/add-kernel-opts
+Type: string
+Description: for internal use; can be preseeded
+ Extra (custom) boot options to add for target system.
+
+Template: debian-installer/dummy
+Type: string
+Description: Dummy template for preseeding unavailable questions
+ The answer to this question has been preseeded (${ID}).
+ If you see this template, you've found a bug in the installer;
+ please file a report.
+
+Template: debian-installer/shell-plugin
+Type: terminal
+Description: ${TITLE}
+
+Template: debian-installer/shell-plugin-default-title
+Type: text
+Description: Interactive shell
+
+Template: debian-installer/terminal-plugin-unavailable
+Type: error
+Description: Terminal plugin not available
+ This build of the debian-installer requires the terminal plugin in
+ order to display a shell. Unfortunately, this plugin is currently
+ unavailable.
+ .
+ It should be available after reaching the "Loading additional components"
+ installation step.
+ .
+ ${WORKAROUND}
+
+Template: debian-installer/workaround-gtk
+Type: text
+Description: Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to get back to the installer.
+
+Template: debian-installer/disk-detect/title
+Type: text
+Description: Detect disks
+
+Template: disk-detect/detect_progress_title
+Type: text
+Description: Detecting disks and all other hardware
+
+Template: disk-detect/module_select
+Type: select
+Choices: continue with no disk drive, ${CHOICES}, none of the above
+Default: continue with no disk drive
+Description: Driver needed for your disk drive:
+ No disk drive was detected. If you know the name of the driver
+ needed by your disk drive, you can select it from the list.
+
+Template: disk-detect/cannot_find
+Type: error
+Description: No partitionable media
+ No partitionable media were found.
+ .
+ Please check that a hard disk is attached to this machine.
+
+Template: disk-detect/multipath/enable
+Type: boolean
+Default: false
+Description: for internal use; can be preseeded
+ Check for the presence of multipath devices?
+
+Template: grub-installer/with_other_os
+Type: boolean
+Default: true
+Description: Install the GRUB boot loader to your primary drive?
+ The following other operating systems have been detected on this
+ computer: ${OS_LIST}
+ .
+ If all of your operating systems are listed above, then it should be safe to
+ install the boot loader to your primary drive (UEFI partition/boot record).
+ When your computer boots, you will be able to choose to load one of these
+ operating systems or the newly installed Debian system.
+
+Template: grub-installer/only_debian
+Type: boolean
+Default: true
+Description: Install the GRUB boot loader to your primary drive?
+ It seems that this new installation is the only operating system
+ on this computer. If so, it should be safe to install the GRUB boot loader
+ to your primary drive (UEFI partition/boot record).
+ .
+ Warning: If your computer has another operating system that the installer
+ failed to detect, this will make that operating system temporarily
+ unbootable, though GRUB can be manually configured later to boot it.
+
+Template: grub-installer/bootdev
+Type: string
+Description: Device for boot loader installation:
+ You need to make the newly installed system bootable, by installing
+ the GRUB boot loader on a bootable device. The usual way to do this is to
+ install GRUB to your primary drive (UEFI partition/boot record). You may
+ instead install GRUB to a different drive (or partition), or to removable
+ media.
+ .
+ The device notation should be specified as a device in /dev. Below are some
+ examples:
+  - "/dev/sda" will install GRUB to your primary drive (UEFI partition/boot
+    record);
+  - "/dev/sdb" will install GRUB to a secondary drive (which may for instance
+    be a thumbdrive);
+  - "/dev/fd0" will install GRUB to a floppy.
+
+Template: grub-installer/choose_bootdev
+Type: select
+Choices: Enter device manually, ${DESCRIPTIONS}
+Description: Device for boot loader installation:
+ You need to make the newly installed system bootable, by installing
+ the GRUB boot loader on a bootable device. The usual way to do this is to
+ install GRUB to your primary drive (UEFI partition/boot record). You may
+ instead install GRUB to a different drive (or partition), or to removable
+ media.
+
+Template: grub-installer/password
+Type: password
+Description: GRUB password:
+ The GRUB boot loader offers many powerful interactive features, which could
+ be used to compromise your system if unauthorized users have access to the
+ machine when it is starting up. To defend against this, you may choose a
+ password which will be required before editing menu entries or entering the
+ GRUB command-line interface. By default, any user will still be able to
+ start any menu entry without entering the password.
+ .
+ If you do not wish to set a GRUB password, leave this field blank.
+
+Template: grub-installer/password-again
+Type: password
+Description: Re-enter password to verify:
+ Please enter the same GRUB password again to verify that you have typed it
+ correctly.
+
+Template: grub-installer/password-mismatch
+Type: error
+Description: Password input error
+ The two passwords you entered were not the same. Please try again.
+
+Template: grub-installer/password-crypted
+Type: password
+Description: for internal use; can be preseeded
+
+Template: grub-installer/apt-install-failed
+Type: error
+Description: GRUB installation failed
+ The '${GRUB}' package failed to install into /target/. Without the GRUB
+ boot loader, the installed system will not boot.
+
+Template: grub-installer/grub-install-failed
+Type: error
+Description: Unable to install GRUB in ${BOOTDEV}
+ Executing 'grub-install ${BOOTDEV}' failed.
+ .
+ This is a fatal error.
+
+Template: grub-installer/update-grub-failed
+Type: error
+Description: Unable to configure GRUB
+ Executing 'update-grub' failed.
+ .
+ This is a fatal error.
+
+Template: grub-installer/grub_not_mature_on_this_platform
+Type: boolean
+Default: false
+Description: Install GRUB?
+ GRUB 2 is the next generation of GNU GRUB, the boot loader that is commonly
+ used on i386/amd64 PCs. It is now also available for ${ARCH}.
+ .
+ It has interesting new features but is still experimental software
+ for this architecture. If you choose to install it, you should be prepared
+ for breakage, and have an idea on how to recover your system if it
+ becomes unbootable. You're advised not to try this in production
+ environments.
+
+Template: grub-installer/progress/title
+Type: text
+Description: Installing GRUB boot loader
+
+Template: grub-installer/progress/step_os-probe
+Type: text
+Description: Looking for other operating systems...
+
+Template: grub-installer/progress/step_install
+Type: text
+Description: Installing the '${GRUB}' package...
+
+Template: grub-installer/progress/step_bootdev
+Type: text
+Description: Determining GRUB boot device...
+
+Template: grub-installer/progress/step_install_loader
+Type: text
+Description: Running "grub-install ${BOOTDEV}"...
+
+Template: grub-installer/progress/step_config_loader
+Type: text
+Description: Running "update-grub"...
+
+Template: grub-installer/progress/step_update_etc
+Type: text
+Description: Updating /etc/kernel-img.conf...
+
+Template: grub-installer/progress/step_force_efi_removable
+Type: text
+Description: Checking whether to force usage of the removable media path
+
+Template: grub-installer/progress/step_mount_filesystems
+Type: text
+Description: Mounting filesystems
+
+Template: grub-installer/progress/step_update_debconf_efi_removable
+Type: text
+Description: Configuring grub-efi for future usage of the removable media path
+
+Template: debian-installer/grub-installer/title
+Type: text
+Description: Install the GRUB boot loader
+
+Template: rescue/menu/grub-reinstall
+Type: text
+Description: Reinstall GRUB boot loader
+
+Template: grub-installer/skip
+Type: boolean
+Default: false
+Description: for internal use; can be preseeded
+ Skip installing grub?
+
+Template: grub-installer/make_active
+Type: boolean
+Default: true
+Description: for internal use; can be preseeded
+ Make sure that at least one partition is marked as active (bootable).
+
+Template: grub-installer/mounterr
+Type: error
+Description: Failed to mount ${PATH}
+ Mounting the ${FSTYPE} file system on ${PATH} failed.
+ .
+ Check /var/log/syslog or see virtual console 4 for the details.
+ .
+ Warning: Your system may be unbootable!
+
+Template: rescue/menu/grub-efi-force-removable
+Type: text
+Description: Force GRUB installation to the EFI removable media path
+
+Template: grub-installer/force-efi-extra-removable
+Type: boolean
+Default: false
+Description: Force GRUB installation to the EFI removable media path?
+ It seems that this computer is configured to boot via EFI, but maybe
+ that configuration will not work for booting from the hard
+ drive. Some EFI firmware implementations do not meet the EFI
+ specification (i.e. they are buggy!) and do not support proper
+ configuration of boot options from system hard drives.
+ .
+ A workaround for this problem is to install an extra copy of the EFI
+ version of the GRUB boot loader to a fallback location, the
+ "removable media path". Almost all EFI systems, no matter how buggy,
+ will boot GRUB that way.
+ .
+ Warning: If the installer failed to detect another operating system
+ that is present on your computer that also depends on this fallback,
+ installing GRUB there will make that operating system temporarily
+ unbootable. GRUB can be manually configured later to boot it if
+ necessary.
+
+Template: grub-installer/update-nvram
+Type: boolean
+Default: true
+Description: Update NVRAM variables to automatically boot into Debian?
+ GRUB can configure your platform's NVRAM variables so that it boots into
+ Debian automatically when powered on. However, you may prefer to disable
+ this behavior and avoid changes to your boot configuration. For example,
+ if your NVRAM variables have been set up such that your system contacts a
+ PXE server on every boot, this would preserve that behavior.
+
+Template: grub-installer/enable_os_prober_otheros_yes
+Type: boolean
+Default: true
+Description: Run os-prober automatically to detect and boot other OSes?
+ GRUB can use the os-prober tool to attempt to detect other
+ operating systems on your computer and add them to its list of boot
+ options automatically.
+ .
+ If your computer has multiple operating systems installed, then this
+ is probably what you want. However, if your computer is a host for
+ guest OSes installed via LVM or raw disk devices, running os-prober
+ can cause damage to those guest OSes as it mounts filesystems to look
+ for things.
+ .
+ The following other operating systems have been detected on this
+ computer: ${OS_LIST}
+
+Template: grub-installer/enable_os_prober_otheros_no
+Type: boolean
+Default: false
+Description: Run os-prober automatically to detect and boot other OSes?
+ GRUB can use the os-prober tool to attempt to detect other
+ operating systems on your computer and add them to its list of boot
+ options automatically.
+ .
+ If your computer has multiple operating systems installed, then this
+ is probably what you want. However, if your computer is a host for
+ guest OSes installed via LVM or raw disk devices, running os-prober
+ can cause damage to those guest OSes as it mounts filesystems to look
+ for things.
+ .
+ os-prober did not detect any other operating systems on your computer
+ at this time, but you may still wish to enable it in case you install
+ more in the future.
+
+Template: hw-detect/detect_progress_step
+Type: text
+Description: Detecting hardware, please wait...
+
+Template: hw-detect/load_progress_step
+Type: text
+Description: Loading module '${MODULE}' for '${CARDNAME}'...
+
+Template: hw-detect/pcmcia_step
+Type: text
+Description: Starting PC card services...
+
+Template: hw-detect/hardware_init_step
+Type: text
+Description: Waiting for hardware initialization...
+
+Template: hw-detect/select_modules
+Type: multiselect
+Choices: ${list}
+Description: Modules to load:
+ The following Linux kernel modules were detected as matching your
+ hardware. If you know some are unnecessary, or cause problems, you can
+ choose not to load them. If you're unsure, you should leave them all
+ selected.
+
+Template: hw-detect/start_pcmcia
+Type: boolean
+Default: true
+Description: Start PC card services?
+ Please choose whether PC card services should be started in order to allow
+ the use of PCMCIA cards.
+
+Template: hw-detect/pcmcia_resources
+Type: string
+Description: PCMCIA resource range options:
+ Some PCMCIA hardware needs special resource configuration options in
+ order to work, and can cause the computer to freeze otherwise. For
+ example, some Dell laptops need "exclude port 0x800-0x8ff" to be
+ specified here. These options will be added to /etc/pcmcia/config.opts.
+ See the installation manual or the PCMCIA HOWTO for more information.
+ .
+ For most hardware, you do not need to specify anything here.
+
+Template: hw-detect/retry_params
+Type: string
+Description: Additional parameters for module ${MODULE}:
+ The module ${MODULE} failed to load. You may need to pass parameters
+ to the module to make it work; this is common with older hardware.
+ These parameters are often I/O port and IRQ numbers that vary from machine
+ to machine and cannot be determined from the hardware. An example string
+ looks something like "irq=7 io=0x220"
+ .
+ If you don't know what to enter, consult your documentation, or leave it
+ blank to not load the module.
+
+Template: hw-detect/modprobe_error
+Type: error
+Description: Error while running '${CMD_LINE_PARAM}'
+
+Template: hw-detect/load_media
+Type: boolean
+Default: false
+Description: Load missing drivers from removable media?
+ A driver for your hardware is not available. You may need
+ to load drivers from removable media, such as a USB stick, or driver floppy.
+ .
+ If you have such media available now, insert it, and continue.
+
+Template: hw-detect/load_firmware
+Type: boolean
+Default: true
+Description: Load missing firmware from removable media?
+ Some of your hardware needs non-free firmware files to operate. The
+ firmware can be loaded from removable media, such as a USB stick or
+ floppy.
+ .
+ The missing firmware files are: ${FILES}
+ .
+ If you have such media available now, insert it, and continue.
+
+Template: base-installer/progress/hw-detect
+Type: text
+Description: Checking for firmware...
+
+Template: hw-detect/load-ide
+Type: boolean
+Default: false
+Description: for internal use; can be preseeded
+
+Template: hw-detect/firmware-lookup
+Type: text
+Default:
+Description: for expert use; can be preseeded
+ Setting this to "never" makes check-missing-firmware and install-firmware
+ hooks not try to find and install firmware packages (even if available on
+ the installation image).
+
+Template: debian-installer/live-installer/title
+Type: text
+Description: Install the system
+
+Template: live-installer/progress/installing
+Type: text
+Description: Installing the system...
+
+Template: live-installer/progress/copying
+Type: text
+Description: Copying data to disk...
+
+Template: live-installer/progress/network
+Type: text
+Description: Cleaning up network settings...
+
+Template: live-installer/progress/remove-packages
+Type: text
+Description: Removing packages specific to the live system...
+
+Template: live-installer/progress/xserver-xorg
+Type: text
+Description: Reconfiguring X.org...
+
+Template: live-installer/progress/fallback
+Type: text
+Description: Running ${SCRIPT}...
+
+Template: live-installer/mode
+Type: select
+Default: normal
+Choices: normal, live
+Description: Type of installation:
+ The live system can be installed to hard disk using one of the following
+ options.
+ .
+ If you choose 'normal', the system will be installed as a regular system.
+ If you choose 'live', the installed system will continue to act as a
+ live system but it can then be launched directly from the hard disk.
+
+Template: live-installer/enable
+Type: boolean
+Default: true
+Description: for internal use; can be preseeded
+ If false, uses base-installer for installation
+
+Template: partman-auto-lvm/text/choice
+Type: text
+Description: Guided - use entire disk and set up LVM
+
+Template: partman-auto-lvm/new_vg_name
+Type: string
+Description: Name of the volume group for the new system:
+
+Template: partman-auto-lvm/new_vg_name_exists
+Type: string
+Description: Name of the volume group for the new system:
+ The selected volume group name is already in use. Please choose
+ another name.
+
+Template: partman-auto-lvm/unusable_recipe
+Type: error
+Description: Failed to partition the selected disk
+ This happened because the selected recipe does not contain any partition
+ that can be created on LVM volumes.
+
+Template: partman-auto-lvm/no_boot
+Type: boolean
+Description: Continue installation without /boot partition?
+ The recipe you selected does not contain a separate partition for /boot.
+ This is normally needed to allow you to boot the system when using LVM.
+ .
+ You can choose to ignore this warning, but that may result in a failure to
+ reboot the system after the installation is completed.
+
+Template: partman-auto-lvm/vg_exists
+Type: error
+Description: Volume group name already in use
+ The volume group name used to automatically partition using LVM is already
+ in use. Lowering the priority for configuration questions will allow you
+ to specify an alternative name.
+
+Template: partman-auto-lvm/vg_create_error
+Type: error
+Description: Unexpected error while creating volume group
+ Autopartitioning using LVM failed because an error occurred while creating
+ the volume group.
+ .
+ Check /var/log/syslog or see virtual console 4 for the details.
+
+Template: partman-auto-lvm/text/multiple_disks
+Type: text
+Description: Multiple disks (%s)
+
+Template: partman-auto-lvm/no_such_pv
+Type: error
+Description: Non-existing physical volume
+ A volume group definition contains a reference to a non-existing
+ physical volume.
+ .
+ Please check that all devices are properly connected.
+ Alternatively, please check the automatic partitioning recipe.
+
+Template: partman-auto-lvm/no_pv_in_vg
+Type: error
+Description: No physical volume defined in volume group
+ The automatic partitioning recipe contains the definition of a
+ volume group that does not contain any physical volume.
+ .
+ Please check the automatic partitioning recipe.
+
+Template: partman-auto-lvm/guided_size
+Type: string
+Default: some number
+Description: Amount of volume group to use for guided partitioning:
+ You may use the whole volume group for guided partitioning, or part of it.
+ If you use only part of it, or if you add more disks later, then you will
+ be able to grow logical volumes later using the LVM tools, so using a
+ smaller part of the volume group at installation time may offer more
+ flexibility.
+ .
+ The minimum size of the selected partitioning recipe is ${MINSIZE} (or
+ ${PERCENT}); please note that the packages you choose to install may
+ require more space than this. The maximum available size is ${MAXSIZE}.
+ .
+ Hint: "max" can be used as a shortcut to specify the maximum size, or
+ enter a percentage (e.g. "20%") to use that percentage of the maximum size.
+ You can specify partition sizes in decimal units (like MB or GB) as well as
+ in binary units (like GiB or TiB).
+
+Template: partman-auto-lvm/bad_guided_size
+Type: error
+Description: Invalid input
+ You entered "${INPUT}", which was not recognized as a valid size.
+
+Template: partman-auto-lvm/big_guided_size
+Type: error
+Description: ${SIZE} is too big
+ You asked for ${SIZE} to be used for guided partitioning, but the available
+ space is only ${MAXSIZE}.
+
+Template: partman-auto-lvm/small_guided_size
+Type: error
+Description: ${SIZE} is too small
+ You asked for ${SIZE} to be used for guided partitioning, but the selected
+ partitioning recipe requires at least ${MINSIZE}.
+
+Template: partman-auto/help
+Type: note
+Description: Help on partitioning
+ Partitioning a hard drive consists of dividing it to create the space
+ needed to install your new system.  You need to choose which
+ partition(s) will be used for the installation.
+ .
+ Select a free space to create partitions in it.
+ .
+ Select a device to remove all partitions in it and create a new empty
+ partition table.
+ .
+ Select a partition to remove it or to specify how it should be used.
+ At a bare minimum, you need one partition to contain the root of the
+ file system (whose mount point is /).  Most people also feel that a
+ separate swap partition is a necessity.  "Swap" is scratch space for an
+ operating system, which allows the system to use disk storage as
+ "virtual memory".
+ .
+ When the partition is already formatted you may choose to keep and
+ use the existing data in the partition.  Partitions that will be used
+ in this way are marked with "${KEEP}" in the main partitioning menu.
+ .
+ In general you will want to format the partition with a newly created
+ file system.  NOTE: all data in the partition will be irreversibly
+ deleted.  If you decide to format a partition that is already
+ formatted, it will be marked with "${DESTROY}" in the main
+ partitioning menu.  Otherwise it will be marked with "${FORMAT}".
+
+Template: partman-auto/progress/title
+Type: text
+Description: Please wait...
+
+Template: partman-auto/progress/info
+Type: text
+Description: Computing the new partitions...
+
+Template: partman-auto/no_recipe
+Type: error
+Description: Failed to partition the selected disk
+ This probably happened because the selected disk or free space is too
+ small to be automatically partitioned.
+
+Template: partman-auto/autopartitioning_failed
+Type: error
+Description: Failed to partition the selected disk
+ This probably happened because there are too many (primary) partitions in
+ the partition table.
+
+Template: partman-auto/init_automatically_partition
+Type: select
+Choices: ${DESCRIPTIONS}
+Description: Partitioning method:
+ The installer can guide you through partitioning a disk (using different
+ standard schemes) or, if you prefer, you can do it manually. With guided
+ partitioning you will still have a chance later to review and customise
+ the results.
+ .
+ If you choose guided partitioning for an entire disk, you will next be
+ asked which disk should be used.
+
+Template: partman-auto/disk
+Type: string
+Description: for internal use; can be preseeded
+ Device to partition, in either devfs or non format
+
+Template: partman-auto/method
+Type: string
+Description: for internal use; can be preseeded
+ Method to use for partitioning
+
+Template: partman-auto/cap-ram
+Type: string
+Default: false
+Description: for internal use; can be preseeded
+ Cap RAM size to specified size in MB, when calculating the swap
+ partition size. By default this is disabled, so swap size is not capped,
+ while preseeding to a value of 1024 (with partman-auto/cap-ram=1024) for
+ example results in swap partitions to be capped at 1GB.
+
+Template: partman-auto/automatically_partition
+Type: select
+Choices: ${DESCRIPTIONS}
+Description: Partitioning method:
+ If you choose guided partitioning for an entire disk, you will next be
+ asked which disk should be used.
+
+Template: partman-auto/choose_recipe
+Type: select
+Choices: ${DESCRIPTIONS}
+Description: Partitioning scheme:
+ Selected for partitioning:
+ .
+ ${TARGET}
+ .
+ The disk can be partitioned using one of several different schemes.
+ If you are unsure, choose the first one.
+
+Template: partman-auto/unusable_space
+Type: error
+Description: Unusable free space
+ Partitioning failed because the chosen free space may not be used.
+ There are probably too many (primary) partitions in the partition table.
+
+Template: partman-auto/expert_recipe_file
+Type: string
+Description: for internal use; can be preseeded
+ File to load for expert recipe
+
+Template: partman-auto/expert_recipe
+Type: string
+Description: for internal use; can be preseeded
+ Expert recipe content
+
+Template: partman-auto/text/automatically_partition
+Type: text
+Description: Guided partitioning
+
+Template: partman-auto/text/use_biggest_free
+Type: text
+Description: Guided - use the largest continuous free space
+
+Template: partman-auto/text/use_device
+Type: text
+Description: Guided - use entire disk
+
+Template: partman-auto/select_disk
+Type: select
+Choices: ${DESCRIPTIONS}
+Description: Select disk to partition:
+ Note that all data on the disk you select will be erased, but not before
+ you have confirmed that you really want to make the changes.
+
+Template: partman-auto/text/custom_partitioning
+Type: text
+Description: Manual
+
+Template: partman-auto/text/auto_free_space
+Type: text
+Description: Automatically partition the free space
+
+Template: partman-auto/text/atomic_scheme
+Type: text
+Description: All files in one partition (recommended for new users)
+
+Template: partman-auto/text/home_scheme
+Type: text
+Description: Separate /home partition
+
+Template: partman-auto/text/multi_scheme
+Type: text
+Description: Separate /home, /var, and /tmp partitions
+
+Template: partman-auto/text/small_disk
+Type: text
+Description: Small-disk (< 10GB) partitioning scheme
+
+Template: partman-auto/text/server_scheme
+Type: text
+Description: Separate /var and /srv, swap < 1GB (for servers)
+
+Template: partman/progress/init/title
+Type: text
+Description: Starting up the partitioner
+
+Template: partman/progress/init/fallback
+Type: text
+Description: Please wait...
+
+Template: partman/progress/init/parted
+Type: text
+Description: Scanning disks...
+
+Template: partman/progress/init/update_partitions
+Type: text
+Description: Detecting file systems...
+
+Template: partman-base/devicelocked
+Type: error
+Description: Device in use
+ No modifications can be made to the device ${DEVICE} for the
+ following reasons:
+ .
+ ${MESSAGE}
+
+Template: partman-base/partlocked
+Type: error
+Description: Partition in use
+ No modifications can be made to the partition #${PARTITION} of
+ device ${DEVICE} for the following reasons:
+ .
+ ${MESSAGE}
+
+Template: partman/exception_handler
+Type: select
+Choices: ${CHOICES}
+Description: ${TYPE}
+ ${DESCRIPTION}
+
+Template: partman/exception_handler_note
+Type: note
+Description: ${TYPE}
+ ${DESCRIPTION}
+
+Template: partman/choose_partition
+Type: select
+Choices: ${DESCRIPTIONS}
+Description: This is an overview of your currently configured partitions and mount points. Select a partition to modify its settings (file system, mount point, etc.), a free space to create partitions, or a device to initialize its partition table.
+
+Template: partman/confirm_nochanges
+Type: boolean
+Default: false
+Description: Continue with the installation?
+ No partition table changes and no creation of file systems have been planned.
+ .
+ If you plan on using already created file systems, be aware that existing
+ files may prevent the successful installation of the base system.
+
+Template: partman/confirm
+Type: boolean
+Default: false
+Description: Write the changes to disks?
+ If you continue, the changes listed below will be written to the disks.
+ Otherwise, you will be able to make further changes manually.
+ .
+ WARNING: This will destroy all data on any partitions you have
+ removed as well as on the partitions that are going to be formatted.
+ .
+ ${ITEMS}
+
+Template: partman/confirm_nooverwrite
+Type: boolean
+Default: false
+Description: Write the changes to disks?
+ If you continue, the changes listed below will be written to the disks.
+ Otherwise, you will be able to make further changes manually.
+ .
+ ${ITEMS}
+
+Template: partman/text/confirm_item_header
+Type: text
+Description: The following partitions are going to be formatted:
+
+Template: partman/text/confirm_item
+Type: text
+Description: partition #${PARTITION} of ${DEVICE} as ${TYPE}
+
+Template: partman/text/confirm_unpartitioned_item
+Type: text
+Description: ${DEVICE} as ${TYPE}
+
+Template: partman/text/confirm_partitem_header
+Type: text
+Description: The partition tables of the following devices are changed:
+
+Template: partman/storage_device
+Type: select
+Choices: ${DESCRIPTIONS}
+Description: What to do with this device:
+
+Template: partman/free_space
+Type: select
+Choices: ${DESCRIPTIONS}
+Description: How to use this free space:
+
+Template: partman/active_partition
+Type: select
+Choices: ${DESCRIPTIONS}
+Description: Partition settings:
+ You are editing partition #${PARTITION} of ${DEVICE}. ${OTHERINFO} ${DESTROYED}
+
+Template: partman/text/there_is_detected
+Type: text
+Description: This partition is formatted with the ${FILESYSTEM}.
+
+Template: partman/text/none_detected
+Type: text
+Description: No existing file system was detected in this partition.
+
+Template: partman/text/destroyed
+Type: text
+Description: All data in it WILL BE DESTROYED!
+
+Template: partman/show_partition_chs
+Type: note
+Description: The partition starts from ${FROMCHS} and ends at ${TOCHS}.
+
+Template: partman/show_free_chs
+Type: note
+Description: The free space starts from ${FROMCHS} and ends at ${TOCHS}.
+
+Template: partman/text/please_wait
+Type: text
+Description: Please wait...
+
+Template: partman/text/formatting
+Type: text
+Description: Partitions formatting
+
+Template: partman/text/processing
+Type: text
+Description: Processing...
+
+Template: partman/text/text_template
+Type: text
+Description: ${DESCRIPTION}
+
+Template: partman/text/show_chs
+Type: text
+Description: Show Cylinder/Head/Sector information
+
+Template: partman/text/finished_with_partition
+Type: text
+Description: Done setting up the partition
+
+Template: partman/text/end_the_partitioning
+Type: text
+Description: Finish partitioning and write changes to disk
+
+Template: partman/text/undo_everything
+Type: text
+Description: Undo changes to partitions
+
+Template: partman/text/show_chs_free
+Type: text
+Description: Show Cylinder/Head/Sector information
+
+Template: partman/text/dump_partition_info
+Type: text
+Description: Dump partition info in %s
+
+Template: partman/text/free_space
+Type: text
+Description: FREE SPACE
+
+Template: partman/text/unusable
+Type: text
+Description: unusable
+
+Template: partman/text/primary
+Type: text
+Description: primary
+
+Template: partman/text/logical
+Type: text
+Description: logical
+
+Template: partman/text/pri/log
+Type: text
+Description: pri/log
+
+Template: partman/text/number
+Type: text
+Description: #%s
+
+Template: partman/text/ata_disk
+Type: text
+Description: ATA%s (%s)
+
+Template: partman/text/ata_partition
+Type: text
+Description: ATA%s, partition #%s (%s)
+
+Template: partman/text/ide_master_disk
+Type: text
+Description: IDE%s master (%s)
+
+Template: partman/text/ide_slave_disk
+Type: text
+Description: IDE%s slave (%s)
+
+Template: partman/text/ide_master_partition
+Type: text
+Description: IDE%s master, partition #%s (%s)
+
+Template: partman/text/ide_slave_partition
+Type: text
+Description: IDE%s slave, partition #%s (%s)
+
+Template: partman/text/scsi_disk
+Type: text
+Description: SCSI%s (%s,%s,%s) (%s)
+
+Template: partman/text/scsi_partition
+Type: text
+Description: SCSI%s (%s,%s,%s), partition #%s (%s)
+
+Template: partman/text/scsi_simple_disk
+Type: text
+Description: SCSI%s (%s)
+
+Template: partman/text/scsi_simple_partition
+Type: text
+Description: SCSI%s, partition #%s (%s)
+
+Template: partman/text/mmc_disk
+Type: text
+Description: MMC/SD card #%s (%s)
+
+Template: partman/text/mmc_partition
+Type: text
+Description: MMC/SD card #%s, partition #%s (%s)
+
+Template: partman/text/raid_device
+Type: text
+Description: RAID%s device #%s
+
+Template: partman/text/dmcrypt_volume
+Type: text
+Description: Encrypted volume (%s)
+
+Template: partman/text/multipath
+Type: text
+Description: Multipath %s (WWID %s)
+
+Template: partman/text/multipath_partition
+Type: text
+Description: Multipath %s (partition #%s)
+
+Template: partman/text/lvm_lv
+Type: text
+Description: LVM VG %s, LV %s
+
+Template: partman/text/zfs_volume
+Type: text
+Description: ZFS pool %s, volume %s
+
+Template: partman/text/loopback
+Type: text
+Description: Loopback (loop%s)
+
+Template: partman/text/dasd_disk
+Type: text
+Description: DASD %s (%s)
+
+Template: partman/text/dasd_partition
+Type: text
+Description: DASD %s (%s), partition #%s
+
+Template: partman/text/virtual_disk
+Type: text
+Description: Virtual disk %s (%s)
+
+Template: partman/text/virtual_partition
+Type: text
+Description: Virtual disk %s, partition #%s (%s)
+
+Template: partman/text/cancel_menu
+Type: text
+Description: Cancel this menu
+
+Template: debian-installer/partman-base/title
+Type: text
+Description: Partition disks
+
+Template: partman/early_command
+Type: string
+Description: for internal use; can be preseeded
+ Shell command or commands to run immediately before partitioning
+
+Template: partman/default_filesystem
+Type: string
+Default: ext4
+Description: for internal use; can be preseeded
+ Default filesystem used for new partitions
+
+Template: partman/alignment
+Type: select
+Choices: cylinder, minimal, optimal
+Default: optimal
+Description: for internal use; can be preseeded
+ Adjust the policy for starting and ending alignment of new partitions.  You
+ can generally leave this alone unless optimal alignment causes some kind of
+ problem.
+ .
+ Cylinder alignment was required by very old DOS-era systems, and is not
+ usually needed nowadays.  However, a few buggy BIOSes may try to calculate
+ cylinder/head/sector addresses for partitions and get confused if
+ partitions aren't cylinder-aligned.
+ .
+ Minimal alignment ensures that new partitions are aligned to physical
+ blocks on the disk, avoiding performance degradation that may occur with
+ cylinder alignment particularly on modern disks.
+ .
+ Optimal alignment ensures that new partitions are aligned to a suitable
+ multiple of the physical block size, guaranteeing optimal performance.
+
+Template: partman-basicfilesystems/progress_checking
+Type: text
+Description: Checking the ${TYPE} file system in partition #${PARTITION} of ${DEVICE}...
+
+Template: partman-basicfilesystems/progress_swap_checking
+Type: text
+Description: Checking the swap space in partition #${PARTITION} of ${DEVICE}...
+
+Template: partman-basicfilesystems/progress_formatting
+Type: text
+Description: Creating ${TYPE} file system in partition #${PARTITION} of ${DEVICE}...
+
+Template: partman-basicfilesystems/progress_formatting_mountable
+Type: text
+Description: Creating ${TYPE} file system for ${MOUNT_POINT} in partition #${PARTITION} of ${DEVICE}...
+
+Template: partman-basicfilesystems/progress_swap_formatting
+Type: text
+Description: Formatting swap space in partition #${PARTITION} of ${DEVICE}...
+
+Template: partman-basicfilesystems/check_failed
+Type: boolean
+Description: Go back to the menu and correct errors?
+ The test of the file system with type ${TYPE} in partition #${PARTITION}
+ of ${DEVICE} found uncorrected errors.
+ .
+ If you do not go back to the partitioning menu and correct these errors,
+ the partition will be used as is.
+
+Template: partman-basicfilesystems/swap_check_failed
+Type: boolean
+Description: Go back to the menu and correct errors?
+ The test of the swap space in partition #${PARTITION} of ${DEVICE} found
+ uncorrected errors.
+ .
+ If you do not go back to the partitioning menu and correct these errors,
+ the partition will be used as is.
+
+Template: partman-basicfilesystems/no_swap
+Type: boolean
+Default: true
+Description: Do you want to return to the partitioning menu?
+ You have not selected any partitions for use as swap space. Enabling swap
+ space is recommended so that the system can make better use of the
+ available physical memory, and so that it behaves better when physical
+ memory is scarce. You may experience installation problems if you do not
+ have enough physical memory.
+ .
+ If you do not go back to the partitioning menu and assign a swap partition,
+ the installation will continue without swap space.
+
+Template: partman-basicfilesystems/create_failed
+Type: error
+Description: Failed to create a file system
+ The ${TYPE} file system creation in partition
+ #${PARTITION} of ${DEVICE} failed.
+
+Template: partman-basicfilesystems/create_swap_failed
+Type: error
+Description: Failed to create a swap space
+ The creation of swap space in partition #${PARTITION} of ${DEVICE} failed.
+
+Template: partman-basicfilesystems/no_mount_point
+Type: boolean
+Description: Do you want to return to the partitioning menu?
+ No mount point is assigned for the ${FILESYSTEM} file system in partition
+ #${PARTITION} of ${DEVICE}.
+ .
+ If you do not go back to the partitioning menu and assign a mount point
+ from there, this partition will not be used at all.
+
+Template: partman-basicfilesystems/posix_filesystem_required
+Type: error
+Description: Invalid file system for this mount point
+ The file system type ${FILESYSTEM} cannot be mounted on ${MOUNTPOINT},
+ because it is not a fully-functional Unix file system. Please choose a
+ different file system, such as ${EXT2}.
+
+Template: partman-basicfilesystems/mountpoint
+Type: select
+Choices: / - the root file system, /boot - static files of the boot loader, /home - user home directories, /tmp - temporary files (default: tmpfs), /usr - static data, /var - variable data, /srv - data for services provided by this system, /opt - add-on application software packages, /usr/local - local hierarchy, Enter manually, Do not mount it
+Description: Mount point for this partition:
+
+Template: partman-basicfilesystems/fat_mountpoint
+Type: select
+Choices: /dos, /windows, Enter manually, Do not mount it
+Description: Mount point for this partition:
+
+Template: partman-basicfilesystems/mountpoint_manual
+Type: string
+Description: Mount point for this partition:
+
+Template: partman-basicfilesystems/bad_mountpoint
+Type: error
+Description: Invalid mount point
+ The mount point you entered is invalid.
+ .
+ Mount points must start with "/". They cannot contain spaces.
+
+Template: partman-basicfilesystems/choose_label
+Type: string
+Description: Label for the file system in this partition:
+
+Template: partman-basicfilesystems/text/format_swap
+Type: text
+Description: Format the swap area:
+
+Template: partman-basicfilesystems/text/yes
+Type: text
+Description: yes
+
+Template: partman-basicfilesystems/text/no
+Type: text
+Description: no
+
+Template: partman-basicfilesystems/text/specify_label
+Type: text
+Description: Label:
+
+Template: partman-basicfilesystems/text/none
+Type: text
+Description: none
+
+Template: partman-basicfilesystems/text/reserved_for_root
+Type: text
+Description: Reserved blocks:
+
+Template: partman-basicfilesystems/specify_reserved
+Type: string
+Description: Percentage of the file system blocks reserved for the super-user:
+
+Template: partman-basicfilesystems/text/usage
+Type: text
+Description: Typical usage:
+
+Template: partman-basicfilesystems/text/typical_usage
+Type: text
+Description: standard
+
+Template: partman-basicfilesystems/specify_usage
+Type: select
+Choices: ${CHOICES}
+Description: Typical usage of this partition:
+ Please specify how the file system is going to be used, so that
+ optimal file system parameters can be chosen for that use.
+ .
+ standard = standard parameters,
+ news = one inode per 4KB block,
+ largefile = one inode per megabyte,
+ largefile4 = one inode per 4 megabytes.
+
+Template: partman-basicfilesystems/text/specify_mountpoint
+Type: text
+Description: Mount point:
+
+Template: partman-basicfilesystems/text/no_mountpoint
+Type: text
+Description: none
+
+Template: partman/filesystem_long/ext2
+Type: text
+Description: Ext2 file system
+
+Template: partman/filesystem_short/ext2
+Type: text
+Description: ext2
+
+Template: partman/filesystem_long/fat16
+Type: text
+Description: FAT16 file system
+
+Template: partman/filesystem_short/fat16
+Type: text
+Description: fat16
+
+Template: partman/filesystem_long/fat32
+Type: text
+Description: FAT32 file system
+
+Template: partman/filesystem_short/fat32
+Type: text
+Description: fat32
+
+Template: partman/filesystem_long/ntfs
+Type: text
+Description: NTFS journaling file system
+
+Template: partman/filesystem_short/ntfs
+Type: text
+Description: ntfs
+
+Template: partman/method_long/swap
+Type: text
+Description: swap area
+
+Template: partman/method_short/swap
+Type: text
+Description: swap
+
+Template: partman/filesystem_long/linux-swap
+Type: text
+Description: swap area
+
+Template: partman/filesystem_short/linux-swap
+Type: text
+Description: swap
+
+Template: partman-basicfilesystems/text/options
+Type: text
+Description: Mount options:
+
+Template: partman-basicfilesystems/mountoptions
+Type: multiselect
+Choices: ${descriptions}
+Description: Mount options:
+ Mount options can tune the behavior of the file system.
+
+Template: partman-basicfilesystems/text/noatime
+Type: text
+Description: noatime - do not update inode access times at each access
+
+Template: partman-basicfilesystems/text/nodiratime
+Type: text
+Description: nodiratime - do not update directory inode access times
+
+Template: partman-basicfilesystems/text/relatime
+Type: text
+Description: relatime - update inode access times relative to modify time
+
+Template: partman-basicfilesystems/text/nodev
+Type: text
+Description: nodev - do not support character or block special devices
+
+Template: partman-basicfilesystems/text/nosuid
+Type: text
+Description: nosuid - ignore set-user-identifier or set-group-identifier bits
+
+Template: partman-basicfilesystems/text/noexec
+Type: text
+Description: noexec - do not allow execution of any binaries
+
+Template: partman-basicfilesystems/text/ro
+Type: text
+Description: ro - mount the file system read-only
+
+Template: partman-basicfilesystems/text/sync
+Type: text
+Description: sync - all input/output activities occur synchronously
+
+Template: partman-basicfilesystems/text/usrquota
+Type: text
+Description: usrquota - user disk quota accounting enabled
+
+Template: partman-basicfilesystems/text/grpquota
+Type: text
+Description: grpquota - group disk quota accounting enabled
+
+Template: partman-basicfilesystems/text/user_xattr
+Type: text
+Description: user_xattr - support user extended attributes
+
+Template: partman-basicfilesystems/text/quiet
+Type: text
+Description: quiet - changing owner and permissions does not return errors
+
+Template: partman-basicfilesystems/text/notail
+Type: text
+Description: notail - disable packing of files into the file system tree
+
+Template: partman-basicfilesystems/text/discard
+Type: text
+Description: discard - trim freed blocks from underlying block device
+
+Template: partman-basicfilesystems/text/acls
+Type: text
+Description: acls - support POSIX.1e Access Control List
+
+Template: partman-basicfilesystems/text/shortnames
+Type: text
+Description: shortnames - only use the old MS-DOS 8.3 style filenames
+
+Template: partman-basicfilesystems/boot_not_ext2
+Type: boolean
+Description: Go back to the menu and correct this problem?
+ Your boot partition has not been configured with the ext2
+ file system. This is needed by your machine in order to boot. Please go
+ back and use the ext2 file system.
+ .
+ If you do not go back to the partitioning menu and correct this error,
+ the partition will be used as is. This means that you may not be able
+ to boot from your hard disk.
+
+Template: partman-basicfilesystems/boot_not_first_partition
+Type: boolean
+Description: Go back to the menu and correct this problem?
+ Your boot partition is not located on the first partition of your
+ hard disk. This is needed by your machine in order to boot.  Please go
+ back and use your first partition as a boot partition.
+ .
+ If you do not go back to the partitioning menu and correct this error,
+ the partition will be used as is. This means that you may not be able
+ to boot from your hard disk.
+
+Template: partman-basicmethods/method_only
+Type: boolean
+Description: Go back to the menu?
+ No file system is specified for partition #${PARTITION} of ${DEVICE}.
+ .
+ If you do not go back to the partitioning menu and assign a file system
+ to this partition, it won't be used at all.
+
+Template: partman-basicmethods/text/dont_use
+Type: text
+Description: do not use the partition
+
+Template: partman-basicmethods/text/format
+Type: text
+Description: Format the partition:
+
+Template: partman-basicmethods/text/yes_format
+Type: text
+Description: yes, format it
+
+Template: partman-basicmethods/text/no_dont_format
+Type: text
+Description: no, keep existing data
+
+Template: partman/method_long/dont_use
+Type: text
+Description: do not use
+
+Template: partman/method_short/dont_use
+Type: text
+Description: unused
+
+Template: partman/method_long/format
+Type: text
+Description: format the partition
+
+Template: partman/method_short/format
+Type: text
+Description: format
+
+Template: partman/method_long/keep
+Type: text
+Description: keep and use the existing data
+
+Template: partman/method_short/keep
+Type: text
+Description: keep
+
+Template: partman-efi/text/efi
+Type: text
+Description: EFI System Partition
+
+Template: partman-efi/no_efi
+Type: boolean
+Description: Go back to the menu and resume partitioning?
+ No EFI partition was found.
+
+Template: partman/method_long/efi
+Type: text
+Description: EFI System Partition
+
+Template: partman/method_short/efi
+Type: text
+Description: ESP
+
+Template: partman/filesystem_short/efi
+Type: text
+Description: EFI-fat16
+
+Template: partman-efi/too_small_efi
+Type: error
+Description: EFI partition too small
+ EFI System Partitions on this architecture cannot be created with a size
+ less than 35 MB. Please make the EFI System Partition larger.
+
+Template: partman-efi/non_efi_system
+Type: boolean
+Description: Force UEFI installation?
+ This machine's firmware has started the installer in UEFI mode but
+ it looks like there may be existing operating systems already
+ installed using "BIOS compatibility mode". If you
+ continue to install Debian in UEFI mode, it might be difficult to
+ reboot the machine into any BIOS-mode operating systems later.
+ .
+ If you wish to install in UEFI mode and don't care about
+ keeping the ability to boot one of the existing systems, you have the
+ option to force that here. If you wish to keep the option to boot an
+ existing operating system, you should choose NOT to force UEFI
+ installation here.
+
+Template: partman-ext3/text/ext3
+Type: text
+Description: ext3
+
+Template: partman/filesystem_long/ext3
+Type: text
+Description: Ext3 journaling file system
+
+Template: partman/filesystem_short/ext3
+Type: text
+Description: ext3
+
+Template: partman-ext3/text/ext4
+Type: text
+Description: ext4
+
+Template: partman/filesystem_long/ext4
+Type: text
+Description: Ext4 journaling file system
+
+Template: partman/filesystem_short/ext4
+Type: text
+Description: ext4
+
+Template: partman-ext3/boot_not_ext2_or_ext3
+Type: boolean
+Description: Go back to the menu and correct this problem?
+ Your boot partition has not been configured with the ext2 or ext3
+ file system. This is needed by your machine in order to boot. Please go
+ back and use either the ext2 or ext3 file system.
+ .
+ If you do not go back to the partitioning menu and correct this error,
+ the partition will be used as is. This means that you may not be able
+ to boot from your hard disk.
+
+Template: partman/boot_not_first_partition
+Type: boolean
+Description: Go back to the menu and correct this problem?
+ Your boot partition is not located on the first primary partition of your
+ hard disk. This is needed by your machine in order to boot.  Please go
+ back and use your first primary partition as a boot partition.
+ .
+ If you do not go back to the partitioning menu and correct this error,
+ the partition will be used as is. This means that you may not be able
+ to boot from your hard disk.
+
+Template: partman-ext3/boot_not_bootable
+Type: boolean
+Description: Return to the menu to set the bootable flag?
+ The boot partition has not been marked as a bootable partition, even
+ though this is required by your machine in order to boot. You should go
+ back and set the bootable flag for the boot partition.
+ .
+ If you don't correct this, the partition will be used as is and it is
+ likely that the machine cannot boot from its hard disk.
+
+Template: partman-ext3/bad_alignment
+Type: boolean
+Description: Do you want to return to the partitioning menu?
+ The partition ${PARTITION} assigned to ${MOUNTPOINT} starts at an offset of
+ ${OFFSET} bytes from the minimum alignment for this disk, which may lead to
+ very poor performance.
+ .
+ Since you are formatting this partition, you should correct this problem
+ now by realigning the partition, as it will be difficult to change later.
+ To do this, go back to the main partitioning menu, delete the partition,
+ and recreate it in the same position with the same settings. This will
+ cause the partition to start at a point best suited for this disk.
+
+Template: partman-lvm/text/configuration_freepvs
+Type: text
+Description: Unallocated physical volumes:
+
+Template: partman-lvm/text/configuration_vgs
+Type: text
+Description: Volume groups:
+
+Template: partman-lvm/text/configuration_pv
+Type: text
+Description: Uses physical volume:
+
+Template: partman-lvm/text/configuration_lv
+Type: text
+Description: Provides logical volume:
+
+Template: partman-lvm/text/configuration_none_pvs
+Type: text
+Description: none
+
+Template: partman-lvm/text/configuration_none_vgs
+Type: text
+Description: none
+
+Template: partman-lvm/text/configure_lvm
+Type: text
+Description: Configure the Logical Volume Manager
+
+Template: partman-lvm/text/pvs
+Type: text
+Description: PV
+
+Template: partman-lvm/text/in_use
+Type: text
+Description: In use by LVM volume group ${VG}
+
+Template: partman-lvm/menu/display
+Type: text
+Description: Display configuration details
+
+Template: partman-lvm/menu/createvg
+Type: text
+Description: Create volume group
+
+Template: partman-lvm/menu/deletevg
+Type: text
+Description: Delete volume group
+
+Template: partman-lvm/menu/extendvg
+Type: text
+Description: Extend volume group
+
+Template: partman-lvm/menu/reducevg
+Type: text
+Description: Reduce volume group
+
+Template: partman-lvm/menu/createlv
+Type: text
+Description: Create logical volume
+
+Template: partman-lvm/menu/deletelv
+Type: text
+Description: Delete logical volume
+
+Template: partman-lvm/menu/finish
+Type: text
+Description: Finish
+
+Template: partman-lvm/confirm
+Type: boolean
+Default: false
+Description: Write the changes to disks and configure LVM?
+ Before the Logical Volume Manager can be configured, the current
+ partitioning scheme has to be written to disk. These changes cannot
+ be undone.
+ .
+ After the Logical Volume Manager is configured, no additional changes
+ to the partitioning scheme of disks containing physical volumes are
+ allowed during the installation. Please decide if you are satisfied
+ with the current partitioning scheme before continuing.
+ .
+ ${ITEMS}
+
+Template: partman-lvm/confirm_nochanges
+Type: boolean
+Default: false
+Description: Keep current partition layout and configure LVM?
+ After the Logical Volume Manager is configured, no additional changes
+ to the partitions in the disks containing physical volumes are
+ allowed. Please decide if you are satisfied with the current
+ partitioning scheme in these disks before continuing.
+
+Template: partman-lvm/commit_failed
+Type: error
+Description: LVM configuration failure
+ An error occurred while writing the changes to the disks.
+ .
+ Logical Volume Manager configuration has been aborted.
+
+Template: partman/method_long/lvm
+Type: text
+Description: physical volume for LVM
+
+Template: partman/method_short/lvm
+Type: text
+Description: lvm
+
+Template: debian-installer/partman-lvm/title
+Type: text
+Description: Configure the Logical Volume Manager
+
+Template: partman-lvm/mainmenu
+Type: select
+Choices: ${CHOICES_L10N}
+Description: LVM configuration action:
+ Summary of current LVM configuration:
+ .
+  Free Physical Volumes:  ${FREE_PVS}
+  Used Physical Volumes:  ${USED_PVS}
+  Volume Groups:          ${VGS}
+  Logical Volumes:        ${LVS}
+
+Template: partman-lvm/displayall
+Type: note
+Description: Current LVM configuration:
+ ${CURRENT_CONFIG}
+
+Template: partman-lvm/vgcreate_parts
+Type: multiselect
+Choices: ${PARTITIONS}
+Description: Devices for the new volume group:
+ Please select the devices for the new volume group.
+ .
+ You can select one or more devices.
+
+Template: partman-lvm/vgcreate_name
+Type: string
+Description: Volume group name:
+ Please enter the name you would like to use for the new volume group.
+
+Template: partman-lvm/vgcreate_nosel
+Type: error
+Description: No physical volumes selected
+ No physical volumes were selected. The creation of a new
+ volume group has been aborted.
+
+Template: partman-lvm/vgcreate_nonamegiven
+Type: error
+Description: No volume group name entered
+ No name for the volume group has been entered. Please enter a name.
+
+Template: partman-lvm/vgcreate_nameused
+Type: error
+Description: Volume group name already in use
+ The selected volume group name is already in use. Please choose
+ a different name.
+
+Template: partman-lvm/vgcreate_devnameused
+Type: error
+Description: Volume group name overlaps with device name
+ The selected volume group name overlaps with an existing device name.
+ Please choose a different name.
+
+Template: partman-lvm/vgcreate_error
+Type: error
+Description: Error while creating volume group
+ The volume group ${VG} could not be created.
+ .
+ Check /var/log/syslog or see virtual console 4 for the details.
+
+Template: partman-lvm/vgdelete_names
+Type: select
+Choices: ${GROUPS}
+Description: Volume group to delete:
+ Please select the volume group you wish to delete.
+
+Template: partman-lvm/vgdelete_novg
+Type: error
+Description: No volume group found
+ No volume group has been found.
+ .
+ The volume group may have already been deleted.
+
+Template: partman-lvm/vgdelete_confirm
+Type: boolean
+Default: true
+Description: Really delete the volume group?
+ Please confirm the ${VG} volume group removal.
+
+Template: partman-lvm/vgdelete_error
+Type: error
+Description: Error while deleting volume group
+ The selected volume group could not be deleted. One or more logical
+ volumes may currently be in use.
+
+Template: partman-lvm/vgextend_novg
+Type: error
+Description: No volume group found
+ No volume group has been found.
+ .
+ No volume group can be deleted.
+
+Template: partman-lvm/vgextend_names
+Type: select
+Choices: ${GROUPS}
+Description: Volume group to extend:
+ Please select the volume group you wish to extend.
+
+Template: partman-lvm/vgextend_parts
+Type: multiselect
+Choices: ${PARTITIONS}
+Description: Devices to add to the volume group:
+ Please select the devices you wish to add to the volume group.
+ .
+ You can select one or more devices.
+
+Template: partman-lvm/vgextend_nosel
+Type: error
+Description: No physical volumes selected
+ No physical volumes were selected. Extension of the volume group
+ has been aborted.
+
+Template: partman-lvm/vgextend_error
+Type: error
+Description: Error while extending volume group
+ The physical volume ${PARTITION} could not be added to the selected
+ volume group.
+
+Template: partman-lvm/vgreduce_novg
+Type: error
+Description: No volume group found
+ No volume group has been found.
+ .
+ No volume group can be reduced.
+
+Template: partman-lvm/vgreduce_names
+Type: select
+Choices: ${GROUPS}
+Description: Volume group to reduce:
+ Please select the volume group you wish to reduce.
+
+Template: partman-lvm/vgreduce_parts
+Type: multiselect
+Choices: ${PARTITIONS}
+Description: Devices to remove from the volume group:
+ Please select the devices you wish to remove from the volume group.
+ .
+ You can select one or more devices.
+
+Template: partman-lvm/vgreduce_nosel
+Type: error
+Description: No physical volumes selected
+ No physical volumes were selected. Reduction of the volume group was
+ aborted.
+
+Template: partman-lvm/vgreduce_error
+Type: error
+Description: Error while reducing volume group
+ The physical volume ${PARTITION} could not be removed from the selected
+ volume group.
+ .
+ Check /var/log/syslog or see virtual console 4 for the details.
+
+Template: partman-lvm/lvcreate_nofreevg
+Type: error
+Description: No volume group found
+ No free volume groups were found for creating a new logical volume.
+ Please create more physical volumes and volume groups, or reduce an
+ existing volume group.
+
+Template: partman-lvm/lvcreate_name
+Type: string
+Description: Logical volume name:
+ Please enter the name you would like to use for the new logical volume.
+
+Template: partman-lvm/lvcreate_vgnames
+Type: select
+Choices: ${GROUPS}
+Description: Volume group:
+ Please select the volume group where the new logical volume
+ should be created.
+
+Template: partman-lvm/lvcreate_nonamegiven
+Type: error
+Description: No logical volume name entered
+ No name for the logical volume has been entered. Please enter a
+ name.
+
+Template: partman-lvm/lvcreate_exists
+Type: error
+Description: Error while creating a new logical volume
+ The name ${LV} is already in use by another logical volume on the
+ same volume group (${VG}).
+
+Template: partman-lvm/lvcreate_size
+Type: string
+Description: Logical volume size:
+ Please enter the size of the new logical volume. You can use the following
+ formats: 10KB (Kilobytes), 10KiB (Kibibytes), 10MB (Megabytes), 10MiB
+ (Mebibytes), 10GB (Gigabytes), 10GiB (Gibibytes), 10TB (Terabytes), 10TiB
+ (Tebibytes). The default unit is Megabytes.
+
+Template: partman-lvm/lvcreate_error
+Type: error
+Description: Error while creating a new logical volume
+ Unable to create a new logical volume (${LV}) on ${VG} with the new
+ size ${SIZE}.
+ .
+ Check /var/log/syslog or see virtual console 4 for the details.
+
+Template: partman-lvm/lvdelete_nolv
+Type: error
+Description: No logical volume found
+ No logical volume has been found. Please create a logical volume first.
+
+Template: partman-lvm/lvdelete_lvnames
+Type: select
+Choices: ${LVS}
+Description: Logical volume:
+ Please select the logical volume to delete.
+
+Template: partman-lvm/text/lvdelete_invg
+Type: text
+Description: in VG ${VG}
+
+Template: partman-lvm/lvdelete_error
+Type: error
+Description: Error while deleting the logical volume
+ The logical volume ${LV} on ${VG} could not be deleted.
+ .
+ Check /var/log/syslog or see virtual console 4 for the details.
+
+Template: partman-lvm/nopartitions
+Type: error
+Description: No usable physical volumes found
+ No physical volumes (i.e. partitions) were found in your system. All
+ physical volumes may already be in use. You may also need to load
+ some required kernel modules or re-partition the hard drives.
+
+Template: partman-lvm/nolvm
+Type: error
+Description: Logical Volume Manager not available
+ The current kernel doesn't support the Logical Volume Manager. You may
+ need to load the lvm-mod module.
+
+Template: partman-lvm/pvcreate_error
+Type: error
+Description: Error while initializing physical volume
+ The physical volume ${PV} could not be initialized.
+ .
+ Check /var/log/syslog or see virtual console 4 for the details.
+
+Template: partman-lvm/badnamegiven
+Type: error
+Description: Invalid logical volume or volume group name
+ Logical volume or volume group names may only contain alphanumeric
+ characters, hyphen, plus, period, and underscore. They must be 128
+ characters or less and may not begin with a hyphen. The names "." and
+ ".." are not allowed. In addition, logical volume names cannot begin
+ with "snapshot".
+ .
+ Please choose a different name.
+
+Template: partman-lvm/device_remove_lvm
+Type: boolean
+Default: false
+Description: Remove existing logical volume data?
+ The selected device already contains the following LVM logical volumes,
+ volume groups and physical volumes which are about to be removed:
+ .
+ Logical volume(s) to be removed: ${LVTARGETS}
+ .
+ Volume group(s) to be removed: ${VGTARGETS}
+ .
+ Physical volume(s) to be removed: ${PVTARGETS}
+ .
+ Note that this will also permanently erase any data currently on the
+ logical volumes.
+
+Template: partman-lvm/device_remove_lvm_span
+Type: error
+Description: Unable to automatically remove LVM data
+ Because the volume group(s) on the selected device also consist of
+ physical volumes on other devices, it is not considered safe to remove
+ its LVM data automatically. If you wish to use this device for
+ partitioning, please remove its LVM data first.
+
+Template: partman-lvm/help
+Type: note
+Description: Logical Volume Management
+ A common situation for system administrators is to find that some disk
+ partition (usually the most important one) is short on space, while some
+ other partition is underused. The Logical Volume Manager (LVM) can help
+ with this.
+ .
+ LVM allows combining disk or partition devices ("physical volumes") to form
+ a virtual disk ("volume group"), which can then be divided into virtual
+ partitions ("logical volumes"). Volume groups and logical volumes may span
+ several physical disks. New physical volumes may be added to a volume group
+ at any time, and logical volumes can be resized up to the amount of
+ unallocated space in the volume group.
+ .
+ The items on the LVM configuration menu can be used to edit volume groups
+ and logical volumes. After you return to the main partition manager screen,
+ logical volumes will be displayed in the same way as ordinary partitions,
+ and should be treated as such.
+
+Template: partman-partitioning/progress_resizing
+Type: text
+Description: Resizing partition...
+
+Template: partman-partitioning/new_state
+Type: text
+Description: Computing the new state of the partition table...
+
+Template: partman-partitioning/impossible_resize
+Type: error
+Description: The resize operation is impossible
+ Because of an unknown reason it is impossible to resize this partition.
+ .
+ Check /var/log/syslog or see virtual console 4 for the details.
+
+Template: partman-partitioning/confirm_resize
+Type: boolean
+Description: Write previous changes to disk and continue?
+ Before you can select a new partition size, any previous changes have to be
+ written to disk.
+ .
+ You cannot undo this operation.
+ .
+ Please note that the resize operation may take a long time.
+
+Template: partman-partitioning/new_size
+Type: string
+Default: some number
+Description: New partition size:
+ The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its
+ maximum size is ${MAXSIZE}.
+ .
+ Hint: "max" can be used as a shortcut to specify the maximum size, or
+ enter a percentage (e.g. "20%") to use that percentage of the maximum size.
+ You can specify partition sizes in decimal units (like MB or GB) as well as
+ in binary units (like GiB or TiB).
+
+Template: partman-partitioning/bad_new_size
+Type: error
+Description: The size entered is invalid
+ The size you entered was not understood.
+ Please enter a positive integer size followed by an optional unit of measure
+ (e.g. "200 GB"). The default unit of measure is the megabyte.
+
+Template: partman-partitioning/big_new_size
+Type: error
+Description: The size entered is too large
+ The size you entered is larger than the maximum size of the partition.
+ Please enter a smaller size to continue.
+
+Template: partman-partitioning/small_new_size
+Type: error
+Description: The size entered is too small
+ The size you entered is smaller than the minimum size of the partition.
+ Please enter a larger size to continue.
+
+Template: partman-partitioning/new_size_commit_failed
+Type: error
+Description: Resize operation failure
+ An error occurred while writing the changes to the storage devices.
+ .
+ The resize operation has been aborted.
+
+Template: partman-partitioning/new_partition_size
+Type: string
+Default: some number
+Description: New partition size:
+ The maximum size for this partition is ${MAXSIZE}.
+ .
+ Hint: "max" can be used as a shortcut to specify the maximum size, or
+ enter a percentage (e.g. "20%") to use that percentage of the maximum size.
+ You can specify partition sizes in decimal units (like MB or GB) as well as
+ in binary units (like GiB or TiB).
+
+Template: partman-partitioning/bad_new_partition_size
+Type: error
+Description: Invalid size
+
+Template: partman-partitioning/new_partition_place
+Type: select
+Choices: Beginning, End
+Description: Location for the new partition:
+ Please choose whether you want the new partition to be created at the
+ beginning or at the end of the available space.
+
+Template: partman-partitioning/new_partition_type
+Type: select
+Choices: Primary, Logical
+Description: Type for the new partition:
+
+Template: partman-partitioning/set_flags
+Type: multiselect
+Choices: ${CHOICES}
+Description: Flags for the new partition:
+
+Template: partman-partitioning/set_name
+Type: string
+Description: Partition name:
+
+Template: partman-partitioning/unknown_label
+Type: boolean
+Default: true
+Description: Continue with partitioning?
+ This partitioner doesn't have information about the default type of
+ the partition tables on your architecture.  Please send an e-mail
+ message to debian-boot@lists.debian.org with information.
+ .
+ Please note that if the type of the partition table is unsupported by
+ libparted, then this partitioner will not work properly.
+
+Template: partman-partitioning/unsupported_label
+Type: boolean
+Default: false
+Description: Continue with partitioning?
+ This partitioner is based on the library libparted which doesn't have
+ support for the partition tables used on your architecture.  It is
+ strongly recommended that you exit this partitioner.
+ .
+ If you can, please help to add support for your partition table type
+ to libparted.
+
+Template: partman-partitioning/default_label
+Type: string
+Description: for internal use; can be preseeded
+ You may preseed this template to override the partitioner's
+ platform-specific default choice of disk label.  For example, on x86
+ architectures it may be useful to set this to "gpt" to cause new partition
+ tables to be created using GPT.
+
+Template: partman-partitioning/choose_label
+Type: select
+Choices: ${CHOICES}
+Description: Partition table type:
+ Select the type of partition table to use.
+
+Template: partman-partitioning/confirm_new_label
+Type: boolean
+Default: false
+Description: Create new empty partition table on this device?
+ You have selected an entire device to partition. If you proceed with
+ creating a new partition table on the device, then all current partitions
+ will be removed.
+ .
+ Note that you will be able to undo this operation later if you wish.
+
+Template: partman-partitioning/confirm_write_new_label
+Type: boolean
+Default: false
+Description: Write a new empty partition table?
+ Because of limitations in the current implementation of the Sun
+ partition tables in libparted, the newly created partition table has
+ to be written to the disk immediately.
+ .
+ You will NOT be able to undo this operation later and all existing
+ data on the disk will be irreversibly removed.
+ .
+ Confirm whether you actually want to create a new partition table and
+ write it to disk.
+
+Template: partman-partitioning/bootable_logical
+Type: boolean
+Default: false
+Description: Are you sure you want a bootable logical partition?
+ You are trying to set the bootable flag on a logical partition. The
+ bootable flag is generally only useful on primary partitions, so setting it
+ on logical partitions is normally discouraged. Some BIOS versions are known
+ to fail to boot if there is no bootable primary partition.
+ .
+ However, if you are sure that your BIOS does not have this problem, or if
+ you are using a custom boot manager that pays attention to bootable logical
+ partitions, then setting this flag may make sense.
+
+Template: partman-partitioning/text/set_flags
+Type: text
+Description: Set the partition flags
+
+Template: partman-partitioning/text/set_name
+Type: text
+Description: Name:
+
+Template: partman-partitioning/text/bootable
+Type: text
+Description: Bootable flag:
+
+Template: partman-partitioning/text/on
+Type: text
+Description: on
+
+Template: partman-partitioning/text/off
+Type: text
+Description: off
+
+Template: partman-partitioning/text/resize
+Type: text
+Description: Resize the partition (currently ${SIZE})
+
+Template: partman-partitioning/text/delete
+Type: text
+Description: Delete the partition
+
+Template: partman-partitioning/text/new
+Type: text
+Description: Create a new partition
+
+Template: partman-partitioning/text/label
+Type: text
+Description: Create a new empty partition table on this device
+
+Template: partman/method_long/biosgrub
+Type: text
+Description: Reserved BIOS boot area
+
+Template: partman/method_short/biosgrub
+Type: text
+Description: biosgrub
+
+Template: partman-target/help
+Type: note
+Description: Help on partitioning
+ Partitioning a hard drive consists of dividing it to create the space
+ needed to install your new system.  You need to choose which
+ partition(s) will be used for the installation.
+ .
+ Select a free space to create partitions in it.
+ .
+ Select a device to remove all partitions in it and create a new empty
+ partition table.
+ .
+ Select a partition to remove it or to specify how it should be used.
+ At a bare minimum, you need one partition to contain the root of the
+ file system (whose mount point is /).  Most people also feel that a
+ separate swap partition is a necessity.  "Swap" is scratch space for an
+ operating system, which allows the system to use disk storage as
+ "virtual memory".
+ .
+ When the partition is already formatted you may choose to keep and
+ use the existing data in the partition.  Partitions that will be used
+ in this way are marked with "${KEEP}" in the main partitioning menu.
+ .
+ In general you will want to format the partition with a newly created
+ file system.  NOTE: all data in the partition will be irreversibly
+ deleted.  If you decide to format a partition that is already
+ formatted, it will be marked with "${DESTROY}" in the main
+ partitioning menu.  Otherwise it will be marked with "${FORMAT}".
+ .
+ ${ARCHITECTURE_HELP}
+
+Template: partman-target/arch_help/i386/generic
+Type: text
+Description: In order to start your new system, a so called boot loader is used.  It can be installed either in the master boot record of the first hard disk, or in a partition.  When the boot loader is installed in a partition, you must set the bootable flag for it. Such a partition will be marked with "${BOOTABLE}" in the main partitioning menu.
+
+Template: partman-target/arch_help/powerpc/powermac_newworld
+Type: text
+Description: In order to start your new system, a so called boot loader is used.  It is installed in a boot partition.  You must set the bootable flag for the partition.  Such a partition will be marked with "${BOOTABLE}" in the main partitioning menu.
+
+Template: partman-target/same_label
+Type: error
+Description: Identical labels for two file systems
+ Two file systems are assigned the same label (${LABEL}): ${PART1} and
+ ${PART2}. Since file system labels are usually used as unique identifiers,
+ this is likely to cause reliability problems later.
+ .
+ Please correct this by changing labels.
+
+Template: partman-target/same_mountpoint
+Type: error
+Description: Identical mount points for two file systems
+ Two file systems are assigned the same mount point (${MOUNTPOINT}):
+ ${PART1} and ${PART2}.
+ .
+ Please correct this by changing mount points.
+
+Template: partman-target/no_root
+Type: error
+Description: No root file system
+ No root file system is defined.
+ .
+ Please correct this from the partitioning menu.
+
+Template: partman-target/must_be_on_root
+Type: error
+Description: Separate file system not allowed here
+ You assigned a separate file system to ${MOUNTPOINT}, but in order for
+ the system to start correctly this directory must be on the root file
+ system.
+ .
+ Please correct this from the partitioning menu.
+
+Template: partman-target/mount_failed
+Type: boolean
+Default: true
+Description: Do you want to resume partitioning?
+ The attempt to mount a file system with type ${TYPE} in ${DEVICE} at
+ ${MOUNTPOINT} failed.
+ .
+ You may resume partitioning from the partitioning menu.
+
+Template: partman-target/choose_method
+Type: select
+Choices: ${DESCRIPTIONS}
+Description: How to use this partition:
+
+Template: partman-target/text/method
+Type: text
+Description: Use as:
+
+Template: partman-target/text/get_help
+Type: text
+Description: Help on partitioning
+
+Template: partman/mount_style
+Type: select
+Choices: traditional, label, uuid
+Default: uuid
+Description: for internal use; can be preseeded
+ Normally, filesystems are mounted using a universally unique identifier
+ (UUID) as a key; this allows them to be mounted properly even if their
+ device name changes. UUIDs are long and difficult to read, so, if you
+ prefer, the installer can mount filesystems based on the traditional device
+ names, or based on a label you assign. However, note that traditional
+ device names may change based on the order in which the kernel discovers
+ devices at boot, which may cause the wrong filesystem to be mounted;
+ similarly, labels are likely to clash if you plug in a new disk or a USB
+ drive, and if that happens your system's behaviour when started will be
+ random.
+ .
+ If you set "label" here, any filesystems without a label will be mounted
+ using a UUID instead.
+ .
+ Devices with stable names, such as LVM logical volumes, will continue to
+ use their traditional names rather than UUIDs.
+
+Template: preseed/checksum_error
+Type: error
+Description: Checksum error
+ The ${ALGORITHM} checksum of the file retrieved from <${LOCATION}> fails
+ to match the expected value of "${CHECKSUM}".  The file may be corrupt,
+ or the provided checksums may be out of date.
+
+Template: preseed/retrieve_error
+Type: error
+Description: Failed to retrieve the preconfiguration file
+ The file needed for preconfiguration could not be retrieved from
+ ${LOCATION}. The installation will proceed in non-automated mode.
+
+Template: preseed/load_error
+Type: error
+Description: Failed to process the preconfiguration file
+ The installer failed to process the preconfiguration file from
+ ${LOCATION}. The file may be corrupt.
+
+Template: preseed/boot_command
+Type: string
+Description: for internal use; can be preseeded
+ Shell command or commands to run in the d-i environment during boot
+
+Template: preseed/early_command
+Type: string
+Description: for internal use; can be preseeded
+ Shell command or commands to run in the d-i environment as early as possible
+
+Template: preseed/late_command
+Type: string
+Description: for internal use; can be preseeded
+ Shell command or commands to run in the d-i environment as late as possible
+
+Template: preseed/run
+Type: string
+Description: for internal use; can be preseeded
+ Programs to be obtained & run
+
+Template: preseed/run/checksum
+Type: string
+Description: for internal use; can be preseeded
+ md5sums of programs to be obtained & run
+
+Template: preseed/include
+Type: string
+Description: for internal use; can be preseeded
+ Additional preseed files to load
+
+Template: preseed/include/checksum
+Type: string
+Description: for internal use; can be preseeded
+ md5sums of additional preseed files to load
+
+Template: preseed/include_command
+Type: string
+Description: for internal use; can be preseeded
+ Shell command to run that may output a list of preseed files to load
+
+Template: preseed/command_failed
+Type: error
+Description: Failed to run preseeded command
+ Execution of preseeded command "${COMMAND}" failed with exit code ${CODE}.
+
+Template: preseed/interactive
+Type: boolean
+Default: false
+Description: for internal use; can be preseeded
+ If true, preseed questions but don't mark them as seen
+
+Template: debian-installer/framebuffer
+Type: boolean
+Default: true
+Description: for internal use; can be preseeded
+ Enable frame buffer console on boot
+
+Template: debian-installer/exit/always_halt
+Type: boolean
+Default: false
+Description: for internal use only
+ Always halt the machine
+
+Template: debian-installer/exit/halt
+Type: boolean
+Default: false
+Description: for internal use; can be preseeded
+ Halt the machine
+
+Template: debian-installer/exit/poweroff
+Type: boolean
+Default: false
+Description: for internal use; can be preseeded
+ Power off the machine
+
+Template: debian-installer/theme
+Type: string
+Description: for internal use; can be preseeded
+ Theme to use for the (newt or gtk) frontend
+
+Template: debian-installer/allow_unauthenticated
+Type: boolean
+Default: false
+Description: for internal use; can be preseeded
+
+Template: debian-installer/allow_unauthenticated_ssl
+Type: boolean
+Default: false
+Description: for internal use; can be preseeded
+
