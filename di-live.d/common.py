@@ -176,10 +176,6 @@ class ExecError(Exception):
         return str
 
 
-def prepend_path(path):
-    os.environ['PATH'] = path + ":" + os.environ.get('PATH')
-
-
 def system(command, shell=False, stdout=None, write_log=True,
            env=os.environ) -> None:
     """Execute command.
@@ -209,11 +205,9 @@ def dilive_system(command):
     """Di-live debconf related command execution.
 
     - command must be a list - and is passed to system()
-    - prepend compat to path
     - catch and log execution exception, exit with exitcode
     - stderr is redirected to the logfile by system()
     """
-    prepend_path('/usr/lib/di-live/compat')
     try:
         system(command)
     except ExecError as e:
