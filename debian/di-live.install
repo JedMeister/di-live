@@ -4,5 +4,5 @@ di-live                                 /usr/bin
 di_live_lib                             /usr/lib/python3/dist-packages
 rescue/rescue.service.d/override.conf   /etc/systemd/system/rescue.service.d
 rescue/rescue.target.d/override.conf    /etc/systemd/system/rescue.target.d
-share/*                                 /usr/share/di-live
+lib/*                                   /usr/lib/di-live
 rootfs/*/*                              /
