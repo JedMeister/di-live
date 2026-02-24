@@ -38,3 +38,5 @@ rootskel
 pciutils-udeb
 dosfstools-udeb
 disk-detect
+# partman dep
+e2fsprogs-udeb
