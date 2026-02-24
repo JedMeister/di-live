@@ -6,6 +6,13 @@
 di-utils/bin/anna-install
 di-utils/bin/apt-install
 
+# replaced by di-live python script which logs to journal
+di-utils/bin/log-output
+
+# broken symlink (to dumpe2fs) in udeb - only in full e2fsprogs package
+# (not required by installer anyway)
+e2fsprogs-udeb/usr/sbin/e2mmpstatus
+
 # config files that we don't want to overwrite
 rootskel/init
 rootskel/etc/fstab
