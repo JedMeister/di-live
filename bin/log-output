@@ -1,0 +1,159 @@
+#!/usr/bin/python3
+"""
+Reimplementation of debian-installer's log-output utility.
+Executes a command while logging its output to the system journal via logger.
+"""
+
+import argparse
+import subprocess
+import sys
+import threading
+from typing import IO
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Run a command and log its output to the journal",
+        add_help=False,
+    )
+    parser.add_argument("--pass-stdout", action="store_true", default=False)
+    parser.add_argument("--pass-stderr", action="store_true", default=False)
+    parser.add_argument("-t", "--tag", default="log-output")
+    parser.add_argument("command", nargs=argparse.REMAINDER)
+
+    args = parser.parse_args()
+
+    if not args.command:
+        parser.print_usage(sys.stderr)
+        sys.exit(1)
+
+    # strip leading '--' if it exists
+    if args.command and args.command[0] == "--":
+        args.command = args.command[1:]
+
+    if not args.command:
+        parser.print_usage(sys.stderr)
+        sys.exit(1)
+
+    return args
+
+
+def make_logger_proc(tag: str, priority: str) -> subprocess.Popen[bytes]:
+    """Spawn a logger process that reads from stdin and writes to the journal.
+    """
+    return subprocess.Popen(
+        ["logger", "--tag", tag, "--priority", priority, "--stdin"],
+        stdin=subprocess.PIPE,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+
+
+def stream_output(
+    source: IO[bytes],
+    logger_stdin: IO[bytes],
+    passthrough: IO[bytes] | None,
+) -> None:
+    """
+    Read lines from source, write each to the logger process stdin
+    and optionally to a passthrough stream.
+    """
+    try:
+        for line in source:
+            logger_stdin.write(line)
+            logger_stdin.flush()
+            if passthrough is not None:
+                passthrough.write(line)
+                passthrough.flush()
+    except (OSError, ValueError):
+        pass
+    finally:
+        try:
+            logger_stdin.close()
+        except OSError:
+            pass
+
+
+def log_message(tag: str, priority: str, message: str) -> None:
+    """Log a single message to the journal via logger."""
+    try:
+        subprocess.run(
+            ["logger", "--tag", tag, "--priority", priority, message],
+            check=False,
+        )
+    except OSError as e:
+        print(f"log-output: failed to run logger: {e}", file=sys.stderr)
+
+
+def main() -> None:
+    args = parse_args()
+
+    tag: str = args.tag
+    command: list[str] = args.command
+    pass_stdout: bool = args.pass_stdout
+    pass_stderr: bool = args.pass_stderr
+
+    log_message(tag, "user.info", f"Executing: {' '.join(command)}")
+
+    stdout_logger = make_logger_proc(tag, "user.info")
+    stderr_logger = make_logger_proc(tag, "user.warning")
+
+    try:
+        proc = subprocess.Popen(
+            command,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+    except FileNotFoundError:
+        log_message(tag, "user.err", f"Command not found: {command[0]}")
+        sys.exit(127)
+    except PermissionError:
+        log_message(tag, "user.err", f"Permission denied: {command[0]}")
+        sys.exit(126)
+    except OSError as e:
+        log_message(tag, "user.err", f"Failed to execute '{command[0]}': {e}")
+        sys.exit(1)
+
+    assert proc.stdout is not None
+    assert proc.stderr is not None
+    assert stdout_logger.stdin is not None
+    assert stderr_logger.stdin is not None
+
+    stdout_passthrough: IO[bytes] | None \
+        = sys.stdout.buffer if pass_stdout else None
+    stderr_passthrough: IO[bytes] | None \
+        = sys.stderr.buffer if pass_stderr else None
+
+    stdout_thread = threading.Thread(
+        target=stream_output,
+        args=(proc.stdout, stdout_logger.stdin, stdout_passthrough),
+        daemon=True,
+    )
+    stderr_thread = threading.Thread(
+        target=stream_output,
+        args=(proc.stderr, stderr_logger.stdin, stderr_passthrough),
+        daemon=True,
+    )
+
+    stdout_thread.start()
+    stderr_thread.start()
+
+    stdout_thread.join()
+    stderr_thread.join()
+
+    exit_code: int = proc.wait()
+
+    stdout_logger.wait()
+    stderr_logger.wait()
+
+    log_message(
+        tag,
+        "user.info",
+        f"Command '{command[0]}' exited with status {exit_code}",
+    )
+
+    sys.exit(exit_code)
+
+
+if __name__ == "__main__":
+    main()
