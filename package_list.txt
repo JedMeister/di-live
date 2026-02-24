@@ -4,6 +4,7 @@ di-utils-mapdevfs=1.155 # amd64
 di-utils=1.155 # amd64
 disk-detect=1.171 # amd64
 dosfstools-udeb=4.2-1.2 # amd64
+e2fsprogs-udeb=1.47.2-3+b7 # amd64
 grub-installer=1.212 # amd64
 hw-detect=1.171 # amd64
 live-installer=58 # amd64
