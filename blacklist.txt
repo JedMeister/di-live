@@ -9,9 +9,15 @@ di-utils/bin/apt-install
 # replaced by di-live python script which logs to journal
 di-utils/bin/log-output
 
-# broken symlink (to dumpe2fs) in udeb - only in full e2fsprogs package
-# (not required by installer anyway)
+# debconf already has debconf-set-selections ("proper" debconf installed)
+preseed-common/bin/debconf-set-selections
+
+# broken symlink to dumpe2fs in udeb
+# (dumpe2fs is only in full e2fsprogs package)
 e2fsprogs-udeb/usr/sbin/e2mmpstatus
+
+# uneeded lintian override
+e2fsprogs-udeb/usr/share/lintian/overrides/e2fsprogs-udeb
 
 # config files that we don't want to overwrite
 rootskel/init
@@ -23,3 +29,7 @@ rootskel/etc/mtab
 rootskel/etc/nsswitch.conf
 rootskel/etc/passwd
 rootskel/etc/profile
+
+# unneeded binaries
+rootskel/sbin/init
+rootskel/sbin/shutdown
