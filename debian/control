@@ -37,8 +37,14 @@ Depends:
  ${shlibs:Depends},
 Conflicts:
  di-live-di-debug,
+ e2fsprogs,
+ libext2fs2t64,
+ libss2,
 Breaks:
  di-live-di-debug,
+ e2fsprogs,
+ libext2fs2t64,
+ libss2,
 Recommends:
  eject,
  file,
@@ -64,8 +70,14 @@ Depends:
  ${shlibs:Depends},
 Conflicts:
  di-live,
+ e2fsprogs,
+ libext2fs2t64,
+ libss2,
 Breaks:
  di-live,
+ e2fsprogs,
+ libext2fs2t64,
+ libss2,
 Recommends:
  eject,
  file,

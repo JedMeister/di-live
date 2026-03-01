@@ -16,6 +16,20 @@ preseed-common/bin/debconf-set-selections
 # (dumpe2fs is only in full e2fsprogs package)
 e2fsprogs-udeb/usr/sbin/e2mmpstatus
 
+# NOTE: a number of libs in e2fsprogs-udeb conflict with those provided by
+# other packages on base system. Those already installed by default are
+# blacklisted here. Other lib conflicts with packages which are not installed
+# by default in TKL base system are handled as package conflicts. See
+# 'Conflicts'/'Breaks' sections in debian/control.
+
+# conflict with lib from libcom-err2 pkg
+e2fsprogs-udeb/usr/lib/x86_64-linux-gnu/libcom_err.so.2
+e2fsprogs-udeb/usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+
+# conflict with lib from libss2 pkg
+e2fsprogs-udeb/usr/lib/x86_64-linux-gnu/libss.so.2
+e2fsprogs-udeb/usr/lib/x86_64-linux-gnu/libss.so.2.0
+
 # uneeded lintian override
 e2fsprogs-udeb/usr/share/lintian/overrides/e2fsprogs-udeb
 
